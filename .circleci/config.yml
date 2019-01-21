@@ -1,0 +1,37 @@
+version: 2
+jobs:
+  lint-scripts:
+    docker:
+      - image: giantswarm/shellcheck-alpine:v0.6.0
+    steps:
+      - checkout
+      - run:
+          name: lint scripts
+          command: shellcheck -x ci-scripts/*
+  sync:
+    machine: true
+    steps:
+    - checkout
+
+    - run:
+        name: Fetch new app releases and rebuild helm chart repository
+        command: ci-scripts/build-repository.sh ${CIRCLE_PROJECT_REPONAME} ${PERSONAL_ACCESS_TOKEN}
+
+workflows:
+  version: 2
+  lint-sync:
+    jobs:
+      - lint-scripts
+      - sync:
+          requires:
+            - lint-scripts
+  sync:
+    triggers:
+      - schedule:
+          cron: "10,25,40,55 * * * *"
+          filters:
+            branches:
+              only:
+                - master
+    jobs:
+      - sync
