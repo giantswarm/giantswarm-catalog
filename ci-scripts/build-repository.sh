@@ -29,10 +29,6 @@ main() {
     cleanup
 }
 
-cleanup() {
-  rm -rf sync linux-amd64 ${HELM_TARBALL}
-}
-
 setup_helm_client() {
     echo "Setting up Helm client..."
 
@@ -87,6 +83,11 @@ sync_repo() {
     fi
     return 0
 }
+
+cleanup() {
+  rm -rf sync linux-amd64 ${HELM_TARBALL}
+}
+
 
 log_error() {
     printf '\e[31mERROR: %s\n\e[39m' "$1" >&2
