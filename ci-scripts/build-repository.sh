@@ -13,7 +13,10 @@ readonly HELM_TARBALL=helm-v2.11.0-linux-amd64.tar.gz
 readonly HELM_REPO_URL=https://giantswarm.github.com/${REPONAME}
 
 main() {
-    setup_helm_client
+    if ! setup_helm_client; then
+      log_error "Helm client could not get installed."
+      exit 1
+    fi
 
     if ! download_latest_charts; then
         log_error "Not all charts could be downloaded!"
