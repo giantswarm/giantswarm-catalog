@@ -1,8 +1,8 @@
 version: 2
 jobs:
-  lint-scripts:
+  lint:
     docker:
-      - image: giantswarm/shellcheck-alpine:v0.6.0
+      - image: quay.io/giantswarm/shellcheck-alpine:v0.6.0
     steps:
       - checkout
       - run:
@@ -21,10 +21,8 @@ workflows:
   version: 2
   lint-sync:
     jobs:
-      - lint-scripts
-      - sync:
-          requires:
-            - lint-scripts
+      - lint
+      - sync
   sync:
     triggers:
       - schedule:
