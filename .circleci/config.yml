@@ -19,10 +19,9 @@ jobs:
 
 workflows:
   version: 2
-  lint-sync:
+  lint:
     jobs:
       - lint
-      - sync
   sync:
     triggers:
       - schedule:
