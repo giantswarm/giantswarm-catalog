@@ -1,1 +1,1 @@
-# app-catalog
+# giantswarm-catalog
