@@ -9,4 +9,14 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-catalog/chart-operator-0.9.0.tgz
     version: 0.9.0
-generated: "2019-08-06T10:32:01.792209397Z"
+  kube-state-metrics-app:
+  - apiVersion: v1
+    appVersion: v1.7.2
+    created: "2019-08-30T13:13:31.932030035Z"
+    description: A Helm chart for the Kubernetes kube-state-metrics service
+    digest: 4d9115166d383951ba20d84fb55bb1806c87bdf77ee527d438a63e01aa03d30f
+    name: kube-state-metrics-app
+    urls:
+    - https://giantswarm.github.com/giantswarm-catalog/kube-state-metrics-app-0.5.0-5a2fde25f05a548721ac9729e416369d0bade002.tgz
+    version: 0.5.0-5a2fde25f05a548721ac9729e416369d0bade002
+generated: "2019-08-30T13:13:31.931606701Z"
