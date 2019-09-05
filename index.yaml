@@ -2,6 +2,14 @@ apiVersion: v1
 entries:
   chart-operator:
   - apiVersion: v1
+    created: "2019-09-05T17:38:03.368322773Z"
+    description: A Helm chart for the chart-operator
+    digest: cf2f8bc2c6850a94c3a9f02af334934ae9de63cb750a32e35bf6271e6136086d
+    name: chart-operator
+    urls:
+    - https://giantswarm.github.com/giantswarm-catalog/chart-operator-0.9.1.tgz
+    version: 0.9.1
+  - apiVersion: v1
     created: "2019-08-06T10:32:01.792573065Z"
     description: A Helm chart for the chart-operator
     digest: a1599da756539b87e5a583ee0b00e90ccaeceda4616af5e39a322628d2e70b4f
@@ -19,4 +27,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-catalog/kube-state-metrics-app-0.5.0.tgz
     version: 0.5.0
-generated: "2019-08-30T13:13:31.931606701Z"
+generated: "2019-09-05T17:38:03.367687746Z"
