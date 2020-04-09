@@ -204,6 +204,20 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-catalog/kong-app-0.7.2.tgz
     version: 0.7.2
+  - apiVersion: v1
+    appVersion: 2.0.1
+    created: "2020-03-01T22:57:36.452560583Z"
+    description: The Cloud-Native Ingress and Service Mesh for APIs and Microservices
+    digest: a3a946f849077dbee1942e2450a04beca3a6efaca0f2860bf7f5529046c1834f
+    engine: gotpl
+    home: https://KongHQ.com/
+    icon: https://s3.amazonaws.com/downloads.kong/universe/assets/icon-kong-inc-large.png
+    name: kong-app
+    sources:
+    - https://github.com/Kong/kong
+    urls:
+    - https://giantswarm.github.com/giantswarm-incubator-catalog/kong-app-0.7.1.tgz
+    version: 0.7.1
   nginx-ingress-controller-app:
   - apiVersion: v1
     appVersion: v0.30.0
