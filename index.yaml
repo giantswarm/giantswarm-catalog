@@ -90,6 +90,17 @@ entries:
   cert-manager-app:
   - apiVersion: v1
     appVersion: 0.9.0
+    created: "2020-05-01T09:36:38.302504573Z"
+    description: A Helm chart for cert-manager
+    digest: e0e025f7d0b01b102186d0f120ecd3b1a158d7858334597d709066cb16caf0ab
+    home: https://github.com/giantswarm/cert-manager-app
+    icon: https://raw.githubusercontent.com/jetstack/cert-manager/master/logo/logo.png
+    name: cert-manager-app
+    urls:
+    - https://giantswarm.github.com/giantswarm-catalog/cert-manager-app-1.0.8.tgz
+    version: 1.0.8
+  - apiVersion: v1
+    appVersion: 0.9.0
     created: "2020-04-09T15:16:07.519750855Z"
     description: A Helm chart for cert-manager
     digest: d802123e51614a5ed86dac7e6c2cefed83a066e35d34f3b407072460b94f1d86
@@ -469,4 +480,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-catalog/prometheus-operator-app-chart-0.2.0.tgz
     version: 0.2.0
-generated: "2020-04-29T16:50:55.986844038Z"
+generated: "2020-05-01T09:36:38.301971464Z"
