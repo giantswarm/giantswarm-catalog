@@ -3,6 +3,20 @@ entries:
   aqua-app-enforcer:
   - apiVersion: v1
     appVersion: 4.6.0
+    created: "2020-07-01T08:07:23.069645025Z"
+    description: A Helm chart for the Aqua Enforcer Components
+    digest: a60818d44c1f17bb8ccee32fe907b330f8935cc515d68abca759fedfc967773a
+    engine: gotpl
+    home: https://www.aquasec.com/
+    icon: https://www.aquasec.com/wp-content/uploads/2016/05/aqua_logo_fullcolor.png
+    name: aqua-app-enforcer
+    sources:
+    - https://github.com/aquasecurity/aqua-helm
+    urls:
+    - https://giantswarm.github.com/giantswarm-catalog/aqua-app-enforcer-4.6.1.tgz
+    version: 4.6.1
+  - apiVersion: v1
+    appVersion: 4.6.0
     created: "2020-06-10T08:29:52.269833615Z"
     description: A Helm chart for the Aqua Enforcer Components
     digest: ed436fdf9b3d1c3108e759699c169ef2b64313bd5c1f610bb2945b40e1b76610
@@ -708,4 +722,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-catalog/prometheus-operator-app-chart-0.2.0.tgz
     version: 0.2.0
-generated: "2020-07-01T08:06:31.499560227Z"
+generated: "2020-07-01T08:07:23.068674011Z"
