@@ -89,6 +89,20 @@ entries:
   aqua-app-server:
   - apiVersion: v1
     appVersion: 4.6.0
+    created: "2020-07-01T08:06:31.500913016Z"
+    description: A Helm chart for the Aqua Console, Gateway Components
+    digest: f078754c79d38a98093d258915db584ffdedd0017ac5e3489fbcdbf2b2b76514
+    engine: gotpl
+    home: https://www.aquasec.com/
+    icon: https://www.aquasec.com/wp-content/uploads/2016/05/aqua_logo_fullcolor.png
+    name: aqua-app-server
+    sources:
+    - https://github.com/aquasecurity/aqua-helm
+    urls:
+    - https://giantswarm.github.com/giantswarm-catalog/aqua-app-server-4.6.1.tgz
+    version: 4.6.1
+  - apiVersion: v1
+    appVersion: 4.6.0
     created: "2020-06-10T08:28:56.875129281Z"
     description: A Helm chart for the Aqua Console, Gateway Components
     digest: b7035b7e3614526e51e884b90a60d8738109e70e4285350dffd2e5d23ee5ad1e
@@ -694,4 +708,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-catalog/prometheus-operator-app-chart-0.2.0.tgz
     version: 0.2.0
-generated: "2020-06-29T13:54:12.044691522Z"
+generated: "2020-07-01T08:06:31.499560227Z"
