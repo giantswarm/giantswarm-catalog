@@ -6,7 +6,6 @@ entries:
     created: "2020-07-02T09:55:10.904359133Z"
     description: A Helm chart for the Aqua Enforcer Components
     digest: 8564ae2e73ba4ac0b3594e0809608c2bcaee7a8bf371100d9c03e951e4c0c1cd
-    engine: gotpl
     home: https://www.aquasec.com/
     icon: https://www.aquasec.com/wp-content/uploads/2016/05/aqua_logo_fullcolor.png
     name: aqua-app-enforcer
@@ -20,7 +19,6 @@ entries:
     created: "2020-07-01T08:07:23.069645025Z"
     description: A Helm chart for the Aqua Enforcer Components
     digest: a60818d44c1f17bb8ccee32fe907b330f8935cc515d68abca759fedfc967773a
-    engine: gotpl
     home: https://www.aquasec.com/
     icon: https://www.aquasec.com/wp-content/uploads/2016/05/aqua_logo_fullcolor.png
     name: aqua-app-enforcer
@@ -34,7 +32,6 @@ entries:
     created: "2020-06-10T08:29:52.269833615Z"
     description: A Helm chart for the Aqua Enforcer Components
     digest: ed436fdf9b3d1c3108e759699c169ef2b64313bd5c1f610bb2945b40e1b76610
-    engine: gotpl
     home: https://www.aquasec.com/
     icon: https://www.aquasec.com/wp-content/uploads/2016/05/aqua_logo_fullcolor.png
     name: aqua-app-enforcer
@@ -48,7 +45,6 @@ entries:
     created: "2020-03-12T15:18:25.310856974Z"
     description: A Helm chart for the Aqua Enforcer Components
     digest: 20ccf45c4450db8ab2dbcad68383cb8b01ba7a903824ddabacedc001166b2fdb
-    engine: gotpl
     home: https://www.aquasec.com/
     icon: https://www.aquasec.com/wp-content/uploads/2016/05/aqua_logo_fullcolor.png
     name: aqua-app-enforcer
@@ -62,7 +58,6 @@ entries:
     created: "2019-12-18T13:55:55.713325751Z"
     description: A Helm chart for the Aqua Enforcer Components
     digest: 68484485b112a2caf288931d8bc29bd57f65eb7d579d95dcd420987d369db27a
-    engine: gotpl
     home: https://www.aquasec.com/
     icon: https://www.aquasec.com/wp-content/uploads/2016/05/aqua_logo_fullcolor.png
     name: aqua-app-enforcer
@@ -77,7 +72,6 @@ entries:
     created: "2020-07-02T09:55:46.701941361Z"
     description: A Helm chart for the Aqua Scanner Components
     digest: 47d9a920b8642a0cb7bfa03cbec9105c7e8a288528bc12c2e47c0f3ee9f5acfe
-    engine: gotpl
     home: https://www.aquasec.com/
     icon: https://www.aquasec.com/wp-content/uploads/2016/05/aqua_logo_fullcolor.png
     name: aqua-app-scanner
@@ -91,7 +85,6 @@ entries:
     created: "2020-07-01T08:07:45.408784897Z"
     description: A Helm chart for the Aqua Scanner Components
     digest: f5413c692b4cb4868d6682948d4316433aab8b3c09a2e90ac3f99b295e7cbf18
-    engine: gotpl
     home: https://www.aquasec.com/
     icon: https://www.aquasec.com/wp-content/uploads/2016/05/aqua_logo_fullcolor.png
     name: aqua-app-scanner
@@ -105,7 +98,6 @@ entries:
     created: "2020-06-10T08:30:19.84225789Z"
     description: A Helm chart for the Aqua Scanner Components
     digest: 1263b5364064755668e9dc278387e57045c8b69c81975de138489c427a683fd3
-    engine: gotpl
     home: https://www.aquasec.com/
     icon: https://www.aquasec.com/wp-content/uploads/2016/05/aqua_logo_fullcolor.png
     name: aqua-app-scanner
@@ -119,7 +111,6 @@ entries:
     created: "2020-03-12T15:18:56.64492218Z"
     description: A Helm chart for the Aqua Scanner Components
     digest: 3c639ec926b15721c01d6af89b569b28494b0afb71fc35a919f7c2111ac535fe
-    engine: gotpl
     home: https://www.aquasec.com/
     icon: https://www.aquasec.com/wp-content/uploads/2016/05/aqua_logo_fullcolor.png
     name: aqua-app-scanner
@@ -133,7 +124,6 @@ entries:
     created: "2019-12-18T13:56:08.855654143Z"
     description: A Helm chart for the Aqua Scanner Components
     digest: 79745ba678a5656c8671076ba4f2dbc653270c27bea3f1418193ad99ba0e79a0
-    engine: gotpl
     home: https://www.aquasec.com/
     icon: https://www.aquasec.com/wp-content/uploads/2016/05/aqua_logo_fullcolor.png
     name: aqua-app-scanner
@@ -148,7 +138,6 @@ entries:
     created: "2020-07-02T09:54:15.222280309Z"
     description: A Helm chart for the Aqua Console, Gateway Components
     digest: 18487b818159d49f78378bacdd4a5c7c1623319cc7d15664a582d5b62f4572c3
-    engine: gotpl
     home: https://www.aquasec.com/
     icon: https://www.aquasec.com/wp-content/uploads/2016/05/aqua_logo_fullcolor.png
     name: aqua-app-server
@@ -162,7 +151,6 @@ entries:
     created: "2020-07-01T08:06:31.500913016Z"
     description: A Helm chart for the Aqua Console, Gateway Components
     digest: f078754c79d38a98093d258915db584ffdedd0017ac5e3489fbcdbf2b2b76514
-    engine: gotpl
     home: https://www.aquasec.com/
     icon: https://www.aquasec.com/wp-content/uploads/2016/05/aqua_logo_fullcolor.png
     name: aqua-app-server
@@ -176,7 +164,6 @@ entries:
     created: "2020-06-10T08:28:56.875129281Z"
     description: A Helm chart for the Aqua Console, Gateway Components
     digest: b7035b7e3614526e51e884b90a60d8738109e70e4285350dffd2e5d23ee5ad1e
-    engine: gotpl
     home: https://www.aquasec.com/
     icon: https://www.aquasec.com/wp-content/uploads/2016/05/aqua_logo_fullcolor.png
     name: aqua-app-server
@@ -190,7 +177,6 @@ entries:
     created: "2020-03-12T15:17:58.3075523Z"
     description: A Helm chart for the Aqua Console, Gateway Components
     digest: 5ace45faadd6bdd579cdfdbdd73cd885d43de438009265e1a53d671c72aa62df
-    engine: gotpl
     home: https://www.aquasec.com/
     icon: https://www.aquasec.com/wp-content/uploads/2016/05/aqua_logo_fullcolor.png
     name: aqua-app-server
@@ -204,7 +190,6 @@ entries:
     created: "2019-12-18T13:55:35.186298119Z"
     description: A Helm chart for the Aqua Console, Gateway Components
     digest: 0ad66f843fd1d49711a380bbccf821996de070d823977a065773f74391acee68
-    engine: gotpl
     home: https://www.aquasec.com/
     icon: https://www.aquasec.com/wp-content/uploads/2016/05/aqua_logo_fullcolor.png
     name: aqua-app-server
@@ -297,7 +282,6 @@ entries:
     created: "2020-04-21T14:46:10.28234474Z"
     description: Open Distro for Elasticsearch
     digest: ae22c858b8fcbfe9024e1ce9334ba7074b2163c3f82b116bb1b1097640ebad1b
-    engine: gotpl
     home: https://github.com/giantswarm/efk-stack-app
     icon: https://github.com/giantswarm/efk-stack-app/raw/master/images/logo.png
     maintainers:
@@ -313,7 +297,6 @@ entries:
     created: "2020-02-19T10:38:01.788112906Z"
     description: Open Distro for Elasticsearch
     digest: 1c784c9bec76a76cd8a2635ecbdb2ed14bb6f53975c7eeba0e230b49c6806e54
-    engine: gotpl
     icon: https://github.com/giantswarm/efk-stack-app/raw/master/images/logo.png
     maintainers:
     - name: Giant Swarm applications team
@@ -328,7 +311,6 @@ entries:
     created: "2020-02-19T10:14:16.205993029Z"
     description: Open Distro for Elasticsearch
     digest: 02f0bea03d56259626847170d2892eb98d1f497301479b05de6678957803b70d
-    engine: gotpl
     icon: https://github.com/giantswarm/efk-stack-app/raw/master/images/logo.png
     maintainers:
     - name: Giant Swarm applications team
@@ -343,7 +325,6 @@ entries:
     created: "2020-02-10T08:18:03.807462103Z"
     description: Open Distro for Elasticsearch
     digest: 06942f902fdd0c576a30a32f6b8618919f2fe01bf16824b0565594f035ca8b1c
-    engine: gotpl
     icon: https://github.com/giantswarm/efk-stack-app/raw/master/images/logo.png
     maintainers:
     - name: Giant Swarm applications team
@@ -360,7 +341,6 @@ entries:
     created: "2020-06-17T12:54:04.509480032Z"
     description: The Cloud-Native Ingress and Service Mesh for APIs and Microservices
     digest: c5c0bfe6407aaaaad27449ca6e772ff2f0f7f90f40ec5eb7c18bec4b07b05c57
-    engine: gotpl
     home: https://KongHQ.com/
     icon: https://s3.amazonaws.com/downloads.kong/universe/assets/icon-kong-inc-large.png
     name: kong-app
@@ -375,7 +355,6 @@ entries:
     created: "2020-06-17T11:59:19.850177723Z"
     description: The Cloud-Native Ingress and Service Mesh for APIs and Microservices
     digest: 996cf3608614b9e3f81e02f8168525822c0655872fa7c8cb09533f64ab4ccdd6
-    engine: gotpl
     home: https://KongHQ.com/
     icon: https://s3.amazonaws.com/downloads.kong/universe/assets/icon-kong-inc-large.png
     name: kong-app
@@ -390,7 +369,6 @@ entries:
     created: "2020-06-02T17:30:02.267926677Z"
     description: The Cloud-Native Ingress and Service Mesh for APIs and Microservices
     digest: 947c12f88b386b81000480ea4eb99b626a9551c860bb269437639b147c5771b9
-    engine: gotpl
     home: https://KongHQ.com/
     icon: https://s3.amazonaws.com/downloads.kong/universe/assets/icon-kong-inc-large.png
     name: kong-app
@@ -405,7 +383,6 @@ entries:
     created: "2020-05-26T11:55:15.021326039Z"
     description: The Cloud-Native Ingress and Service Mesh for APIs and Microservices
     digest: b5ebc142c19cfe4343e244f943af4b8f02087b5e20b41479aef0b669ebf116ff
-    engine: gotpl
     home: https://KongHQ.com/
     icon: https://s3.amazonaws.com/downloads.kong/universe/assets/icon-kong-inc-large.png
     name: kong-app
@@ -420,7 +397,6 @@ entries:
     created: "2020-03-31T22:58:11.58272707+01:00"
     description: The Cloud-Native Ingress and Service Mesh for APIs and Microservices
     digest: 81862095c8862faeb8c1a1a236790a9fa0efb3734d68aefd769af2b71b5137d8
-    engine: gotpl
     home: https://KongHQ.com/
     icon: https://s3.amazonaws.com/downloads.kong/universe/assets/icon-kong-inc-large.png
     name: kong-app
@@ -434,7 +410,6 @@ entries:
     created: "2020-03-01T22:57:36.452560583Z"
     description: The Cloud-Native Ingress and Service Mesh for APIs and Microservices
     digest: a3a946f849077dbee1942e2450a04beca3a6efaca0f2860bf7f5529046c1834f
-    engine: gotpl
     home: https://KongHQ.com/
     icon: https://s3.amazonaws.com/downloads.kong/universe/assets/icon-kong-inc-large.png
     name: kong-app
@@ -444,6 +419,19 @@ entries:
     - https://giantswarm.github.com/giantswarm-incubator-catalog/kong-app-0.7.1.tgz
     version: 0.7.1
   nginx-ingress-controller-app:
+  - apiVersion: v1
+    appVersion: v0.33.0
+    created: "2020-07-07T15:40:54.381172751Z"
+    description: A Helm chart for the nginx ingress-controller
+    digest: 847d0d1906efe830e43f1b25c876344bf6d9bdd35c83914f8908ab5841c2790e
+    home: https://github.com/giantswarm/nginx-ingress-controller-app
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
+    name: nginx-ingress-controller-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/nginx-ingress-controller-app/v1.7.1/README.md
+    urls:
+    - https://giantswarm.github.com/giantswarm-catalog/nginx-ingress-controller-app-1.7.1.tgz
+    version: 1.7.1
   - apiVersion: v1
     appVersion: v0.33.0
     created: "2020-06-29T13:54:12.046037501Z"
@@ -697,7 +685,6 @@ entries:
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
     digest: 02b8c4b51516c0d9dd90353c291f6e4bd416e7d2839457397baab48fef1f21b8
-    engine: gotpl
     home: https://github.com/giantswarm/prometheus-operator-app
     icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
     keywords:
@@ -769,7 +756,6 @@ entries:
     created: "2020-01-31T14:21:50.905782613Z"
     description: A Helm Chart for Prometheus Operator.
     digest: 7e9ada1c7ef4b74d54ff1e0cdb8f8dfea53337acce6da2a5404d691b7e65acc1
-    engine: gotpl
     home: https://github.com/giantswarm/prometheus-operator-app
     icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
     name: prometheus-operator-app-chart
@@ -778,4 +764,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-catalog/prometheus-operator-app-chart-0.2.0.tgz
     version: 0.2.0
-generated: "2020-07-02T09:55:46.701046071Z"
+generated: "2020-07-07T15:40:54.378983514Z"
