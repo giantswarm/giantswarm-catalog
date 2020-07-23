@@ -719,6 +719,39 @@ entries:
     version: 0.12.0
   prometheus-operator-app:
   - apiVersion: v1
+    appVersion: 0.38.1
+    created: "2020-07-23T06:36:29.210931575Z"
+    dependencies:
+    - condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 2.8.*
+    - condition: nodeExporter.enabled
+      name: prometheus-node-exporter
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 1.10.*
+    - condition: grafana.enabled
+      name: grafana
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 5.3.*
+    description: Provides easy monitoring definitions for Kubernetes services, and
+      deployment and management of Prometheus instances.
+    digest: f9035bda0bef7f7ccb3f5a3d6fddee9a69c4bfa92434e8e17ea11bcb9cbbf899
+    home: https://github.com/giantswarm/prometheus-operator-app
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - operator
+    - prometheus
+    name: prometheus-operator-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/prometheus-operator-app/v0.3.4/README.md
+    - https://github.com/coreos/kube-prometheus
+    - https://github.com/coreos/prometheus-operator
+    - https://coreos.com/operators/prometheus
+    urls:
+    - https://giantswarm.github.com/giantswarm-catalog/prometheus-operator-app-0.3.4.tgz
+    version: 0.3.4
+  - apiVersion: v1
     appVersion: v0.38.1
     created: "2020-06-16T11:44:55.302492891Z"
     description: Provides easy monitoring definitions for Kubernetes services, and
@@ -803,4 +836,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-catalog/prometheus-operator-app-chart-0.2.0.tgz
     version: 0.2.0
-generated: "2020-07-22T10:52:48.739169923Z"
+generated: "2020-07-23T06:36:29.189484455Z"
