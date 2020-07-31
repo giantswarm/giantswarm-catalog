@@ -460,6 +460,19 @@ entries:
   nginx-ingress-controller-app:
   - apiVersion: v1
     appVersion: v0.34.1
+    created: "2020-07-31T15:13:48.188580308Z"
+    description: A Helm chart for the nginx ingress-controller
+    digest: 39c85c881a9095ff9038aebd28009cfd0ae9537b9c84bfd2896462f4e076aeec
+    home: https://github.com/giantswarm/nginx-ingress-controller-app
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
+    name: nginx-ingress-controller-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/nginx-ingress-controller-app/v1.8.3/README.md
+    urls:
+    - https://giantswarm.github.com/giantswarm-catalog/nginx-ingress-controller-app-1.8.3.tgz
+    version: 1.8.3
+  - apiVersion: v1
+    appVersion: v0.34.1
     created: "2020-07-31T13:43:36.590507307Z"
     description: A Helm chart for the nginx ingress-controller
     digest: cd568fa51d167a354ad1308884fa905fc1a3b82b84b0f07be14f006a94533646
@@ -901,4 +914,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-catalog/prometheus-operator-app-chart-0.2.0.tgz
     version: 0.2.0
-generated: "2020-07-31T13:43:36.587599384Z"
+generated: "2020-07-31T15:13:48.185885293Z"
