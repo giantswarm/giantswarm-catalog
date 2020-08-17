@@ -952,18 +952,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-catalog/prometheus-operator-app-0.3.0.tgz
     version: 0.3.0
-  prometheus-operator-app-chart:
-  - apiVersion: v1
-    appVersion: v0.35.0
-    created: "2020-01-31T14:21:50.905782613Z"
-    description: A Helm Chart for Prometheus Operator.
-    digest: 7e9ada1c7ef4b74d54ff1e0cdb8f8dfea53337acce6da2a5404d691b7e65acc1
-    home: https://github.com/giantswarm/prometheus-operator-app
-    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
-    name: prometheus-operator-app-chart
-    sources:
-    - https://github.com/giantswarm/prometheus-operator-app
-    urls:
-    - https://giantswarm.github.com/giantswarm-catalog/prometheus-operator-app-chart-0.2.0.tgz
-    version: 0.2.0
 generated: "2020-08-17T08:21:08.315404798Z"
