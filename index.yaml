@@ -82,6 +82,19 @@ entries:
   aqua-app-scanner:
   - apiVersion: v1
     appVersion: 4.6.0
+    created: "2020-09-02T13:30:30.667124221Z"
+    description: A Helm chart for the Aqua Scanner Components
+    digest: 3f559b4d86ebc45ee031217e313010afea74b432847601a5e94431280a0da6ac
+    home: https://www.aquasec.com/
+    icon: https://www.aquasec.com/wp-content/uploads/2016/05/aqua_logo_fullcolor.png
+    name: aqua-app-scanner
+    sources:
+    - https://github.com/aquasecurity/aqua-helm
+    urls:
+    - https://giantswarm.github.com/giantswarm-catalog/aqua-app-scanner-4.6.3.tgz
+    version: 4.6.3
+  - apiVersion: v1
+    appVersion: 4.6.0
     created: "2020-07-02T09:55:46.701941361Z"
     description: A Helm chart for the Aqua Scanner Components
     digest: 47d9a920b8642a0cb7bfa03cbec9105c7e8a288528bc12c2e47c0f3ee9f5acfe
@@ -1022,4 +1035,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-catalog/prometheus-operator-app-0.3.0.tgz
     version: 0.3.0
-generated: "2020-09-02T13:30:10.590506956Z"
+generated: "2020-09-02T13:30:30.666397453Z"
