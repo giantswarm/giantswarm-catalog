@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/nginx-ingress-controller-app-1.12.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/nginx-ingress-controller-app-1.12.0.tgz-meta/README.md
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/nginx-ingress-controller-app-1.12.0.tgz-meta/values.schema.json
+chartApiVersion: v1
+chartFile: nginx-ingress-controller-app-1.12.0.tgz
+dateCreated: '2020-12-09T15:14:20+00:00'
+digest: f8d2021804abf352ae20f4de1a36601686960851b6a1e57322df9b4fd51527f8
