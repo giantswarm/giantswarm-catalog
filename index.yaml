@@ -159,6 +159,22 @@ entries:
     - https://giantswarm.github.com/giantswarm-catalog/aqua-app-scanner-0.2.0.tgz
     version: 0.2.0
   aqua-app-server:
+  - annotations:
+      application.giantswarm.io/readme: https://raw.githubusercontent.com/giantswarm/aqua-app/v5.3.0/helm/aqua-app-server/README.md
+      application.giantswarm.io/values-schema: https://raw.githubusercontent.com/giantswarm/aqua-app/v5.3.0/helm/aqua-app-server/values.schema.json
+    apiVersion: v1
+    appVersion: "5.3"
+    created: "2021-01-12T17:41:17.588602424Z"
+    description: A Helm chart for the Aqua Console, Gateway Components
+    digest: 945cadcbf95149845c455e7a87e72b8aebaefa7d3f51cbfbd9a7b57bf1d61701
+    home: https://www.aquasec.com/
+    icon: https://s.giantswarm.io/app-icons/1/png/aqua-app-light.png
+    name: aqua-app-server
+    sources:
+    - https://github.com/aquasecurity/aqua-helm
+    urls:
+    - https://giantswarm.github.com/giantswarm-catalog/aqua-app-server-5.3.0.tgz
+    version: 5.3.0
   - apiVersion: v1
     appVersion: 4.6.0
     created: "2020-09-02T13:29:42.309787668Z"
@@ -1554,4 +1570,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-catalog/prometheus-operator-app-0.3.0.tgz
     version: 0.3.0
-generated: "2021-01-05T15:48:30.451137457Z"
+generated: "2021-01-12T17:41:17.58662861Z"
