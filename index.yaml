@@ -593,6 +593,22 @@ entries:
     - https://giantswarm.github.com/giantswarm-catalog/cert-manager-app-1.0.1.tgz
     version: 1.0.1
   efk-stack-app:
+  - apiVersion: v1
+    appVersion: 0.4.0
+    created: "2021-01-21T15:13:43.350554534Z"
+    description: Open Distro for Elasticsearch
+    digest: 776b39d91d35e556c4a3bc52a15a2b13b544edfd9297b699ce374731ba77d580
+    home: https://github.com/giantswarm/efk-stack-app
+    icon: https://s.giantswarm.io/app-icons/1/png/efk-stack-app-light.png
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/efk-stack-app
+    name: efk-stack-app
+    sources:
+    - https://github.com/giantswarm/efk-stack-app
+    urls:
+    - https://giantswarm.github.com/giantswarm-catalog/efk-stack-app-0.4.0.tgz
+    version: 0.4.0
   - annotations:
       application.giantswarm.io/values-schema: https://raw.githubusercontent.com/giantswarm/efk-stack-app/v0.3.6/helm/efk-stack-app/values.schema.json
     apiVersion: v1
@@ -1800,4 +1816,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-catalog/prometheus-operator-app-0.3.0.tgz
     version: 0.3.0
-generated: "2021-01-21T14:27:47.637099057Z"
+generated: "2021-01-21T15:13:43.343644985Z"
