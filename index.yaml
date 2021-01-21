@@ -594,6 +594,22 @@ entries:
     version: 1.0.1
   efk-stack-app:
   - apiVersion: v1
+    appVersion: 0.4.1
+    created: "2021-01-21T16:52:24.019114168Z"
+    description: Open Distro for Elasticsearch
+    digest: 2c4286157935f4c44adf215a00c108a3bb0b09a7edada8633d50beda74703fce
+    home: https://github.com/giantswarm/efk-stack-app
+    icon: https://s.giantswarm.io/app-icons/1/png/efk-stack-app-light.png
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/efk-stack-app
+    name: efk-stack-app
+    sources:
+    - https://github.com/giantswarm/efk-stack-app
+    urls:
+    - https://giantswarm.github.com/giantswarm-catalog/efk-stack-app-0.4.1.tgz
+    version: 0.4.1
+  - apiVersion: v1
     appVersion: 0.4.0
     created: "2021-01-21T15:13:43.350554534Z"
     description: Open Distro for Elasticsearch
@@ -1816,4 +1832,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-catalog/prometheus-operator-app-0.3.0.tgz
     version: 0.3.0
-generated: "2021-01-21T15:13:43.343644985Z"
+generated: "2021-01-21T16:52:24.010684178Z"
