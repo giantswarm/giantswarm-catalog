@@ -1832,4 +1832,34 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-catalog/prometheus-operator-app-0.3.0.tgz
     version: 0.3.0
-generated: "2021-01-21T16:52:24.010684178Z"
+  promtail:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/promtail-0.1.0-alpha.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/promtail-0.1.0-alpha.tgz-meta/README.md
+    apiVersion: v2
+    appVersion: 2.1.0
+    created: "2021-01-25T08:26:15.878371338Z"
+    description: Promtail is an agent which ships the contents of local logs to a
+      Loki instance
+    digest: bbaec69dc3c582fa0b58768f55ff6aea8011012576fa61820470a2e6ff771303
+    home: https://grafana.com/loki
+    icon: https://raw.githubusercontent.com/grafana/loki/master/docs/sources/logo.png
+    maintainers:
+    - email: lokiproject@googlegroups.com
+      name: Loki Maintainers
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/loki-app
+    - name: unguiculus
+    name: promtail
+    sources:
+    - https://github.com/grafana/loki
+    - https://grafana.com/oss/loki/
+    - https://grafana.com/docs/loki/latest/
+    - https://github.com/grafana/helm-charts/
+    - https://github.com/giantswarm/grafana-helm-charts-upstream
+    - https://github.com/giantswarm/promtail-app
+    type: application
+    urls:
+    - https://giantswarm.github.com/giantswarm-catalog/promtail-0.1.0-alpha.tgz
+    version: 0.1.0-alpha
+generated: "2021-01-25T08:26:15.876871112Z"

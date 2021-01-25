@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/promtail-0.1.0-alpha.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/promtail-0.1.0-alpha.tgz-meta/README.md
+chartApiVersion: v2
+chartFile: promtail-0.1.0-alpha.tgz
+dateCreated: '2021-01-25T08:26:14+00:00'
+digest: bbaec69dc3c582fa0b58768f55ff6aea8011012576fa61820470a2e6ff771303
+restrictions:
+  namespaceSingleton: true
+upstreamChartURL: https://github.com/grafana/helm-charts/
