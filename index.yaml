@@ -824,6 +824,23 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-catalog/efk-stack-app-0.1.3.tgz
     version: 0.1.3
+  external-dns-app:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/external-dns-app-2.0.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/external-dns-app-2.0.0.tgz-meta/README.md
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/external-dns-app-2.0.0.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: v0.7.6
+    created: "2021-02-03T12:42:36.352863894Z"
+    description: Configure external DNS servers for Kubernetes Ingresses and Services
+    digest: c13c07ee43c31a7744c15750c11ce7411e79f1d2f8001c43ea498b04e2f35ecf
+    home: https://github.com/giantswarm/external-dns-app
+    name: external-dns-app
+    sources:
+    - https://github.com/kubernetes-sigs/external-dns
+    urls:
+    - https://giantswarm.github.com/giantswarm-catalog/external-dns-app-2.0.0.tgz
+    version: 2.0.0
   grafana-app:
   - annotations:
       application.giantswarm.io/readme: https://github.com/giantswarm/grafana-app/raw/master/README.md
@@ -1965,4 +1982,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-catalog/promtail-0.1.0-alpha.tgz
     version: 0.1.0-alpha
-generated: "2021-02-03T12:31:03.550164019Z"
+generated: "2021-02-03T12:42:36.351545183Z"
