@@ -610,6 +610,23 @@ entries:
     version: 1.0.1
   cloudflared:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/cloudflared-0.0.5.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/cloudflared-0.0.5.tgz-meta/README.md
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/cloudflared-0.0.5.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 2021.02.05
+    created: "2021-03-02T20:38:37.899857542Z"
+    description: Create Argo Tunnels and configure ingress routes
+    digest: 50d18f80974322df7d6474b9211d64d91d3a72234766947f22bd67a774e91f6f
+    home: https://github.com/giantswarm/cloudflared-app
+    icon: https://raw.githubusercontent.com/giantswarm/cloudflared-app/main/cloudflare.png
+    name: cloudflared
+    sources:
+    - https://github.com/giantswarm/cloudflared-app
+    urls:
+    - https://giantswarm.github.com/giantswarm-catalog/cloudflared-0.0.5.tgz
+    version: 0.0.5
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/cloudflared-0.0.4.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/cloudflared-0.0.4.tgz-meta/README.md
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/cloudflared-0.0.4.tgz-meta/values.schema.json
@@ -2213,4 +2230,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-catalog/promtail-0.1.0-alpha.tgz
     version: 0.1.0-alpha
-generated: "2021-03-02T20:26:08.252714958Z"
+generated: "2021-03-02T20:38:37.899179014Z"
