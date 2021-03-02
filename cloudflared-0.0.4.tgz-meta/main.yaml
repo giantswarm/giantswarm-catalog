@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/cloudflared-0.0.4.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/cloudflared-0.0.4.tgz-meta/README.md
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/cloudflared-0.0.4.tgz-meta/values.schema.json
+chartApiVersion: v1
+chartFile: cloudflared-0.0.4.tgz
+dateCreated: '2021-03-02T20:26:06+00:00'
+digest: 714fe3082069ff14f4d29fec64c7379ca64ca0ea8cb2eecd2888e7be81279866
