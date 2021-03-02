@@ -608,6 +608,24 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-catalog/cert-manager-app-1.0.1.tgz
     version: 1.0.1
+  cloudflared:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/cloudflared-0.0.3.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/cloudflared-0.0.3.tgz-meta/README.md
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/cloudflared-0.0.3.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 2021.02.05
+    created: "2021-03-02T20:21:18.314185821Z"
+    description: Create Argo Tunnels and configure ingress routes
+    digest: 0751c4c83c50f15cdb0744282c952a1e5d575209f264349bd7700736160f47fd
+    home: https://github.com/giantswarm/cloudflared-app
+    icon: https://raw.githubusercontent.com/giantswarm/cloudflared-app/cloudflare.png
+    name: cloudflared
+    sources:
+    - https://github.com/giantswarm/cloudflared-app
+    urls:
+    - https://giantswarm.github.com/giantswarm-catalog/cloudflared-0.0.3.tgz
+    version: 0.0.3
   efk-stack-app:
   - apiVersion: v1
     appVersion: 0.4.1
@@ -2178,4 +2196,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-catalog/promtail-0.1.0-alpha.tgz
     version: 0.1.0-alpha
-generated: "2021-03-02T17:42:04.647947851Z"
+generated: "2021-03-02T20:21:18.313082881Z"
