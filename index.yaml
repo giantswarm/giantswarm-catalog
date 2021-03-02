@@ -909,6 +909,20 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-catalog/external-dns-app-2.0.0.tgz
     version: 2.0.0
+  fluent-logshipping-app:
+  - apiVersion: v1
+    appVersion: 0.6.1
+    created: "2021-03-02T17:42:04.648875099Z"
+    description: The Log Shipping App forwards cluster logs to storage backends
+    digest: 7e4ad1c05fa4c26c015ee21e67d7a756dedb1d0134d449e718d69536f3041bd0
+    home: https://github.com/giantswarm/fluent-logshipping-app
+    icon: https://s.giantswarm.io/app-icons/1/png/fluent-logshipping-app-light.png
+    name: fluent-logshipping-app
+    sources:
+    - https://github.com/giantswarm/fluent-logshipping-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/fluent-logshipping-app-0.6.1.tgz
+    version: 0.6.1
   grafana-app:
   - annotations:
       application.giantswarm.io/readme: https://github.com/giantswarm/grafana-app/raw/master/README.md
@@ -2164,4 +2178,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-catalog/promtail-0.1.0-alpha.tgz
     version: 0.1.0-alpha
-generated: "2021-03-02T13:03:03.84161977Z"
+generated: "2021-03-02T17:42:04.647947851Z"
