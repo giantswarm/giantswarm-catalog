@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/loki-0.1.1-alpha.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/loki-0.1.1-alpha.tgz-meta/README.md
+  application.giantswarm.io/team: halo
+chartApiVersion: v2
+chartFile: loki-0.1.1-alpha.tgz
+dateCreated: '2021-03-04T14:24:33+00:00'
+digest: 713d8c376f2efc278dc905e69ca091ef1762ae7d50c4def3ffd196feb69c5a93
+restrictions:
+  namespaceSingleton: true
+upstreamChartURL: https://github.com/grafana/helm-charts/
