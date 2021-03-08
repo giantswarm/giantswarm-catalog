@@ -113,6 +113,22 @@ entries:
     version: 0.2.0
   aqua-app-scanner:
   - annotations:
+      application.giantswarm.io/readme: https://raw.githubusercontent.com/giantswarm/aqua-app/v5.3.1/helm/aqua-app-scanner/README.md
+      application.giantswarm.io/values-schema: https://raw.githubusercontent.com/giantswarm/aqua-app/v5.3.1/helm/aqua-app-scanner/values.schema.json
+    apiVersion: v1
+    appVersion: "5.3"
+    created: "2021-03-08T13:18:40.724907719Z"
+    description: A Helm chart for the Aqua Scanner CLI component
+    digest: 65479ccf4034f0ad949415c5904cd73c2f53d98f8aa0569e60cf6df2a162b794
+    home: https://www.aquasec.com/
+    icon: https://s.giantswarm.io/app-icons/1/png/aqua-app-light.png
+    name: aqua-app-scanner
+    sources:
+    - https://github.com/aquasecurity/aqua-helm
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/aqua-app-scanner-5.3.1.tgz
+    version: 5.3.1
+  - annotations:
       application.giantswarm.io/readme: https://raw.githubusercontent.com/giantswarm/aqua-app/v5.3.0/helm/aqua-app-scanner/README.md
       application.giantswarm.io/values-schema: https://raw.githubusercontent.com/giantswarm/aqua-app/v5.3.0/helm/aqua-app-scanner/values.schema.json
     apiVersion: v1
@@ -2344,4 +2360,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-catalog/promtail-0.1.0-alpha.tgz
     version: 0.1.0-alpha
-generated: "2021-03-08T13:18:18.616615415Z"
+generated: "2021-03-08T13:18:40.7240335Z"
