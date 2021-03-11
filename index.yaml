@@ -2452,4 +2452,22 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-catalog/promtail-0.1.0-alpha.tgz
     version: 0.1.0-alpha
-generated: "2021-03-10T10:53:08.826510775Z"
+  strimzi-kafka-operator-app:
+  - apiVersion: v1
+    appVersion: 0.21.1
+    created: "2021-03-11T09:30:55.083000896Z"
+    dependencies:
+    - name: strimzi-kafka-operator
+      repository: https://strimzi.io/charts/
+      version: 0.21.1
+    description: A Helm chart for the strimzi-kafka-operator-app
+    digest: fe84e3634469081981aad7d3577b2ca0a423e94192f5f6192619a0f849e22f1a
+    home: https://github.com/giantswarm/strimzi-kafka-operator-app
+    icon: https://s.giantswarm.io/app-icons/1/png/strimzi-kafka-operator-app-light.png
+    name: strimzi-kafka-operator-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/strimzi-kafka-operator-app/v0.2.1/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/strimzi-kafka-operator-app-0.2.1.tgz
+    version: 0.2.1
+generated: "2021-03-11T09:30:55.077680481Z"
