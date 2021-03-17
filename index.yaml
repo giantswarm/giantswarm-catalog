@@ -1103,6 +1103,19 @@ entries:
     version: 2.0.0
   fluent-logshipping-app:
   - apiVersion: v1
+    appVersion: 0.6.2
+    created: "2021-03-17T16:39:39.102723729Z"
+    description: The Log Shipping App forwards cluster logs to storage backends
+    digest: abcb0c69dbfe142f292c8382d0fe1e92651ddff50a3ea0495754884b737b89f5
+    home: https://github.com/giantswarm/fluent-logshipping-app
+    icon: https://s.giantswarm.io/app-icons/1/png/fluent-logshipping-app-light.png
+    name: fluent-logshipping-app
+    sources:
+    - https://github.com/giantswarm/fluent-logshipping-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/fluent-logshipping-app-0.6.2.tgz
+    version: 0.6.2
+  - apiVersion: v1
     appVersion: 0.6.1
     created: "2021-03-02T17:42:04.648875099Z"
     description: The Log Shipping App forwards cluster logs to storage backends
@@ -2641,4 +2654,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-catalog/strimzi-kafka-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-03-16T13:05:16.766473031Z"
+generated: "2021-03-17T16:39:39.100894075Z"
