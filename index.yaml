@@ -381,6 +381,19 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-catalog/aqua-app-server-0.2.0.tgz
     version: 0.2.0
+  calico:
+  - apiVersion: v1
+    appVersion: 3.18.0
+    created: "2021-03-18T09:09:50.778651801Z"
+    description: A Helm chart for projectcalico/calico
+    digest: 93b436974435ae24be4d33e92a37c7de511fb2d7a94075e1f869cf5bd7d3f06a
+    home: https://github.com/giantswarm/calico-app
+    name: calico
+    sources:
+    - https://github.com/projectcalico/calico
+    urls:
+    - https://giantswarm.github.com/giantswarm-catalog/calico-0.1.0.tgz
+    version: 0.1.0
   cert-manager-app:
   - annotations:
       application.giantswarm.io/readme: https://raw.githubusercontent.com/giantswarm/cert-manager-app/v2.4.2/README.md
@@ -2667,4 +2680,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-catalog/strimzi-kafka-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-03-17T21:32:25.580332195Z"
+generated: "2021-03-18T09:09:50.77680283Z"
