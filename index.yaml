@@ -145,6 +145,22 @@ entries:
     version: 0.2.0
   aqua-app-scanner:
   - annotations:
+      application.giantswarm.io/readme: https://raw.githubusercontent.com/giantswarm/aqua-app/v5.3.3/helm/aqua-app-scanner/README.md
+      application.giantswarm.io/values-schema: https://raw.githubusercontent.com/giantswarm/aqua-app/v5.3.3/helm/aqua-app-scanner/values.schema.json
+    apiVersion: v1
+    appVersion: "5.3"
+    created: "2021-03-19T14:49:21.986821347Z"
+    description: A Helm chart for the Aqua Scanner CLI component
+    digest: afaf26441dcb50928281538d10ec62dcd0c9d13ce2702b7fab041b7e1f8f11e5
+    home: https://www.aquasec.com/
+    icon: https://s.giantswarm.io/app-icons/1/png/aqua-app-light.png
+    name: aqua-app-scanner
+    sources:
+    - https://github.com/aquasecurity/aqua-helm
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/aqua-app-scanner-5.3.3.tgz
+    version: 5.3.3
+  - annotations:
       application.giantswarm.io/readme: https://raw.githubusercontent.com/giantswarm/aqua-app/v5.3.2/helm/aqua-app-scanner/README.md
       application.giantswarm.io/values-schema: https://raw.githubusercontent.com/giantswarm/aqua-app/v5.3.2/helm/aqua-app-scanner/values.schema.json
     apiVersion: v1
@@ -2752,4 +2768,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-catalog/strimzi-kafka-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-03-19T14:48:57.833911613Z"
+generated: "2021-03-19T14:49:21.985512215Z"
