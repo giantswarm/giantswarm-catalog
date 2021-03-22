@@ -432,6 +432,18 @@ entries:
   calico:
   - apiVersion: v1
     appVersion: 3.18.0
+    created: "2021-03-22T11:23:10.078764911Z"
+    description: A Helm chart for projectcalico/calico
+    digest: 7abadf1d30fd37dea45ad25e604bd761373bd05f14a2d829b77c281b06ef3928
+    home: https://github.com/giantswarm/calico-app
+    name: calico
+    sources:
+    - https://github.com/projectcalico/calico
+    urls:
+    - https://giantswarm.github.com/giantswarm-catalog/calico-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v1
+    appVersion: 3.18.0
     created: "2021-03-18T09:09:50.778651801Z"
     description: A Helm chart for projectcalico/calico
     digest: 93b436974435ae24be4d33e92a37c7de511fb2d7a94075e1f869cf5bd7d3f06a
@@ -2768,4 +2780,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-catalog/strimzi-kafka-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-03-19T14:49:21.985512215Z"
+generated: "2021-03-22T11:23:10.070636108Z"
