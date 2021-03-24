@@ -1091,6 +1091,23 @@ entries:
     version: 0.1.3
   external-dns-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/external-dns-app-2.2.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/external-dns-app-2.2.0.tgz-meta/README.md
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/external-dns-app-2.2.0.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: v0.7.6
+    created: "2021-03-24T15:07:58.344265045Z"
+    description: Configure external DNS servers for Kubernetes Ingresses and Services
+    digest: 411e9a052de15153dfa36ef5d5b8c7f7fc846fe06c4f79f625e6039bd0c094d1
+    home: https://github.com/giantswarm/external-dns-app
+    icon: https://s.giantswarm.io/app-icons/1/png/external-dns-app-light.png
+    name: external-dns-app
+    sources:
+    - https://github.com/kubernetes-sigs/external-dns
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/external-dns-app-2.2.0.tgz
+    version: 2.2.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/external-dns-app-2.1.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/external-dns-app-2.1.1.tgz-meta/README.md
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/external-dns-app-2.1.1.tgz-meta/values.schema.json
@@ -2182,10 +2199,7 @@ entries:
       name: grafana
       repository: https://grafana.github.io/helm-charts
       version: 6.4.*
-    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards,
-      and Prometheus rules combined with documentation and scripts to provide easy
-      to operate end-to-end Kubernetes cluster monitoring with Prometheus using the
-      Prometheus Operator.
+    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus Operator.
     digest: 904ace9980940889c482b826db805a5ca9d7c09e9e9a1c3e10662b6f1f51b8b3
     home: https://github.com/giantswarm/prometheus-operator-app
     icon: https://s.giantswarm.io/app-icons/1/png/prometheus-operator-app-light.png
@@ -2237,10 +2251,7 @@ entries:
       name: grafana
       repository: https://grafana.github.io/helm-charts
       version: 5.8.*
-    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards,
-      and Prometheus rules combined with documentation and scripts to provide easy
-      to operate end-to-end Kubernetes cluster monitoring with Prometheus using the
-      Prometheus Operator.
+    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus Operator.
     digest: 4db6dfd785f86a28d20767cafd4ff841203ffb739f86246b757e10af23aae008
     home: https://github.com/giantswarm/prometheus-operator-app
     icon: https://s.giantswarm.io/app-icons/1/png/prometheus-operator-app-light.png
@@ -2292,10 +2303,7 @@ entries:
       name: grafana
       repository: https://grafana.github.io/helm-charts
       version: 5.8.*
-    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards,
-      and Prometheus rules combined with documentation and scripts to provide easy
-      to operate end-to-end Kubernetes cluster monitoring with Prometheus using the
-      Prometheus Operator.
+    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus Operator.
     digest: 17a7e8abef33e6be437deacea3bf74fd25c4246544091f51f1fe2259e068fbc8
     home: https://github.com/giantswarm/prometheus-operator-app
     icon: https://s.giantswarm.io/app-icons/1/png/prometheus-operator-app-light.png
@@ -2347,10 +2355,7 @@ entries:
       name: grafana
       repository: https://grafana.github.io/helm-charts
       version: 5.8.*
-    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards,
-      and Prometheus rules combined with documentation and scripts to provide easy
-      to operate end-to-end Kubernetes cluster monitoring with Prometheus using the
-      Prometheus Operator.
+    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus Operator.
     digest: b85fc787f751c13bf4e2b50adecff44e1e73684b5afeb474ea864a7945b18265
     home: https://github.com/giantswarm/prometheus-operator-app
     icon: https://s.giantswarm.io/app-icons/1/png/prometheus-operator-app-light.png
@@ -2402,10 +2407,7 @@ entries:
       name: grafana
       repository: https://grafana.github.io/helm-charts
       version: 5.8.*
-    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards,
-      and Prometheus rules combined with documentation and scripts to provide easy
-      to operate end-to-end Kubernetes cluster monitoring with Prometheus using the
-      Prometheus Operator.
+    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus Operator.
     digest: 54c22edbbfe240c9eda6ba60d0512123f95b34970de0bba3976a46c61c8dd1b8
     home: https://github.com/giantswarm/prometheus-operator-app
     icon: https://s.giantswarm.io/app-icons/1/png/prometheus-operator-app-light.png
@@ -2456,10 +2458,7 @@ entries:
       name: grafana
       repository: https://grafana.github.io/helm-charts
       version: 5.7.*
-    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards,
-      and Prometheus rules combined with documentation and scripts to provide easy
-      to operate end-to-end Kubernetes cluster monitoring with Prometheus using the
-      Prometheus Operator.
+    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus Operator.
     digest: 6a012d45f83b45904bb68f045433a540c014191fed21c2323e0f1a6bebd2616e
     home: https://github.com/giantswarm/prometheus-operator-app
     icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
@@ -2503,8 +2502,7 @@ entries:
       name: grafana
       repository: https://kubernetes-charts.storage.googleapis.com/
       version: 5.3.*
-    description: Provides easy monitoring definitions for Kubernetes services, and
-      deployment and management of Prometheus instances.
+    description: Provides easy monitoring definitions for Kubernetes services, and deployment and management of Prometheus instances.
     digest: f9035bda0bef7f7ccb3f5a3d6fddee9a69c4bfa92434e8e17ea11bcb9cbbf899
     home: https://github.com/giantswarm/prometheus-operator-app
     icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
@@ -2523,8 +2521,7 @@ entries:
   - apiVersion: v1
     appVersion: v0.38.1
     created: "2020-06-16T11:44:55.302492891Z"
-    description: Provides easy monitoring definitions for Kubernetes services, and
-      deployment and management of Prometheus instances.
+    description: Provides easy monitoring definitions for Kubernetes services, and deployment and management of Prometheus instances.
     digest: 02b8c4b51516c0d9dd90353c291f6e4bd416e7d2839457397baab48fef1f21b8
     home: https://github.com/giantswarm/prometheus-operator-app
     icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
@@ -2543,8 +2540,7 @@ entries:
   - apiVersion: v1
     appVersion: v0.38.1
     created: "2020-05-27T14:44:39.849775345Z"
-    description: Provides easy monitoring definitions for Kubernetes services, and
-      deployment and management of Prometheus instances.
+    description: Provides easy monitoring definitions for Kubernetes services, and deployment and management of Prometheus instances.
     digest: 266abdcecc32f52f3d1e0754e73cf9d39ec16099022fe8d255cec23c993f1305
     home: https://github.com/giantswarm/prometheus-operator-app
     icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
@@ -2560,8 +2556,7 @@ entries:
   - apiVersion: v1
     appVersion: v0.38.1
     created: "2020-05-20T14:17:29.667307043Z"
-    description: Provides easy monitoring definitions for Kubernetes services, and
-      deployment and management of Prometheus instances.
+    description: Provides easy monitoring definitions for Kubernetes services, and deployment and management of Prometheus instances.
     digest: 1228568a677fe46aa031982b7bab168a307f4e5aa71de0190175b0065875524e
     home: https://github.com/giantswarm/prometheus-operator-app
     icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
@@ -2577,8 +2572,7 @@ entries:
   - apiVersion: v1
     appVersion: v0.38.1
     created: "2020-05-20T13:05:59.477841088Z"
-    description: Provides easy monitoring definitions for Kubernetes services, and
-      deployment and management of Prometheus instances.
+    description: Provides easy monitoring definitions for Kubernetes services, and deployment and management of Prometheus instances.
     digest: 520e4d43b1131f140f70f948aa40657b331bc0532a1fcdb7edc8f779aa100c2a
     home: https://github.com/giantswarm/prometheus-operator-app
     icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
@@ -2599,8 +2593,7 @@ entries:
     apiVersion: v2
     appVersion: 2.2.0
     created: "2021-03-16T11:49:50.549512447Z"
-    description: Promtail is an agent which ships the contents of local logs to a
-      Loki instance
+    description: Promtail is an agent which ships the contents of local logs to a Loki instance
     digest: d28f525e59b130fe0b178733a5f3ad669d544e9cb8c4d2036b38a8b9bfdd5e08
     home: https://grafana.com/loki
     icon: https://raw.githubusercontent.com/grafana/loki/master/docs/sources/logo.png
@@ -2629,8 +2622,7 @@ entries:
     apiVersion: v2
     appVersion: 2.2.0
     created: "2021-03-15T13:41:34.151521902Z"
-    description: Promtail is an agent which ships the contents of local logs to a
-      Loki instance
+    description: Promtail is an agent which ships the contents of local logs to a Loki instance
     digest: 79bd5b7503542729c417d7b0b1d0383d676722b5432fc8ef43dcc7dfb558f052
     home: https://grafana.com/loki
     icon: https://raw.githubusercontent.com/grafana/loki/master/docs/sources/logo.png
@@ -2659,8 +2651,7 @@ entries:
     apiVersion: v2
     appVersion: 2.1.0
     created: "2021-03-04T14:16:54.554331467Z"
-    description: Promtail is an agent which ships the contents of local logs to a
-      Loki instance
+    description: Promtail is an agent which ships the contents of local logs to a Loki instance
     digest: b05a6d726a47e9114c53e4f728c3ed8e63f47a1f0c2b90de5158302e8a0847c9
     home: https://grafana.com/loki
     icon: https://raw.githubusercontent.com/grafana/loki/master/docs/sources/logo.png
@@ -2688,8 +2679,7 @@ entries:
     apiVersion: v2
     appVersion: 2.1.0
     created: "2021-01-25T08:26:15.878371338Z"
-    description: Promtail is an agent which ships the contents of local logs to a
-      Loki instance
+    description: Promtail is an agent which ships the contents of local logs to a Loki instance
     digest: bbaec69dc3c582fa0b58768f55ff6aea8011012576fa61820470a2e6ff771303
     home: https://grafana.com/loki
     icon: https://raw.githubusercontent.com/grafana/loki/master/docs/sources/logo.png
@@ -2780,4 +2770,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-catalog/strimzi-kafka-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-03-22T11:23:10.070636108Z"
+generated: "2021-03-24T15:07:58.343215291Z"
