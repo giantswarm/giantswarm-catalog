@@ -288,6 +288,22 @@ entries:
     version: 0.2.0
   aqua-app-server:
   - annotations:
+      application.giantswarm.io/readme: https://raw.githubusercontent.com/giantswarm/aqua-app/v5.3.4/helm/aqua-app-server/README.md
+      application.giantswarm.io/values-schema: https://raw.githubusercontent.com/giantswarm/aqua-app/v5.3.4/helm/aqua-app-server/values.schema.json
+    apiVersion: v1
+    appVersion: 5.3.21112
+    created: "2021-04-28T11:15:05.042471081Z"
+    description: A Helm chart for the Aqua Console, Gateway Components
+    digest: 1febce1646e896365c662251360cda7cb8d16cdee1cfba9658af994d3e42aede
+    home: https://www.aquasec.com/
+    icon: https://s.giantswarm.io/app-icons/1/png/aqua-app-light.png
+    name: aqua-app-server
+    sources:
+    - https://github.com/aquasecurity/aqua-helm
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/aqua-app-server-5.3.4.tgz
+    version: 5.3.4
+  - annotations:
       application.giantswarm.io/readme: https://raw.githubusercontent.com/giantswarm/aqua-app/v5.3.3/helm/aqua-app-server/README.md
       application.giantswarm.io/values-schema: https://raw.githubusercontent.com/giantswarm/aqua-app/v5.3.3/helm/aqua-app-server/values.schema.json
     apiVersion: v1
@@ -3137,4 +3153,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/strimzi-kafka-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-04-27T10:29:40.537864334Z"
+generated: "2021-04-28T11:15:05.040227654Z"
