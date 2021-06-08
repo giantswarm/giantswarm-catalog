@@ -2098,6 +2098,33 @@ entries:
     version: 0.7.1
   loki:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/loki-0.2.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/loki-0.2.0.tgz-meta/README.md
+      application.giantswarm.io/team: halo
+    apiVersion: v2
+    appVersion: 2.2.1
+    created: "2021-06-08T12:20:02.54085271Z"
+    description: Helm chart for Grafana Loki in microservices mode
+    digest: 10707212dbcd8ef12c9c11683935bee3249d0b4d13fbb8c1da0f0d8790d539ba
+    home: https://grafana.github.io/helm-charts
+    icon: https://grafana.com/docs/loki/latest/logo_and_name.png
+    maintainers:
+    - name: unguiculus
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/loki-app
+    name: loki
+    sources:
+    - https://github.com/grafana/loki
+    - https://grafana.com/oss/loki/
+    - https://grafana.com/docs/loki/latest/
+    - https://github.com/grafana/helm-charts/
+    - https://github.com/giantswarm/grafana-helm-charts-upstream
+    - https://github.com/giantswarm/loki-app
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/loki-0.2.0.tgz
+    version: 0.2.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/loki-0.1.2-beta.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/loki-0.1.2-beta.tgz-meta/README.md
       application.giantswarm.io/team: halo
@@ -3641,4 +3668,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/strimzi-kafka-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-06-04T11:06:01.86022874Z"
+generated: "2021-06-08T12:20:02.53336813Z"
