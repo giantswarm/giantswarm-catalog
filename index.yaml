@@ -1641,6 +1641,23 @@ entries:
     - https://giantswarm.github.io/giantswarm-catalog/flux-app-0.2.0.tgz
     version: 0.2.0
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/flux-app-0.2.0-c08a217a79d23a6c543f8597385f71ba6ba8e28e.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/flux-app-0.2.0-c08a217a79d23a6c543f8597385f71ba6ba8e28e.tgz-meta/README.md
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/flux-app-0.2.0-c08a217a79d23a6c543f8597385f71ba6ba8e28e.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 0.7.7
+    created: "2021-06-15T15:00:29.689463143Z"
+    description: A Helm chart for flux
+    digest: 8d924fb662e7102621f1c65fe2e39b3899b68c866befdc5b8b8273a860fda27b
+    home: https://github.com/giantswarm/flux-app
+    icon: https://s.giantswarm.io/app-icons/1/png/flux-app-light.png
+    name: flux-app
+    sources:
+    - https://github.com/fluxcd/flux2
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/flux-app-0.2.0-c08a217a79d23a6c543f8597385f71ba6ba8e28e.tgz
+    version: 0.2.0-c08a217a79d23a6c543f8597385f71ba6ba8e28e
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/flux-app-0.2.0-b8d624c42993365a4ff339fc10544fe3247588a6.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/flux-app-0.2.0-b8d624c42993365a4ff339fc10544fe3247588a6.tgz-meta/README.md
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/flux-app-0.2.0-b8d624c42993365a4ff339fc10544fe3247588a6.tgz-meta/values.schema.json
@@ -3760,4 +3777,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/strimzi-kafka-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-06-15T14:09:31.25251338Z"
+generated: "2021-06-15T15:00:29.687004936Z"
