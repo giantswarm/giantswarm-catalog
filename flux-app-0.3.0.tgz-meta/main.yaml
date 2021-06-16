@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/flux-app-0.3.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/flux-app-0.3.0.tgz-meta/README.md
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/flux-app-0.3.0.tgz-meta/values.schema.json
+chartApiVersion: v1
+chartFile: flux-app-0.3.0.tgz
+dateCreated: '2021-06-16T14:10:10.298446'
+digest: 46d4f0c3af1c3d3dc5e6812bd42d975cb5a96c6f463b91b59cf6f9e08f3a4e56
+home: https://github.com/giantswarm/flux-app
+icon: https://s.giantswarm.io/app-icons/1/png/flux-app-light.png
