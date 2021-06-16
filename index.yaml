@@ -1646,9 +1646,9 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/flux-app-0.2.0.tgz-meta/values.schema.json
     apiVersion: v1
     appVersion: 0.7.7
-    created: "2021-06-04T11:06:01.861648817Z"
+    created: "2021-06-16T13:52:06.206307426Z"
     description: A Helm chart for flux
-    digest: d29caa9e906af629504feec2b434f45bf88e45efb10b3a47ac8a09898d89d87f
+    digest: ccacbb8588bb810cc67a5c1af2b039a245438138dd6b00e5d1d5f48a85e03e2a
     home: https://github.com/giantswarm/flux-app
     icon: https://s.giantswarm.io/app-icons/1/png/flux-app-light.png
     name: flux-app
@@ -3886,4 +3886,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/strimzi-kafka-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-06-16T13:51:22.768072845Z"
+generated: "2021-06-16T13:52:06.203049522Z"
