@@ -1074,6 +1074,42 @@ entries:
     version: 0.0.3
   efk-stack-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/efk-stack-app-0.5.3.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/efk-stack-app-0.5.3.tgz-meta/README.md
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/efk-stack-app-0.5.3.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.5.3
+    created: "2021-06-21T15:10:48.272441422Z"
+    dependencies:
+    - name: elasticsearch-curator
+      repository: file://.
+      version: 2.0.3
+    - name: fluentd-elasticsearch
+      repository: file://.
+      version: 6.1.1
+    - name: opendistro-certs
+      repository: file://.
+      version: 0.1.0
+    - name: opendistro-es
+      repository: file://.
+      version: 1.13.2
+    - name: elasticsearch-exporter
+      repository: file://.
+      version: 3.0.0
+    description: Open Distro for Elasticsearch
+    digest: d051e5326d84a9e2ed45a9873f94b12f09b148a6ece144362c92045f0acb42d9
+    home: https://github.com/giantswarm/efk-stack-app
+    icon: https://s.giantswarm.io/app-icons/1/png/efk-stack-app-light.png
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/efk-stack-app
+    name: efk-stack-app
+    sources:
+    - https://github.com/giantswarm/efk-stack-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/efk-stack-app-0.5.3.tgz
+    version: 0.5.3
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/efk-stack-app-0.5.2.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/efk-stack-app-0.5.2.tgz-meta/README.md
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/efk-stack-app-0.5.2.tgz-meta/values.schema.json
@@ -4039,4 +4075,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/strimzi-kafka-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-06-21T13:46:49.734366228Z"
+generated: "2021-06-21T15:10:48.266557616Z"
