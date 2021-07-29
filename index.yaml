@@ -2559,6 +2559,35 @@ entries:
     version: 0.7.1
   linkerd2-cni-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/linkerd2-cni-app-0.4.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/linkerd2-cni-app-0.4.0.tgz-meta/README.md
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/linkerd2-cni-app-0.4.0.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 2.10.2
+    created: "2021-07-29T14:11:48.36033636Z"
+    dependencies:
+    - name: partials
+      repository: file://../partials
+      version: 0.1.0
+    description: 'Linkerd is a *service mesh*, designed to give platform-wide observability, reliability, and security without requiring configuration or code changes. The Linkerd [CNI plugin](https://linkerd.io/2/features/cni/) takes care of setting up your pod''s network so  incoming and outgoing traffic is proxied through the data plane. '
+    digest: 05f8cc99db934c433d54f4d0124e55502485e166cebff7cbbeeb87dfec9e06f3
+    home: https://github.com/giantswarm/linkerd2-cni-app
+    icon: https://s.giantswarm.io/app-icons/1/png/linkerd2-app-light.png
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/linkerd2-cni-app
+    name: linkerd2-cni-app
+    sources:
+    - https://github.com/linkerd/linkerd2
+    - https://github.com/giantswarm/linkerd2-cni-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/linkerd2-cni-app-0.4.0.tgz
+    version: 0.4.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/linkerd2-cni-app-0.3.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/linkerd2-cni-app-0.3.0.tgz-meta/README.md
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/linkerd2-cni-app-0.3.0.tgz-meta/values.schema.json
@@ -4389,4 +4418,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/strimzi-kafka-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-07-29T13:21:45.194726307Z"
+generated: "2021-07-29T14:11:48.35913892Z"
