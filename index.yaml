@@ -2557,6 +2557,38 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-incubator-catalog/kong-app-0.7.1.tgz
     version: 0.7.1
+  linkerd2-app:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/linkerd2-app-0.6.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/linkerd2-app-0.6.0.tgz-meta/README.md
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/linkerd2-app-0.6.0.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: stable-2.10.2
+    created: "2021-08-03T10:04:21.909953167Z"
+    dependencies:
+    - name: partials
+      repository: file://../partials
+      version: 0.1.0
+    description: 'Linkerd gives you observability, reliability, and security for your microservices — with no code change required. '
+    digest: 707eaa3cf75d6b42e6d876b8ebcc0b0b7dfa0aee815939e3870c8b1a85023eed
+    home: https://linkerd.io
+    icon: https://s.giantswarm.io/app-icons/1/png/linkerd2-app-light.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/linkerd2-app
+    name: linkerd2-app
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    - https://github.com/giantswarm/linkerd2-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/linkerd2-app-0.6.0.tgz
+    version: 0.6.0
   linkerd2-cni-app:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/linkerd2-cni-app-0.4.0.tgz-meta/main.yaml
@@ -4418,4 +4450,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/strimzi-kafka-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-07-29T14:11:48.35913892Z"
+generated: "2021-08-03T10:04:21.905846836Z"
