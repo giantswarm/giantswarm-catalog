@@ -1740,6 +1740,36 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/external-dns-app-2.0.0.tgz
     version: 2.0.0
+  falco-app:
+  - annotations:
+      application.giantswarm.io/team: ludacris
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2021-08-25T20:43:07.897173351Z"
+    dependencies:
+    - name: falco
+      repository: ""
+      version: 1.15.3
+    - name: falco-exporter
+      repository: ""
+      version: 0.5.2
+    - name: falcosidekick
+      repository: ""
+      version: 0.3.11
+    description: A Helm chart for falco
+    digest: efb51fc613cdc004b0e0b0af21d2bee7e5a66c9abfe3e5f6b706a8da470a3738
+    home: https://github.com/giantswarm/falco-app
+    icon: https://s.giantswarm.io/app-icons/1/png/default-app-light.png
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/falco-app
+    name: falco-app
+    sources:
+    - https://github.com/giantswarm/falco-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/falco-app-0.1.0-046cb3cfffb6277e6f60aa9ff3e55dfbe92506f8.tgz
+    version: 0.1.0-046cb3cfffb6277e6f60aa9ff3e55dfbe92506f8
   fluent-logshipping-app:
   - apiVersion: v1
     appVersion: 0.6.4
@@ -5042,4 +5072,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/strimzi-kafka-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-08-25T11:36:46.054660364Z"
+generated: "2021-08-25T20:43:07.891772568Z"
