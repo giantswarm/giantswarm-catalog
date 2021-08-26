@@ -3029,6 +3029,21 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-incubator-catalog/kong-app-0.7.1.tgz
     version: 0.7.1
+  kyverno:
+  - annotations:
+      application.giantswarm.io/team: ludacris
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: v1.4.1
+    created: "2021-08-26T13:20:42.587689128Z"
+    description: A Helm chart for kyverno
+    digest: 3b44c852e4224cd998551079b89a9cf18257ce7345bbf5dbd5a06f199f3be541
+    home: https://github.com/giantswarm/kyverno-app
+    icon: https://github.com/kyverno/kyverno/raw/main/img/logo.png
+    name: kyverno
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/kyverno-0.4.0.tgz
+    version: 0.4.0
   linkerd2-app:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/linkerd2-app-0.6.0.tgz-meta/main.yaml
@@ -5088,4 +5103,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/strimzi-kafka-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-08-26T12:51:04.211437463Z"
+generated: "2021-08-26T13:20:42.585736301Z"
