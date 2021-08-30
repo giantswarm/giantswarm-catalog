@@ -1888,6 +1888,23 @@ entries:
     - https://giantswarm.github.io/giantswarm-catalog/flux-app-0.3.0-ff7a16aeda6d977730d6e5f4e73962bf5d6503bd.tgz
     version: 0.3.0-ff7a16aeda6d977730d6e5f4e73962bf5d6503bd
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/flux-app-0.3.0-fbe3a27628efa3e0b7d12cefb49620ab371d888d.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/flux-app-0.3.0-fbe3a27628efa3e0b7d12cefb49620ab371d888d.tgz-meta/README.md
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/flux-app-0.3.0-fbe3a27628efa3e0b7d12cefb49620ab371d888d.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 0.15.0
+    created: "2021-08-30T08:47:52.628224358Z"
+    description: A Helm chart for flux
+    digest: 6c78759e1c9784e91a7699a61130b500216d88c71018d9c3791f4cc0d27df4ca
+    home: https://github.com/giantswarm/flux-app
+    icon: https://s.giantswarm.io/app-icons/1/png/flux-app-light.png
+    name: flux-app
+    sources:
+    - https://github.com/fluxcd/flux2
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/flux-app-0.3.0-fbe3a27628efa3e0b7d12cefb49620ab371d888d.tgz
+    version: 0.3.0-fbe3a27628efa3e0b7d12cefb49620ab371d888d
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/flux-app-0.3.0-d9ec9aa4bd57275c05e4e91c853d3802ec5fda84.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/flux-app-0.3.0-d9ec9aa4bd57275c05e4e91c853d3802ec5fda84.tgz-meta/README.md
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/flux-app-0.3.0-d9ec9aa4bd57275c05e4e91c853d3802ec5fda84.tgz-meta/values.schema.json
@@ -5180,4 +5197,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/strimzi-kafka-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-08-30T07:57:11.418905062Z"
+generated: "2021-08-30T08:47:52.612443011Z"
