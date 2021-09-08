@@ -5162,6 +5162,31 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/rook-operator-1.0.0.tgz
     version: 1.0.0
+  starboard-app:
+  - annotations:
+      application.giantswarm.io/team: ludacris
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2021-09-08T21:45:05.257240433Z"
+    dependencies:
+    - alias: starboard-app
+      name: starboard-operator
+      repository: https://aquasecurity.github.io/helm-charts/
+      version: 0.6.0
+    description: A Helm chart for starboard
+    digest: b81edc72ab556b43db67b84c1f0b029a6d9ffb9bb257d2b316694020b43c002b
+    home: https://github.com/giantswarm/starboard-app
+    icon: https://s.giantswarm.io/app-icons/1/png/default-app-light.png
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/starboard-app
+    name: starboard-app
+    sources:
+    - https://github.com/giantswarm/starboard-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/starboard-app-0.1.1.tgz
+    version: 0.1.1
   strimzi-kafka-operator-app:
   - apiVersion: v1
     appVersion: 0.21.1
@@ -5231,4 +5256,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/strimzi-kafka-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-09-07T16:47:35.45540454Z"
+generated: "2021-09-08T21:45:05.254569306Z"
