@@ -2894,6 +2894,24 @@ entries:
   - annotations:
       application.giantswarm.io/team: ludacris
       config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: v1.4.1
+    created: "2021-09-16T17:26:30.656704995Z"
+    dependencies:
+    - name: policy-reporter
+      repository: ""
+      version: 1.9.3
+    description: A Helm chart for kyverno
+    digest: eccdf9540941ef74e705eb000f66bbb21d9e47d7ccd207fad2a016c4ceb8c16f
+    home: https://github.com/giantswarm/kyverno-app
+    icon: https://github.com/kyverno/kyverno/raw/main/img/logo.png
+    name: kyverno
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/kyverno-0.6.0.tgz
+    version: 0.6.0
+  - annotations:
+      application.giantswarm.io/team: ludacris
+      config.giantswarm.io/version: 1.x.x
     apiVersion: v1
     appVersion: v1.4.1
     created: "2021-09-09T22:40:53.489077718Z"
@@ -5050,4 +5068,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/strimzi-kafka-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-09-16T08:47:52.817082485Z"
+generated: "2021-09-16T17:26:30.650537359Z"
