@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/oauth2-proxy-2.2.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/oauth2-proxy-2.2.1.tgz-meta/README.md
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v1
+chartFile: oauth2-proxy-2.2.1.tgz
+dateCreated: '2021-10-04T08:52:52.171903'
+digest: 251fd3c9a0cee94e16565db12a1c72dd92e5bc3d9b5643da3ac9746ab2846f82
+home: https://github.com/giantswarm/oauth2-proxy-app
