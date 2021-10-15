@@ -4065,6 +4065,21 @@ entries:
     version: 0.12.0
   oauth2-proxy:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/oauth2-proxy-2.2.2.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/oauth2-proxy-2.2.2.tgz-meta/README.md
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 7.1.3
+    created: "2021-10-15T15:36:43.369401186Z"
+    description: Helm chart for oauth2-proxy
+    digest: 53e9671dcf7914d532a1cc73c2895c94a7182256130f494322764ac25e0ca830
+    home: https://github.com/giantswarm/oauth2-proxy-app
+    icon: https://s.giantswarm.io/app-icons/oauth2-proxy/1/light.svg
+    name: oauth2-proxy
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/oauth2-proxy-2.2.2.tgz
+    version: 2.2.2
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/oauth2-proxy-2.2.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/oauth2-proxy-2.2.1.tgz-meta/README.md
       config.giantswarm.io/version: 1.x.x
@@ -5391,4 +5406,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/strimzi-kafka-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-10-15T12:30:25.301741275Z"
+generated: "2021-10-15T15:36:43.367690141Z"
