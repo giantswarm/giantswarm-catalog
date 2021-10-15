@@ -667,25 +667,25 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/efk-stack-app-0.5.4.tgz-meta/values.schema.json
     apiVersion: v2
     appVersion: 0.5.4
-    created: "2021-06-25T11:14:39.899275098Z"
+    created: "2021-10-15T21:23:10.076929846Z"
     dependencies:
     - name: elasticsearch-curator
-      repository: file://.
+      repository: file://charts/elasticsearch-curator
       version: 2.0.3
     - name: fluentd-elasticsearch
-      repository: file://.
+      repository: file://charts/fluentd-elasticsearch
       version: 6.1.1
     - name: opendistro-certs
-      repository: file://.
+      repository: file://charts/opendistro-certs
       version: 0.1.0
     - name: opendistro-es
-      repository: file://.
+      repository: file://charts/opendistro-es
       version: 1.13.2
     - name: elasticsearch-exporter
-      repository: file://.
+      repository: file://charts/elasticsearch-exporter
       version: 3.0.0
     description: Open Distro for Elasticsearch
-    digest: 181ffd811f1d6cc2092989b65137792a7623e80b69a9a513046dbcc302eeb1d8
+    digest: b5e730089accc415a9b935dd65a65eeccd66cec8c9710886ff1b80ae9e88952d
     home: https://github.com/giantswarm/efk-stack-app
     icon: https://s.giantswarm.io/app-icons/1/png/efk-stack-app-light.png
     maintainers:
@@ -5406,4 +5406,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/strimzi-kafka-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-10-15T15:36:43.367690141Z"
+generated: "2021-10-15T21:23:10.067217985Z"
