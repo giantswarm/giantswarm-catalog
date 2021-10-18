@@ -5195,6 +5195,31 @@ entries:
     version: 0.1.0-alpha
   rook-operator:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/rook-operator-2.0.2.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/rook-operator-2.0.2.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/rook-operator-2.0.2.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 1.7.0
+    created: "2021-10-18T08:58:59.419936239Z"
+    dependencies:
+    - name: monitoring
+      repository: ""
+      version: 0.2.0
+    - name: rook-ceph-cluster
+      repository: ""
+      version: 0.0.1
+    description: File, Block, and Object Storage Services for your Cloud-Native Environment
+    digest: 77f151bbc365d57868c358a7da523274fd670f3549af6fcbcbdc7f7cadab1cba
+    icon: https://s.giantswarm.io/app-icons/2/svg/rook-dark.svg
+    name: rook-operator
+    sources:
+    - https://github.com/rook/rook
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/rook-operator-2.0.2.tgz
+    version: 2.0.2
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/rook-operator-2.0.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/rook-operator-2.0.1.tgz-meta/README.md
       application.giantswarm.io/team: rocket
@@ -5406,4 +5431,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/strimzi-kafka-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-10-15T21:23:10.067217985Z"
+generated: "2021-10-18T08:58:59.411818444Z"
