@@ -576,6 +576,23 @@ entries:
     version: 1.0.1
   cloudflared:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/cloudflared-0.2.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/cloudflared-0.2.1.tgz-meta/README.md
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/cloudflared-0.2.1.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 2021.6.0
+    created: "2021-10-18T20:14:06.425053011Z"
+    description: Create Argo Tunnels and configure ingress routes
+    digest: c73e9e093bbaac9f63c236801f92d8fdf2120cc5936b2bd7b40055db43b94015
+    home: https://github.com/giantswarm/cloudflared-app
+    icon: https://s.giantswarm.io/app-icons/cloudflare/1/light.svg
+    name: cloudflared
+    sources:
+    - https://github.com/giantswarm/cloudflared-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/cloudflared-0.2.1.tgz
+    version: 0.2.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/cloudflared-0.2.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/cloudflared-0.2.0.tgz-meta/README.md
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/cloudflared-0.2.0.tgz-meta/values.schema.json
@@ -5427,4 +5444,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/strimzi-kafka-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-10-18T17:20:36.262091279Z"
+generated: "2021-10-18T20:14:06.423877136Z"
