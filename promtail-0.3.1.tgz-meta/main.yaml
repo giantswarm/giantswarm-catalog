@@ -1,0 +1,14 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/promtail-0.3.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/promtail-0.3.1.tgz-meta/README.md
+  application.giantswarm.io/team: halo
+chartApiVersion: v2
+chartFile: promtail-0.3.1.tgz
+dateCreated: '2021-10-20T13:12:43.820724'
+digest: ad85e7e260b4a39783b109e7d308883b5c63ed4d29a65c7e986e4b4b81802394
+home: https://github.com/giantswarm/promtail-app
+icon: https://s.giantswarm.io/app-icons/grafana-loki/1/light.png
+restrictions:
+  namespaceSingleton: true
+upstreamChartURL: https://github.com/grafana/helm-charts
+upstreamChartVersion: 3.6.0
