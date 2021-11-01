@@ -5766,4 +5766,28 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/strimzi-kafka-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-10-27T15:45:53.045036869Z"
+  trivy-app:
+  - annotations:
+      application.giantswarm.io/team: ludacris
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2021-11-01T17:16:54.957786333Z"
+    dependencies:
+    - name: trivy
+      repository: ""
+      version: 0.4.4
+    description: A Helm chart for trivy
+    digest: c65ddb7d62bcb93d2706bbda4790d0ab7b90db22532c80b34b3447b054e83df8
+    home: https://github.com/giantswarm/trivy-app
+    icon: https://s.giantswarm.io/app-icons/1/png/default-app-light.png
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/trivy-app
+    name: trivy-app
+    sources:
+    - https://github.com/giantswarm/trivy-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/trivy-app-0.0.1.tgz
+    version: 0.0.1
+generated: "2021-11-01T17:16:54.956062173Z"
