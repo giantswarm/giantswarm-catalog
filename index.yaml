@@ -5630,6 +5630,30 @@ entries:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v2
     appVersion: 0.0.1
+    created: "2021-11-02T00:48:50.419472523Z"
+    dependencies:
+    - alias: starboard-app
+      name: starboard-operator
+      repository: ""
+      version: 0.6.0
+    description: A Helm chart for aqua starboard
+    digest: d9671adfce1d11e4b6aa4532d5f0f6186f5e025b8cc7c6226f92ca4fb29707ef
+    home: https://github.com/giantswarm/starboard-app
+    icon: https://s.giantswarm.io/app-icons/starboard/1/dark.png
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/starboard-app
+    name: starboard-app
+    sources:
+    - https://github.com/giantswarm/starboard-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/starboard-app-0.3.0.tgz
+    version: 0.3.0
+  - annotations:
+      application.giantswarm.io/team: ludacris
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 0.0.1
     created: "2021-10-18T17:20:36.26399181Z"
     dependencies:
     - alias: starboard-app
@@ -5790,4 +5814,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-app-0.0.1.tgz
     version: 0.0.1
-generated: "2021-11-01T17:16:54.956062173Z"
+generated: "2021-11-02T00:48:50.417417852Z"
