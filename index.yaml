@@ -2644,36 +2644,6 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/grafana-0.2.0.tgz
     version: 0.2.0
-  grafana-app:
-  - annotations:
-      application.giantswarm.io/readme: https://github.com/giantswarm/grafana-app/raw/master/README.md
-      application.giantswarm.io/values-schema: https://github.com/giantswarm/grafana-app/raw/master/helm/grafana-app/values.schema.json
-    apiVersion: v1
-    appVersion: 7.3.1
-    created: "2020-11-25T10:23:10.083601333Z"
-    description: The leading tool for querying and visualizing time series and metrics.
-    digest: ab78a5090c2dd2f6c252e6a45484405528fb321094bcb28a30f70da02dc5a732
-    home: https://github.com/giantswarm/grafana-app
-    icon: https://raw.githubusercontent.com/grafana/grafana/master/public/img/grafana_icon.svg
-    kubeVersion: ^1.8.0-0
-    maintainers:
-    - email: zanhsieh@gmail.com
-      name: zanhsieh
-    - email: rluckie@cisco.com
-      name: rtluckie
-    - email: maor.friedman@redhat.com
-      name: maorfr
-    - email: miroslav.hadzhiev@gmail.com
-      name: Xtigyro
-    - name: Giant Swarm applications team
-      url: https://github.com/giantswarm/loki-stack-app
-    name: grafana-app
-    sources:
-    - https://github.com/giantswarm/grafana-app
-    - https://github.com/grafana/grafana
-    urls:
-    - https://giantswarm.github.io/giantswarm-catalog/grafana-app-0.1.0-alpha1.tgz
-    version: 0.1.0-alpha1
   hello-world-app:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/hello-world-app-0.1.0.tgz-meta/main.yaml
