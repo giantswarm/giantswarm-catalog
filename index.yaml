@@ -6034,6 +6034,29 @@ entries:
     version: 0.1.0
   trivy-app:
   - annotations:
+      application.giantswarm.io/team: honeybadger
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2021-11-12T13:41:16.170669961Z"
+    dependencies:
+    - name: trivy
+      repository: ""
+      version: 0.4.4
+    description: A Helm chart for trivy
+    digest: 57da1f98c2923bcef39af66d0b0ed05ee8dba18d91da502a3c95be056582efc4
+    home: https://github.com/giantswarm/trivy-app
+    icon: https://s.giantswarm.io/app-icons/trivy/1/light.svg
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/trivy-app
+    name: trivy-app
+    sources:
+    - https://github.com/giantswarm/trivy-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/trivy-app-0.0.2.tgz
+    version: 0.0.2
+  - annotations:
       application.giantswarm.io/team: ludacris
       config.giantswarm.io/version: 1.x.x
     apiVersion: v2
@@ -6056,4 +6079,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-app-0.0.1.tgz
     version: 0.0.1
-generated: "2021-11-10T10:11:45.452845417Z"
+generated: "2021-11-12T13:41:16.169565815Z"
