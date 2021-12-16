@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/efk-stack-app-0.7.2.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/efk-stack-app-0.7.2.tgz-meta/README.md
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/efk-stack-app-0.7.2.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: efk-stack-app-0.7.2.tgz
+dateCreated: '2021-12-16T16:24:04.755111'
+digest: b3dd84ec742831b7edb9f8d4980de1094353469a821772c50820d8159d0d64b1
+home: https://github.com/giantswarm/efk-stack-app
+icon: https://s.giantswarm.io/app-icons/1/png/efk-stack-app-light.png
