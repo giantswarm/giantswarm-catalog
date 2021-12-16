@@ -813,42 +813,6 @@ entries:
     version: 0.0.3
   efk-stack-app:
   - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/efk-stack-app-0.7.3.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/efk-stack-app-0.7.3.tgz-meta/README.md
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/efk-stack-app-0.7.3.tgz-meta/values.schema.json
-    apiVersion: v2
-    appVersion: 0.7.1
-    created: "2021-12-16T11:43:33.864142737Z"
-    dependencies:
-    - name: elasticsearch-curator
-      repository: file://charts/elasticsearch-curator
-      version: 2.0.3
-    - name: fluentd-elasticsearch
-      repository: file://charts/fluentd-elasticsearch
-      version: 6.1.1
-    - name: opendistro-certs
-      repository: file://charts/opendistro-certs
-      version: 0.1.0
-    - name: opendistro-es
-      repository: file://charts/opendistro-es
-      version: 1.13.3
-    - name: elasticsearch-exporter
-      repository: file://charts/elasticsearch-exporter
-      version: 3.0.0
-    description: Open Distro for Elasticsearch
-    digest: 366d177b133ce70550120a6f61b1b87020a8a09657fb77257bcbc01fb572ccdf
-    home: https://github.com/giantswarm/efk-stack-app
-    icon: https://s.giantswarm.io/app-icons/1/png/efk-stack-app-light.png
-    maintainers:
-    - name: Giant Swarm applications team
-      url: https://github.com/giantswarm/efk-stack-app
-    name: efk-stack-app
-    sources:
-    - https://github.com/giantswarm/efk-stack-app
-    urls:
-    - https://giantswarm.github.io/giantswarm-catalog/efk-stack-app-0.7.3.tgz
-    version: 0.7.3
-  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/efk-stack-app-0.7.2.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/efk-stack-app-0.7.2.tgz-meta/README.md
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/efk-stack-app-0.7.2.tgz-meta/values.schema.json
