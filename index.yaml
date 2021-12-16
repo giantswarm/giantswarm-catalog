@@ -776,7 +776,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/efk-stack-app-0.7.1.tgz-meta/values.schema.json
     apiVersion: v2
     appVersion: 0.7.1
-    created: "2021-12-15T12:48:38.197456044Z"
+    created: "2021-12-16T10:46:37.091002602Z"
     dependencies:
     - name: elasticsearch-curator
       repository: file://charts/elasticsearch-curator
@@ -794,7 +794,7 @@ entries:
       repository: file://charts/elasticsearch-exporter
       version: 3.0.0
     description: Open Distro for Elasticsearch
-    digest: 9af6a0a8dbd45e68ae855ab203e7663d879d0439a1e6ca9c77d3d8550a3a3e9c
+    digest: 25f929afd5e716c1cde514bf9c420ed2015cb09fcd87a490c54bfda1ff0a01b3
     home: https://github.com/giantswarm/efk-stack-app
     icon: https://s.giantswarm.io/app-icons/1/png/efk-stack-app-light.png
     maintainers:
@@ -6837,4 +6837,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-app-0.0.1.tgz
     version: 0.0.1
-generated: "2021-12-16T08:45:55.349411415Z"
+generated: "2021-12-16T10:46:37.084603553Z"
