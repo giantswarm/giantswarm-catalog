@@ -6794,6 +6794,19 @@ entries:
       application.giantswarm.io/team: security
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 0.2.0
+    created: "2022-01-05T19:30:23.218149852Z"
+    description: A Helm chart for starboard-exporter
+    digest: 7dd772d46e0133658f58e081d5e28b1dc748c83431ac8486cb6b1561d1a724d5
+    home: https://github.com/giantswarm/starboard-exporter
+    name: starboard-exporter
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/starboard-exporter-0.2.0.tgz
+    version: 0.2.0
+  - annotations:
+      application.giantswarm.io/team: security
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 0.1.4
     created: "2021-12-14T14:29:39.602964623Z"
     description: A Helm chart for starboard-exporter
@@ -7007,4 +7020,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-app-0.0.1.tgz
     version: 0.0.1
-generated: "2021-12-20T15:58:41.733554672Z"
+generated: "2022-01-05T19:30:23.217439701Z"
