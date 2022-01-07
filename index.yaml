@@ -6088,6 +6088,39 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/prometheus-operator-app-0.3.0.tgz
     version: 0.3.0
+  prometheus-operator-crd:
+  - annotations:
+      application.giantswarm.io/team: atlas
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: Upstream Project
+          url: https://github.com/prometheus-operator/kube-prometheus
+      artifacthub.io/operator: "true"
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 0.52.1
+    created: "2022-01-07T11:33:42.232105017Z"
+    description: Prometheus Operator CRD
+    digest: 8cabd3f8aba0505c522f782152b0909d70a7edf162a0d75bf1ad643bfd726fd4
+    home: https://github.com/giantswarm/prometheus-operator-app
+    icon: https://s.giantswarm.io/app-icons/prometheus-operator/2/light.svg
+    keywords:
+    - operator
+    - prometheus
+    - kube-prometheus
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: theo@giantswarm.io
+      name: TheoBrigitte
+    name: prometheus-operator-crd
+    sources:
+    - https://github.com/prometheus-community/helm-charts
+    - https://github.com/prometheus-operator/kube-prometheus
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/prometheus-operator-crd-0.12.1-crd.tgz
+    version: 0.12.1-crd
   promtail:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/promtail-0.3.2.tgz-meta/main.yaml
@@ -7020,4 +7053,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-app-0.0.1.tgz
     version: 0.0.1
-generated: "2022-01-05T19:30:23.217439701Z"
+generated: "2022-01-07T11:33:42.224512564Z"
