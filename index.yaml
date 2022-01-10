@@ -5141,7 +5141,7 @@ entries:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v2
     appVersion: 0.52.1
-    created: "2021-12-17T14:08:57.214907128Z"
+    created: "2022-01-10T15:26:43.355278928Z"
     dependencies:
     - condition: kubeStateMetrics.enabled
       name: kube-state-metrics
@@ -5159,7 +5159,7 @@ entries:
       and Prometheus rules combined with documentation and scripts to provide easy
       to operate end-to-end Kubernetes cluster monitoring with Prometheus using the
       Prometheus Operator.
-    digest: 9eb6b102d38310ab5509dc0dfc2b9a1122514d47ba71a2b90059abe2e0332e87
+    digest: fa953740ac053cdd409f5187cb7b262d9fd7757d5bbe83e95ef314a2a6cb9898
     home: https://github.com/giantswarm/prometheus-operator-app
     icon: https://s.giantswarm.io/app-icons/prometheus-operator/2/light.svg
     keywords:
@@ -7311,4 +7311,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-app-0.0.1.tgz
     version: 0.0.1
-generated: "2022-01-07T14:07:03.415192207Z"
+generated: "2022-01-10T15:26:43.333326996Z"
