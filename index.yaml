@@ -843,6 +843,20 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/cloudflared-0.0.3.tgz
     version: 0.0.3
+  cluster-openstack:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/cluster-openstack-0.3.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/cluster-openstack-0.3.0.tgz-meta/README.md
+    apiVersion: v2
+    created: "2022-01-26T15:40:06.134696633Z"
+    description: A helm chart for creating Cluster API clusters with the OpenStack
+      infrastructure provider (CAPO).
+    digest: 23d75529fe050169fb76e29473d2b3c439dbd2c5d40fd86d6651fde2d1a0d683
+    name: cluster-openstack
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/cluster-openstack-0.3.0.tgz
+    version: 0.3.0
   default-apps-openstack:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/default-apps-openstack-0.1.0.tgz-meta/main.yaml
@@ -7684,4 +7698,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-app-0.0.1.tgz
     version: 0.0.1
-generated: "2022-01-25T21:54:32.30917066Z"
+generated: "2022-01-26T15:40:06.134058463Z"
