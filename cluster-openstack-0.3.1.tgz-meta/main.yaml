@@ -1,0 +1,7 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/cluster-openstack-0.3.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/cluster-openstack-0.3.1.tgz-meta/README.md
+chartApiVersion: v2
+chartFile: cluster-openstack-0.3.1.tgz
+dateCreated: '2022-02-07T15:31:15.788086'
+digest: 3ef8d00b3b5ca9ce7dfa93bd09c15cc0a89a322c2b1a1e95a3bdb33acf06964f
