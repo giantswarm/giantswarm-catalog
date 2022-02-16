@@ -3271,6 +3271,35 @@ entries:
     version: 0.1.0
   kong-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/kong-app-2.7.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/kong-app-2.7.1.tgz-meta/README.md
+      application.giantswarm.io/team: team-cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/kong-app-2.7.1.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: "2.7"
+    created: "2022-02-16T15:42:16.409151213Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 8.6.8
+    description: The Cloud-Native Ingress and API-management
+    digest: 80a218d507e6c6f11c2cd5fab81117c940dd302baab2b6a86d61aebd428673c0
+    home: https://github.com/giantswarm/kong-app
+    icon: https://s.giantswarm.io/app-icons/kong/1/light.svg
+    kubeVersion: '>=1.20.0-0'
+    maintainers:
+    - email: harry@konghq.com
+      name: hbagdi
+    - email: traines@konghq.com
+      name: rainest
+    name: kong-app
+    sources:
+    - https://konghq.com/
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/kong-app-2.7.1.tgz
+    version: 2.7.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/kong-app-2.7.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/kong-app-2.7.0.tgz-meta/README.md
       application.giantswarm.io/team: team-cabbage
@@ -7975,4 +8004,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-app-0.0.1.tgz
     version: 0.0.1
-generated: "2022-02-16T13:15:11.437504428Z"
+generated: "2022-02-16T15:42:16.401708388Z"
