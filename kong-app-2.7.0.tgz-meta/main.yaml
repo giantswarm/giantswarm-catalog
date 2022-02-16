@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/kong-app-2.7.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/kong-app-2.7.0.tgz-meta/README.md
+  application.giantswarm.io/team: team-cabbage
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/kong-app-2.7.0.tgz-meta/values.schema.json
+chartApiVersion: v1
+chartFile: kong-app-2.7.0.tgz
+dateCreated: '2022-02-16T13:15:05.154524'
+digest: c4d6879446a2c1c3bf2e7cbc5cfd50d0d8d36e276d04cf745dbe280a5e705ce8
+home: https://github.com/giantswarm/kong-app
+icon: https://s.giantswarm.io/app-icons/kong/1/light.svg
