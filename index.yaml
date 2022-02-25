@@ -843,6 +843,20 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/cloudflared-0.0.3.tgz
     version: 0.0.3
+  cluster-aws:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/cluster-aws-0.1.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/cluster-aws-0.1.0.tgz-meta/README.md
+    apiVersion: v2
+    created: "2022-02-25T13:11:59.134338717Z"
+    description: A helm chart for creating Cluster API clusters with the AWS infrastructure
+      provider (CAPA).
+    digest: 6326b740227e8fdbfcd1c06e50388d159b56a7eb795a32dac4996b9be111ed02
+    name: cluster-aws
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/cluster-aws-0.1.0.tgz
+    version: 0.1.0
   cluster-openstack:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/cluster-openstack-0.5.0.tgz-meta/main.yaml
@@ -8171,4 +8185,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-app-0.0.1.tgz
     version: 0.0.1
-generated: "2022-02-25T10:30:34.957112737Z"
+generated: "2022-02-25T13:11:59.133628031Z"
