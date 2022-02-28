@@ -885,6 +885,21 @@ entries:
     version: 0.1.0
   cluster-openstack:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/cluster-openstack-0.6.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/cluster-openstack-0.6.0.tgz-meta/README.md
+      application.giantswarm.io/team: honeybadger
+    apiVersion: v2
+    created: "2022-02-28T12:54:36.649017442Z"
+    description: A helm chart for creating Cluster API clusters with the OpenStack
+      infrastructure provider (CAPO).
+    digest: 97159c98c04fcd89900dfc2a8fb6f1250cec60336a9e4f93dd771054d9575e70
+    home: https://github.com/giantswarm/cluster-openstack
+    name: cluster-openstack
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/cluster-openstack-0.6.0.tgz
+    version: 0.6.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/cluster-openstack-0.5.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/cluster-openstack-0.5.0.tgz-meta/README.md
       application.giantswarm.io/team: honeybadger
@@ -8211,4 +8226,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-app-0.0.1.tgz
     version: 0.0.1
-generated: "2022-02-25T14:23:30.408288835Z"
+generated: "2022-02-28T12:54:36.648255485Z"
