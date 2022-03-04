@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/cluster-openstack-0.7.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/cluster-openstack-0.7.0.tgz-meta/README.md
+  application.giantswarm.io/team: honeybadger
+chartApiVersion: v2
+chartFile: cluster-openstack-0.7.0.tgz
+dateCreated: '2022-03-04T14:38:59.821238'
+digest: 8223b0a4c8b1fe018bded9b4f202e4db919686c4ef323748f6285756a92eb58b
+home: https://github.com/giantswarm/cluster-openstack
+restrictions:
+  compatibleProviders:
+  - openstack
