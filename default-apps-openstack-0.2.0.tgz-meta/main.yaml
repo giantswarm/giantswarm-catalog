@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/default-apps-openstack-0.2.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/default-apps-openstack-0.2.0.tgz-meta/README.md
+  application.giantswarm.io/team: honeybadger
+chartApiVersion: v2
+chartFile: default-apps-openstack-0.2.0.tgz
+dateCreated: '2022-03-08T14:59:03.120002'
+digest: 915448f1b8e470c87eed88c6f8fb0e6cbf7a9c7bd5b2f87d937f6709579dda30
+home: https://github.com/giantswarm/default-apps-openstack
+restrictions:
+  compatibleProviders:
+  - openstack

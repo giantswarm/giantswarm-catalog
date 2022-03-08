@@ -1075,6 +1075,20 @@ entries:
     version: 0.1.0
   default-apps-openstack:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/default-apps-openstack-0.2.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/default-apps-openstack-0.2.0.tgz-meta/README.md
+      application.giantswarm.io/team: honeybadger
+    apiVersion: v2
+    created: "2022-03-08T14:59:06.463641179Z"
+    description: A Helm chart defining the preinstalled apps running in all Giant
+      Swarm OpenStack clusters.
+    digest: 915448f1b8e470c87eed88c6f8fb0e6cbf7a9c7bd5b2f87d937f6709579dda30
+    home: https://github.com/giantswarm/default-apps-openstack
+    name: default-apps-openstack
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/default-apps-openstack-0.2.0.tgz
+    version: 0.2.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/default-apps-openstack-0.1.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/default-apps-openstack-0.1.1.tgz-meta/README.md
       application.giantswarm.io/team: honeybadger
@@ -8479,4 +8493,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-app-0.0.1.tgz
     version: 0.0.1
-generated: "2022-03-08T12:23:19.282799786Z"
+generated: "2022-03-08T14:59:06.462801126Z"
