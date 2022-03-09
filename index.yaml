@@ -1061,6 +1061,19 @@ entries:
     version: 0.3.0
   default-apps-aws:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/default-apps-aws-0.1.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/default-apps-aws-0.1.1.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+    apiVersion: v2
+    created: "2022-03-09T10:12:38.223812317Z"
+    description: A Helm chart for default-apps-aws
+    digest: 12a1c83198306eca8d81bcea1a0080e038cd06f799602a0af63864fe28653b1a
+    home: https://github.com/giantswarm/default-apps-aws
+    name: default-apps-aws
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/default-apps-aws-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/default-apps-aws-0.1.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/default-apps-aws-0.1.0.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -8493,4 +8506,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-app-0.0.1.tgz
     version: 0.0.1
-generated: "2022-03-08T14:59:06.462801126Z"
+generated: "2022-03-09T10:12:38.223054979Z"
