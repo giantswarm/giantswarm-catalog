@@ -1,7 +1,0 @@
-annotations:
-  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/cluster-aws-0.1.0.tgz-meta/main.yaml
-  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/cluster-aws-0.1.0.tgz-meta/README.md
-chartApiVersion: v2
-chartFile: cluster-aws-0.1.0.tgz
-dateCreated: '2022-02-25T13:11:54.986629'
-digest: 6326b740227e8fdbfcd1c06e50388d159b56a7eb795a32dac4996b9be111ed02
