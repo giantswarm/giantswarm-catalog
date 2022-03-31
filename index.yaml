@@ -3667,6 +3667,39 @@ entries:
     version: 0.1.0-300aeb24e87961b76f94f5c073bdf7f6d094ee74
   grafana:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/grafana-0.3.2.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/grafana-0.3.2.tgz-meta/README.md
+      application.giantswarm.io/team: team-atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/grafana-0.3.2.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 7.3.5
+    created: "2022-03-31T12:53:44.897070777Z"
+    description: The leading tool for querying and visualizing time series and metrics.
+    digest: 9682ca0a87ade7e57e22fc734ae3010fcb73a11d829f871efc1dcaa43ad70eac
+    home: https://github.com/giantswarm/grafana-app
+    icon: https://s.giantswarm.io/app-icons/grafana/1/light.svg
+    kubeVersion: ^1.8.0-0
+    maintainers:
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: rluckie@cisco.com
+      name: rtluckie
+    - email: maor.friedman@redhat.com
+      name: maorfr
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: mail@torstenwalter.de
+      name: torstenwalter
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/grafana-app
+    name: grafana
+    sources:
+    - https://github.com/giantswarm/grafana-app
+    - https://github.com/grafana/grafana
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/grafana-0.3.2.tgz
+    version: 0.3.2
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/grafana-0.3.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/grafana-0.3.1.tgz-meta/README.md
       application.giantswarm.io/team: team-atlas
@@ -9131,4 +9164,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-app-0.0.1.tgz
     version: 0.0.1
-generated: "2022-03-31T11:13:10.087759924Z"
+generated: "2022-03-31T12:53:44.894664467Z"
