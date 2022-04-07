@@ -5608,6 +5608,22 @@ entries:
   - annotations:
       application.giantswarm.io/team: team-cabbage
     apiVersion: v1
+    appVersion: v0.51.0
+    created: "2022-04-07T09:20:00.535680512Z"
+    description: The most popular ingress controller for Kubernetes, based on NGINX
+    digest: 96b84931e94026b535ed9d3eabe4a12abef4a6a87d37fb0fa00b7761aa1d7c14
+    home: https://github.com/giantswarm/nginx-ingress-controller-app
+    icon: https://s.giantswarm.io/app-icons/1/png/nginx-ingress-controller-app-light.png
+    kubeVersion: '>=1.16.0-0'
+    name: nginx-ingress-controller-app
+    sources:
+    - https://github.com/kubernetes/ingress-nginx/
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/nginx-ingress-controller-app-2.1.4.tgz
+    version: 2.1.4
+  - annotations:
+      application.giantswarm.io/team: team-cabbage
+    apiVersion: v1
     appVersion: v0.50.0
     created: "2021-12-20T15:58:41.735150386Z"
     description: The most popular ingress controller for Kubernetes, based on NGINX
@@ -9188,4 +9204,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-app-0.0.1.tgz
     version: 0.0.1
-generated: "2022-04-06T11:34:12.001918662Z"
+generated: "2022-04-07T09:20:00.533267476Z"
