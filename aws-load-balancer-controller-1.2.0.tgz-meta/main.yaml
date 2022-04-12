@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-1.2.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-1.2.0.tgz-meta/README.md
+  application.giantswarm.io/team: cabbage
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-1.2.0.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: aws-load-balancer-controller-1.2.0.tgz
+dateCreated: '2022-04-12T14:09:10.382388'
+digest: 9fca69b19cd9101a597de1890504e15e062b7432e8c69312071d6bafe8ad14b0
+home: https://github.com/giantswarm/aws-load-balancer-controller-app
+icon: https://raw.githubusercontent.com/aws/eks-charts/master/docs/logo/aws.png
