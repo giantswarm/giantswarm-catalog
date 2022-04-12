@@ -2397,6 +2397,21 @@ entries:
     - https://giantswarm.github.io/giantswarm-catalog/falco-app-0.1.0-046cb3cfffb6277e6f60aa9ff3e55dfbe92506f8.tgz
     version: 0.1.0-046cb3cfffb6277e6f60aa9ff3e55dfbe92506f8
   fluent-logshipping-app:
+  - annotations:
+      application.giantswarm.io/team: team-atlas
+    apiVersion: v1
+    appVersion: 0.6.7
+    created: "2022-04-11T13:31:01.722582323Z"
+    description: The Log Shipping App forwards cluster logs to storage backends
+    digest: b6fea18af14e530ca530ec7c0bccb44ca0c1a4794c0d2937b4be1a6678756c23
+    home: https://github.com/giantswarm/fluent-logshipping-app
+    icon: https://s.giantswarm.io/app-icons/1/png/fluent-logshipping-app-light.png
+    name: fluent-logshipping-app
+    sources:
+    - https://github.com/giantswarm/fluent-logshipping-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/fluent-logshipping-app-0.6.7.tgz
+    version: 0.6.7
   - apiVersion: v1
     appVersion: 0.6.4
     created: "2021-03-18T13:08:27.907360819Z"
