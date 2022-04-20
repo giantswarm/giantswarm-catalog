@@ -200,6 +200,22 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-1.0.0.tgz
     version: 1.0.0
+  aws-node-termination-handler-app:
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 1.15.0
+    created: "2022-04-20T13:15:26.59174604Z"
+    description: Deploy components for the aws-node-termination-handler app
+    digest: 0db0593d4008f6ce1611eff46567321513d57d7ff7ce0db27a1dd63dfd9194b5
+    home: https://github.com/giantswarm/aws-node-termination-handler-app
+    name: aws-node-termination-handler-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/aws-node-termination-handler-app/v0.3.1/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/aws-node-termination-handler-app-0.3.1.tgz
+    version: 0.3.1
   cert-manager-app:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/cert-manager-app-2.13.0.tgz-meta/main.yaml
@@ -9473,4 +9489,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-app-0.0.1.tgz
     version: 0.0.1
-generated: "2022-04-20T13:10:14.42387291Z"
+generated: "2022-04-20T13:15:26.589768744Z"
