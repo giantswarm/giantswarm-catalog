@@ -5452,6 +5452,37 @@ entries:
     version: 0.17.1
   linkerd2-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/linkerd2-app-0.7.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/linkerd2-app-0.7.0.tgz-meta/README.md
+      application.giantswarm.io/team: team-cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/linkerd2-app-0.7.0.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: stable-2.11.2
+    created: "2022-05-13T07:47:38.504082524Z"
+    dependencies:
+    - name: partials
+      repository: file://../partials
+      version: 0.1.0
+    description: 'Linkerd gives you observability, reliability, and security for your
+      microservices — with no code change required. '
+    digest: b97ab11c15ca77e21f01e2e03d1b7ee75dbbe6bd360840bad5bd981e17a74ed1
+    home: https://github.com/giantswarm/linkerd2-app
+    icon: https://s.giantswarm.io/app-icons/linkerd2/1/light.svg
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd2-app
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    - https://linkerd.io
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/linkerd2-app-0.7.0.tgz
+    version: 0.7.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/linkerd2-app-0.6.2.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/linkerd2-app-0.6.2.tgz-meta/README.md
       application.giantswarm.io/team: team-cabbage
@@ -10087,4 +10118,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-app-0.0.1.tgz
     version: 0.0.1
-generated: "2022-05-13T05:00:57.362571083Z"
+generated: "2022-05-13T07:47:38.50183419Z"
