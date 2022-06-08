@@ -1,5 +1,23 @@
 apiVersion: v1
 entries:
+  athena:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/athena-1.6.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/athena-1.6.0.tgz-meta/README.md
+      application.giantswarm.io/team: team-rainbow
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/athena-1.6.0.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 1.6.0
+    created: "2022-06-08T11:28:08.38660086Z"
+    description: A service that knows everything about your installation
+    digest: 534e70c7cd62aa75a2100dde76d213890815e2998ee30257bc4028af31f184c9
+    home: https://github.com/giantswarm/athena
+    icon: https://s.giantswarm.io/app-icons/athena/1/light.svg
+    name: athena
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/athena-1.6.0.tgz
+    version: 1.6.0
   aws-cloud-controller-manager-app:
   - annotations:
       config.giantswarm.io/version: 1.x.x
@@ -10289,4 +10307,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-app-0.0.1.tgz
     version: 0.0.1
-generated: "2022-06-02T11:49:08.107735286Z"
+generated: "2022-06-08T11:28:08.38577767Z"
