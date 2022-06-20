@@ -5974,6 +5974,32 @@ entries:
     version: 0.3.0
   loki:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/loki-0.3.2.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/loki-0.3.2.tgz-meta/README.md
+      application.giantswarm.io/team: team-atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/loki-0.3.2.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 2.2.1
+    created: "2022-06-20T13:52:20.395236354Z"
+    description: Log aggregation system inspired by Prometheus
+    digest: 2b62abdce0fd0edfb805b7d406129d8f627b037191c358c81f5993e57d883eac
+    home: https://github.com/giantswarm/loki-app
+    icon: https://s.giantswarm.io/app-icons/grafana-loki/2/dark.svg
+    maintainers:
+    - name: unguiculus
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/loki-app
+    name: loki
+    sources:
+    - https://github.com/grafana/loki
+    - https://grafana.com/oss/loki/
+    - https://grafana.com/docs/loki/latest/
+    - https://grafana.github.io/helm-charts/
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/loki-0.3.2.tgz
+    version: 0.3.2
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/loki-0.3.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/loki-0.3.1.tgz-meta/README.md
       application.giantswarm.io/team: halo
@@ -10496,4 +10522,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2022-06-20T10:33:28.411769056Z"
+generated: "2022-06-20T13:52:20.388468773Z"

@@ -1,0 +1,15 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/loki-0.3.2.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/loki-0.3.2.tgz-meta/README.md
+  application.giantswarm.io/team: team-atlas
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/loki-0.3.2.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: loki-0.3.2.tgz
+dateCreated: '2022-06-20T13:52:17.013858'
+digest: 2b62abdce0fd0edfb805b7d406129d8f627b037191c358c81f5993e57d883eac
+home: https://github.com/giantswarm/loki-app
+icon: https://s.giantswarm.io/app-icons/grafana-loki/2/dark.svg
+restrictions:
+  namespaceSingleton: true
+upstreamChartURL: https://github.com/grafana/helm-charts/
+upstreamChartVersion: loki-distributed-0.33.0
