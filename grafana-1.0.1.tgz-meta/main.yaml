@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/grafana-1.0.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/grafana-1.0.1.tgz-meta/README.md
+  application.giantswarm.io/team: atlas
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/grafana-1.0.1.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: grafana-1.0.1.tgz
+dateCreated: '2022-06-24T11:57:07.225884'
+digest: 62a361a13ab634a5f9211a9d1c4c6b9b873dd19ef0671a98c54954f954fc3432
+home: https://github.com/giantswarm/grafana-app
+icon: https://s.giantswarm.io/app-icons/grafana/1/light.svg
+upstreamChartURL: https://github.com/grafana/helm-charts
+upstreamChartVersion: 6.31.1
