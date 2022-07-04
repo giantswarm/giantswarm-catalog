@@ -1,0 +1,14 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/linkerd2-multicluster-target-app-0.7.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/linkerd2-multicluster-target-app-0.7.0.tgz-meta/README.md
+  application.giantswarm.io/team: team-cabbage
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/linkerd2-multicluster-target-app-0.7.0.tgz-meta/values.schema.json
+chartApiVersion: v1
+chartFile: linkerd2-multicluster-target-app-0.7.0.tgz
+dateCreated: '2022-07-04T08:27:02.797287'
+digest: 85826b3aacaa5f67f17863d7e80a9dfe390c10d9a075411c4a374abcff7a925b
+home: https://linkerd.io
+icon: https://linkerd.io/images/logo-only-200h.png
+restrictions:
+  clusterSingleton: true
+  fixedNamespace: linkerd-multicluster
