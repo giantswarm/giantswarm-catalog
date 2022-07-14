@@ -6280,6 +6280,28 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/linkerd2-multicluster-app-0.7.0.tgz
     version: 0.7.0
+  linkerd2-multicluster-link-app:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/linkerd2-multicluster-link-app-0.7.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/linkerd2-multicluster-link-app-0.7.0.tgz-meta/README.md
+      application.giantswarm.io/team: team-cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/linkerd2-multicluster-link-app-0.7.0.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: stable-2.11.2
+    created: "2022-07-14T12:41:13.015938487Z"
+    description: 'A helm chart containing the resources to enable mirroring of services
+      from a remote cluster.  Warning: The purpose of this chart is just to support
+      the `linkerd multicluster link` CLI command, which also produces the `cluster-credentials`
+      secret and the Link CR, which are not found in this chart. Therefore this chart
+      is not a replacement for that command, and shouldn''t be used as-is unless you
+      really know what you''re doing ;-) '
+    digest: edfdb24601add6e8fbf18a4c9376d8f24173dee13b7ee3761d94d4f867e5ce76
+    icon: https://linkerd.io/images/logo-only-200h.png
+    kubeVersion: '>=1.17.0-0'
+    name: linkerd2-multicluster-link-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/linkerd2-multicluster-link-app-0.7.0.tgz
+    version: 0.7.0
   loki:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/loki-0.4.3.tgz-meta/main.yaml
@@ -11097,4 +11119,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2022-07-14T10:48:57.730955724Z"
+generated: "2022-07-14T12:41:13.015161948Z"
