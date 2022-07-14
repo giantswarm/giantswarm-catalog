@@ -6249,6 +6249,37 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/linkerd2-cni-app-0.3.0.tgz
     version: 0.3.0
+  linkerd2-multicluster-app:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/linkerd2-multicluster-app-0.7.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/linkerd2-multicluster-app-0.7.0.tgz-meta/README.md
+      application.giantswarm.io/team: team-cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/linkerd2-multicluster-app-0.7.0.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: stable-2.11.2
+    created: "2022-07-14T10:48:57.732110503Z"
+    dependencies:
+    - name: partials
+      repository: file://../partials
+      version: 0.1.0
+    description: 'The Linkerd-Multicluster extension contains resources to support
+      multicluster linking to remote clusters '
+    digest: fb8f9a9408102bb2203f146fdbee55cbf3718ac3d138db2485083e8caa5e979c
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd2-multicluster-app
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/linkerd2-multicluster-app-0.7.0.tgz
+    version: 0.7.0
   linkerd2-multicluster-target-app:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/linkerd2-multicluster-target-app-0.7.0.tgz-meta/main.yaml
@@ -11127,4 +11158,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2022-07-13T17:57:44.444967073Z"
+generated: "2022-07-14T10:48:57.730955724Z"
