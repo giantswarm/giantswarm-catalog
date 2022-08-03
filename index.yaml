@@ -6872,6 +6872,26 @@ entries:
     version: 0.1.0-alpha
   nginx-ingress-controller-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/nginx-ingress-controller-app-2.15.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/nginx-ingress-controller-app-2.15.0.tgz-meta/README.md
+      application.giantswarm.io/team: team-cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/nginx-ingress-controller-app-2.15.0.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: v1.2.1
+    created: "2022-08-03T11:58:58.533776646Z"
+    description: The most popular ingress controller for Kubernetes, based on NGINX
+    digest: 84aa33826520448d18e35c19735139820153953acd8a90fff63c81cc1154b55b
+    home: https://github.com/giantswarm/nginx-ingress-controller-app
+    icon: https://s.giantswarm.io/app-icons/nginx-ingress-controller/1/light.svg
+    kubeVersion: '>=1.19.0-0'
+    name: nginx-ingress-controller-app
+    sources:
+    - https://github.com/kubernetes/ingress-nginx/
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/nginx-ingress-controller-app-2.15.0.tgz
+    version: 2.15.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/nginx-ingress-controller-app-2.14.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/nginx-ingress-controller-app-2.14.0.tgz-meta/README.md
       application.giantswarm.io/team: team-cabbage
@@ -11433,4 +11453,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2022-08-03T11:18:41.62682622Z"
+generated: "2022-08-03T11:58:58.532198558Z"
