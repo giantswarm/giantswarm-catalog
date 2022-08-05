@@ -8016,6 +8016,26 @@ entries:
     version: 0.12.0
   oauth2-proxy:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/oauth2-proxy-2.7.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/oauth2-proxy-2.7.1.tgz-meta/README.md
+      application.giantswarm.io/team: team-cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/oauth2-proxy-2.7.1.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 7.2.1
+    created: "2022-08-05T14:12:03.930664533Z"
+    description: A reverse proxy that provides authentication with Google, Azure,
+      OpenID Connect and many more identity providers
+    digest: 02835b420312f10ab789b6fbf5c976612ada06fc34639bc4075d2d2341ce6c8d
+    home: https://github.com/giantswarm/oauth2-proxy-app
+    icon: https://s.giantswarm.io/app-icons/oauth2-proxy/1/light.svg
+    name: oauth2-proxy
+    sources:
+    - https://github.com/oauth2-proxy/oauth2-proxy
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/oauth2-proxy-2.7.1.tgz
+    version: 2.7.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/oauth2-proxy-2.7.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/oauth2-proxy-2.7.0.tgz-meta/README.md
       application.giantswarm.io/team: team-cabbage
@@ -11587,4 +11607,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2022-08-05T13:56:47.560395243Z"
+generated: "2022-08-05T14:12:03.929380281Z"
