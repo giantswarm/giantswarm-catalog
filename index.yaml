@@ -6783,6 +6783,27 @@ entries:
     version: 0.7.0
   linkerd2-multicluster-link-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/linkerd2-multicluster-link-app-0.7.2.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/linkerd2-multicluster-link-app-0.7.2.tgz-meta/README.md
+      application.giantswarm.io/team: team-cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/linkerd2-multicluster-link-app-0.7.2.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: stable-2.11.2
+    created: "2022-08-16T13:15:55.98805678Z"
+    description: 'A helm chart containing the resources to enable mirroring of services
+      from a remote cluster.  Warning: The purpose of this chart is just to support
+      the `linkerd multicluster link` CLI command, which also produces the `cluster-credentials`
+      secret and the Link CR, which are not found in this chart. Therefore this chart
+      is not a replacement for that command, and shouldn''t be used as-is unless you
+      really know what you''re doing ;-) '
+    digest: 55caee69fac81df89ef8a9c037603c50aaabfadde74c0aa85eccc770ab2cc70c
+    icon: https://linkerd.io/images/logo-only-200h.png
+    kubeVersion: '>=1.17.0-0'
+    name: linkerd2-multicluster-link-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/linkerd2-multicluster-link-app-0.7.2.tgz
+    version: 0.7.2
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/linkerd2-multicluster-link-app-0.7.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/linkerd2-multicluster-link-app-0.7.1.tgz-meta/README.md
       application.giantswarm.io/team: team-cabbage
@@ -11840,4 +11861,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2022-08-15T12:00:22.477261498Z"
+generated: "2022-08-16T13:15:55.987205143Z"
