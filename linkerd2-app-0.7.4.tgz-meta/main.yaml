@@ -1,0 +1,14 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/linkerd2-app-0.7.4.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/linkerd2-app-0.7.4.tgz-meta/README.md
+  application.giantswarm.io/team: cabbage
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/linkerd2-app-0.7.4.tgz-meta/values.schema.json
+chartApiVersion: v1
+chartFile: linkerd2-app-0.7.4.tgz
+dateCreated: '2022-08-25T12:00:11.543378'
+digest: 4baa2d1c728bfd6d1ee7f3968e0e5b6bf93532e3e1fd6026464d5821e034e4ef
+home: https://github.com/giantswarm/linkerd2-app
+icon: https://s.giantswarm.io/app-icons/linkerd2/1/light.svg
+restrictions:
+  clusterSingleton: true
+  fixedNamespace: linkerd
