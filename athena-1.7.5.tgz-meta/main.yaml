@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/athena-1.7.5.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/athena-1.7.5.tgz-meta/README.md
+  application.giantswarm.io/team: team-rainbow
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/athena-1.7.5.tgz-meta/values.schema.json
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v1
+chartFile: athena-1.7.5.tgz
+dateCreated: '2022-09-15T15:24:08.976936'
+digest: 88a0f975be721e00c1ae7f22df7a0f77bc5719e0efe9ede4236085cc7c442669
+home: https://github.com/giantswarm/athena
+icon: https://s.giantswarm.io/app-icons/athena/1/light.svg
