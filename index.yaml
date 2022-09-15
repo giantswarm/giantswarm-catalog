@@ -1222,6 +1222,28 @@ entries:
     version: 1.0.1
   cloudflared:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/cloudflared-0.4.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/cloudflared-0.4.0.tgz-meta/README.md
+      application.giantswarm.io/team: team-cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/cloudflared-0.4.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 2022.8.4
+    created: "2022-09-15T11:34:11.335801841Z"
+    description: Create Cloudflared Tunnels and configure ingress routes
+    digest: 98a44775b896bd13b285d544990a7c0b5fc7f3ade5e2373262d89fcfd03f7e88
+    home: https://github.com/giantswarm/cloudflared-app
+    icon: https://s.giantswarm.io/app-icons/cloudflare/1/light.svg
+    keywords:
+    - vpn
+    - tunnel
+    kubeVersion: '>=1.18'
+    name: cloudflared
+    sources:
+    - https://github.com/giantswarm/cloudflared-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/cloudflared-0.4.0.tgz
+    version: 0.4.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/cloudflared-0.3.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/cloudflared-0.3.0.tgz-meta/README.md
       application.giantswarm.io/team: team-cabbage
@@ -12527,4 +12549,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2022-09-14T14:35:40.144785673Z"
+generated: "2022-09-15T11:34:11.33513824Z"
