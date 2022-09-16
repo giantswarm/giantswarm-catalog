@@ -12053,6 +12053,20 @@ entries:
       application.giantswarm.io/team: shield
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 0.6.0
+    created: "2022-09-16T15:32:44.392511128Z"
+    description: A Helm chart for starboard-exporter, which exposes Prometheus metrics
+      from Aqua VulnerabilityReport and other custom resources.
+    digest: 8b7c2e258a317ce0f2a263d527f4ec8927bd103c5f26984ce1b3c77e13b14750
+    home: https://github.com/giantswarm/starboard-exporter
+    name: starboard-exporter
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/starboard-exporter-0.6.0.tgz
+    version: 0.6.0
+  - annotations:
+      application.giantswarm.io/team: shield
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 0.5.2
     created: "2022-09-09T13:12:18.652946371Z"
     description: A Helm chart for starboard-exporter, which exposes Prometheus metrics
@@ -12593,4 +12607,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2022-09-16T14:03:00.103847985Z"
+generated: "2022-09-16T15:32:44.391765534Z"
