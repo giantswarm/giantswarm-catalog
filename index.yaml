@@ -7381,6 +7381,36 @@ entries:
     version: 0.3.0
   linkerd2-multicluster-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/linkerd2-multicluster-app-0.8.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/linkerd2-multicluster-app-0.8.0.tgz-meta/README.md
+      application.giantswarm.io/team: team-cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/linkerd2-multicluster-app-0.8.0.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: stable-2.11.4
+    created: "2022-09-21T07:33:24.442145678Z"
+    dependencies:
+    - name: partials
+      repository: file://../partials
+      version: 0.1.0
+    description: 'The Linkerd-Multicluster extension contains resources to support
+      multicluster linking to remote clusters '
+    digest: a7256345b6e1c4894237cd8f7d68d5579d59150853b8963da721bdbd673f5819
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd2-multicluster-app
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/linkerd2-multicluster-app-0.8.0.tgz
+    version: 0.8.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/linkerd2-multicluster-app-0.7.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/linkerd2-multicluster-app-0.7.0.tgz-meta/README.md
       application.giantswarm.io/team: team-cabbage
@@ -12658,4 +12688,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2022-09-21T07:12:51.446385138Z"
+generated: "2022-09-21T07:33:24.440976246Z"
