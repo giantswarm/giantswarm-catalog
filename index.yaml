@@ -6571,6 +6571,38 @@ entries:
       application.giantswarm.io/team: team-shield
       config.giantswarm.io/version: 1.x.x
     apiVersion: v2
+    appVersion: v1.7.3
+    created: "2022-09-27T15:58:43.753325856Z"
+    dependencies:
+    - name: policy-reporter
+      repository: ""
+      version: 2.11.1
+    - name: kyverno
+      repository: ""
+      version: v2.5.3
+    description: 'Kyverno is a policy engine designed for Kubernetes. It can validate,
+      mutate, and generate configurations using admission controls and background
+      scans. Kyverno policies are Kubernetes resources and do not require learning
+      a new language. '
+    digest: 926d541fe6a7967bebc1bebaaa23acfe502d0e97a7a59d7c7da5f1ff3b55c291
+    home: https://github.com/giantswarm/kyverno-app
+    icon: https://s.giantswarm.io/app-icons/kyverno/1/light.svg
+    keywords:
+    - kubernetes
+    - policy agent
+    - validating webhook
+    - admissions controller
+    name: kyverno
+    sources:
+    - https://github.com/kyverno/kyverno
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/kyverno-0.11.2.tgz
+    version: 0.11.2
+  - annotations:
+      application.giantswarm.io/team: team-shield
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
     appVersion: v1.7.2
     created: "2022-08-23T13:07:46.413941468Z"
     dependencies:
@@ -12864,4 +12896,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2022-09-27T14:58:17.379977684Z"
+generated: "2022-09-27T15:58:43.745064212Z"
