@@ -68,7 +68,7 @@ spec:
     configMap:
       name: linkerd2-multicluster-link-app-userconfig-<your-cluster-id>
       namespace: <your-cluster-id>
-  version: 0.7.1
+  version: 0.7.2
 ```
 
 ```yaml
