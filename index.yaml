@@ -5633,6 +5633,35 @@ entries:
     version: 0.2.0
   hello-world-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/hello-world-app-1.2.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/hello-world-app-1.2.0.tgz-meta/README.md
+      application.giantswarm.io/team: honeybadger
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/hello-world-app-1.2.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.2.0
+    created: "2022-10-12T13:34:28.390163316Z"
+    description: A chart that deploys a basic hello world site and lets you test values
+      merging of user values configmap and secrets.
+    digest: 720f0e42b9b1d5abbd3c1f06557e213d5af0897574d356cc786c2199451395ba
+    home: https://github.com/giantswarm/hello-world-app
+    icon: https://s.giantswarm.io/app-icons/1/png/hello-world-app-light.png
+    keywords:
+    - hello-world
+    - demo
+    - webapp
+    maintainers:
+    - email: team-honeybadger@giantswarm.io
+      name: Giant Swarm - Honeybadger
+      url: https://www.giantswarm.io/about#honeybadger
+    name: hello-world-app
+    sources:
+    - https://github.com/giantswarm/hello-world-app
+    - https://github.com/giantswarm/helloworld
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/hello-world-app-1.2.0.tgz
+    version: 1.2.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/hello-world-app-1.1.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/hello-world-app-1.1.1.tgz-meta/README.md
       application.giantswarm.io/team: honeybadger
@@ -13198,4 +13227,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2022-10-12T09:23:46.664150016Z"
+generated: "2022-10-12T13:34:28.38916515Z"
