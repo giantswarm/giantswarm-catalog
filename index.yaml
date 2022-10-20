@@ -5670,6 +5670,35 @@ entries:
     version: 0.2.0
   hello-world-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/hello-world-app-1.2.2.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/hello-world-app-1.2.2.tgz-meta/README.md
+      application.giantswarm.io/team: honeybadger
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/hello-world-app-1.2.2.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.2.0
+    created: "2022-10-20T05:20:57.334194685Z"
+    description: A chart that deploys a basic hello world site and lets you test values
+      merging of user values configmap and secrets.
+    digest: 14e268290ab7b98336f42e28fb6ad5c32e2acb41d2a50dd185e56dcb63ef2d0b
+    home: https://github.com/giantswarm/hello-world-app
+    icon: https://s.giantswarm.io/app-icons/1/png/hello-world-app-light.png
+    keywords:
+    - hello-world
+    - demo
+    - webapp
+    maintainers:
+    - email: team-honeybadger@giantswarm.io
+      name: Giant Swarm - Honeybadger
+      url: https://www.giantswarm.io/about#honeybadger
+    name: hello-world-app
+    sources:
+    - https://github.com/giantswarm/hello-world-app
+    - https://github.com/giantswarm/helloworld
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/hello-world-app-1.2.2.tgz
+    version: 1.2.2
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/hello-world-app-1.2.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/hello-world-app-1.2.1.tgz-meta/README.md
       application.giantswarm.io/team: honeybadger
@@ -13399,4 +13428,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2022-10-20T04:48:26.663470043Z"
+generated: "2022-10-20T05:20:57.333254113Z"
