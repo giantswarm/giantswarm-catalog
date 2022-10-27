@@ -7815,6 +7815,41 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/linkerd2-app-0.6.0.tgz
     version: 0.6.0
+  linkerd2-cni:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/linkerd2-cni-0.8.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/linkerd2-cni-0.8.0.tgz-meta/README.md
+      application.giantswarm.io/team: team-cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/linkerd2-cni-0.8.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: stable-2.12.2
+    created: "2022-10-27T07:49:25.380511917Z"
+    dependencies:
+    - name: partials
+      repository: ""
+      version: 0.1.0
+    description: 'Linkerd is a *service mesh*, designed to give platform-wide observability,
+      reliability, and security without requiring configuration or code changes. The
+      Linkerd [CNI plugin](https://linkerd.io/2/features/cni/) takes care of setting
+      up your pod''s network so  incoming and outgoing traffic is proxied through
+      the data plane. '
+    digest: 9115e42fbd477d3fe2b0846a65cb7e076a3256501c6cb959e83f7c19b759f520
+    home: https://github.com/giantswarm/linkerd2-cni-app
+    icon: https://s.giantswarm.io/app-icons/1/png/linkerd2-app-light.png
+    kubeVersion: '>=1.21.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/linkerd2-cni-app
+    name: linkerd2-cni
+    sources:
+    - https://github.com/linkerd/linkerd2
+    - https://github.com/giantswarm/linkerd2-cni-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/linkerd2-cni-0.8.0.tgz
+    version: 0.8.0
   linkerd2-cni-app:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/linkerd2-cni-app-0.7.4.tgz-meta/main.yaml
@@ -13594,4 +13629,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2022-10-25T19:17:49.148945176Z"
+generated: "2022-10-27T07:49:25.379364593Z"
