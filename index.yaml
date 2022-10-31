@@ -5991,6 +5991,19 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/hello-world-app-0.1.0.tgz
     version: 0.1.0
+  k8s-dns-node-cache-app:
+  - annotations:
+      application.giantswarm.io/team: phoenix
+    apiVersion: v1
+    appVersion: 1.22.13
+    created: "2022-10-31T11:16:56.628963527Z"
+    description: A Helm chart to run NodeLocal DNSCache in Kubernetes clusters
+    digest: a080c9a7cd7dbf8dc37b7709291a19f2749628f046f74eb9d7e0a34cfb9b9dad
+    home: https://github.com/giantswarm/k8s-dns-node-cache-app
+    name: k8s-dns-node-cache-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/k8s-dns-node-cache-app-1.0.0.tgz
+    version: 1.0.0
   kong-app:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/kong-app-2.13.0.tgz-meta/main.yaml
@@ -13710,4 +13723,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2022-10-31T11:12:59.226496648Z"
+generated: "2022-10-31T11:16:56.628212425Z"
