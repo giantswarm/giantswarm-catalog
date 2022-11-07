@@ -7643,6 +7643,32 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/linkerd-control-plane-0.8.0.tgz
     version: 0.8.0
+  linkerd-multicluster-link:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/linkerd-multicluster-link-0.9.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/linkerd-multicluster-link-0.9.0.tgz-meta/README.md
+      application.giantswarm.io/team: team-cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/linkerd-multicluster-link-0.9.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: stable-2.12.2
+    created: "2022-11-07T11:49:15.342751427Z"
+    dependencies:
+    - name: partials
+      repository: ""
+      version: 0.1.0
+    description: 'A helm chart containing the resources to enable mirroring of services
+      from a remote cluster.  Warning: The purpose of this chart is just to support
+      the `linkerd multicluster link` CLI command, which also produces the `cluster-credentials`
+      secret and the Link CR, which are not found in this chart. Therefore this chart
+      is not a replacement for that command, and shouldn''t be used as-is unless you
+      really know what you''re doing ;-) '
+    digest: e47df33648ba470367ea0cde6c73d3483acb7f75a85e95a4997dd8e5dfd4d103
+    icon: https://linkerd.io/images/logo-only-200h.png
+    kubeVersion: '>=1.21.0-0'
+    name: linkerd-multicluster-link
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/linkerd-multicluster-link-0.9.0.tgz
+    version: 0.9.0
   linkerd2-app:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/linkerd2-app-0.7.5.tgz-meta/main.yaml
@@ -13803,4 +13829,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2022-11-07T10:30:51.623915767Z"
+generated: "2022-11-07T11:49:15.341438594Z"
