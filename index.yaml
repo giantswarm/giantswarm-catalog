@@ -13656,6 +13656,33 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/strimzi-kafka-operator-app-0.1.0.tgz
     version: 0.1.0
+  trivy:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/trivy-0.7.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/trivy-0.7.0.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/trivy-0.7.0.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 0.30.4
+    created: "2022-11-08T16:25:29.684432453Z"
+    dependencies:
+    - name: trivy
+      repository: ""
+      version: 0.4.17
+    description: A Helm chart for trivy
+    digest: d726db39c5d4a927529c750e9636fecb25ce9184bb2c032898077dce68bc3ba2
+    home: https://github.com/giantswarm/trivy-app
+    icon: https://s.giantswarm.io/app-icons/trivy/1/light.svg
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/trivy-app
+    name: trivy
+    sources:
+    - https://github.com/giantswarm/trivy-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/trivy-0.7.0.tgz
+    version: 0.7.0
   trivy-app:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/trivy-app-0.6.0.tgz-meta/main.yaml
@@ -13932,4 +13959,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2022-11-08T15:10:51.452725634Z"
+generated: "2022-11-08T16:25:29.68309845Z"
