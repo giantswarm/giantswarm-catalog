@@ -3507,6 +3507,22 @@ entries:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
     appVersion: 1.9.8
+    created: "2022-11-08T15:10:51.45382345Z"
+    description: The Log Shipping App forwards cluster logs to storage backends
+    digest: 9052d2ee943e0f014ee1aec545ac3623461fd1410a897f7c1b9f679d4dae684f
+    home: https://github.com/giantswarm/fluent-logshipping-app
+    icon: https://s.giantswarm.io/app-icons/1/png/fluent-logshipping-app-light.png
+    name: fluent-logshipping-app
+    sources:
+    - https://github.com/giantswarm/fluent-logshipping-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/fluent-logshipping-app-2.0.2.tgz
+    version: 2.0.2
+  - annotations:
+      application.giantswarm.io/team: atlas
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 1.9.8
     created: "2022-10-12T09:23:46.665286989Z"
     description: The Log Shipping App forwards cluster logs to storage backends
     digest: fce341bc1a349fb88ef73efe517715098138f7338f623c6ae09d985929643f0b
@@ -13916,4 +13932,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2022-11-08T11:30:52.562439476Z"
+generated: "2022-11-08T15:10:51.452725634Z"
