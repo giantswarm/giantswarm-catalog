@@ -7033,6 +7033,41 @@ entries:
     version: 0.7.1
   kyverno:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/kyverno-0.11.8.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/kyverno-0.11.8.tgz-meta/README.md
+      application.giantswarm.io/team: team-shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/kyverno-0.11.8.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: v1.7.4
+    created: "2022-11-09T16:54:45.572034922Z"
+    dependencies:
+    - name: policy-reporter
+      repository: ""
+      version: 2.13.1
+    - name: kyverno
+      repository: ""
+      version: v2.5.4
+    description: 'Kyverno is a policy engine designed for Kubernetes. It can validate,
+      mutate, and generate configurations using admission controls and background
+      scans. Kyverno policies are Kubernetes resources and do not require learning
+      a new language. '
+    digest: 435a0f6d63e45bcbc5a0146a2c3c76805c674b2a6a2cda3d2c785e2a3b3f3f9c
+    home: https://github.com/giantswarm/kyverno-app
+    icon: https://s.giantswarm.io/app-icons/kyverno/1/light.svg
+    keywords:
+    - kubernetes
+    - policy agent
+    - validating webhook
+    - admissions controller
+    name: kyverno
+    sources:
+    - https://github.com/kyverno/kyverno
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/kyverno-0.11.8.tgz
+    version: 0.11.8
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/kyverno-0.11.7.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/kyverno-0.11.7.tgz-meta/README.md
       application.giantswarm.io/team: team-shield
@@ -14059,4 +14094,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2022-11-09T14:45:58.12620225Z"
+generated: "2022-11-09T16:54:45.560851249Z"
