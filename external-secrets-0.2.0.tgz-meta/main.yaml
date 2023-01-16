@@ -1,0 +1,14 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/external-secrets-0.2.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/external-secrets-0.2.0.tgz-meta/README.md
+  application.giantswarm.io/team: honeybadger
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/external-secrets-0.2.0.tgz-meta/values.schema.json
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: external-secrets-0.2.0.tgz
+dateCreated: '2023-01-16T10:17:01.419929'
+digest: e91330cbe6b402f23432d01407de2476f8e02dc8dc21070fe6ef87d30556f330
+home: https://github.com/giantswarm/external-secrets
+restrictions:
+  clusterSingleton: true
+  namespaceSingleton: true
