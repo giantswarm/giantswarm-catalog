@@ -13363,6 +13363,26 @@ entries:
     version: 0.3.0
   prometheus-operator-crd:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/prometheus-operator-crd-3.0.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/prometheus-operator-crd-3.0.0.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+    apiVersion: v2
+    appVersion: 0.62.0
+    created: "2023-01-16T14:29:39.643060795Z"
+    description: kube-prometheus-stack CustomResourceDefinitions.
+    digest: 856f2972c87ede942ecf578e29dbcf31c0bfd79cfda8f57cbc1d11679b2cc018
+    home: https://github.com/giantswarm/prometheus-operator-crd
+    icon: https://s.giantswarm.io/app-icons/prometheus-operator/2/light.svg
+    kubeVersion: '>=1.16.0-0'
+    name: prometheus-operator-crd
+    sources:
+    - https://github.com/prometheus-community/helm-charts
+    - https://github.com/prometheus-operator/kube-prometheus
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/prometheus-operator-crd-3.0.0.tgz
+    version: 3.0.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/prometheus-operator-crd-2.0.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/prometheus-operator-crd-2.0.1.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -15533,4 +15553,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-01-16T14:11:47.404082833Z"
+generated: "2023-01-16T14:29:39.634773401Z"
