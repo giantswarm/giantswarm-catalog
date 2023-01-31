@@ -8852,6 +8852,40 @@ entries:
     version: 0.17.1
   linkerd-control-plane:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/linkerd-control-plane-0.9.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/linkerd-control-plane-0.9.0.tgz-meta/README.md
+      application.giantswarm.io/team: cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/linkerd-control-plane-0.9.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: stable-2.12.2
+    created: "2023-01-31T09:36:22.432581154Z"
+    dependencies:
+    - name: linkerd-crds
+      repository: ""
+      version: 1.4.0
+    - name: partials
+      repository: ""
+      version: 0.1.0
+    description: 'Linkerd gives you observability, reliability, and security for your
+      microservices — with no code change required. '
+    digest: caf01a09c96e5822ba78c3355b5088d82598539f8be93b44f73daff18cb9f7e9
+    home: https://github.com/giantswarm/linkerd-control-plane-app
+    icon: https://s.giantswarm.io/app-icons/linkerd2/1/light.svg
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.21.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-control-plane
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    - https://linkerd.io
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/linkerd-control-plane-0.9.0.tgz
+    version: 0.9.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/linkerd-control-plane-0.8.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/linkerd-control-plane-0.8.0.tgz-meta/README.md
       application.giantswarm.io/team: cabbage
@@ -15781,4 +15815,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-01-30T13:25:34.569178739Z"
+generated: "2023-01-31T09:36:22.429026055Z"
