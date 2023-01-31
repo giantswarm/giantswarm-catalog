@@ -331,6 +331,39 @@ entries:
     version: 1.21.0-gs1
   aws-load-balancer-controller:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-1.2.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-1.2.1.tgz-meta/README.md
+      application.giantswarm.io/team: cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-1.2.1.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v2.4.1
+    created: "2023-01-31T11:27:02.463237256Z"
+    description: A controller to help manage Elastic Load Balancers for a Kubernetes
+      cluster
+    digest: 59d2259bb815489d35c7ac848c1a2a9a642dcf028be6c17b18073ea9b86ee153
+    home: https://github.com/giantswarm/aws-load-balancer-controller-app
+    icon: https://raw.githubusercontent.com/aws/eks-charts/master/docs/logo/aws.png
+    keywords:
+    - eks
+    - alb
+    - load balancer
+    - ingress
+    - nlb
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: kishorj@users.noreply.github.com
+      name: kishorj
+      url: https://github.com/kishorj
+    - email: m00nf1sh@users.noreply.github.com
+      name: m00nf1sh
+      url: https://github.com/m00nf1sh
+    name: aws-load-balancer-controller
+    sources:
+    - https://github.com/aws/eks-charts
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-1.2.1.tgz
+    version: 1.2.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-1.2.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-1.2.0.tgz-meta/README.md
       application.giantswarm.io/team: cabbage
@@ -15815,4 +15848,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-01-31T09:36:22.429026055Z"
+generated: "2023-01-31T11:27:02.460848208Z"
