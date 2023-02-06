@@ -7063,6 +7063,19 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/hello-world-app-0.1.0.tgz
     version: 0.1.0
+  jiralert:
+  - annotations:
+      application.giantswarm.io/team: shield
+    apiVersion: v2
+    appVersion: "1.2"
+    created: "2023-02-06T23:54:09.653606325Z"
+    description: Alertmanager plugin that creates Jira tickets
+    digest: b21addfd6ab9932f4bb694dc28d331006ffe9d8aebd93b2e5a8a85d2e1697d1b
+    home: https://github.com/giantswarm/jiralert-app
+    name: jiralert
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/jiralert-0.1.0.tgz
+    version: 0.1.0
   k8s-dns-node-cache-app:
   - annotations:
       application.giantswarm.io/team: phoenix
@@ -16015,4 +16028,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-02-06T14:40:28.701514371Z"
+generated: "2023-02-06T23:54:09.652887893Z"
