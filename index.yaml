@@ -9030,6 +9030,31 @@ entries:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v2
     appVersion: v1.7.5
+    created: "2023-02-15T11:32:40.556790603Z"
+    dependencies:
+    - name: kyverno-policies
+      repository: ""
+      version: v2.5.5
+    description: 'Kubernetes Pod Security Standards implemented as Kyverno policies '
+    digest: d5babce94fbdbdb47de7092a6e47f5017823d943ce8ca6ee630cfb2d13ed076f
+    home: https://github.com/giantswarm/kyverno-policies
+    icon: https://s.giantswarm.io/app-icons/kyverno/1/light.svg
+    keywords:
+    - kubernetes
+    - policy agent
+    - validating webhook
+    - admissions controller
+    name: kyverno-policies
+    sources:
+    - https://github.com/giantswarm/kyverno-policies
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/kyverno-policies-0.18.1.tgz
+    version: 0.18.1
+  - annotations:
+      application.giantswarm.io/team: team-honeybadger
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: v1.7.5
     created: "2022-11-16T17:25:14.205860027Z"
     dependencies:
     - name: kyverno-policies
@@ -16222,4 +16247,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-02-14T16:28:42.309696047Z"
+generated: "2023-02-15T11:32:40.555568972Z"
