@@ -3900,6 +3900,22 @@ entries:
     version: 2.0.0
   external-secrets:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/external-secrets-0.4.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/external-secrets-0.4.1.tgz-meta/README.md
+      application.giantswarm.io/team: honeybadger
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/external-secrets-0.4.1.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: v0.7.0
+    created: "2023-03-08T08:34:52.806104018Z"
+    description: Tool to install external-secrets in clusters.
+    digest: cef9ed15d378b990d84bc52931b0329eea3779e4401b253ed8561a696d2c7fc5
+    home: https://github.com/giantswarm/external-secrets
+    name: external-secrets
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/external-secrets-0.4.1.tgz
+    version: 0.4.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/external-secrets-0.4.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/external-secrets-0.4.0.tgz-meta/README.md
       application.giantswarm.io/team: honeybadger
@@ -16694,4 +16710,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-03-07T13:40:31.691247437Z"
+generated: "2023-03-08T08:34:52.802470296Z"
