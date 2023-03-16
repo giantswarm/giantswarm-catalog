@@ -657,6 +657,29 @@ entries:
     - https://giantswarm.github.io/giantswarm-catalog/cert-manager-app-2.20.1.tgz
     version: 2.20.1
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/cert-manager-app-2.20.1-andreas-temporary-build-fix-attempt.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/cert-manager-app-2.20.1-andreas-temporary-build-fix-attempt.tgz-meta/README.md
+      application.giantswarm.io/team: team-cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/cert-manager-app-2.20.1-andreas-temporary-build-fix-attempt.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 1.8.2
+    created: "2023-03-16T10:10:06.819456267Z"
+    dependencies:
+    - name: cert-manager-giantswarm-clusterissuer
+      repository: ""
+      version: 1.2.0
+    description: Simplifies the process of obtaining, renewing and using certificates.
+    digest: 58639b2eeb12679f2408933454f411bb49c0b07d98db443822801c3b21ac0722
+    home: https://github.com/giantswarm/cert-manager-app
+    icon: https://s.giantswarm.io/app-icons/cert-manager/1/light.svg
+    kubeVersion: '>=1.18.0-0'
+    name: cert-manager-app
+    sources:
+    - https://github.com/cert-manager/cert-manager
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/cert-manager-app-2.20.1-andreas-temporary-build-fix-attempt.tgz
+    version: 2.20.1-andreas-temporary-build-fix-attempt
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/cert-manager-app-2.20.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/cert-manager-app-2.20.0.tgz-meta/README.md
       application.giantswarm.io/team: team-cabbage
@@ -17080,4 +17103,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-03-16T10:02:34.809886382Z"
+generated: "2023-03-16T10:10:06.815132819Z"

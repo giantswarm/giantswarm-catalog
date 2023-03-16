@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/cert-manager-app-2.20.1-andreas-temporary-build-fix-attempt.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/cert-manager-app-2.20.1-andreas-temporary-build-fix-attempt.tgz-meta/README.md
+  application.giantswarm.io/team: team-cabbage
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/cert-manager-app-2.20.1-andreas-temporary-build-fix-attempt.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: cert-manager-app-2.20.1-andreas-temporary-build-fix-attempt.tgz
+dateCreated: '2023-03-16T10:10:03.373219'
+digest: 58639b2eeb12679f2408933454f411bb49c0b07d98db443822801c3b21ac0722
+home: https://github.com/giantswarm/cert-manager-app
+icon: https://s.giantswarm.io/app-icons/cert-manager/1/light.svg
