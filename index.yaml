@@ -3237,6 +3237,25 @@ entries:
     version: 0.1.3
   external-dns-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/external-dns-app-2.34.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/external-dns-app-2.34.0.tgz-meta/README.md
+      application.giantswarm.io/team: team-cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/external-dns-app-2.34.0.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: v0.11.0
+    created: "2023-03-21T15:13:37.920931846Z"
+    description: Configure external DNS servers for Kubernetes Ingresses and Services
+    digest: 6a915e154833e4de1311e92c260a62b4f86d30a17f234b1f0839cf108e6afc89
+    home: https://github.com/giantswarm/external-dns-app
+    icon: https://s.giantswarm.io/app-icons/external-dns/1/dark.png
+    kubeVersion: '>=1.19.0-0'
+    name: external-dns-app
+    sources:
+    - https://github.com/kubernetes-sigs/external-dns
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/external-dns-app-2.34.0.tgz
+    version: 2.34.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/external-dns-app-2.33.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/external-dns-app-2.33.0.tgz-meta/README.md
       application.giantswarm.io/team: team-cabbage
@@ -17152,4 +17171,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-03-17T14:56:17.540341728Z"
+generated: "2023-03-21T15:13:37.918938844Z"
