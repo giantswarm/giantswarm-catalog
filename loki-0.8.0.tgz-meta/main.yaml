@@ -1,0 +1,14 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/loki-0.8.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/loki-0.8.0.tgz-meta/README.md
+  application.giantswarm.io/team: atlas
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/loki-0.8.0.tgz-meta/values.schema.json
+  ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/grafana-loki/2/dark.svg
+chartApiVersion: v2
+chartFile: loki-0.8.0.tgz
+dateCreated: '2023-04-06T13:38:08.526597'
+digest: 255d61f32e024f4ef9358bebc1e89056fa9ba428ad634d72213dbeaa22bcf5a4
+home: https://github.com/giantswarm/loki-app
+icon: https://s.giantswarm.io/app-icons/loki-stack/1/dark.svg
+restrictions:
+  namespaceSingleton: true
