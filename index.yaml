@@ -16405,6 +16405,27 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/rook-operator-0.2.4.tgz
     version: 0.2.4
+  security-bundle:
+  - annotations:
+      application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/in-cluster-app: "true"
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/security-bundle-0.13.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/security-bundle-0.13.0.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/security-bundle-0.13.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2023-04-12T14:15:39.536091676Z"
+    description: A Helm chart for Giant Swarm's collection of open-source security
+      tools.
+    digest: 371ebe04e4d5d74bb6adef964808579ad7158b1a3852948cc21a6b1b8b8130fa
+    home: https://github.com/giantswarm/security-bundle
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: security-bundle
+    sources:
+    - https://github.com/giantswarm/security-bundle
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/security-bundle-0.13.0.tgz
+    version: 0.13.0
   security-pack:
   - annotations:
       application.giantswarm.io/app-type: bundle
@@ -17889,4 +17910,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-04-12T09:37:44.420467915Z"
+generated: "2023-04-12T14:15:39.535421358Z"
