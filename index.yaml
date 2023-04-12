@@ -13311,6 +13311,32 @@ entries:
     version: 2.0.0
   prometheus-operator-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/prometheus-operator-app-4.2.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/prometheus-operator-app-4.2.1.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/prometheus-operator-app-4.2.1.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v0.63.0
+    created: "2023-04-12T19:47:58.925989747Z"
+    dependencies:
+    - alias: prometheus-operator-app
+      name: kube-prometheus-stack
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 45.9.1
+    description: Giant Swarm's Prometheus Operator Deployment
+    digest: f1e3e9089f9388552a6f40b1d5c6dcfa56ea93a5169e7cb189fa6886b30e22e1
+    home: https://github.com/giantswarm/prometheus-operator-app
+    icon: https://s.giantswarm.io/app-icons/prometheus-operator/2/light.svg
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: prometheus-operator-app
+    sources:
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-prometheus-stack
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/prometheus-operator-app-4.2.1.tgz
+    version: 4.2.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/prometheus-operator-app-4.2.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/prometheus-operator-app-4.2.0.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -17910,4 +17936,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-04-12T14:15:39.535421358Z"
+generated: "2023-04-12T19:47:58.89758097Z"
