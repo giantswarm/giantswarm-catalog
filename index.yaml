@@ -17391,6 +17391,20 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/strimzi-kafka-operator-app-0.1.0.tgz
     version: 0.1.0
+  tekton-dashboard-loki-proxy:
+  - annotations:
+      application.giantswarm.io/team: team-tinkerers
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2023-04-13T08:51:53.361887741Z"
+    description: Proxies logs from a Loki endpoint for use by Tekton Dashboard as
+      an external-logs source
+    digest: cd19cd648680125b48e54638927b34ceb9d8d08b87e183246d8833e313a70046
+    home: https://github.com/giantswarm/tekton-dashboard-loki-proxy
+    name: tekton-dashboard-loki-proxy
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/tekton-dashboard-loki-proxy-0.0.2.tgz
+    version: 0.0.2
   trivy:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/trivy-0.8.0.tgz-meta/main.yaml
@@ -17989,4 +18003,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-04-13T08:25:55.309350643Z"
+generated: "2023-04-13T08:51:53.361035171Z"
