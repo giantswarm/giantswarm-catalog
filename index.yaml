@@ -17447,6 +17447,21 @@ entries:
   - annotations:
       application.giantswarm.io/team: team-tinkerers
     apiVersion: v2
+    appVersion: 0.0.3
+    created: "2023-04-14T08:43:58.92522989Z"
+    description: Proxies logs from a Loki endpoint for use by Tekton Dashboard as
+      an external-logs source
+    digest: 60ffbb7531078c8fdbef83d55c5b5c62f690c2692ce9be584379ca8ea3f09dba
+    home: https://github.com/giantswarm/tekton-dashboard-loki-proxy
+    name: tekton-dashboard-loki-proxy
+    sources:
+    - https://github.com/giantswarm/tekton-dashboard-loki-proxy
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/tekton-dashboard-loki-proxy-0.0.3.tgz
+    version: 0.0.3
+  - annotations:
+      application.giantswarm.io/team: team-tinkerers
+    apiVersion: v2
     appVersion: 0.0.1
     created: "2023-04-13T08:51:53.361887741Z"
     description: Proxies logs from a Loki endpoint for use by Tekton Dashboard as
@@ -18055,4 +18070,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-04-14T06:41:25.522308048Z"
+generated: "2023-04-14T08:43:58.924651109Z"
