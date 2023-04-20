@@ -8172,6 +8172,39 @@ entries:
     version: 3.0.0
   kong-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/kong-app-3.1.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/kong-app-3.1.0.tgz-meta/README.md
+      application.giantswarm.io/team: team-cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/kong-app-3.1.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 3.2.2
+    created: "2023-04-20T12:29:03.623379857Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.9.13
+    - name: kubectl-apply-job
+      repository: https://giantswarm.github.io/giantswarm-playground-catalog
+      version: 0.3.1
+    description: The Cloud-Native Ingress and API-management
+    digest: 9c9be733882cb7164f2fd47f3d5ba162e358a9e799b3232f0e521c65f5d733f8
+    home: https://github.com/giantswarm/kong-app
+    icon: https://s.giantswarm.io/app-icons/kong/1/light.svg
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - email: harry@konghq.com
+      name: hbagdi
+    - email: traines@konghq.com
+      name: rainest
+    name: kong-app
+    sources:
+    - https://konghq.com/
+    - https://github.com/Kong/charts/tree/main/charts/kong
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/kong-app-3.1.0.tgz
+    version: 3.1.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/kong-app-3.0.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/kong-app-3.0.1.tgz-meta/README.md
       application.giantswarm.io/team: team-cabbage
@@ -18375,4 +18408,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-04-20T10:29:58.742756917Z"
+generated: "2023-04-20T12:29:03.610858953Z"
