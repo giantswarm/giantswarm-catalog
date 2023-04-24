@@ -8144,6 +8144,19 @@ entries:
       application.giantswarm.io/team: shield
     apiVersion: v2
     appVersion: "1.2"
+    created: "2023-04-24T15:14:18.703179488Z"
+    description: Alertmanager plugin that creates Jira tickets
+    digest: 3dcc9bf03e359d2971bc0db922e4312e0f0aedd8bf57aa75fb6bed0d85e4c0b3
+    home: https://github.com/giantswarm/jiralert-app
+    icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+    name: jiralert
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/jiralert-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
+      application.giantswarm.io/team: shield
+    apiVersion: v2
+    appVersion: "1.2"
     created: "2023-02-06T23:54:09.653606325Z"
     description: Alertmanager plugin that creates Jira tickets
     digest: b21addfd6ab9932f4bb694dc28d331006ffe9d8aebd93b2e5a8a85d2e1697d1b
@@ -18495,4 +18508,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-04-24T13:37:04.796438317Z"
+generated: "2023-04-24T15:14:18.701521651Z"
