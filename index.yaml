@@ -6900,6 +6900,35 @@ entries:
   goldilocks-app:
   - apiVersion: v2
     appVersion: v4.4.0
+    created: "2023-04-24T08:07:24.928486837Z"
+    dependencies:
+    - condition: vpa.enabled
+      name: vertical-pod-autoscaler-app
+      repository: https://giantswarm.github.io/default-catalog
+      version: 2.5.0
+    - condition: metrics-server.enabled
+      name: metrics-server-app
+      repository: https://giantswarm.github.io/default-catalog
+      version: 1.8.0
+    description: 'Fairwinds Goldilocks is a tool to automatically adjust resource
+      requests and limits. '
+    digest: 33ee540b191391ba653688b07d77e86d1e811a94cfb671c37ed88225cc4e2de6
+    home: https://github.com/giantswarm/goldilocks-app
+    icon: https://s.giantswarm.io/app-icons/goldilocks/1/icon_light.svg
+    keywords:
+    - goldilocks
+    - resources
+    - kubernetes
+    maintainers:
+    - name: sudermanjr
+    name: goldilocks-app
+    sources:
+    - https://github.com/FairwindsOps/goldilocks
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/goldilocks-app-6.2.1.tgz
+    version: 6.2.1
+  - apiVersion: v2
+    appVersion: v4.4.0
     created: "2022-08-24T09:25:55.82725236Z"
     dependencies:
     - condition: vpa.enabled
@@ -18433,4 +18462,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-04-20T20:11:57.711159908Z"
+generated: "2023-04-24T08:07:24.92379743Z"
