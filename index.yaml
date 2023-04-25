@@ -6974,6 +6974,28 @@ entries:
     version: 0.1.0-300aeb24e87961b76f94f5c073bdf7f6d094ee74
   gitops-server:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/gitops-server-0.1.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/gitops-server-0.1.1.tgz-meta/README.md
+      application.giantswarm.io/team: team-honeybadger
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/gitops-server-0.1.1.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: v0.18.0
+    created: "2023-04-25T15:14:03.07101031Z"
+    description: Weave Gitops is a set of tools and services to aid your interactions
+      with Flux
+    digest: 47d5ced61457eccabc755129b5c988d97a1e7f7d677316e4a94f2c32a196d615
+    home: https://github.com/giantswarm/gitops-server-app
+    icon: https://s.giantswarm.io/app-icons/1/png/default-app-light.png
+    keywords:
+    - gitops
+    - flux
+    name: gitops-server
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/gitops-server-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/gitops-server-0.1.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/gitops-server-0.1.0.tgz-meta/README.md
       application.giantswarm.io/team: team-honeybadger
@@ -18053,4 +18075,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-04-25T14:27:17.458029277Z"
+generated: "2023-04-25T15:14:03.069806291Z"
