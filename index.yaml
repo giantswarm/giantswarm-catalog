@@ -2,6 +2,24 @@ apiVersion: v1
 entries:
   athena:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/athena-1.9.4.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/athena-1.9.4.tgz-meta/README.md
+      application.giantswarm.io/team: team-rainbow
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/athena-1.9.4.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 1.9.4
+    created: "2023-04-27T05:59:53.50220959Z"
+    description: A service providing non-sensitive information about your cluster
+      to clients
+    digest: 8eb6ac9889805f664df11caacaca2ffdd62f4c73269bd3becae21e813eae1baf
+    home: https://github.com/giantswarm/athena
+    icon: https://s.giantswarm.io/app-icons/athena/1/light.svg
+    name: athena
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/athena-1.9.4.tgz
+    version: 1.9.4
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/athena-1.9.3.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/athena-1.9.3.tgz-meta/README.md
       application.giantswarm.io/team: team-rainbow
@@ -18145,4 +18163,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-04-26T18:46:24.627969903Z"
+generated: "2023-04-27T05:59:53.501280278Z"
