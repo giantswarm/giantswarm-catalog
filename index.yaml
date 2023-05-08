@@ -7368,6 +7368,33 @@ entries:
     version: 6.2.0
   grafana:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/grafana-2.4.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/grafana-2.4.0.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/grafana-2.4.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 9.4.7
+    created: "2023-05-08T08:06:43.451695243Z"
+    dependencies:
+    - name: grafana
+      repository: https://grafana.github.io/helm-charts
+      version: 6.56.1
+    description: The leading tool for querying and visualizing time series and metrics.
+    digest: 5bc8552a3359dfe75a640643cfd80d4fffb5d34c012e791f2a16ff083db41b4b
+    home: https://github.com/giantswarm/grafana-app
+    icon: https://s.giantswarm.io/app-icons/grafana/1/light.svg
+    kubeVersion: ^1.8.0-0
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: grafana
+    sources:
+    - https://github.com/grafana/helm-charts/tree/main/charts/grafana
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/grafana-2.4.0.tgz
+    version: 2.4.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/grafana-2.3.3.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/grafana-2.3.3.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -18590,4 +18617,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-05-07T08:46:18.443902519Z"
+generated: "2023-05-08T08:06:43.442549388Z"
