@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/ingress-nginx-3.0.0-alpha1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/ingress-nginx-3.0.0-alpha1.tgz-meta/README.md
+  application.giantswarm.io/team: team-cabbage
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/ingress-nginx-3.0.0-alpha1.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: ingress-nginx-3.0.0-alpha1.tgz
+dateCreated: '2023-05-09T10:37:55.620992'
+digest: 41ff1766fb5d3b72aa330ccd96e9ed4f94c48eaf54910acd6c9f79ee30431f5b
+home: https://github.com/giantswarm/ingress-nginx-app
+icon: https://s.giantswarm.io/app-icons/ingress-nginx/2/icon_dark.svg
