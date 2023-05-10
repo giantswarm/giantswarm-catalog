@@ -312,6 +312,18 @@ entries:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
     appVersion: 1.24.1
+    created: "2023-05-10T10:25:45.371086449Z"
+    description: A Helm chart to run AWS Cloud Controller Manager
+    digest: c5ad3c6ac621bea353fb65805b3764e9e22f69fb74996d655f79f577be2685b7
+    home: https://github.com/giantswarm/aws-cloud-controller-manager-app
+    name: aws-cloud-controller-manager-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/aws-cloud-controller-manager-app-1.24.1-gs5.tgz
+    version: 1.24.1-gs5
+  - annotations:
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 1.24.1
     created: "2023-05-10T07:42:54.703768308Z"
     description: A Helm chart to run AWS Cloud Controller Manager
     digest: 5c239653574ade95915942e2abcbc46e64c9767ba7e58c8cbff4ab0c5dd5c260
@@ -18292,4 +18304,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-05-10T07:42:54.70320091Z"
+generated: "2023-05-10T10:25:45.370420655Z"
