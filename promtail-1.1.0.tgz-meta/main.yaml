@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/promtail-1.1.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/promtail-1.1.0.tgz-meta/README.md
+  application.giantswarm.io/team: atlas
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/promtail-1.1.0.tgz-meta/values.schema.json
+  ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/grafana-loki/2/dark.svg
+chartApiVersion: v2
+chartFile: promtail-1.1.0.tgz
+dateCreated: '2023-05-15T12:58:35.606027'
+digest: 6bc6c1388975a9a0cb4d4bdb9c725cacb04abc6ea723f0fa000432e5e8f24f0a
+home: https://github.com/giantswarm/promtail-app
+icon: https://s.giantswarm.io/app-icons/loki-stack/1/dark.svg
