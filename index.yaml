@@ -12399,6 +12399,27 @@ entries:
     - https://giantswarm.github.io/giantswarm-catalog/nginx-ingress-controller-app-2.22.0.tgz
     version: 2.22.0
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/nginx-ingress-controller-app-2.21.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/nginx-ingress-controller-app-2.21.1.tgz-meta/README.md
+      application.giantswarm.io/team: team-cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/nginx-ingress-controller-app-2.21.1.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/nginx-ingress-controller/2/logo_dark.svg
+    apiVersion: v1
+    appVersion: v1.4.0
+    created: "2023-05-16T10:22:38.768069493Z"
+    description: The most popular ingress controller for Kubernetes, based on NGINX
+    digest: 711ce335839b01c24b97573b122b8e8edb0e2adaab4470f381da744bc1e4da74
+    home: https://github.com/giantswarm/nginx-ingress-controller-app
+    icon: https://s.giantswarm.io/app-icons/nginx-ingress-controller/2/icon_dark.svg
+    kubeVersion: '>=1.20.0-0'
+    name: nginx-ingress-controller-app
+    sources:
+    - https://github.com/kubernetes/ingress-nginx/
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/nginx-ingress-controller-app-2.21.1.tgz
+    version: 2.21.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/nginx-ingress-controller-app-2.21.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/nginx-ingress-controller-app-2.21.0.tgz-meta/README.md
       application.giantswarm.io/team: team-cabbage
@@ -18910,4 +18931,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-05-16T09:48:48.38051782Z"
+generated: "2023-05-16T10:22:38.766066569Z"
