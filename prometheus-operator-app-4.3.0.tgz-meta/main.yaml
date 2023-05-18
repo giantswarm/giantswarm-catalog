@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/prometheus-operator-app-4.3.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/prometheus-operator-app-4.3.0.tgz-meta/README.md
+  application.giantswarm.io/team: atlas
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/prometheus-operator-app-4.3.0.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: prometheus-operator-app-4.3.0.tgz
+dateCreated: '2023-05-18T14:01:50.479011'
+digest: a0ebb8fbe576d0704b70879c0ba4fc3a9e7ae286e95567dae488e19dc9b68267
+home: https://github.com/giantswarm/prometheus-operator-app
+icon: https://s.giantswarm.io/app-icons/prometheus-operator/2/light.svg
