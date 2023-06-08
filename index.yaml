@@ -8819,6 +8819,30 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/k8s-dns-node-cache-app-1.0.0.tgz
     version: 1.0.0
+  karpenter:
+  - annotations:
+      application.giantswarm.io/team: phoenix
+    apiVersion: v2
+    appVersion: 0.27.0
+    created: "2023-06-08T12:02:12.62861106Z"
+    description: A Helm chart for Karpenter, an open-source node provisioning project
+      built for Kubernetes.
+    digest: afbbe1c7a646a6017ab38d537cd72142ff11477e36148a5f93fb64d997541573
+    home: https://karpenter.sh/
+    icon: https://repository-images.githubusercontent.com/278480393/dab059c8-caa1-4b55-aaa7-3d30e47a5616
+    keywords:
+    - cluster
+    - node
+    - scheduler
+    - autoscaling
+    - lifecycle
+    name: karpenter
+    sources:
+    - https://github.com/aws/karpenter/
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/karpenter-0.1.0.tgz
+    version: 0.1.0
   kiam-app:
   - annotations:
       application.giantswarm.io/team: phoenix
@@ -19456,4 +19480,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-06-08T09:42:32.775026872Z"
+generated: "2023-06-08T12:02:12.626268987Z"
