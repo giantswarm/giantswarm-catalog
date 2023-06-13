@@ -1,0 +1,15 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/linkerd-control-plane-1.0.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/linkerd-control-plane-1.0.0.tgz-meta/README.md
+  application.giantswarm.io/team: cabbage
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/linkerd-control-plane-1.0.0.tgz-meta/values.schema.json
+  ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/linkerd2/2/logo_dark.svg
+chartApiVersion: v2
+chartFile: linkerd-control-plane-1.0.0.tgz
+dateCreated: '2023-06-13T09:32:53.884331'
+digest: 34ac0def164a27a06ad54214a13cc82ddb4ff7524d122f8f975a5411e1e94ef1
+home: https://github.com/giantswarm/linkerd-control-plane-app
+icon: https://s.giantswarm.io/app-icons/linkerd2/2/icon_dark.svg
+restrictions:
+  clusterSingleton: true
+  fixedNamespace: linkerd
