@@ -11704,6 +11704,41 @@ entries:
     version: 0.8.0
   linkerd2-cni:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/linkerd2-cni-1.0.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/linkerd2-cni-1.0.0.tgz-meta/README.md
+      application.giantswarm.io/team: team-cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/linkerd2-cni-1.0.0.tgz-meta/values.schema.json
+      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/linkerd2/2/logo_dark.svg
+    apiVersion: v2
+    appVersion: stable-2.13.4
+    created: "2023-06-13T08:00:00.469920307Z"
+    dependencies:
+    - name: partials
+      repository: ""
+      version: 0.1.0
+    description: 'Linkerd is a *service mesh*, designed to give platform-wide observability,
+      reliability, and security without requiring configuration or code changes. The
+      Linkerd [CNI plugin](https://linkerd.io/2/features/cni/) takes care of setting
+      up your pod''s network so  incoming and outgoing traffic is proxied through
+      the data plane. '
+    digest: 3d8a556eefe53c8ee29c97ee6521bdee8bb5c6245156ff45bf356ae150f76c51
+    home: https://github.com/giantswarm/linkerd2-cni-app
+    icon: https://s.giantswarm.io/app-icons/linkerd2/2/icon_dark.svg
+    kubeVersion: '>=1.21.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/linkerd2-cni-app
+    name: linkerd2-cni
+    sources:
+    - https://github.com/linkerd/linkerd2
+    - https://github.com/giantswarm/linkerd2-cni-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/linkerd2-cni-1.0.0.tgz
+    version: 1.0.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/linkerd2-cni-0.10.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/linkerd2-cni-0.10.0.tgz-meta/README.md
       application.giantswarm.io/team: team-cabbage
@@ -19628,4 +19663,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-06-13T07:33:39.033684767Z"
+generated: "2023-06-13T08:00:00.467640318Z"
