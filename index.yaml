@@ -18817,6 +18817,26 @@ entries:
   - annotations:
       application.giantswarm.io/app-type: bundle
       application.giantswarm.io/in-cluster-app: "true"
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/security-bundle-0.16.2.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/security-bundle-0.16.2.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/security-bundle-0.16.2.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2023-07-05T20:24:57.568324356Z"
+    description: A Helm chart for Giant Swarm's collection of open-source security
+      tools.
+    digest: d44b64404d074c7436f87dc39ae81c13c1e5d0c0adf72c5cef97c29dc2464226
+    home: https://github.com/giantswarm/security-bundle
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: security-bundle
+    sources:
+    - https://github.com/giantswarm/security-bundle
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/security-bundle-0.16.2.tgz
+    version: 0.16.2
+  - annotations:
+      application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/in-cluster-app: "true"
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/security-bundle-0.16.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/security-bundle-0.16.1.tgz-meta/README.md
       application.giantswarm.io/team: shield
@@ -20628,4 +20648,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-07-05T14:47:53.354974979Z"
+generated: "2023-07-05T20:24:57.567681615Z"
