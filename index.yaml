@@ -11881,6 +11881,25 @@ entries:
   linkerd-bundle:
   - annotations:
       application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/linkerd-bundle-0.4.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/linkerd-bundle-0.4.0.tgz-meta/README.md
+      application.giantswarm.io/team: cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/linkerd-bundle-0.4.0.tgz-meta/values.schema.json
+      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/linkerd2/2/logo_dark.svg
+    apiVersion: v2
+    appVersion: stable-2.12.4
+    created: "2023-07-05T12:37:31.699452576Z"
+    description: 'Linkerd gives you observability, reliability, and security for your
+      microservices — with no code change required. '
+    digest: 3cc266501c19dff5b5d6d1607e4e03ab2ad886ff28b3d779f470ad7392d7f6d3
+    home: https://github.com/giantswarm/linkerd-bundle
+    icon: https://s.giantswarm.io/app-icons/linkerd2/2/icon_dark.svg
+    name: linkerd-bundle
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/linkerd-bundle-0.4.0.tgz
+    version: 0.4.0
+  - annotations:
+      application.giantswarm.io/app-type: bundle
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/linkerd-bundle-0.3.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/linkerd-bundle-0.3.1.tgz-meta/README.md
       application.giantswarm.io/team: cabbage
@@ -20594,4 +20613,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-07-05T09:32:08.017038772Z"
+generated: "2023-07-05T12:37:31.698683166Z"
