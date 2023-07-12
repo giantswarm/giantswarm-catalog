@@ -9264,6 +9264,19 @@ entries:
       application.giantswarm.io/team: phoenix
     apiVersion: v1
     appVersion: 1.22.13
+    created: "2023-07-12T08:00:24.423159253Z"
+    description: A Helm chart to run NodeLocal DNSCache in Kubernetes clusters
+    digest: 1bef860642d871d855359f7b0e7198d65a8a8e7a892dd99034fba75fa81d6119
+    home: https://github.com/giantswarm/k8s-dns-node-cache-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: k8s-dns-node-cache-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/k8s-dns-node-cache-app-2.2.0.tgz
+    version: 2.2.0
+  - annotations:
+      application.giantswarm.io/team: phoenix
+    apiVersion: v1
+    appVersion: 1.22.13
     created: "2023-03-15T11:25:20.359824946Z"
     description: A Helm chart to run NodeLocal DNSCache in Kubernetes clusters
     digest: c327a5fba89534c8cbf786a1eeefcb95e84c0f9cb31be1a2904bd9d5600d1670
@@ -20816,4 +20829,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-07-11T07:54:41.764844327Z"
+generated: "2023-07-12T08:00:24.422425303Z"
