@@ -897,6 +897,21 @@ entries:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
     appVersion: 1.17.2
+    created: "2023-07-13T13:35:27.722654797Z"
+    description: Deploy components for the aws-node-termination-handler app
+    digest: 7711efdcbd7166b5a98a1ef39c8735b79aff528944949d8a1ffa7ad7ec1972ef
+    home: https://github.com/giantswarm/aws-node-termination-handler-app
+    name: aws-node-termination-handler-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/aws-node-termination-handler-app/v1.18.0/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/aws-node-termination-handler-app-1.18.0.tgz
+    version: 1.18.0
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 1.17.2
     created: "2023-07-05T14:47:53.35645137Z"
     description: Deploy components for the aws-node-termination-handler app
     digest: 9aab1e72fbd5d5ffd34a3ef1286897c967e7659e131f6ea27d53c850aa3e367d
@@ -20952,4 +20967,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-07-13T13:26:44.830347484Z"
+generated: "2023-07-13T13:35:27.720860425Z"
