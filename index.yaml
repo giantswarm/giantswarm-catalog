@@ -5472,6 +5472,39 @@ entries:
     version: 0.2.0
   falco:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/falco-0.6.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/falco-0.6.0.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/falco-0.6.0.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/falco/2/logo_dark.svg
+    apiVersion: v2
+    appVersion: 0.35.1
+    created: "2023-08-01T15:09:20.384458736Z"
+    dependencies:
+    - name: falco
+      repository: ""
+      version: 3.3.0
+    - name: falco-exporter
+      repository: ""
+      version: 0.9.6
+    - name: falcosidekick
+      repository: ""
+      version: 0.6.1
+    description: A Helm chart for falco
+    digest: cae4c6e795f3f132acaad8903eefb1f311472085d4b24b726968f5e704590936
+    home: https://github.com/giantswarm/falco-app
+    icon: https://s.giantswarm.io/app-icons/falco/2/icon_dark.svg
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/falco-app
+    name: falco
+    sources:
+    - https://github.com/giantswarm/falco-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/falco-0.6.0.tgz
+    version: 0.6.0
+  - annotations:
       application.giantswarm.io/team: shield
       config.giantswarm.io/version: 1.x.x
       ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/falco/2/logo_dark.svg
@@ -21257,4 +21290,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-08-01T09:24:01.235160878Z"
+generated: "2023-08-01T15:09:20.375888319Z"
