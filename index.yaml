@@ -20769,6 +20769,28 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/tekton-dashboard-loki-proxy-0.0.2.tgz
     version: 0.0.2
+  teleport-kube-agent:
+  - annotations:
+      application.giantswarm.io/team: bigmac
+    apiVersion: v2
+    appVersion: 13.1.0
+    created: "2023-08-07T08:51:16.815860562Z"
+    description: A Helm chart for Teleport Kubernetes access.
+    digest: 1df2941fb9d407c934b593c0745e8059c643ad91c04eaaf5738735a8432d5fb3
+    home: https://github.com/giantswarm/teleport-kube-agent-app
+    icon: https://s.giantswarm.io/app-icons/teleport/1/light.png
+    keywords:
+    - Teleport
+    maintainers:
+    - email: team-bigmac@giantswarm.io
+      name: giantswarm/team-bigmac
+    name: teleport-kube-agent
+    sources:
+    - https://github.com/gravitational/teleport
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/teleport-kube-agent-0.3.0.tgz
+    version: 0.3.0
   trivy:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/trivy-0.8.1.tgz-meta/main.yaml
@@ -21420,4 +21442,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-08-04T10:23:21.729119292Z"
+generated: "2023-08-07T08:51:16.814361789Z"
