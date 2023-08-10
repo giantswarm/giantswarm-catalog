@@ -10020,6 +10020,36 @@ entries:
   - annotations:
       application.giantswarm.io/team: phoenix
     apiVersion: v2
+    appVersion: 0.29.2
+    created: "2023-08-10T15:08:16.493826791Z"
+    dependencies:
+    - name: karpenter
+      repository: oci://public.ecr.aws/karpenter
+      version: v0.29.2
+    description: A Helm chart for Karpenter, an open-source node provisioning project
+      built for Kubernetes.
+    digest: a63e879eaae811bedfc556b9448da78989a03d821b387ef5c7925b1746bfd45b
+    home: https://karpenter.sh/
+    icon: https://repository-images.githubusercontent.com/278480393/dab059c8-caa1-4b55-aaa7-3d30e47a5616
+    keywords:
+    - cluster
+    - node
+    - scheduler
+    - autoscaling
+    - lifecycle
+    maintainers:
+    - email: team-phoenix@giantswarm.io
+      name: giantswarm/team-phoenix
+    name: karpenter
+    sources:
+    - https://github.com/aws/karpenter/
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/karpenter-0.5.0.tgz
+    version: 0.5.0
+  - annotations:
+      application.giantswarm.io/team: phoenix
+    apiVersion: v2
     appVersion: 0.28.0
     created: "2023-08-04T10:23:21.735965962Z"
     dependencies:
@@ -21654,4 +21684,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-08-10T12:27:16.093368239Z"
+generated: "2023-08-10T15:08:16.491575571Z"
