@@ -1,0 +1,14 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/kyverno-0.15.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/kyverno-0.15.1.tgz-meta/README.md
+  application.giantswarm.io/team: shield
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/kyverno-0.15.1.tgz-meta/values.schema.json
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: kyverno-0.15.1.tgz
+dateCreated: '2023-08-16T16:09:15.686094'
+digest: 51478de0dd7bcfdefa452b08f96193238509e6408470dccf81ec13fb2f6c6b1c
+home: https://github.com/giantswarm/kyverno-app
+icon: https://s.giantswarm.io/app-icons/kyverno/1/light.svg
+restrictions:
+  clusterSingleton: true
