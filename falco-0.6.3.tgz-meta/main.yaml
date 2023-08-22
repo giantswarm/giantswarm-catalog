@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/falco-0.6.3.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/falco-0.6.3.tgz-meta/README.md
+  application.giantswarm.io/team: shield
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/falco-0.6.3.tgz-meta/values.schema.json
+  config.giantswarm.io/version: 1.x.x
+  ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/falco/2/logo_dark.svg
+chartApiVersion: v2
+chartFile: falco-0.6.3.tgz
+dateCreated: '2023-08-22T12:51:33.540727'
+digest: 69d9c205758d9ca75e89bcf9e6043012d92137f578a3317782a04570e261afea
+home: https://github.com/giantswarm/falco-app
+icon: https://s.giantswarm.io/app-icons/falco/2/icon_dark.svg
