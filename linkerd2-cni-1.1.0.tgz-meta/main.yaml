@@ -1,0 +1,15 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/linkerd2-cni-1.1.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/linkerd2-cni-1.1.0.tgz-meta/README.md
+  application.giantswarm.io/team: team-cabbage
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/linkerd2-cni-1.1.0.tgz-meta/values.schema.json
+  ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/linkerd2/2/logo_dark.svg
+chartApiVersion: v2
+chartFile: linkerd2-cni-1.1.0.tgz
+dateCreated: '2023-08-29T07:57:24.609557'
+digest: 3261b5a86e7cc9cc55d92238ea9920b3e176e275b441fade87cbbfeaf6034fe9
+home: https://github.com/giantswarm/linkerd2-cni-app
+icon: https://s.giantswarm.io/app-icons/linkerd2/2/icon_dark.svg
+restrictions:
+  clusterSingleton: true
+  fixedNamespace: linkerd-cni
