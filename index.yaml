@@ -16708,6 +16708,33 @@ entries:
     version: 2.0.0
   prometheus-operator-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/prometheus-operator-app-6.0.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/prometheus-operator-app-6.0.0.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/prometheus-operator-app-6.0.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v0.67.1
+    created: "2023-09-04T12:31:52.065509272Z"
+    dependencies:
+    - alias: prometheus-operator-app
+      name: kube-prometheus-stack
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 50.2.0
+    description: Giant Swarm's Prometheus Operator Deployment
+    digest: 3e7370d9938861cc171875347503e1d1de292ed2fcee8490cf40053e0607a666
+    home: https://github.com/giantswarm/prometheus-operator-app
+    icon: https://s.giantswarm.io/app-icons/prometheus-operator/2/light.svg
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: prometheus-operator-app
+    sources:
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-prometheus-stack
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/prometheus-operator-app-6.0.0.tgz
+    version: 6.0.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/prometheus-operator-app-5.2.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/prometheus-operator-app-5.2.0.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -22500,4 +22527,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-09-04T08:13:15.994169357Z"
+generated: "2023-09-04T12:31:52.025060132Z"
