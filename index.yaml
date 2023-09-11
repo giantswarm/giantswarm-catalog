@@ -21885,6 +21885,32 @@ entries:
     version: 0.3.0
   trivy:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/trivy-0.8.3.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/trivy-0.8.3.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/trivy-0.8.3.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 0.37.2
+    created: "2023-09-11T09:05:10.445562292Z"
+    dependencies:
+    - name: trivy
+      repository: ""
+      version: 0.7.0
+    description: A Helm chart for trivy
+    digest: 2d64f22eaf7439478420b56675f104595443883cb8acc7dbdc20c50668d3ae00
+    home: https://github.com/giantswarm/trivy-app
+    icon: https://s.giantswarm.io/app-icons/trivy/1/light.svg
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/trivy-app
+    name: trivy
+    sources:
+    - https://github.com/giantswarm/trivy-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/trivy-0.8.3.tgz
+    version: 0.8.3
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/trivy-0.8.2.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/trivy-0.8.2.tgz-meta/README.md
       application.giantswarm.io/team: shield
@@ -22560,4 +22586,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-09-11T09:04:54.929784328Z"
+generated: "2023-09-11T09:05:10.443350688Z"
