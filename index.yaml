@@ -20651,10 +20651,10 @@ entries:
       application.giantswarm.io/team: shield
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/security-bundle-0.17.0.tgz-meta/values.schema.json
     apiVersion: v2
-    created: "2023-06-15T13:40:50.541364264Z"
+    created: "2023-09-11T10:36:26.881951906Z"
     description: A Helm chart for Giant Swarm's collection of open-source security
       tools.
-    digest: df905ffbff814a2f0c99b202585e1221b2f6e25020211a26369fe84f27852a43
+    digest: 736367263c5cdd2771f4ad9f3200142b357bb06bbfd9942a2339818792e2a921
     home: https://github.com/giantswarm/security-bundle
     icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
     name: security-bundle
@@ -22586,4 +22586,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-09-11T09:05:10.443350688Z"
+generated: "2023-09-11T10:36:26.881332844Z"
