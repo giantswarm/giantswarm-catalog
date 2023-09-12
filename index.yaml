@@ -19290,9 +19290,13 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/prometheus-operator-crd-6.1.0.tgz-meta/values.schema.json
     apiVersion: v2
     appVersion: 0.68.0
-    created: "2023-09-12T08:12:30.832179995Z"
+    created: "2023-09-12T12:54:44.584713553Z"
+    dependencies:
+    - name: prometheus-operator-crds
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 6.0.0
     description: kube-prometheus-stack CustomResourceDefinitions.
-    digest: 3d028b62344199b0ee8a172ce23143ac20be5718948be899071d82a172d4c8e6
+    digest: 7c8e89d72b8122fb55008252311f33eee42300b3b7f231d18750873afe0b0659
     home: https://github.com/giantswarm/prometheus-operator-crd
     icon: https://s.giantswarm.io/app-icons/prometheus-operator/2/light.svg
     kubeVersion: '>=1.19.0-0'
@@ -22635,4 +22639,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-09-12T08:12:30.818100122Z"
+generated: "2023-09-12T12:54:44.57292007Z"
