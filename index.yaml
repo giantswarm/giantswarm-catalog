@@ -21112,6 +21112,27 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/security-pack-0.8.0.tgz
     version: 0.8.0
+  service-mesh-bundle:
+  - annotations:
+      application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/service-mesh-bundle-0.5.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/service-mesh-bundle-0.5.0.tgz-meta/README.md
+      application.giantswarm.io/team: cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/service-mesh-bundle-0.5.0.tgz-meta/values.schema.json
+      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/linkerd2/2/logo_dark.svg
+    apiVersion: v2
+    appVersion: stable-2.13.6
+    created: "2023-09-13T15:16:49.996498892Z"
+    description: 'The Service Mesh Bundle provides all the necessary components to
+      install Linkerd on your workload cluster, adding observability, reliability,
+      and security for your microservices — with no code change required. '
+    digest: a05f129b8fba9be2545304bc9f1e8269b64d44adfc255be83c50f67c424f51ed
+    home: https://github.com/giantswarm/service-mesh-bundle
+    icon: https://s.giantswarm.io/app-icons/linkerd2/2/icon_dark.svg
+    name: service-mesh-bundle
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/service-mesh-bundle-0.5.0.tgz
+    version: 0.5.0
   starboard-app:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/starboard-app-0.8.0.tgz-meta/main.yaml
@@ -22698,4 +22719,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-09-13T08:08:58.041026506Z"
+generated: "2023-09-13T15:16:49.994767488Z"
