@@ -579,10 +579,10 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-1.4.1.tgz-meta/values.schema.json
     apiVersion: v2
     appVersion: v2.4.1
-    created: "2023-09-26T12:38:13.117396553Z"
+    created: "2023-09-26T13:43:33.476917079Z"
     description: A controller to help manage Elastic Load Balancers for a Kubernetes
       cluster
-    digest: 2ed2259de54cff9f64c1095f00cb86d9b6ce42081ce62d266b4bc71ba9005dc9
+    digest: 447983e5222403781af9228d66f4be4a6a396b369167a825b7d7ba75986c4f9d
     home: https://github.com/giantswarm/aws-load-balancer-controller-app
     icon: https://s.giantswarm.io/app-icons/aws/1/dark.svg
     keywords:
@@ -22968,4 +22968,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-09-26T12:38:13.115655005Z"
+generated: "2023-09-26T13:43:33.474085037Z"
