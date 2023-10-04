@@ -2682,6 +2682,38 @@ entries:
     version: 0.0.3
   datadog:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/datadog-2.6.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/datadog-2.6.0.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/datadog-2.6.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 7.43.0
+    created: "2023-10-04T14:44:06.421988284Z"
+    dependencies:
+    - name: datadog
+      repository: https://helm.datadoghq.com
+      version: 3.13.0
+    description: Datadog Agent
+    digest: f3a6e909ac204d5c914f70f99b193d40edd9c473c08ede730e965cd56e2322ac
+    home: https://github.com/giantswarm/datadog-app
+    icon: https://s.giantswarm.io/app-icons/datadog/1/light.svg
+    keywords:
+    - monitoring
+    - alerting
+    - metric
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: datadog
+    sources:
+    - https://github.com/giantswarm/datadog-app
+    - https://app.datadoghq.com/account/settings#agent/kubernetes
+    - https://github.com/DataDog/helm-charts/tree/main/charts/datadog
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/datadog-2.6.0.tgz
+    version: 2.6.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/datadog-2.5.3.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/datadog-2.5.3.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -23214,4 +23246,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-10-03T13:36:46.517561236Z"
+generated: "2023-10-04T14:44:06.41055149Z"
