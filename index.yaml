@@ -4753,6 +4753,22 @@ entries:
     version: 0.1.3
   exception-recommender:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/exception-recommender-0.0.2.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/exception-recommender-0.0.2.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/exception-recommender-0.0.2.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2023-10-10T19:10:47.842213403Z"
+    description: A Helm chart for exception-recommender, which creates PolicyExceptionDrafts
+      from Kyverno's PolicyReport results.
+    digest: 549b53af8efbcc83555905fa302ce2ef1bb3ad18c7fc8bd97090801d2c1b63bc
+    home: https://github.com/giantswarm/exception-recommender
+    name: exception-recommender
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/exception-recommender-0.0.2.tgz
+    version: 0.0.2
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/exception-recommender-0.0.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/exception-recommender-0.0.1.tgz-meta/README.md
       application.giantswarm.io/team: shield
@@ -23502,4 +23518,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-10-10T19:03:27.934102227Z"
+generated: "2023-10-10T19:10:47.841374573Z"
