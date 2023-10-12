@@ -608,6 +608,39 @@ entries:
     version: 1.0.0
   aws-load-balancer-controller:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-1.4.3.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-1.4.3.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-1.4.3.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v2.4.1
+    created: "2023-10-12T15:07:24.437433365Z"
+    description: A controller to help manage Elastic Load Balancers for a Kubernetes
+      cluster
+    digest: 466b3e63e2d3b7acee74b05af18e877b4dfea01954322eded9d9ec3786e31f65
+    home: https://github.com/giantswarm/aws-load-balancer-controller-app
+    icon: https://s.giantswarm.io/app-icons/aws/1/dark.svg
+    keywords:
+    - eks
+    - alb
+    - load balancer
+    - ingress
+    - nlb
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: kishorj@users.noreply.github.com
+      name: kishorj
+      url: https://github.com/kishorj
+    - email: m00nf1sh@users.noreply.github.com
+      name: m00nf1sh
+      url: https://github.com/m00nf1sh
+    name: aws-load-balancer-controller
+    sources:
+    - https://github.com/aws/eks-charts
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-1.4.3.tgz
+    version: 1.4.3
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-1.4.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-1.4.1.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -23679,4 +23712,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-10-12T14:00:09.733342576Z"
+generated: "2023-10-12T15:07:24.435795359Z"
