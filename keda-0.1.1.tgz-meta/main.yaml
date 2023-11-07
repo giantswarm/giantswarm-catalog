@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/keda-0.1.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/keda-0.1.1.tgz-meta/README.md
+  application.giantswarm.io/team: atlas
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/keda-0.1.1.tgz-meta/values.schema.json
+  ui.giantswarm.io/logo: https://raw.githubusercontent.com/kedacore/keda/main/images/keda-logo-500x500-white.png
+chartApiVersion: v2
+chartFile: keda-0.1.1.tgz
+dateCreated: '2023-11-07T11:38:51.781949'
+digest: 4709a96115d654d8a1641be542efbfda2504c1c4daa46501f78d5ab82ab6b8c7
+home: https://github.com/giantswarm/keda-app
+icon: https://raw.githubusercontent.com/kedacore/keda/main/images/keda-logo-500x500-white.png
