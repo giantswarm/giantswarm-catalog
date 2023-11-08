@@ -11171,6 +11171,26 @@ entries:
     version: 0.1.0
   keda:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/keda-0.2.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/keda-0.2.0.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/keda-0.2.0.tgz-meta/values.schema.json
+      ui.giantswarm.io/logo: https://raw.githubusercontent.com/kedacore/keda/main/images/keda-logo-500x500-white.png
+    apiVersion: v2
+    appVersion: 2.10.1
+    created: "2023-11-08T17:24:17.781088614Z"
+    description: Event-based autoscaler for workloads on Kubernetes
+    digest: 5bfc0541c285c6a3f41bf5092066f3e3cdc5bbb6f32f4104ca37eb04ce2bbd97
+    home: https://github.com/giantswarm/keda-app
+    icon: https://raw.githubusercontent.com/kedacore/keda/main/images/keda-logo-500x500-white.png
+    kubeVersion: '>=v1.24.0-0'
+    name: keda
+    sources:
+    - https://github.com/kedacore/keda
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/keda-0.2.0.tgz
+    version: 0.2.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/keda-0.1.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/keda-0.1.1.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -24262,4 +24282,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-11-08T15:15:26.584935495Z"
+generated: "2023-11-08T17:24:17.77459864Z"
