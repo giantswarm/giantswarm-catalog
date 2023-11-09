@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/tempo-0.1.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/tempo-0.1.1.tgz-meta/README.md
+  application.giantswarm.io/team: atlas
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/tempo-0.1.1.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: tempo-0.1.1.tgz
+dateCreated: '2023-11-09T13:12:30.155756'
+digest: 9fb14bb9b721fe7a1964f349dd7d7cbfa70b8f80354bfe67e37661d56a4f8b4c
+home: https://github.com/giantswarm/tempo-app
+restrictions:
+  namespaceSingleton: true
