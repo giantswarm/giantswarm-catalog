@@ -12574,6 +12574,41 @@ entries:
     version: 7.0.0
   kyverno:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/kyverno-0.16.2.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/kyverno-0.16.2.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/kyverno-0.16.2.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: v1.10.2
+    created: "2023-11-16T11:10:35.254081998Z"
+    dependencies:
+    - name: policy-reporter
+      repository: ""
+      version: 2.19.4
+    - name: kyverno
+      repository: ""
+      version: 3.0.3
+    description: 'Kyverno is a policy engine designed for Kubernetes. It can validate,
+      mutate, and generate configurations using admission controls and background
+      scans. Kyverno policies are Kubernetes resources and do not require learning
+      a new language. '
+    digest: b41ab9977cbe4b34aa853bef04f4c4ecae6e24354a8bb086f0cf3e1ff1be1f9f
+    home: https://github.com/giantswarm/kyverno-app
+    icon: https://s.giantswarm.io/app-icons/kyverno/1/light.svg
+    keywords:
+    - kubernetes
+    - policy agent
+    - validating webhook
+    - admissions controller
+    name: kyverno
+    sources:
+    - https://github.com/kyverno/kyverno
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/kyverno-0.16.2.tgz
+    version: 0.16.2
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/kyverno-0.16.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/kyverno-0.16.1.tgz-meta/README.md
       application.giantswarm.io/team: shield
@@ -24690,4 +24725,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-11-15T10:46:26.706652008Z"
+generated: "2023-11-16T11:10:35.22633412Z"
