@@ -2964,6 +2964,440 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/cloudflared-0.0.3.tgz
     version: 0.0.3
+  coredns-app:
+  - apiVersion: v1
+    appVersion: 1.9.3
+    created: "2023-09-28T08:33:34.457870294Z"
+    description: A Helm chart for CoreDNS
+    digest: bfc0ed2b5187dea9a567cf71cca5889505f17091da5eeeeda0743ce21640c0c7
+    home: https://github.com/giantswarm/coredns-app
+    icon: https://s.giantswarm.io/app-icons/coredns/1/dark.svg
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.19.0.tgz
+    version: 1.19.0
+  - apiVersion: v1
+    appVersion: 1.9.3
+    created: "2023-08-30T14:05:15.520108603Z"
+    description: A Helm chart for CoreDNS
+    digest: aff7d263b583050eb83fb6391637d5206076331bac6782ad9ecfee27a0d68180
+    home: https://github.com/giantswarm/coredns-app
+    icon: https://s.giantswarm.io/app-icons/coredns/1/dark.svg
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.18.1.tgz
+    version: 1.18.1
+  - apiVersion: v1
+    appVersion: 1.9.3
+    created: "2023-08-01T09:23:00.453432681Z"
+    description: A Helm chart for CoreDNS
+    digest: 7562e89ad482be8eb7f5baa67a876a3b852313d59db45abacf486c9a07e908ad
+    home: https://github.com/giantswarm/coredns-app
+    icon: https://s.giantswarm.io/app-icons/coredns/1/dark.svg
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.18.0.tgz
+    version: 1.18.0
+  - apiVersion: v1
+    appVersion: 1.9.3
+    created: "2023-07-13T07:46:31.676608056Z"
+    description: A Helm chart for CoreDNS
+    digest: 5168effdc5448478a2e73a69df4ae9a16691ae0fd9bbe408aa9edddf52fac8f3
+    home: https://github.com/giantswarm/coredns-app
+    icon: https://s.giantswarm.io/app-icons/coredns/1/dark.svg
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.17.1.tgz
+    version: 1.17.1
+  - apiVersion: v1
+    appVersion: 1.9.3
+    created: "2023-05-12T10:01:44.377320153Z"
+    description: A Helm chart for CoreDNS
+    digest: 069e6b969707aff683ffc8de391a6f7f0f765dbf2a714913b0401ee9a53217e6
+    home: https://github.com/giantswarm/coredns-app
+    icon: https://s.giantswarm.io/app-icons/coredns/1/dark.svg
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.17.0.tgz
+    version: 1.17.0
+  - apiVersion: v1
+    appVersion: 1.9.3
+    created: "2023-05-04T07:09:56.804221925Z"
+    description: A Helm chart for CoreDNS
+    digest: 16117a65a2c7414796422b6d91738e0169dad2d0ac0f7a27d2dd8749b3552507
+    home: https://github.com/giantswarm/coredns-app
+    icon: https://s.giantswarm.io/app-icons/coredns/1/dark.svg
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.16.0.tgz
+    version: 1.16.0
+  - apiVersion: v1
+    appVersion: 1.9.3
+    created: "2023-04-06T08:44:11.489786417Z"
+    description: A Helm chart for CoreDNS
+    digest: 893d6787f441f1e876ae78f1bcc7f00e8cd521c7ebc11e19b95d2c097880297a
+    home: https://github.com/giantswarm/coredns-app
+    icon: https://s.giantswarm.io/app-icons/coredns/1/dark.svg
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.15.2.tgz
+    version: 1.15.2
+  - apiVersion: v1
+    appVersion: 1.9.3
+    created: "2023-04-05T08:10:27.59433129Z"
+    description: A Helm chart for CoreDNS
+    digest: 922015ac0c49aaa70664debf08c696d6aff99f9b3a1f7c608e046fdeaeea9515
+    home: https://github.com/giantswarm/coredns-app
+    icon: https://s.giantswarm.io/app-icons/coredns/1/dark.svg
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.15.1.tgz
+    version: 1.15.1
+  - apiVersion: v1
+    appVersion: 1.9.3
+    created: "2023-03-30T14:16:02.247385744Z"
+    description: A Helm chart for CoreDNS
+    digest: 5c6ce844f7be0455fe22516f9ce72b2f61e57f8be4c932e9815cca4409b4bf40
+    home: https://github.com/giantswarm/coredns-app
+    icon: https://s.giantswarm.io/app-icons/coredns/1/dark.svg
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.15.0.tgz
+    version: 1.15.0
+  - apiVersion: v1
+    appVersion: 1.9.3
+    created: "2023-03-23T17:06:35.681234435Z"
+    description: A Helm chart for CoreDNS
+    digest: a348e6e8add5e0efb64b80dd0fa48845f84ba0b410fadf50d690fda477778838
+    home: https://github.com/giantswarm/coredns-app
+    icon: https://s.giantswarm.io/app-icons/coredns/1/dark.svg
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.14.3.tgz
+    version: 1.14.3
+  - apiVersion: v1
+    appVersion: 1.9.3
+    created: "2023-02-15T12:16:34.267592727Z"
+    description: A Helm chart for CoreDNS
+    digest: c456524fe71c0a8b3c5804c807b3e4544aff1ba9747b9b878b7361b3163b28eb
+    home: https://github.com/giantswarm/coredns-app
+    icon: https://s.giantswarm.io/app-icons/coredns/1/dark.svg
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.14.2.tgz
+    version: 1.14.2
+  - apiVersion: v1
+    appVersion: 1.9.3
+    created: "2023-02-14T13:52:15.846834347Z"
+    description: A Helm chart for CoreDNS
+    digest: 47f0bce0434a20026eb5202956d5fc36d32260a6beb98d8d519097910770f845
+    home: https://github.com/giantswarm/coredns-app
+    icon: https://s.giantswarm.io/app-icons/coredns/1/dark.svg
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.14.1.tgz
+    version: 1.14.1
+  - apiVersion: v1
+    appVersion: 1.9.3
+    created: "2023-02-13T14:38:55.242756013Z"
+    description: A Helm chart for CoreDNS
+    digest: b701d3146c66645d7072e68a9b0e4d277a0365a3c639df06bd16a18d17cab120
+    home: https://github.com/giantswarm/coredns-app
+    icon: https://s.giantswarm.io/app-icons/coredns/1/dark.svg
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.14.0.tgz
+    version: 1.14.0
+  - apiVersion: v1
+    appVersion: 1.9.3
+    created: "2022-12-28T09:52:48.408668034Z"
+    description: A Helm chart for CoreDNS
+    digest: 134954e7733d5c19315ad8261a2ee0d61ea2068bdae84c95acdee5aa64605ea0
+    home: https://github.com/giantswarm/coredns-app
+    icon: https://s.giantswarm.io/app-icons/coredns/1/dark.svg
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.13.0.tgz
+    version: 1.13.0
+  - apiVersion: v1
+    appVersion: 1.9.3
+    created: "2022-12-02T09:39:37.377103207Z"
+    description: A Helm chart for CoreDNS
+    digest: 9073aa9aa29aa083b319dbb079c2fed270ce0705a2356c69f24a38e89fc7c2ed
+    home: https://github.com/giantswarm/coredns-app
+    icon: https://s.giantswarm.io/app-icons/coredns/1/dark.svg
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.12.0.tgz
+    version: 1.12.0
+  - apiVersion: v1
+    appVersion: 1.9.3
+    created: "2022-07-12T12:40:45.085514667Z"
+    description: A Helm chart for CoreDNS
+    digest: 6b2fe01450aeaad7986a68d7af4e1c58c83a6b580b8c163d52003b2b1f8cca56
+    home: https://github.com/giantswarm/coredns-app
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.11.0.tgz
+    version: 1.11.0
+  - apiVersion: v1
+    appVersion: 1.8.7
+    created: "2022-06-17T15:32:54.154111147Z"
+    description: A Helm chart for CoreDNS
+    digest: e17eb1787b92f12e61d1c8ea055e3e286f560b99cd91a204ec1cbaaac8670413
+    home: https://github.com/giantswarm/coredns-app
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.10.1.tgz
+    version: 1.10.1
+  - apiVersion: v1
+    appVersion: 1.8.7
+    created: "2022-06-17T08:27:05.892705441Z"
+    description: A Helm chart for CoreDNS
+    digest: edddd0794d1a82b28259e5903a6eb3fc077fad14729c777b48f6d32c3aaae799
+    home: https://github.com/giantswarm/coredns-app
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.10.0.tgz
+    version: 1.10.0
+  - apiVersion: v1
+    appVersion: 1.8.7
+    created: "2022-06-16T09:59:24.366227159Z"
+    description: A Helm chart for CoreDNS
+    digest: b1bdfce296ebea9d9a38d4295d456f7250740801dda6c406140bb7b0510d2882
+    home: https://github.com/giantswarm/coredns-app
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.9.1.tgz
+    version: 1.9.1
+  - apiVersion: v1
+    appVersion: 1.8.7
+    created: "2022-04-11T11:01:56.948938698Z"
+    description: A Helm chart for CoreDNS
+    digest: 394e1aae27f988bdebc58c3a4b16cd3aad34a644962b31a449eb0808f4b269c1
+    home: https://github.com/giantswarm/coredns-app
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.9.0.tgz
+    version: 1.9.0
+  - apiVersion: v1
+    appVersion: 1.8.6
+    created: "2022-01-20T11:55:08.439835009Z"
+    description: A Helm chart for CoreDNS
+    digest: 99afc8168bc79af70db3092ea1739ae13e5572658b98e55c8c7630a88ef26489
+    home: https://github.com/giantswarm/coredns-app
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.8.0.tgz
+    version: 1.8.0
+  - apiVersion: v1
+    appVersion: 1.8.6
+    created: "2022-01-04T08:45:39.274912469Z"
+    description: A Helm chart for CoreDNS
+    digest: 3e61349c5c8bcfdeb1808d588fa4f070ff4e9c41ba84ca53fdcf82522f2cc02f
+    home: https://github.com/giantswarm/coredns-app
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.7.0.tgz
+    version: 1.7.0
+  - apiVersion: v1
+    appVersion: 1.8.3
+    created: "2021-06-14T13:58:17.849108808Z"
+    description: A Helm chart for CoreDNS
+    digest: f146f017379ba3722fe5bce5ebed08b79e722664c90d233d7bc04c97734ca4a7
+    home: https://github.com/giantswarm/coredns-app
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.6.0.tgz
+    version: 1.6.0
+  - apiVersion: v1
+    appVersion: 1.8.3
+    created: "2021-06-14T09:51:05.634269446Z"
+    description: A Helm chart for CoreDNS
+    digest: f04836031a793dec01bb07c58c3bff58bc27555431fbe5068c5b9e4cc60dcf86
+    home: https://github.com/giantswarm/coredns-app
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.5.1.tgz
+    version: 1.5.1
+  - apiVersion: v1
+    appVersion: 1.8.3
+    created: "2021-06-10T14:06:38.811503095Z"
+    description: A Helm chart for CoreDNS
+    digest: 1851f70ae7690cab74f6b358d8dda6e359bff617dea5d8dbad0863a9520a92f6
+    home: https://github.com/giantswarm/coredns-app
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.5.0.tgz
+    version: 1.5.0
+  - apiVersion: v1
+    appVersion: 1.8.0
+    created: "2021-03-26T15:27:28.168288633Z"
+    description: A Helm chart for CoreDNS
+    digest: 2eb3ea8fe9d548220dbdf766389b36f1f11222cfea99fe7ba64e9b7096a23eee
+    home: https://github.com/giantswarm/coredns-app
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.4.1.tgz
+    version: 1.4.1
+  - apiVersion: v1
+    appVersion: 1.8.0
+    created: "2021-02-10T13:54:35.302820068Z"
+    description: A Helm chart for CoreDNS
+    digest: 3d42acbf6ac8647397df33be983e47464280daea05321848876fba50a98e10b3
+    home: https://github.com/giantswarm/coredns-app
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.4.0.tgz
+    version: 1.4.0
+  - apiVersion: v1
+    appVersion: 1.7.1
+    created: "2021-02-09T14:46:33.604501579Z"
+    description: A Helm chart for CoreDNS
+    digest: a75a5ce274808e798d33029b17866cd0d205b2cdc297a5e66c006b7a4d2fd21e
+    home: https://github.com/giantswarm/coredns-app
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.3.0.tgz
+    version: 1.3.0
+  - apiVersion: v1
+    appVersion: 1.6.9
+    created: "2021-02-05T16:17:49.294990326Z"
+    description: A Helm chart for CoreDNS
+    digest: 7cbbcd40c7b5ed4da31c0d41a7d41f3ef5992813f2bebfe11abe7badd1444a6b
+    home: https://github.com/giantswarm/coredns-app
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.2.1.tgz
+    version: 1.2.1
+  - apiVersion: v1
+    appVersion: 1.6.5
+    created: "2020-07-13T15:38:27.463600491Z"
+    description: A Helm chart for CoreDNS
+    digest: 2e7c36aee86ca1abf87019eb6d75c0f82427e8dd8180efa1dd1498f9b86bd68b
+    home: https://github.com/giantswarm/coredns-app
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.2.0.tgz
+    version: 1.2.0
+  - apiVersion: v1
+    appVersion: 1.6.5
+    created: "2020-06-29T13:58:11.308410914Z"
+    description: A Helm chart for CoreDNS
+    digest: 22861ee190eae7bec8f99487cf8a92afe912e44226bc8ebb08b3080a39c29bc9
+    home: https://github.com/giantswarm/coredns-app
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.1.10.tgz
+    version: 1.1.10
+  - apiVersion: v1
+    appVersion: 1.6.5
+    created: "2020-05-07T08:10:51.851466955Z"
+    description: A Helm chart for CoreDNS
+    digest: 5618102711ff2c5044d73f0ad8c616e3f5c21908eec0943cb835e0155a02829d
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.1.9.tgz
+    version: 1.1.9
+  - apiVersion: v1
+    appVersion: 1.6.5
+    created: "2020-03-20T15:44:06.776444885Z"
+    description: A Helm chart for CoreDNS
+    digest: 4ab4898def71703b278be778b6b2d2d0e1e31b82c13cb9b3ae8b35b3597448ed
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.1.8.tgz
+    version: 1.1.8
+  - apiVersion: v1
+    appVersion: 1.6.5
+    created: "2020-03-19T19:52:38.076810527Z"
+    description: A Helm chart for CoreDNS
+    digest: 66e9985f4a260a29c669f4080e4412c4c0b7c62aa6103b23b98ca420c073af22
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.1.7.tgz
+    version: 1.1.7
+  - apiVersion: v1
+    appVersion: 1.6.5
+    created: "2020-03-02T10:16:45.046978418Z"
+    description: A Helm chart for CoreDNS
+    digest: 668185de28443924434c818ab39a5fed4afc621d5747381842a394a92509fe24
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.1.6.tgz
+    version: 1.1.6
+  - apiVersion: v1
+    appVersion: 1.6.5
+    created: "2020-02-28T09:50:04.780094243Z"
+    description: A Helm chart for CoreDNS
+    digest: 59b19096b92d3e26519dd61b5ea7089c131a8e2cd148f4b015cdabe1a1b018d2
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.1.5.tgz
+    version: 1.1.5
+  - apiVersion: v1
+    appVersion: 1.6.5
+    created: "2020-02-27T11:01:33.892742054Z"
+    description: A Helm chart for CoreDNS
+    digest: b3b4a8ca25f7bb439ce079d42a348fbd1c2004275f15c77e012870e88f145302
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.1.4.tgz
+    version: 1.1.4
+  - apiVersion: v1
+    appVersion: 1.6.5
+    created: "2020-01-08T15:42:08.182460745Z"
+    description: A Helm chart for CoreDNS
+    digest: 14c01d4a896ac4bb4df53cee836b2255a202f5918482861160b53906bf6a9d08
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.1.3.tgz
+    version: 1.1.3
+  - apiVersion: v1
+    appVersion: 1.6.5
+    created: "2020-01-03T21:27:27.299674905Z"
+    description: A Helm chart for CoreDNS
+    digest: 6ed0a74cdb8771ca5d4293835596f36bef4396c3d3332c6fbee3af4c3c3081ae
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.1.2.tgz
+    version: 1.1.2
+  - apiVersion: v1
+    appVersion: 1.6.5
+    created: "2019-12-24T13:12:00.125170845Z"
+    description: A Helm chart for CoreDNS
+    digest: 46c611c1bdc953afdb5bcd1efcc087744bfd4793fff6e5fabe9555f4a17b7a48
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.1.1.tgz
+    version: 1.1.1
+  - apiVersion: v1
+    appVersion: 1.6.5
+    created: "2019-11-20T04:06:30.227781996Z"
+    description: A Helm chart for CoreDNS
+    digest: 5ef353c5bf1ddd91e2544049d7e355e4351e64aca9c1e052e230868d7f5020d3
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v1
+    appVersion: 1.6.2
+    created: "2019-10-29T17:19:38.031699296Z"
+    description: A Helm chart for CoreDNS
+    digest: dbe1d7157992dcccf69fed7bca0735a07dea38754dfe8bb03397c9f4dcc732aa
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v1
+    appVersion: 1.6.2
+    created: "2019-10-24T12:26:02.672168088Z"
+    description: A Helm chart for CoreDNS
+    digest: 5af6887eddea1a2e420bc8b655d94f15974a4dc84e4a0d27aa9bb56f67fcab50
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-0.9.0.tgz
+    version: 0.9.0
   datadog:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/datadog-2.6.0.tgz-meta/main.yaml
