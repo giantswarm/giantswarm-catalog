@@ -627,6 +627,22 @@ entries:
       application.giantswarm.io/team: phoenix
     apiVersion: v1
     appVersion: 1.5.7
+    created: "2023-11-22T15:35:16.232462331Z"
+    description: A Helm chart for AWS EFS CSI Driver
+    digest: 083228c53b59d39efb1c980deef51ba9f5282bbca15ab7c987a74bcddb99a67d
+    home: https://github.com/giantswarm/aws-efs-csi-driver
+    icon: https://s.giantswarm.io/app-icons/aws/1/dark.svg
+    kubeVersion: '>=1.17.0-0'
+    name: aws-efs-csi-driver
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/aws-efs-csi-driver/v1.2.0/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/aws-efs-csi-driver-1.2.0.tgz
+    version: 1.2.0
+  - annotations:
+      application.giantswarm.io/team: phoenix
+    apiVersion: v1
+    appVersion: 1.5.7
     created: "2023-10-30T13:42:53.063035292Z"
     description: A Helm chart for AWS EFS CSI Driver
     digest: cd24327e21c1b2b3d04c7a74fae6aaf5c525e4d8eb5f1e471c74e874e25c949f
@@ -25410,4 +25426,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-11-22T14:48:05.451433477Z"
+generated: "2023-11-22T15:35:16.230807622Z"
