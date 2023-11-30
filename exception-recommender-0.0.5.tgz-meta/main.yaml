@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/exception-recommender-0.0.5.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/exception-recommender-0.0.5.tgz-meta/README.md
+  application.giantswarm.io/team: shield
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/exception-recommender-0.0.5.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: exception-recommender-0.0.5.tgz
+dateCreated: '2023-11-30T12:27:53.988620'
+digest: 7675fe4636c1835a9c69c4f17aa77ca60d670410c02bfa5aa364aef5d0832b51
+home: https://github.com/giantswarm/exception-recommender
