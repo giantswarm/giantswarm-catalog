@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/app-type: bundle
+  application.giantswarm.io/in-cluster-app: 'true'
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/auth-bundle-0.1.2.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/auth-bundle-0.1.2.tgz-meta/README.md
+  application.giantswarm.io/team: bigmac
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/auth-bundle-0.1.2.tgz-meta/values.schema.json
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: auth-bundle-0.1.2.tgz
+dateCreated: '2023-12-05T10:39:49.271477'
+digest: 86a5c72a8fda5a00c0b72bdb9b800aa687e03f3ba61180dda8e604c8fc6c076a
+home: https://github.com/giantswarm/auth-bundle
