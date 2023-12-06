@@ -3101,6 +3101,22 @@ entries:
     version: 0.0.3
   coredns-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.20.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.20.0.tgz-meta/README.md
+      application.giantswarm.io/team: cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.20.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 1.11.1
+    created: "2023-12-06T13:43:15.889024742Z"
+    description: A Helm chart for CoreDNS
+    digest: 4db838a9f3567302c17ae22c35530143cb8a689f0d351831b4c549fc97cb9654
+    home: https://github.com/giantswarm/coredns-app
+    icon: https://s.giantswarm.io/app-icons/coredns/1/dark.svg
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.20.0.tgz
+    version: 1.20.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.19.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.19.1.tgz-meta/README.md
       application.giantswarm.io/team: cabbage
@@ -25954,4 +25970,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-12-06T12:49:33.434962894Z"
+generated: "2023-12-06T13:43:15.8881812Z"
