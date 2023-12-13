@@ -16099,6 +16099,39 @@ entries:
     version: 0.9.0
   linkerd-viz:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/linkerd-viz-1.4.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/linkerd-viz-1.4.1.tgz-meta/README.md
+      application.giantswarm.io/team: team-cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/linkerd-viz-1.4.1.tgz-meta/values.schema.json
+      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/linkerd2/2/logo_dark.svg
+    apiVersion: v2
+    appVersion: stable-2.14.3
+    created: "2023-12-13T11:03:31.666076503Z"
+    dependencies:
+    - name: partials
+      repository: ""
+      version: 0.1.0
+    description: 'The Linkerd-Viz extension contains observability and visualization
+      components for Linkerd. '
+    digest: f5d25457a80af736344329ef30a7f0b773e8e6cca81600a32a95240c62bf9b20
+    home: https://linkerd.io
+    icon: https://s.giantswarm.io/app-icons/linkerd2/2/icon_dark.svg
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/linkerd-viz-app
+    name: linkerd-viz
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/linkerd-viz-1.4.1.tgz
+    version: 1.4.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/linkerd-viz-1.4.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/linkerd-viz-1.4.0.tgz-meta/README.md
       application.giantswarm.io/team: team-cabbage
@@ -26444,4 +26477,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-12-13T10:45:51.422124171Z"
+generated: "2023-12-13T11:03:31.663702459Z"
