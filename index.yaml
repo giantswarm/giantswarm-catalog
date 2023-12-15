@@ -6973,6 +6973,24 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/external-dns-app-2.0.0.tgz
     version: 2.0.0
+  external-dns-crossplane-resources:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/external-dns-crossplane-resources-0.1.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/external-dns-crossplane-resources-0.1.0.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/external-dns-crossplane-resources-0.1.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2023-12-15T07:59:36.393501282Z"
+    description: Crossplane Resources for External DNS
+    digest: 7eae45faf9dff1dc3fc67c2687da5480c9f767b376e6efa97458ecaa16473292
+    home: https://github.com/giantswarm/external-dns-crossplane-resources
+    name: external-dns-crossplane-resources
+    sources:
+    - https://github.com/giantswarm/external-dns-crossplane-resources
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/external-dns-crossplane-resources-0.1.0.tgz
+    version: 0.1.0
   external-secrets:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/external-secrets-0.8.0.tgz-meta/main.yaml
@@ -26704,4 +26722,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-12-14T14:27:28.666012857Z"
+generated: "2023-12-15T07:59:36.39281268Z"
