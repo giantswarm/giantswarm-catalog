@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/external-dns-bundle-0.1.5.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/external-dns-bundle-0.1.5.tgz-meta/README.md
+  application.giantswarm.io/team: phoenix
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/external-dns-bundle-0.1.5.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: external-dns-bundle-0.1.5.tgz
+dateCreated: '2023-12-15T12:25:15.698923'
+digest: 7072c6da37af790c67a2c374f08c16838e3751fc0f12d2519def11000b296061
+home: https://github.com/giantswarm/external-dns-bundle
