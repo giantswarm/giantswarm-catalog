@@ -6973,6 +6973,22 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/external-dns-app-2.0.0.tgz
     version: 2.0.0
+  external-dns-bundle:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/external-dns-bundle-0.1.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/external-dns-bundle-0.1.0.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/external-dns-bundle-0.1.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2023-12-15T08:25:49.992371422Z"
+    description: External DNS Bundle with crossplane resources
+    digest: 8a33c2d4bf3c7c0849c8ad6a6b429a2f6cd2a11b920480b619fd25043ff13ced
+    home: https://github.com/giantswarm/external-dns-bundle
+    name: external-dns-bundle
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/external-dns-bundle-0.1.0.tgz
+    version: 0.1.0
   external-dns-crossplane-resources:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/external-dns-crossplane-resources-0.1.0.tgz-meta/main.yaml
@@ -26722,4 +26738,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-12-15T07:59:36.39281268Z"
+generated: "2023-12-15T08:25:49.99182416Z"
