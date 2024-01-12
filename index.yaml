@@ -7661,7 +7661,7 @@ entries:
       ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/falco/2/logo_dark.svg
     apiVersion: v2
     appVersion: 0.35.1
-    created: "2024-01-12T10:45:14.133734816Z"
+    created: "2024-01-12T10:45:16.738987478Z"
     dependencies:
     - name: falco
       repository: ""
@@ -7673,7 +7673,7 @@ entries:
       repository: ""
       version: 0.7.5
     description: A Helm chart for falco
-    digest: 1787e15e4a40f2789b9464704e29fca2971e24102f3672be07c056c7f664bf6f
+    digest: 92d5427717c4c78185e0d78ea37f69f93f90fe6a4d6ad7f27a4935c368421fe2
     home: https://github.com/giantswarm/falco-app
     icon: https://s.giantswarm.io/app-icons/falco/2/icon_dark.svg
     maintainers:
@@ -27493,4 +27493,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2024-01-12T10:45:14.122562357Z"
+generated: "2024-01-12T10:45:16.730294872Z"
