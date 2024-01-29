@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/app-type: bundle
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/service-mesh-bundle-0.8.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/service-mesh-bundle-0.8.0.tgz-meta/README.md
+  application.giantswarm.io/team: cabbage
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/service-mesh-bundle-0.8.0.tgz-meta/values.schema.json
+  ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/linkerd2/2/logo_dark.svg
+chartApiVersion: v2
+chartFile: service-mesh-bundle-0.8.0.tgz
+dateCreated: '2024-01-29T10:37:52.631759'
+digest: 2ce5316aad867050a4a1893e33f20e5a7cce5776b5ee153b61a79ac06f67d0c3
+home: https://github.com/giantswarm/service-mesh-bundle
+icon: https://s.giantswarm.io/app-icons/linkerd2/2/icon_dark.svg
