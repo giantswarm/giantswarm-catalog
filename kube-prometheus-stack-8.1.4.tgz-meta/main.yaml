@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/kube-prometheus-stack-8.1.4.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/kube-prometheus-stack-8.1.4.tgz-meta/README.md
+  application.giantswarm.io/team: atlas
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/kube-prometheus-stack-8.1.4.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: kube-prometheus-stack-8.1.4.tgz
+dateCreated: '2024-01-29T11:22:12.688675'
+digest: f36ab8e42cda1ecb05bbd91a596474e3131e8471e0ec121e3b2df16ab8215362
+home: https://github.com/giantswarm/kube-prometheus-stack-app
+icon: https://s.giantswarm.io/app-icons/prometheus-operator/2/light.svg
