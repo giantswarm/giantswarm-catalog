@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/karpenter-crossplane-resources-0.0.2.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/karpenter-crossplane-resources-0.0.2.tgz-meta/README.md
+  application.giantswarm.io/team: phoenix
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/karpenter-crossplane-resources-0.0.2.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: karpenter-crossplane-resources-0.0.2.tgz
+dateCreated: '2024-02-06T09:50:51.909046'
+digest: 3839ef124af9d9dece5bdfee222d3d0bf6ba918c7b1e6982b5ac55cbfa5fe1f5
+home: https://github.com/giantswarm/karpenter-crossplane-resources
