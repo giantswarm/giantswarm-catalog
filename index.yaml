@@ -13827,6 +13827,23 @@ entries:
     version: 0.1.0
   karpenter-crossplane-resources:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/karpenter-crossplane-resources-0.0.4.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/karpenter-crossplane-resources-0.0.4.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/karpenter-crossplane-resources-0.0.4.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.3
+    created: "2024-02-06T15:14:39.306016104Z"
+    description: Crossplane Resources for Karpenter
+    digest: f112cc1fcffd5d6ebf74809e8227935da2c0a4be19d99148140de69dd2aaacbd
+    home: https://github.com/giantswarm/karpenter-crossplane-resources
+    name: karpenter-crossplane-resources
+    sources:
+    - https://github.com/giantswarm/karpenter-crossplane-resources
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/karpenter-crossplane-resources-0.0.4.tgz
+    version: 0.0.4
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/karpenter-crossplane-resources-0.0.3.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/karpenter-crossplane-resources-0.0.3.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -29052,4 +29069,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2024-02-06T10:02:46.667373667Z"
+generated: "2024-02-06T15:14:39.305238283Z"
