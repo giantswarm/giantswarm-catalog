@@ -7776,6 +7776,28 @@ entries:
     version: 0.1.0
   external-secrets:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/external-secrets-0.8.3.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/external-secrets-0.8.3.tgz-meta/README.md
+      application.giantswarm.io/team: honeybadger
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/external-secrets-0.8.3.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: v0.8.3
+    created: "2024-02-20T15:40:24.832349404Z"
+    description: External secret management for Kubernetes
+    digest: e4fd90bcc389f1d4d93f909ac0400af7c3980f0d407edda4e3438ed1d220d27a
+    home: https://github.com/giantswarm/external-secrets
+    icon: https://s.giantswarm.io/app-icons/external-secrets/1/light.svg
+    keywords:
+    - kubernetes-external-secrets
+    - secrets
+    kubeVersion: '>= 1.19.0-0'
+    name: external-secrets
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/external-secrets-0.8.3.tgz
+    version: 0.8.3
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/external-secrets-0.8.2.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/external-secrets-0.8.2.tgz-meta/README.md
       application.giantswarm.io/team: honeybadger
@@ -29653,4 +29675,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2024-02-19T12:57:05.020331226Z"
+generated: "2024-02-20T15:40:24.827113388Z"
