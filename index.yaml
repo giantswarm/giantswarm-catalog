@@ -28805,6 +28805,27 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/teleport-kube-agent-0.3.0.tgz
     version: 0.3.0
+  teleport-tbot:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/teleport-tbot-0.0.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/teleport-tbot-0.0.1.tgz-meta/README.md
+      application.giantswarm.io/team: bigmac
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/teleport-tbot-0.0.1.tgz-meta/values.schema.json
+    apiVersion: v1
+    created: "2024-02-22T15:16:03.011393613Z"
+    description: Teleport TBOT
+    digest: 86bc5129a240b9706d3131b39105b590869833c7da69cfa14731fa2d974d3ef1
+    home: https://github.com/giantswarm/teleport-tbot
+    icon: https://s.giantswarm.io/app-icons/teleport/1/light.png
+    keywords:
+    - Teleport
+    maintainers:
+    - email: team-bigmac@giantswarm.io
+      name: giantswarm/team-bigmac
+    name: teleport-tbot
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/teleport-tbot-0.0.1.tgz
+    version: 0.0.1
   tempo:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/tempo-0.1.2.tgz-meta/main.yaml
@@ -29806,4 +29827,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2024-02-22T14:43:21.392611195Z"
+generated: "2024-02-22T15:16:03.010705047Z"
