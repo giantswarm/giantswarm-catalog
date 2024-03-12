@@ -819,6 +819,38 @@ entries:
     version: 1.0.0
   aws-load-balancer-controller:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-1.6.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-1.6.1.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-1.6.1.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v2.6.1
+    created: "2024-03-12T07:20:05.19250619Z"
+    description: A controller to help manage Elastic Load Balancers for a Kubernetes
+      cluster
+    digest: fe81046f7197ef415655a8e2f416c289899a2109b4d27d3586a2a4f116818fb7
+    home: https://github.com/giantswarm/aws-load-balancer-controller-app
+    icon: https://s.giantswarm.io/app-icons/aws/1/dark.svg
+    keywords:
+    - eks
+    - alb
+    - load balancer
+    - ingress
+    - nlb
+    maintainers:
+    - email: kishorj@users.noreply.github.com
+      name: kishorj
+      url: https://github.com/kishorj
+    - email: m00nf1sh@users.noreply.github.com
+      name: m00nf1sh
+      url: https://github.com/m00nf1sh
+    name: aws-load-balancer-controller
+    sources:
+    - https://github.com/aws/eks-charts
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-1.6.1.tgz
+    version: 1.6.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-1.6.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-1.6.0.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -30301,4 +30333,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2024-03-08T14:51:33.834657752Z"
+generated: "2024-03-12T07:20:05.190686458Z"
