@@ -26091,6 +26091,38 @@ entries:
     version: 0.1.0
   promtail:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/promtail-1.5.3.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/promtail-1.5.3.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/promtail-1.5.3.tgz-meta/values.schema.json
+      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/grafana-loki/2/dark.svg
+    apiVersion: v2
+    appVersion: 2.9.3
+    created: "2024-03-12T15:22:03.08209219Z"
+    dependencies:
+    - name: promtail
+      repository: https://grafana.github.io/helm-charts
+      version: 6.15.5
+    description: Promtail is an agent which ships the contents of local logs to a
+      Loki instance
+    digest: 5b8115ddc720b99f15e17d821bb1b151f89d86605ac7107ce4e6d5e71f71b57a
+    home: https://github.com/giantswarm/promtail-app
+    icon: https://s.giantswarm.io/app-icons/loki-stack/1/dark.svg
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: promtail
+    sources:
+    - https://github.com/grafana/loki
+    - https://grafana.com/oss/loki/
+    - https://grafana.com/docs/loki/latest/
+    - https://github.com/giantswarm/grafana-helm-charts-upstream
+    - https://github.com/grafana/helm-charts/tree/main/charts/promtail
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/promtail-1.5.3.tgz
+    version: 1.5.3
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/promtail-1.5.2.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/promtail-1.5.2.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -30365,4 +30397,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2024-03-12T10:55:13.956188241Z"
+generated: "2024-03-12T15:22:03.077153941Z"
