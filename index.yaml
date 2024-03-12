@@ -30397,4 +30397,26 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2024-03-12T15:22:03.077153941Z"
+  zot:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz-meta/README.md
+      application.giantswarm.io/team: honeybadger
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: v2.0.2-rc2
+    created: "2024-03-12T15:24:36.457577087Z"
+    description: A Helm chart for Kubernetes
+    digest: f1aa943badbce1b564deef307cdfa8d33e8f67e35099037334c738f6058572f0
+    home: https://github.com/giantswarm/zot
+    icon: https://s.giantswarm.io/app-icons/zot/1/light.svg
+    keywords:
+    - kubernetes-zot-registry
+    - oci-registry
+    name: zot
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
+    version: 0.1.1
+generated: "2024-03-12T15:24:36.456254849Z"
