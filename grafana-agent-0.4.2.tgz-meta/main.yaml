@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/grafana-agent-0.4.2.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/grafana-agent-0.4.2.tgz-meta/README.md
+  application.giantswarm.io/team: atlas
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/grafana-agent-0.4.2.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: grafana-agent-0.4.2.tgz
+dateCreated: '2024-03-13T10:35:07.738820'
+digest: 7ccc42ea1954e30ee90b3573a9de47b4e2457a2ecf9e6b6bbef840f7c3eef4b0
+home: https://github.com/giantswarm/grafana-agent-app
+icon: https://s.giantswarm.io/app-icons/grafana/1/light.svg
