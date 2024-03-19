@@ -14432,6 +14432,23 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/karpenter-0.1.0.tgz
     version: 0.1.0
+  karpenter-bundle:
+  - annotations:
+      application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/in-cluster-app: "true"
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/karpenter-bundle-0.1.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/karpenter-bundle-0.1.0.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/karpenter-bundle-0.1.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2024-03-19T13:05:28.125564483Z"
+    description: Karpenter Bundle with crossplane resources
+    digest: e93bda5760e6a025a8b93b9a2fe4569e64582da5f1176554cfaf4e01fbe06f21
+    home: https://github.com/giantswarm/karpenter-bundle
+    name: karpenter-bundle
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/karpenter-bundle-0.1.0.tgz
+    version: 0.1.0
   karpenter-crossplane-resources:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/karpenter-crossplane-resources-0.0.6.tgz-meta/main.yaml
@@ -30647,4 +30664,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2024-03-19T12:25:38.055825155Z"
+generated: "2024-03-19T13:05:28.125145509Z"
