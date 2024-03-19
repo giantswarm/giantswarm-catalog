@@ -1493,6 +1493,19 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/aws-node-termination-handler-app-0.3.1.tgz
     version: 0.3.1
+  capa-karpenter-taint-remover:
+  - annotations:
+      application.giantswarm.io/team: phoenix
+    apiVersion: v1
+    appVersion: 0.0.1
+    created: "2024-03-19T12:25:38.056366631Z"
+    description: CAPA karpenter taint remover
+    digest: 5130780884f6a178d73281fa1fcddbb6853eabe47a739137349a51114c7ac2ea
+    home: https://github.com/giantswarm/capa-karpenter-taint-remover
+    name: capa-karpenter-taint-remover
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/capa-karpenter-taint-remover-0.3.0.tgz
+    version: 0.3.0
   cert-manager-app:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/cert-manager-app-3.7.4.tgz-meta/main.yaml
@@ -30634,4 +30647,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2024-03-19T11:58:19.60874751Z"
+generated: "2024-03-19T12:25:38.055825155Z"
