@@ -16092,6 +16092,32 @@ entries:
     version: 0.7.1
   kube-prometheus-stack:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/kube-prometheus-stack-9.1.2.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/kube-prometheus-stack-9.1.2.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/kube-prometheus-stack-9.1.2.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v0.71.2
+    created: "2024-04-04T09:28:39.254267992Z"
+    dependencies:
+    - name: kube-prometheus-stack
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 56.21.2
+    description: Giant Swarm's Prometheus Operator Deployment
+    digest: a642210c6c531ab7b30fe714da5d73248e09d2384f992af8d93c8ad1aa2dfa68
+    home: https://github.com/giantswarm/kube-prometheus-stack-app
+    icon: https://s.giantswarm.io/app-icons/prometheus-operator/2/light.svg
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: kube-prometheus-stack
+    sources:
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-prometheus-stack
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/kube-prometheus-stack-9.1.2.tgz
+    version: 9.1.2
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/kube-prometheus-stack-9.1.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/kube-prometheus-stack-9.1.1.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -30944,4 +30970,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2024-04-03T16:12:09.079251735Z"
+generated: "2024-04-04T09:28:39.219585347Z"
