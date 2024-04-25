@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/app-type: bundle
+  application.giantswarm.io/in-cluster-app: 'true'
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/karpenter-bundle-0.1.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/karpenter-bundle-0.1.1.tgz-meta/README.md
+  application.giantswarm.io/team: phoenix
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/karpenter-bundle-0.1.1.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: karpenter-bundle-0.1.1.tgz
+dateCreated: '2024-04-25T10:19:13.599697'
+digest: 67e62e1006b93e2324c9235664cd5f7dc91ec1935b3a59c057b85f1206757f26
+home: https://github.com/giantswarm/karpenter-bundle
