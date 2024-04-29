@@ -14162,6 +14162,36 @@ entries:
       application.giantswarm.io/team: phoenix
     apiVersion: v2
     appVersion: 0.29.2
+    created: "2024-04-29T14:59:54.855880013Z"
+    dependencies:
+    - name: karpenter
+      repository: oci://public.ecr.aws/karpenter
+      version: v0.32.0
+    description: A Helm chart for Karpenter, an open-source node provisioning project
+      built for Kubernetes.
+    digest: f096458273d88125d5e82dafd18624cb098da62555e72d7ea551dea7534e6c98
+    home: https://karpenter.sh/
+    icon: https://repository-images.githubusercontent.com/278480393/dab059c8-caa1-4b55-aaa7-3d30e47a5616
+    keywords:
+    - cluster
+    - node
+    - scheduler
+    - autoscaling
+    - lifecycle
+    maintainers:
+    - email: team-phoenix@giantswarm.io
+      name: giantswarm/team-phoenix
+    name: karpenter
+    sources:
+    - https://github.com/aws/karpenter/
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/karpenter-0.12.0.tgz
+    version: 0.12.0
+  - annotations:
+      application.giantswarm.io/team: phoenix
+    apiVersion: v2
+    appVersion: 0.29.2
     created: "2024-04-17T07:43:58.270993814Z"
     dependencies:
     - name: karpenter
@@ -31345,4 +31375,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2024-04-29T14:59:50.230453602Z"
+generated: "2024-04-29T14:59:54.852845097Z"
