@@ -87,7 +87,7 @@ AWS account.
                 {
                 "Effect": "Allow",
                 "Principal": {
-                    "AWS": "arn:aws:iam::180547736195:role/m2h60-IAMManager-Role"
+                    "AWS": "arn:aws:iam::123456789012:role/xxxxx-IAMManager-Role"
                 },
                 "Action": "sts:AssumeRole"
                 }
