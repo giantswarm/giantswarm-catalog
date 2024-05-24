@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/ingress-sla-0.2.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/ingress-sla-0.2.0.tgz-meta/README.md
+  application.giantswarm.io/team: cabbage
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/ingress-sla-0.2.0.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: ingress-sla-0.2.0.tgz
+dateCreated: '2024-05-24T20:47:48.508232'
+digest: 50d56538029bae5f8b6384963ae2de8ef761366006ee22c45271696401162385
+home: https://github.com/giantswarm/ingress-sla-app
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
