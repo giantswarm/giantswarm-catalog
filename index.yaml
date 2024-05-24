@@ -14024,6 +14024,23 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/ingress-nginx-3.0.0-alpha1.tgz
     version: 3.0.0-alpha1
+  ingress-sla:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/ingress-sla-0.1.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/ingress-sla-0.1.0.tgz-meta/README.md
+      application.giantswarm.io/team: cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/ingress-sla-0.1.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2024-05-24T10:10:26.424358199Z"
+    description: Resources required to provide metrics to Giant Swarm SLA dashboard.
+    digest: bae23d3bd4e47b6e3971f20400e0b19bd5cdace58b0479bf5632fdd2f748ca7b
+    home: https://github.com/giantswarm/ingress-sla-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: ingress-sla
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/ingress-sla-0.1.0.tgz
+    version: 0.1.0
   jiralert:
   - annotations:
       application.giantswarm.io/team: shield
@@ -31995,4 +32012,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2024-05-23T15:07:50.564677666Z"
+generated: "2024-05-24T10:10:26.423468456Z"
