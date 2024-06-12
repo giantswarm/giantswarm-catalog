@@ -20938,6 +20938,34 @@ entries:
     version: 0.8.0
   loki:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/loki-0.20.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/loki-0.20.1.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/loki-0.20.1.tgz-meta/values.schema.json
+      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/grafana-loki/2/dark.svg
+    apiVersion: v2
+    appVersion: 3.0.0
+    created: "2024-06-12T08:23:34.050057236Z"
+    dependencies:
+    - condition: loki.enabled
+      name: loki
+      repository: https://grafana.github.io/helm-charts
+      version: 6.5.2
+    description: Helm chart for Grafana Loki in simple, scalable mode
+    digest: d9af8a9653a25606d44009ba75ab3c202509c3af6b3ee9e809174c509af3c8b6
+    home: https://github.com/giantswarm/loki-app
+    icon: https://s.giantswarm.io/app-icons/loki-stack/1/dark.svg
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: loki
+    sources:
+    - https://github.com/giantswarm/loki-app
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/loki-0.20.1.tgz
+    version: 0.20.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/loki-0.20.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/loki-0.20.0.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -32484,4 +32512,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2024-06-12T08:04:41.26450902Z"
+generated: "2024-06-12T08:23:34.029945857Z"
