@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/starboard-exporter-0.7.11.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/starboard-exporter-0.7.11.tgz-meta/README.md
+  application.giantswarm.io/team: shield
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/starboard-exporter-0.7.11.tgz-meta/values.schema.json
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v1
+chartFile: starboard-exporter-0.7.11.tgz
+dateCreated: '2024-06-12T19:20:12.474099'
+digest: 7992b8b7d739d0b7dac99d9a4a8db2b4a0d13bdf51ade4cfe482acda14d9f49c
+home: https://github.com/giantswarm/starboard-exporter
+icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
