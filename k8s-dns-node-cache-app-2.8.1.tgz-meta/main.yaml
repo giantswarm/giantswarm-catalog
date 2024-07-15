@@ -1,0 +1,15 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/k8s-dns-node-cache-app-2.8.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/k8s-dns-node-cache-app-2.8.1.tgz-meta/README.md
+  application.giantswarm.io/team: cabbage
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/k8s-dns-node-cache-app-2.8.1.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: k8s-dns-node-cache-app-2.8.1.tgz
+dateCreated: '2024-07-15T07:55:01.511597'
+digest: b7427d8bd4b0d28b2ff22bc4601f011bd4c628766cea3c1e37d0331d51b5f2a2
+home: https://github.com/giantswarm/k8s-dns-node-cache-app
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+restrictions:
+  clusterSingleton: true
+  fixedNamespace: kube-system
+  gpuInstances: false
