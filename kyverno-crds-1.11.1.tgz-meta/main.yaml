@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/kyverno-crds-1.11.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/kyverno-crds-1.11.1.tgz-meta/README.md
+  application.giantswarm.io/team: shield
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/kyverno-crds-1.11.1.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: kyverno-crds-1.11.1.tgz
+dateCreated: '2024-07-18T18:41:03.018726'
+digest: b3d821c8b31481474a2829b5259a3fed63755a0b81057a9fea4b8a9abaa916d8
+home: https://github.com/giantswarm/kyverno-crds
+icon: https://s.giantswarm.io/app-icons/kyverno/1/light.svg
