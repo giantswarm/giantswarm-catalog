@@ -3976,6 +3976,18 @@ entries:
       application.giantswarm.io/team: phoenix
     apiVersion: v1
     appVersion: 0.0.1
+    created: "2024-08-12T09:39:07.044337848Z"
+    description: Cilium Healthcheck
+    digest: a45c236b72a18cd5465ea17e85f52505e8e375e5afe112108a14b6bd20039825
+    home: https://github.com/giantswarm/cilium-healthcheck
+    name: cilium-healthcheck
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/cilium-healthcheck-0.0.3.tgz
+    version: 0.0.3
+  - annotations:
+      application.giantswarm.io/team: phoenix
+    apiVersion: v1
+    appVersion: 0.0.1
     created: "2024-05-31T09:31:45.472135591Z"
     description: Cilium Healthcheck
     digest: 6262b7a7c156043d32b0d7cf4d77a3950f15f1d9dfb9be35386ab92174efc5c0
@@ -31615,4 +31627,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2024-08-01T10:42:01.197479271Z"
+generated: "2024-08-12T09:39:07.043785207Z"
