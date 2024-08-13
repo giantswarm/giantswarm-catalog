@@ -81,6 +81,24 @@ entries:
     version: 0.2.0
   athena:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/athena-1.12.4.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/athena-1.12.4.tgz-meta/README.md
+      application.giantswarm.io/team: bigmac
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/athena-1.12.4.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 1.12.4
+    created: "2024-08-13T13:00:34.821803464Z"
+    description: A service providing non-sensitive information about your cluster
+      to clients
+    digest: 96e35c83597711ab8de2b967f21bb162eb6f088c9b1334769f736e7a2dcb13c4
+    home: https://github.com/giantswarm/athena
+    icon: https://s.giantswarm.io/app-icons/athena/1/light.svg
+    name: athena
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/athena-1.12.4.tgz
+    version: 1.12.4
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/athena-1.12.3.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/athena-1.12.3.tgz-meta/README.md
       application.giantswarm.io/team: bigmac
@@ -31719,4 +31737,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2024-08-13T12:56:38.458936272Z"
+generated: "2024-08-13T13:00:34.820927511Z"
