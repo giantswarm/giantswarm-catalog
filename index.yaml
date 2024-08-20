@@ -30587,6 +30587,26 @@ entries:
     version: 0.3.0
   teleport-tbot:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/teleport-tbot-0.0.8.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/teleport-tbot-0.0.8.tgz-meta/README.md
+      application.giantswarm.io/team: bigmac
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/teleport-tbot-0.0.8.tgz-meta/values.schema.json
+    apiVersion: v1
+    created: "2024-08-20T14:05:17.909752059Z"
+    description: Teleport TBOT
+    digest: d2f9e9ac2d297b8a24377bf1ff06018ffbf51d664b1cde3d92f768dc20d96e37
+    home: https://github.com/giantswarm/teleport-tbot
+    icon: https://s.giantswarm.io/app-icons/teleport/1/light.png
+    keywords:
+    - Teleport
+    maintainers:
+    - email: team-bigmac@giantswarm.io
+      name: giantswarm/team-bigmac
+    name: teleport-tbot
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/teleport-tbot-0.0.8.tgz
+    version: 0.0.8
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/teleport-tbot-0.0.7.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/teleport-tbot-0.0.7.tgz-meta/README.md
       application.giantswarm.io/team: bigmac
@@ -31953,4 +31973,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2024-08-20T12:56:35.222115144Z"
+generated: "2024-08-20T14:05:17.908675899Z"
