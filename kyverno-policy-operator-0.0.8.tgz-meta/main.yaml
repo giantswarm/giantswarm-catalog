@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/kyverno-policy-operator-0.0.8.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/kyverno-policy-operator-0.0.8.tgz-meta/README.md
+  application.giantswarm.io/team: shield
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/kyverno-policy-operator-0.0.8.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: kyverno-policy-operator-0.0.8.tgz
+dateCreated: '2024-08-29T16:15:07.245029'
+digest: dc28d2a696b8be71f5d375c6f8ed619a51471c62e6bb272e60b0f9e58122d603
+home: https://github.com/giantswarm/kyverno-policy-operator
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
