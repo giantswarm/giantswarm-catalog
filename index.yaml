@@ -827,6 +827,20 @@ entries:
       application.giantswarm.io/team: phoenix
       ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/aws/2/dark.svg
     apiVersion: v1
+    appVersion: 1.30.3
+    created: "2024-09-03T15:40:18.24069071Z"
+    description: A Helm chart to run AWS Cloud Controller Manager.
+    digest: 6baac625cecc34a4fbe3c82454a42e3aea41b73ff70da5eff1f412560e0a1395
+    home: https://github.com/giantswarm/aws-cloud-controller-manager-app
+    icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+    name: aws-cloud-controller-manager-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/aws-cloud-controller-manager-app-1.30.3-gs1.tgz
+    version: 1.30.3-gs1
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+    apiVersion: v1
     appVersion: 1.29.3
     created: "2024-07-19T12:52:50.388603755Z"
     description: A Helm chart to run AWS Cloud Controller Manager.
@@ -32338,4 +32352,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2024-09-03T09:30:48.176860992Z"
+generated: "2024-09-03T15:40:18.240103494Z"
