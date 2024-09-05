@@ -15815,6 +15815,24 @@ entries:
     version: 0.1.0
   karpenter-crossplane-resources:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/karpenter-crossplane-resources-0.1.2.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/karpenter-crossplane-resources-0.1.2.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/karpenter-crossplane-resources-0.1.2.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.4
+    created: "2024-09-05T09:11:56.06547812Z"
+    description: Crossplane Resources for Karpenter
+    digest: a2c37bdf3263a07053acaa5df89077ddb9854070a85d8067ad14ad531ab528e0
+    home: https://github.com/giantswarm/karpenter-crossplane-resources
+    icon: https://s.giantswarm.io/app-icons/karpenter/1/light.svg
+    name: karpenter-crossplane-resources
+    sources:
+    - https://github.com/giantswarm/karpenter-crossplane-resources
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/karpenter-crossplane-resources-0.1.2.tgz
+    version: 0.1.2
+  - annotations:
       application.giantswarm.io/team: phoenix
     apiVersion: v2
     appVersion: 0.0.4
@@ -32352,4 +32370,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2024-09-03T15:40:18.240103494Z"
+generated: "2024-09-05T09:11:56.064896514Z"
