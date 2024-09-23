@@ -1267,6 +1267,37 @@ entries:
     version: 1.0.0
   aws-load-balancer-controller:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-2.1.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-2.1.0.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-2.1.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v2.8.3
+    created: "2024-09-23T07:43:20.811456055Z"
+    description: AWS Load Balancer Controller Helm chart for Kubernetes
+    digest: 1c720227e21a40560a6986491ab4b790cc47ba389b78f451bf341f843a64381b
+    home: https://github.com/aws/eks-charts
+    icon: https://raw.githubusercontent.com/aws/eks-charts/master/docs/logo/aws.png
+    keywords:
+    - eks
+    - alb
+    - load balancer
+    - ingress
+    - nlb
+    maintainers:
+    - email: kishorj@users.noreply.github.com
+      name: kishorj
+      url: https://github.com/kishorj
+    - email: m00nf1sh@users.noreply.github.com
+      name: m00nf1sh
+      url: https://github.com/m00nf1sh
+    name: aws-load-balancer-controller
+    sources:
+    - https://github.com/aws/eks-charts
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-2.1.0.tgz
+    version: 2.1.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-2.0.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-2.0.0.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -32549,4 +32580,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2024-09-18T06:34:05.792110589Z"
+generated: "2024-09-23T07:43:20.809505562Z"
