@@ -2219,6 +2219,25 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/aws-node-termination-handler-app-0.3.1.tgz
     version: 0.3.1
+  aws-nth-crossplane-resources:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/aws-nth-crossplane-resources-1.0.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/aws-nth-crossplane-resources-1.0.0.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/aws-nth-crossplane-resources-1.0.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-10-30T11:43:22.18321714Z"
+    description: Please add description
+    digest: 809d9fe3a58bb3c9926870d24f3ae604c764a2065ea31fd04bc09f1baa18c6c6
+    home: https://github.com/giantswarm/aws-nth-crossplane-resources
+    icon: https://s.giantswarm.io/app-icons/aws/2/light.svg
+    name: aws-nth-crossplane-resources
+    sources:
+    - https://github.com/giantswarm/aws-nth-crossplane-resources
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/aws-nth-crossplane-resources-1.0.0.tgz
+    version: 1.0.0
   capa-karpenter-taint-remover:
   - annotations:
       application.giantswarm.io/team: phoenix
@@ -33258,4 +33277,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2024-10-30T11:31:04.532241692Z"
+generated: "2024-10-30T11:43:22.182669334Z"
