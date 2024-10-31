@@ -5024,6 +5024,26 @@ entries:
     version: 2.5.2
   debug-toolbox:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/debug-toolbox-1.1.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/debug-toolbox-1.1.0.tgz-meta/README.md
+      application.giantswarm.io/team: team-horizon
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/debug-toolbox-1.1.0.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: v1.0.0
+    created: "2024-10-31T14:56:09.279390743Z"
+    description: The debug toolbox is a collection of tools that can be used to debug
+      issues in a Kubernetes cluster.
+    digest: 96bd7906d66a42249486778f1963c65cc7625f0822cafae8750407fdb7f8be5f
+    home: https://github.com/giantswarm/debug-toolbox
+    icon: https://s.giantswarm.io/app-icons/1/png/k8s-initiator-app-light.png
+    name: debug-toolbox
+    sources:
+    - https://github.com/giantswarm/debug-toolbox
+    - https://raw.githubusercontent.com/giantswarm/debug-toolbox/v1.0.0/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/debug-toolbox-1.1.0.tgz
+    version: 1.1.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/debug-toolbox-1.0.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/debug-toolbox-1.0.0.tgz-meta/README.md
       application.giantswarm.io/team: team-horizon
@@ -33343,4 +33363,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2024-10-31T14:37:47.510255Z"
+generated: "2024-10-31T14:56:09.278287494Z"
