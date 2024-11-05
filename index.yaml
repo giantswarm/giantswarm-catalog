@@ -4925,6 +4925,25 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/coredns-app-0.9.0.tgz
     version: 0.9.0
+  csi-driver-nfs:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/csi-driver-nfs-0.1.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/csi-driver-nfs-0.1.0.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/csi-driver-nfs-0.1.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v4.9.0
+    created: "2024-11-05T08:53:56.826031067Z"
+    description: CSI NFS Driver for Kubernetes
+    digest: 65243d1f9e0c503585ec2d988988afe2e65a9f6ee4b43cc0fed37ca210a1a6a0
+    home: https://github.com/giantswarm/csi-driver-nfs-app
+    icon: https://s.giantswarm.io/app-icons/csi/1/light.svg
+    name: csi-driver-nfs
+    sources:
+    - https://github.com/kubernetes-csi/csi-driver-nfs
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/csi-driver-nfs-0.1.0.tgz
+    version: 0.1.0
   datadog:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/datadog-2.6.0.tgz-meta/main.yaml
@@ -33400,4 +33419,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2024-11-04T14:10:49.967130858Z"
+generated: "2024-11-05T08:53:56.82416434Z"
