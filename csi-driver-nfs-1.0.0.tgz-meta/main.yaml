@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/csi-driver-nfs-1.0.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/csi-driver-nfs-1.0.0.tgz-meta/README.md
+  application.giantswarm.io/team: rocket
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/csi-driver-nfs-1.0.0.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: csi-driver-nfs-1.0.0.tgz
+dateCreated: '2024-11-05T12:02:32.722449'
+digest: 5ce25594078c2b9ac11b161ed0a44c09d715e353aacda4247252275c8ae4c905
+home: https://github.com/giantswarm/csi-driver-nfs-app
+icon: https://s.giantswarm.io/app-icons/csi/1/light.svg
