@@ -21707,6 +21707,23 @@ entries:
     version: 0.17.1
   kyverno-policy-operator:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/kyverno-policy-operator-0.1.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/kyverno-policy-operator-0.1.1.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/kyverno-policy-operator-0.1.1.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2025-01-23T15:06:04.525843516Z"
+    description: A Helm chart for kyverno-policy-operator, which creates PolicyExceptions
+      based on PolicyExceptionsDraft resources.
+    digest: 62c8661158fcd57418761cd2ff700c96974dbf607c1906adc373e8deb8f18974
+    home: https://github.com/giantswarm/kyverno-policy-operator
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: kyverno-policy-operator
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/kyverno-policy-operator-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/kyverno-policy-operator-0.1.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/kyverno-policy-operator-0.1.0.tgz-meta/README.md
       application.giantswarm.io/team: shield
@@ -34115,4 +34132,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-01-23T09:15:30.205254794Z"
+generated: "2025-01-23T15:06:04.524463142Z"
