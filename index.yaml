@@ -5106,6 +5106,24 @@ entries:
     version: 0.9.0
   coredns-extensions:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/coredns-extensions-0.1.2.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/coredns-extensions-0.1.2.tgz-meta/README.md
+      application.giantswarm.io/team: cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/coredns-extensions-0.1.2.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2025-01-29T09:05:19.484240172Z"
+    description: Extra resources for CoreDNS
+    digest: a1495fa856f601952c0e9f432c95e6c7ec20f95fc419607daefa2d91baeb66ba
+    home: https://github.com/giantswarm/coredns-extensions-app
+    icon: https://s.giantswarm.io/app-icons/coredns/1/dark.svg
+    name: coredns-extensions
+    sources:
+    - https://github.com/giantswarm/coredns-extensions-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-extensions-0.1.2.tgz
+    version: 0.1.2
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/coredns-extensions-0.1.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/coredns-extensions-0.1.1.tgz-meta/README.md
       application.giantswarm.io/team: cabbage
@@ -34282,4 +34300,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-01-28T22:02:29.677769358Z"
+generated: "2025-01-29T09:05:19.48365154Z"
