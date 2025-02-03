@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/policy-meta-operator-0.0.2.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/policy-meta-operator-0.0.2.tgz-meta/README.md
+  application.giantswarm.io/team: shield
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/policy-meta-operator-0.0.2.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: policy-meta-operator-0.0.2.tgz
+dateCreated: '2025-02-03T23:25:11.646502Z'
+digest: e00aa7c5f99a0acc3ea670ef28792ee085c93a32af7ebea05ac61be3b1820e7e
+home: https://github.com/giantswarm/policy-meta-operator
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
