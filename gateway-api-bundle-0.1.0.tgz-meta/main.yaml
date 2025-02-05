@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/gateway-api-bundle-0.1.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/gateway-api-bundle-0.1.0.tgz-meta/README.md
+  application.giantswarm.io/team: cabbage
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/gateway-api-bundle-0.1.0.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: gateway-api-bundle-0.1.0.tgz
+dateCreated: '2025-02-05T20:57:18.684174Z'
+digest: 2eb9fd662b0f047743b42b5f217617fe3178789246cb497ead6ac564349113f6
+home: https://github.com/giantswarm/gateway-api-bundle
+icon: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
