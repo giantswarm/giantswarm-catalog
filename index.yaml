@@ -10628,6 +10628,22 @@ entries:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v2
     appVersion: 3.1.9
+    created: "2025-03-03T08:54:38.8988426Z"
+    description: The Log Shipping App forwards cluster logs to storage backends
+    digest: 16c490e8dc4f07f031e8ba4661fcf48b5eae89aff2448e5904914f0def94aaeb
+    home: https://github.com/giantswarm/fluent-logshipping-app
+    icon: https://s.giantswarm.io/app-icons/1/png/fluent-logshipping-app-light.png
+    name: fluent-logshipping-app
+    sources:
+    - https://github.com/giantswarm/fluent-logshipping-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/fluent-logshipping-app-5.4.0.tgz
+    version: 5.4.0
+  - annotations:
+      application.giantswarm.io/team: atlas
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 3.1.9
     created: "2024-11-04T08:56:16.640520586Z"
     description: The Log Shipping App forwards cluster logs to storage backends
     digest: f8040742da8d1fe7f3105ab10b03f95084ff5c82fbb6f38595127ac2165a913d
@@ -35085,4 +35101,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-02-28T12:25:57.196797698Z"
+generated: "2025-03-03T08:54:38.89760512Z"
