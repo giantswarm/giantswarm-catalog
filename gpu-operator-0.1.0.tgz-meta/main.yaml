@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/gpu-operator-0.1.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/gpu-operator-0.1.0.tgz-meta/README.md
+  application.giantswarm.io/team: tenet
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/gpu-operator-0.1.0.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: gpu-operator-0.1.0.tgz
+dateCreated: '2025-03-11T11:11:34.145482Z'
+digest: 51b79ed7f4b3a2687ac74c19463b490cded366e7ec69f50574c3c77ca7b3780c
+home: https://github.com/giantswarm/gpu-operator-app
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
