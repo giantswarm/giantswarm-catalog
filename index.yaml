@@ -17783,6 +17783,23 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/kiam-app-3.0.0.tgz
     version: 3.0.0
+  konfigure-operator:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/konfigure-operator-0.1.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/konfigure-operator-0.1.0.tgz-meta/README.md
+      application.giantswarm.io/team: honeybadger
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/konfigure-operator-0.1.0.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 0.1.0
+    created: "2025-03-12T16:26:33.809546858Z"
+    description: A Helm chart for the konfigure-operator
+    digest: ba95a1e375f36990b6a61a24ccec514ea178786f97d717386df906d37e0265dc
+    home: https://github.com/giantswarm/konfigure-operator
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: konfigure-operator
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/konfigure-operator-0.1.0.tgz
+    version: 0.1.0
   kong-app:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/kong-app-4.5.1.tgz-meta/main.yaml
@@ -35179,4 +35196,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-03-11T11:11:40.328096322Z"
+generated: "2025-03-12T16:26:33.808863958Z"
