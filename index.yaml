@@ -4655,6 +4655,24 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/cert-manager-app-1.0.1.tgz
     version: 1.0.1
+  cert-manager-bundle:
+  - annotations:
+      application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/in-cluster-app: "true"
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/cert-manager-bundle-0.0.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/cert-manager-bundle-0.0.1.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/cert-manager-bundle-0.0.1.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2025-03-20T00:31:12.477490649Z"
+    description: cert-manager Bundle with crossplane resources
+    digest: 4d2320e05d34afabe23a4b843e8fa481b501701f167a9557c50f2814f86d8cd5
+    home: https://github.com/giantswarm/cert-manager-bundle
+    icon: https://s.giantswarm.io/app-icons/cert-manager/1/light.svg
+    name: cert-manager-bundle
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/cert-manager-bundle-0.0.1.tgz
+    version: 0.0.1
   cert-manager-crossplane-resources:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/cert-manager-crossplane-resources-0.0.1.tgz-meta/main.yaml
@@ -35393,4 +35411,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-03-19T15:01:31.368642292Z"
+generated: "2025-03-20T00:31:12.4769574Z"
