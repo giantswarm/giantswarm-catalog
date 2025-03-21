@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/cm-crossplane-resources-0.0.3.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/cm-crossplane-resources-0.0.3.tgz-meta/README.md
+  application.giantswarm.io/team: shield
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/cm-crossplane-resources-0.0.3.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: cm-crossplane-resources-0.0.3.tgz
+dateCreated: '2025-03-21T12:29:17.640614Z'
+digest: 7e66a0e035de276280809f704717a175c9fac291f11b960dee36d531e30d1b65
+home: https://github.com/giantswarm/cm-crossplane-resources
+icon: https://s.giantswarm.io/app-icons/cert-manager/1/light.svg

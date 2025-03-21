@@ -4767,6 +4767,25 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/cilium-prerequisites-0.1.1.tgz
     version: 0.1.1
+  cm-crossplane-resources:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/cm-crossplane-resources-0.0.3.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/cm-crossplane-resources-0.0.3.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/cm-crossplane-resources-0.0.3.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2025-03-21T12:29:23.236679387Z"
+    description: Crossplane Resources for cert-manager
+    digest: 7e66a0e035de276280809f704717a175c9fac291f11b960dee36d531e30d1b65
+    home: https://github.com/giantswarm/cm-crossplane-resources
+    icon: https://s.giantswarm.io/app-icons/cert-manager/1/light.svg
+    name: cm-crossplane-resources
+    sources:
+    - https://github.com/giantswarm/cm-crossplane-resources
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/cm-crossplane-resources-0.0.3.tgz
+    version: 0.0.3
   coredns-app:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.24.0.tgz-meta/main.yaml
@@ -35480,4 +35499,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-03-21T11:53:04.922143511Z"
+generated: "2025-03-21T12:29:23.235194517Z"
