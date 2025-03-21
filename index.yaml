@@ -4675,6 +4675,24 @@ entries:
     version: 0.0.1
   cert-manager-crossplane-resources:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/cert-manager-crossplane-resources-0.0.2.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/cert-manager-crossplane-resources-0.0.2.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/cert-manager-crossplane-resources-0.0.2.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2025-03-21T11:53:04.92363394Z"
+    description: Crossplane Resources for cert-manager
+    digest: e945ecb8764904f09f44d6259059297d5a59b6f4c6f3ffacf33748a3f16f4049
+    home: https://github.com/giantswarm/cert-manager-crossplane-resources
+    icon: https://s.giantswarm.io/app-icons/cert-manager/1/light.svg
+    name: cert-manager-crossplane-resources
+    sources:
+    - https://github.com/giantswarm/cert-manager-crossplane-resources
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/cert-manager-crossplane-resources-0.0.2.tgz
+    version: 0.0.2
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/cert-manager-crossplane-resources-0.0.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/cert-manager-crossplane-resources-0.0.1.tgz-meta/README.md
       application.giantswarm.io/team: shield
@@ -35462,4 +35480,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-03-20T17:53:52.93782722Z"
+generated: "2025-03-21T11:53:04.922143511Z"
