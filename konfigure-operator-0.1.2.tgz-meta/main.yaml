@@ -1,0 +1,14 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/konfigure-operator-0.1.2.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/konfigure-operator-0.1.2.tgz-meta/README.md
+  application.giantswarm.io/team: honeybadger
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/konfigure-operator-0.1.2.tgz-meta/values.schema.json
+chartApiVersion: v1
+chartFile: konfigure-operator-0.1.2.tgz
+dateCreated: '2025-03-28T16:32:44.009773Z'
+digest: 897af6c23900df146418e4189e6cccee6876e336e2c40fb1ccd4c44f46f46fd1
+home: https://github.com/giantswarm/konfigure-operator
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+restrictions:
+  clusterSingleton: false
+  namespaceSingleton: true
