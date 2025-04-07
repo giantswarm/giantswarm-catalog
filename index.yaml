@@ -18133,6 +18133,38 @@ entries:
     version: 0.1.0
   kong-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/kong-app-5.0.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/kong-app-5.0.0.tgz-meta/README.md
+      application.giantswarm.io/team: cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/kong-app-5.0.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 3.8.0
+    created: "2025-04-07T12:30:14.040380261Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 11.9.13
+    - condition: ingressController.enabled
+      name: kubectl-apply-job
+      repository: oci://giantswarmpublic.azurecr.io/giantswarm-playground-catalog
+      version: 0.9.2
+    description: The Cloud-Native Ingress and API-management
+    digest: b876b7ca55f45c1b30cbd5e7e496d0e349ba5e1b33afef18c35686708cae6fb5
+    home: https://github.com/giantswarm/kong-app
+    icon: https://s.giantswarm.io/app-icons/kong/1/light.svg
+    kubeVersion: '>=1.26.0-0'
+    maintainers:
+    - email: team-k8s@konghq.com
+      name: team-k8s-bot
+    name: kong-app
+    sources:
+    - https://github.com/giantswarm/kong-app
+    - https://github.com/Kong/charts/tree/main/charts/kong
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/kong-app-5.0.0.tgz
+    version: 5.0.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/kong-app-4.5.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/kong-app-4.5.1.tgz-meta/README.md
       application.giantswarm.io/team: cabbage
@@ -35669,4 +35701,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-04-07T08:23:32.553188024Z"
+generated: "2025-04-07T12:30:14.02584825Z"
