@@ -18138,6 +18138,22 @@ entries:
     version: 3.0.0
   konfigure-operator:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/konfigure-operator-0.3.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/konfigure-operator-0.3.0.tgz-meta/README.md
+      application.giantswarm.io/team: honeybadger
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/konfigure-operator-0.3.0.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 0.3.0
+    created: "2025-04-11T14:16:41.435217985Z"
+    description: A Helm chart for the konfigure-operator
+    digest: b603da70be038bff536b7234703f3fa3c07c5196977ac233ffc25fdbb8b5d252
+    home: https://github.com/giantswarm/konfigure-operator
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: konfigure-operator
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/konfigure-operator-0.3.0.tgz
+    version: 0.3.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/konfigure-operator-0.2.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/konfigure-operator-0.2.0.tgz-meta/README.md
       application.giantswarm.io/team: honeybadger
@@ -35791,4 +35807,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-04-11T11:45:23.940247848Z"
+generated: "2025-04-11T14:16:41.434491207Z"
