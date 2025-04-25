@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/nos-0.2.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/nos-0.2.0.tgz-meta/README.md
+  application.giantswarm.io/team: team-planeteers
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/nos-0.2.0.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: nos-0.2.0.tgz
+dateCreated: '2025-04-25T09:00:22.283409Z'
+digest: 5e8a700d02d9a7dd5c4174e7e1d5fe8f38c939389a60026f057d2fe1e6efc5fb
+home: https://github.com/giantswarm/nos-app
+icon: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
