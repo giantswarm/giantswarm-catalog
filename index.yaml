@@ -16008,6 +16008,35 @@ entries:
     version: 2.0.0
   ingress-nginx:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/ingress-nginx-4.0.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/ingress-nginx-4.0.1.tgz-meta/README.md
+      application.giantswarm.io/team: team-cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/ingress-nginx-4.0.1.tgz-meta/values.schema.json
+      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/ingress-nginx/2/logo_dark.svg
+    apiVersion: v2
+    appVersion: 1.12.2
+    created: "2025-05-05T08:44:29.668907666Z"
+    description: Ingress controller for Kubernetes using NGINX as a reverse proxy
+      and load balancer
+    digest: 4b81d732753a6bb218f3033317e1d5a8ed71df85411be4be756e0d3e4095726d
+    home: https://github.com/giantswarm/ingress-nginx-app
+    icon: https://s.giantswarm.io/app-icons/ingress-nginx/2/icon_dark.svg
+    keywords:
+    - ingress
+    - nginx
+    kubeVersion: '>=1.21.0-0'
+    maintainers:
+    - name: cpanato
+    - name: Gacko
+    - name: strongjz
+    - name: tao12345666333
+    name: ingress-nginx
+    sources:
+    - https://github.com/kubernetes/ingress-nginx
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/ingress-nginx-4.0.1.tgz
+    version: 4.0.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/ingress-nginx-4.0.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/ingress-nginx-4.0.0.tgz-meta/README.md
       application.giantswarm.io/team: team-cabbage
@@ -36090,4 +36119,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-05-01T15:09:17.571276534Z"
+generated: "2025-05-05T08:44:29.664951585Z"
