@@ -34463,9 +34463,9 @@ entries:
       application.giantswarm.io/team: bigmac
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/teleport-tbot-0.3.0.tgz-meta/values.schema.json
     apiVersion: v1
-    created: "2024-08-22T13:03:20.274192693Z"
+    created: "2025-05-08T12:33:52.592510827Z"
     description: Teleport TBOT
-    digest: 0afd30bf43148ba64f4e222d78d893dbc102d40f02f8f88b0b6120b0aa86fc50
+    digest: 43edbc16877f3908a9c40487016d1808c5173da16bcb82b4ca13b212de93f10e
     home: https://github.com/giantswarm/teleport-tbot
     icon: https://s.giantswarm.io/app-icons/teleport/1/light.png
     keywords:
@@ -36245,4 +36245,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-05-08T10:21:12.456320924Z"
+generated: "2025-05-08T12:33:52.591735716Z"
