@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/policy-api-crds-0.0.6.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/policy-api-crds-0.0.6.tgz-meta/README.md
+  application.giantswarm.io/team: shield
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/policy-api-crds-0.0.6.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: policy-api-crds-0.0.6.tgz
+dateCreated: '2025-05-22T11:21:07.974558Z'
+digest: 5209d7e5c784b3f5dc48520f08625da4aef2e04ef5a48b943438a51e48794917
+home: https://github.com/giantswarm/policy-api
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

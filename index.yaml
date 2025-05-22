@@ -27877,6 +27877,22 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/oauth2-proxy-2.0.0.tgz
     version: 2.0.0
+  policy-api-crds:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/policy-api-crds-0.0.6.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/policy-api-crds-0.0.6.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/policy-api-crds-0.0.6.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2025-05-22T11:21:14.693038839Z"
+    description: This app contains the Policy API CRDs.
+    digest: 5209d7e5c784b3f5dc48520f08625da4aef2e04ef5a48b943438a51e48794917
+    home: https://github.com/giantswarm/policy-api
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: policy-api-crds
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/policy-api-crds-0.0.6.tgz
+    version: 0.0.6
   policy-meta-operator:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/policy-meta-operator-0.0.3.tgz-meta/main.yaml
@@ -36443,4 +36459,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-05-22T11:09:02.830122879Z"
+generated: "2025-05-22T11:21:14.692269726Z"
