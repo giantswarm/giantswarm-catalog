@@ -5767,6 +5767,25 @@ entries:
     version: 0.1.0
   descheduler:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/descheduler-1.0.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/descheduler-1.0.1.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/descheduler-1.0.1.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: v1.0.0
+    created: "2025-05-27T11:06:09.888071544Z"
+    description: Descheduler for Kubernetes is used to rebalance clusters by evicting
+      pods that can potentially be scheduled on better nodes. In the current implementation,
+      descheduler does not schedule replacement of evicted pods but relies on the
+      default scheduler for that.
+    digest: dfa7cf5b115743f0d48997cc5632dd75a535b7737f075c02ea3fee3c206b1258
+    home: https://github.com/giantswarm/descheduler-app
+    icon: https://s.giantswarm.io/app-icons/1/png/k8s-initiator-app-light.png
+    name: descheduler
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/descheduler-1.0.1.tgz
+    version: 1.0.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/descheduler-1.0.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/descheduler-1.0.0.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -36471,4 +36490,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-05-26T13:52:50.615785416Z"
+generated: "2025-05-27T11:06:09.885886216Z"

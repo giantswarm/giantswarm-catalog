@@ -1,0 +1,15 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/descheduler-1.0.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/descheduler-1.0.1.tgz-meta/README.md
+  application.giantswarm.io/team: phoenix
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/descheduler-1.0.1.tgz-meta/values.schema.json
+chartApiVersion: v1
+chartFile: descheduler-1.0.1.tgz
+dateCreated: '2025-05-27T11:06:02.246702Z'
+digest: dfa7cf5b115743f0d48997cc5632dd75a535b7737f075c02ea3fee3c206b1258
+home: https://github.com/giantswarm/descheduler-app
+icon: https://s.giantswarm.io/app-icons/1/png/k8s-initiator-app-light.png
+restrictions:
+  clusterSingleton: true
+  fixedNamespace: kube-system
+  gpuInstances: false
