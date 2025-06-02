@@ -18459,6 +18459,23 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/karpenter-crossplane-resources-0.0.1.tgz
     version: 0.0.1
+  karpenter-nodepools:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/karpenter-nodepools-0.1.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/karpenter-nodepools-0.1.0.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/karpenter-nodepools-0.1.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-06-02T14:14:33.409550603Z"
+    description: Karpernter nodepools Helm chart for Giant Swarm Platform
+    digest: 98ab18ad1d22da26877d3a8a9916f4118630ebbb52cce8af356fbc9d5a436215
+    home: https://github.com/giantswarm/karpenter-nodepools
+    icon: https://s.giantswarm.io/app-icons/karpenter/1/light.svg
+    name: karpenter-nodepools
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/karpenter-nodepools-0.1.0.tgz
+    version: 0.1.0
   keda:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/keda-1.0.0.tgz-meta/main.yaml
@@ -36572,4 +36589,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-05-28T16:54:20.43549663Z"
+generated: "2025-06-02T14:14:33.408817024Z"

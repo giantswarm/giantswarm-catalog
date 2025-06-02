@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/karpenter-nodepools-0.1.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/karpenter-nodepools-0.1.0.tgz-meta/README.md
+  application.giantswarm.io/team: phoenix
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/karpenter-nodepools-0.1.0.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: karpenter-nodepools-0.1.0.tgz
+dateCreated: '2025-06-02T14:14:27.724028Z'
+digest: 98ab18ad1d22da26877d3a8a9916f4118630ebbb52cce8af356fbc9d5a436215
+home: https://github.com/giantswarm/karpenter-nodepools
+icon: https://s.giantswarm.io/app-icons/karpenter/1/light.svg
