@@ -28030,6 +28030,25 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/oauth2-proxy-2.0.0.tgz
     version: 2.0.0
+  pg-cluster-recovery-test:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/pg-cluster-recovery-test-0.1.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/pg-cluster-recovery-test-0.1.1.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/pg-cluster-recovery-test-0.1.1.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2025-06-04T10:52:57.417795185Z"
+    description: Please add description
+    digest: 190c1f2d67679ef521c31de3faedb411cbe9b056f4752d1e64fa197305639537
+    home: https://github.com/giantswarm/pg-cluster-recovery-test
+    icon: https://s.giantswarm.io/app-icons/cloudnative-pg/icon-light.svg
+    name: pg-cluster-recovery-test
+    sources:
+    - https://github.com/some-org/some-repo
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/pg-cluster-recovery-test-0.1.1.tgz
+    version: 0.1.1
   policy-api-crds:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/policy-api-crds-0.0.6.tgz-meta/main.yaml
@@ -36632,4 +36651,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-06-03T09:49:22.952208654Z"
+generated: "2025-06-04T10:52:57.417028152Z"
