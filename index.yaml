@@ -17591,6 +17591,36 @@ entries:
     version: 1.0.0
   karpenter:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/karpenter-1.0.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/karpenter-1.0.0.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/karpenter-1.0.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 1.5.0
+    created: "2025-06-09T13:02:58.621518061Z"
+    description: A Helm chart for Karpenter, an open-source node provisioning project
+      built for Kubernetes.
+    digest: bc5ff90bbc98f4a02cf813ade38a2665a386714b1ae3df10b7363b0827e6e8f0
+    home: https://github.com/giantswarm/karpenter-app
+    icon: https://s.giantswarm.io/app-icons/karpenter/1/light.svg
+    keywords:
+    - cluster
+    - node
+    - scheduler
+    - autoscaling
+    - lifecycle
+    maintainers:
+    - email: team-phoenix@giantswarm.io
+      name: giantswarm/team-phoenix
+    name: karpenter
+    sources:
+    - https://github.com/aws/karpenter/
+    - https://karpenter.sh/
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/karpenter-1.0.0.tgz
+    version: 1.0.0
+  - annotations:
       application.giantswarm.io/team: phoenix
     apiVersion: v2
     appVersion: 0.29.2
@@ -36778,4 +36808,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-06-05T16:10:28.246177844Z"
+generated: "2025-06-09T13:02:58.619656403Z"
