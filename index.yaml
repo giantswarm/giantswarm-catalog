@@ -18279,6 +18279,20 @@ entries:
       application.giantswarm.io/in-cluster-app: "true"
       application.giantswarm.io/team: phoenix
     apiVersion: v2
+    created: "2025-06-09T13:48:05.287161714Z"
+    description: Karpenter Bundle with crossplane resources
+    digest: ea2b4bd6261c4aab64d10d868d885296decad735da6863169726fb5797347460
+    home: https://github.com/giantswarm/karpenter-bundle
+    icon: https://s.giantswarm.io/app-icons/karpenter/1/light.svg
+    name: karpenter-bundle
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/karpenter-bundle-2.0.0.tgz
+    version: 2.0.0
+  - annotations:
+      application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/in-cluster-app: "true"
+      application.giantswarm.io/team: phoenix
+    apiVersion: v2
     created: "2024-11-28T15:30:07.935868651Z"
     description: Karpenter Bundle with crossplane resources
     digest: 961c126bc0515bd57cc57547b4c7a04f5e8d9b75429bbf86b03a9108639c71f8
@@ -36808,4 +36822,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-06-09T13:02:58.619656403Z"
+generated: "2025-06-09T13:48:05.286585215Z"
