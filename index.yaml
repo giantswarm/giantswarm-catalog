@@ -18656,9 +18656,9 @@ entries:
       ui.giantswarm.io/logo: https://raw.githubusercontent.com/kedacore/keda/main/images/keda-logo-500x500-white.png
     apiVersion: v2
     appVersion: 2.15.1
-    created: "2025-06-12T14:36:31.637620147Z"
+    created: "2025-06-12T14:42:30.382389195Z"
     description: Event-based autoscaler for workloads on Kubernetes
-    digest: 4457f6f6144282f3777e2e8ac2c9f30021b37d05b3c4a1d90ade960be4de460e
+    digest: fb5e7f0877143493cb75380f3601360a5f5388803d086f6d898e18e525e06517
     home: https://github.com/kedacore/keda
     icon: https://raw.githubusercontent.com/kedacore/keda/main/images/keda-logo-500x500-white.png
     kubeVersion: '>=v1.23.0-0'
@@ -36889,4 +36889,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-06-12T14:36:31.630675823Z"
+generated: "2025-06-12T14:42:30.374658204Z"
