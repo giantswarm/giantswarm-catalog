@@ -18681,6 +18681,33 @@ entries:
     version: 0.1.0
   keda:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/keda-3.0.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/keda-3.0.0.tgz-meta/README.md
+      application.giantswarm.io/team: tenet
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/keda-3.0.0.tgz-meta/values.schema.json
+      ui.giantswarm.io/logo: https://raw.githubusercontent.com/kedacore/keda/main/images/keda-logo-500x500-white.png
+    apiVersion: v2
+    appVersion: 2.17.1
+    created: "2025-06-16T07:33:58.416433653Z"
+    description: Event-based autoscaler for workloads on Kubernetes
+    digest: f375e403d94e1be8a392700bfe42f6c2551da3a8dccc55265d8366d25a218bd9
+    home: https://github.com/kedacore/keda
+    icon: https://raw.githubusercontent.com/kedacore/keda/main/images/keda-logo-500x500-white.png
+    kubeVersion: '>=v1.23.0-0'
+    maintainers:
+    - email: jorge_turrado@hotmail.es
+      name: Jorge Turrado
+    - email: zbynek@kedify.io
+      name: Zbynek Roubalik
+    - email: jan@kedify.io
+      name: Jan Wozniak
+    name: keda
+    sources:
+    - https://github.com/kedacore/keda
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/keda-3.0.0.tgz
+    version: 3.0.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/keda-2.0.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/keda-2.0.0.tgz-meta/README.md
       application.giantswarm.io/team: tenet
@@ -36956,4 +36983,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-06-13T08:26:32.702730667Z"
+generated: "2025-06-16T07:33:58.408689931Z"
