@@ -2362,6 +2362,25 @@ entries:
     version: 1.0.0
   aws-node-termination-handler:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/aws-node-termination-handler-1.21.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/aws-node-termination-handler-1.21.0.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/aws-node-termination-handler-1.21.0.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 1.25.1
+    created: "2025-06-24T10:11:50.551229624Z"
+    description: Deploy components for the aws-node-termination-handler app
+    digest: 6b241b59c7ae9e3f851657a488e1c2444ebd14a7af0e9d0d616357178a5e325d
+    home: https://github.com/giantswarm/aws-node-termination-handler-app
+    icon: https://s.giantswarm.io/app-icons/aws/2/light.svg
+    name: aws-node-termination-handler
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/aws-node-termination-handler-app/v[[
+      .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/aws-node-termination-handler-1.21.0.tgz
+    version: 1.21.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/aws-node-termination-handler-1.20.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/aws-node-termination-handler-1.20.0.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -37114,4 +37133,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-06-24T09:06:31.571645559Z"
+generated: "2025-06-24T10:11:50.549702067Z"
