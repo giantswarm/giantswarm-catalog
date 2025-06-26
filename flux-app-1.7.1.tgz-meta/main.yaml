@@ -1,0 +1,15 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/flux-app-1.7.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/flux-app-1.7.1.tgz-meta/README.md
+  application.giantswarm.io/team: honeybadger
+  application.giantswarm.io/two-step-install: 'true'
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/flux-app-1.7.1.tgz-meta/values.schema.json
+  ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/flux/2/logo_dark.svg
+chartApiVersion: v2
+chartFile: flux-app-1.7.1.tgz
+dateCreated: '2025-06-26T08:29:20.805819'
+digest: 050c5e53e5ad74fa3c79d3639cb5c184861664429d5e2d83d89029824a58fbb9
+home: https://github.com/giantswarm/flux-app
+icon: https://s.giantswarm.io/app-icons/flux/2/icon_dark.svg
+restrictions:
+  clusterSingleton: true
