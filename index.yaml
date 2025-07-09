@@ -19071,6 +19071,22 @@ entries:
     version: 0.0.1
   karpenter-nodepools:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/karpenter-nodepools-0.2.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/karpenter-nodepools-0.2.0.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/karpenter-nodepools-0.2.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-07-09T14:39:39.425281224Z"
+    description: Karpernter nodepools Helm chart for Giant Swarm Platform
+    digest: 26dfeb78f69be057757c6ca88681eb99deb302f2e7f8e8e29ef7e5e196bce174
+    home: https://github.com/giantswarm/karpenter-nodepools
+    icon: https://s.giantswarm.io/app-icons/karpenter/1/light.svg
+    name: karpenter-nodepools
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/karpenter-nodepools-0.2.0.tgz
+    version: 0.2.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/karpenter-nodepools-0.1.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/karpenter-nodepools-0.1.0.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -37682,4 +37698,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-07-09T10:57:43.739426945Z"
+generated: "2025-07-09T14:39:39.424563639Z"
