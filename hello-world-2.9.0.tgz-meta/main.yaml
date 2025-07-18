@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/hello-world-2.9.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/hello-world-2.9.0.tgz-meta/README.md
+  application.giantswarm.io/team: honeybadger
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/hello-world-2.9.0.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: hello-world-2.9.0.tgz
+dateCreated: '2025-07-18T15:21:44.874901Z'
+digest: 21dab8645cfc639a2d309975dc3f28842668e935a8670f3281289df4ae1fdab0
+home: https://github.com/giantswarm/hello-world-app
+icon: https://s.giantswarm.io/app-icons/1/png/hello-world-app-light.png
