@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/pg-cluster-recovery-test-0.2.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/pg-cluster-recovery-test-0.2.0.tgz-meta/README.md
+  application.giantswarm.io/team: atlas
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/pg-cluster-recovery-test-0.2.0.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: pg-cluster-recovery-test-0.2.0.tgz
+dateCreated: '2025-07-28T14:47:15.036355Z'
+digest: 1b361f550a7618e726025ea354ea8c74769b08ef9ea3db81255afdb7d7537e85
+home: https://github.com/giantswarm/pg-cluster-recovery-test
+icon: https://s.giantswarm.io/app-icons/cloudnative-pg/icon-light.svg
