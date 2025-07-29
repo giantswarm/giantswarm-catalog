@@ -37067,6 +37067,33 @@ entries:
     version: 0.7.0
   trivy-operator:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.11.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.11.0.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.11.0.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 0.27.3
+    created: "2025-07-29T14:24:52.575792718Z"
+    dependencies:
+    - name: trivy-operator
+      repository: ""
+      version: 0.29.3
+    description: A Giant Swarm App for trivy-operator, the cluster security tool from
+      Aqua Security.
+    digest: b965999fb158b4a47ded82993aea7a1f38086c0bfcde91c0c7fdc72a717ca9de
+    home: https://github.com/giantswarm/trivy-operator-app
+    icon: https://s.giantswarm.io/app-icons/trivy/1/light.svg
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/trivy-operator-app
+    name: trivy-operator
+    sources:
+    - https://github.com/aquasecurity/trivy-operator
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.11.0.tgz
+    version: 0.11.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.10.3.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.10.3.tgz-meta/README.md
       application.giantswarm.io/team: shield
@@ -38182,4 +38209,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-07-29T14:11:42.938907453Z"
+generated: "2025-07-29T14:24:52.569971255Z"
