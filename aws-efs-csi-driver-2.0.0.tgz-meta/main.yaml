@@ -5,7 +5,7 @@ annotations:
   application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/aws-efs-csi-driver-2.0.0.tgz-meta/values.schema.json
 chartApiVersion: v2
 chartFile: aws-efs-csi-driver-2.0.0.tgz
-dateCreated: '2025-08-28T13:01:17.711049Z'
-digest: 72c4ac3e938cc43e1b3b58d035461729334529d0a71a79f5c0393bc3ed4b9234
+dateCreated: '2025-08-28T13:09:56.080360Z'
+digest: a8737f1f21a61373bed90f9defa36b7150a0bf7c1b0281460184aaf3594ece5b
 home: https://github.com/giantswarm/aws-efs-csi-driver
 icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
