@@ -1,0 +1,16 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/zot-2.3.3.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/zot-2.3.3.tgz-meta/README.md
+  application.giantswarm.io/team: honeybadger
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/zot-2.3.3.tgz-meta/values.schema.json
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: zot-2.3.3.tgz
+dateCreated: '2025-09-02T09:24:53.409873Z'
+digest: dd92450c3c46318000daee54ca4c9343d609b8d9d507e97774ba5b8d35006bfe
+home: https://github.com/giantswarm/zot
+icon: https://s.giantswarm.io/app-icons/zot/1/light.svg
+restrictions:
+  clusterSingleton: false
+  namespaceSingleton: false
+upstreamChartVersion: 0.1.79
