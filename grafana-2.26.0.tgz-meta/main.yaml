@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/grafana-2.26.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/grafana-2.26.0.tgz-meta/README.md
+  application.giantswarm.io/team: atlas
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/grafana-2.26.0.tgz-meta/values.schema.json
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: grafana-2.26.0.tgz
+dateCreated: '2025-09-02T05:45:05.135125Z'
+digest: a26d5e0b4398fa509f2c14dadf09ba0b2cd9f6d074f12a51247ab1e5997f4941
+home: https://github.com/giantswarm/grafana-app
+icon: https://s.giantswarm.io/app-icons/grafana/1/light.svg
