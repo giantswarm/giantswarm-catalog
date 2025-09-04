@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/trivy-0.14.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/trivy-0.14.1.tgz-meta/README.md
+  application.giantswarm.io/team: shield
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/trivy-0.14.1.tgz-meta/values.schema.json
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: trivy-0.14.1.tgz
+dateCreated: '2025-09-04T13:52:59.866540Z'
+digest: 6eafd854a04412e4b241d7156ddc100534e9d3156aff4d2d3406e5665c558c16
+home: https://github.com/giantswarm/trivy-app
+icon: https://s.giantswarm.io/app-icons/trivy/1/light.svg
