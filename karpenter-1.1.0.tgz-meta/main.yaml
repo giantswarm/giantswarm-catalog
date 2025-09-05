@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/karpenter-1.1.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/karpenter-1.1.0.tgz-meta/README.md
+  application.giantswarm.io/team: phoenix
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/karpenter-1.1.0.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: karpenter-1.1.0.tgz
+dateCreated: '2025-09-05T09:22:57.816453Z'
+digest: fa76a8e3d1fdc2ff2f360477122c20b75790aa228c1381e7e5d2f510ce4cb5e0
+home: https://github.com/giantswarm/karpenter-app
+icon: https://s.giantswarm.io/app-icons/karpenter/1/light.svg
