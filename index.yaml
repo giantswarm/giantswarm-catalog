@@ -2743,6 +2743,24 @@ entries:
     version: 1.0.0
   aws-nth-crossplane-resources:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/aws-nth-crossplane-resources-1.2.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/aws-nth-crossplane-resources-1.2.0.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/aws-nth-crossplane-resources-1.2.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 1.2.0
+    created: "2025-10-02T10:15:53.426413809Z"
+    description: Please add description
+    digest: 5c20e35208440e6f8c55f2cebc998eddb5c5ef2e3008279bf701ffc3967b3930
+    home: https://github.com/giantswarm/aws-nth-crossplane-resources
+    icon: https://s.giantswarm.io/app-icons/aws/2/light.svg
+    name: aws-nth-crossplane-resources
+    sources:
+    - https://github.com/giantswarm/aws-nth-crossplane-resources
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/aws-nth-crossplane-resources-1.2.0.tgz
+    version: 1.2.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/aws-nth-crossplane-resources-1.1.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/aws-nth-crossplane-resources-1.1.1.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -39683,4 +39701,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-10-02T09:32:10.930940853Z"
+generated: "2025-10-02T10:15:53.425433366Z"
