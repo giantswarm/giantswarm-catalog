@@ -12444,6 +12444,32 @@ entries:
     version: 0.6.1
   flux-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/flux-app-1.7.2.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/flux-app-1.7.2.tgz-meta/README.md
+      application.giantswarm.io/team: honeybadger
+      application.giantswarm.io/two-step-install: "true"
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/flux-app-1.7.2.tgz-meta/values.schema.json
+      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/flux/2/logo_dark.svg
+    apiVersion: v2
+    appVersion: 2.4.0
+    created: "2025-10-03T10:01:41.69210275Z"
+    description: 'Flux is a collection of tools for keeping Kubernetes clusters in
+      sync with sources of configuration (like Git repositories), and automating updates
+      to configuration when there is new code to deploy. '
+    digest: e6141b741707c3e87895f3bdab9e0bc1fddf3b87af7c73c56f8ce03dde1c5650
+    home: https://github.com/giantswarm/flux-app
+    icon: https://s.giantswarm.io/app-icons/flux/2/icon_dark.svg
+    keywords:
+    - gitops
+    - flux
+    name: flux-app
+    sources:
+    - https://github.com/fluxcd/flux2
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/flux-app-1.7.2.tgz
+    version: 1.7.2
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/flux-app-1.7.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/flux-app-1.7.1.tgz-meta/README.md
       application.giantswarm.io/team: honeybadger
@@ -39759,4 +39785,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-10-03T09:00:24.837077842Z"
+generated: "2025-10-03T10:01:41.68793086Z"
