@@ -22909,6 +22909,36 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/kube-prometheus-stack-7.0.0.tgz
     version: 7.0.0
+  kubeedge-cloudcore:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/kubeedge-cloudcore-0.1.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/kubeedge-cloudcore-0.1.0.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/kubeedge-cloudcore-0.1.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 1.21.0
+    created: "2025-10-03T09:00:24.840780475Z"
+    dependencies:
+    - name: kubeedge-cloudcore-crds
+      repository: ""
+      version: 1.21.0
+    description: The KubeEdge cloudcore component.
+    digest: 74ff84a56e115f93c167d8c4e5d60c12aade75a7f2ad6bcb0a060b3e0017def5
+    home: https://github.com/giantswarm/kubeedge-cloudcore-app
+    icon: https://raw.githubusercontent.com/kubeedge/kubeedge/refs/heads/master/docs/images/kubeedge-logo-only.png
+    keywords:
+    - edge
+    - iot
+    - kubernetes
+    maintainers:
+    - email: team-rocket@giantswarm.io
+      name: Team Rocket
+    name: kubeedge-cloudcore
+    sources:
+    - https://github.com/kubeedge/kubeedge
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/kubeedge-cloudcore-0.1.0.tgz
+    version: 0.1.0
   kubescape:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/kubescape-0.0.1.tgz-meta/main.yaml
@@ -39729,4 +39759,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-10-02T13:17:17.035629264Z"
+generated: "2025-10-03T09:00:24.837077842Z"
