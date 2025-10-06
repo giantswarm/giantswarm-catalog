@@ -1,0 +1,14 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/aws-node-termination-handler-1.22.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/aws-node-termination-handler-1.22.0.tgz-meta/README.md
+  application.giantswarm.io/team: phoenix
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/aws-node-termination-handler-1.22.0.tgz-meta/values.schema.json
+chartApiVersion: v1
+chartFile: aws-node-termination-handler-1.22.0.tgz
+dateCreated: '2025-10-06T11:47:57.013775Z'
+digest: 63c0ac91ae5539a05bdc064ee14f0ac1de9e4eacf07b5ac21b7583ef7ed07dbd
+home: https://github.com/giantswarm/aws-node-termination-handler-app
+icon: https://s.giantswarm.io/app-icons/aws/2/light.svg
+restrictions:
+  compatibleProviders:
+  - aws
