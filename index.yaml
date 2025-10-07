@@ -1545,6 +1545,25 @@ entries:
     version: 1.21.0-gs1
   aws-efs-csi-driver:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/aws-efs-csi-driver-2.1.5.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/aws-efs-csi-driver-2.1.5.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/aws-efs-csi-driver-2.1.5.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 2.1.9
+    created: "2025-10-07T14:52:03.297611224Z"
+    description: A Helm chart for AWS EFS CSI Driver
+    digest: 37029271efffeae94cb96ceb3f676bb7c748ac89ac8f2706e68158acbbbe3997
+    home: https://github.com/giantswarm/aws-efs-csi-driver
+    icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+    kubeVersion: '>=1.17.0-0'
+    name: aws-efs-csi-driver
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/aws-efs-csi-driver/v2.1.9/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/aws-efs-csi-driver-2.1.5.tgz
+    version: 2.1.5
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/aws-efs-csi-driver-2.1.4.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/aws-efs-csi-driver-2.1.4.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -39955,4 +39974,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-10-07T12:58:22.879347513Z"
+generated: "2025-10-07T14:52:03.289637879Z"
