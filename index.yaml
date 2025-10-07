@@ -5282,6 +5282,22 @@ entries:
     version: 0.0.3
   coredns-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.28.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.28.1.tgz-meta/README.md
+      application.giantswarm.io/team: cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.28.1.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 1.13.0
+    created: "2025-10-07T11:16:51.762696487Z"
+    description: A Helm chart for CoreDNS
+    digest: dd14cf01bdde566eba7ce5ceb450e7aaffe3b6b33cf11789f7d0753f3eb17fd1
+    home: https://github.com/giantswarm/coredns-app
+    icon: https://s.giantswarm.io/app-icons/coredns/1/dark.svg
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.28.1.tgz
+    version: 1.28.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.28.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/coredns-app-1.28.0.tgz-meta/README.md
       application.giantswarm.io/team: cabbage
@@ -39905,4 +39921,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-10-06T21:00:48.746230219Z"
+generated: "2025-10-07T11:16:51.761813124Z"
