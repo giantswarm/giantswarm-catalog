@@ -23447,6 +23447,24 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/kubescape-0.0.1.tgz
     version: 0.0.1
+  kueue:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/kueue-0.1.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/kueue-0.1.0.tgz-meta/README.md
+      application.giantswarm.io/team: planeteers
+    apiVersion: v2
+    appVersion: v0.14.1
+    created: "2025-10-16T21:24:05.483456133Z"
+    description: Kueue is a set of APIs and controllers for job queueing.
+    digest: c5b43322a2cca0cf2198ee6c9413fd5129b630ba92e1e372f0acf7d813c94591
+    home: https://github.com/giantswarm/kueue-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: kueue
+    sources:
+    - https://github.com/kubernetes-sigs/kueue
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/kueue-0.1.0.tgz
+    version: 0.1.0
   kyverno:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/kyverno-0.20.0.tgz-meta/main.yaml
@@ -40312,4 +40330,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-10-16T15:47:40.727066777Z"
+generated: "2025-10-16T21:24:05.477705162Z"

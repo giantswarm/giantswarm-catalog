@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/kueue-0.1.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/kueue-0.1.0.tgz-meta/README.md
+  application.giantswarm.io/team: planeteers
+chartApiVersion: v2
+chartFile: kueue-0.1.0.tgz
+dateCreated: '2025-10-16T21:23:59.049508Z'
+digest: c5b43322a2cca0cf2198ee6c9413fd5129b630ba92e1e372f0acf7d813c94591
+home: https://github.com/giantswarm/kueue-app
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
