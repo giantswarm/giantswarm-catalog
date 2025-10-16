@@ -2952,6 +2952,18 @@ entries:
       application.giantswarm.io/team: phoenix
     apiVersion: v1
     appVersion: 0.0.1
+    created: "2025-10-16T12:26:20.855883101Z"
+    description: CAPA karpenter taint remover
+    digest: 9abd77ec2062b4091e1d17bc94ce5bd981d88485d708f3807d10b5b3526e6f6e
+    home: https://github.com/giantswarm/capa-karpenter-taint-remover
+    name: capa-karpenter-taint-remover
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/capa-karpenter-taint-remover-1.0.0.tgz
+    version: 1.0.0
+  - annotations:
+      application.giantswarm.io/team: phoenix
+    apiVersion: v1
+    appVersion: 0.0.1
     created: "2025-05-26T13:52:50.616594496Z"
     description: CAPA karpenter taint remover
     digest: 44510503bc95f9f630761450fafc8270f05ea0cd8588acdbe6772eb7e8a53559
@@ -40284,4 +40296,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-10-14T12:50:05.45944847Z"
+generated: "2025-10-16T12:26:20.855036389Z"
