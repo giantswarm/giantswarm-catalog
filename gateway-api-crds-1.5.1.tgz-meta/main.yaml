@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/gateway-api-crds-1.5.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/gateway-api-crds-1.5.1.tgz-meta/README.md
+  application.giantswarm.io/team: team-cabbage
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/gateway-api-crds-1.5.1.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: gateway-api-crds-1.5.1.tgz
+dateCreated: '2025-10-20T13:41:28.860382Z'
+digest: a28e1856b149c3eb765cf77cd1cce2a4102ea81c9cca51176291864103a3cb11
+home: https://github.com/giantswarm/gateway-api-crds-app
+icon: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
