@@ -2,6 +2,25 @@ apiVersion: v1
 entries:
   alertmanager-to-github:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/alertmanager-to-github-0.1.3.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/alertmanager-to-github-0.1.3.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/alertmanager-to-github-0.1.3.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 0.2.4
+    created: "2025-10-21T20:22:51.218242051Z"
+    description: Github integration for Alertmanager
+    digest: 7510c5c9e569d1094bd3286466c941200e1e79f7c4421e084c3c50bc75835ade
+    home: https://github.com/giantswarm/alertmanager-to-github-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: alertmanager-to-github
+    sources:
+    - https://github.com/pfnet-research/alertmanager-to-github
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/alertmanager-to-github-0.1.3.tgz
+    version: 0.1.3
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/alertmanager-to-github-0.1.2.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/alertmanager-to-github-0.1.2.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -40468,4 +40487,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-10-21T15:15:40.06244033Z"
+generated: "2025-10-21T20:22:51.216890468Z"
