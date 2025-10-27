@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/alertmanager-to-github-0.2.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/alertmanager-to-github-0.2.0.tgz-meta/README.md
+  application.giantswarm.io/team: atlas
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/alertmanager-to-github-0.2.0.tgz-meta/values.schema.json
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: alertmanager-to-github-0.2.0.tgz
+dateCreated: '2025-10-27T14:56:51.000722Z'
+digest: cc5571a5ec7f043f27b3ac995f0fc0d8c4e6e0029c6e13fd8e90b615da13b888
+home: https://github.com/giantswarm/alertmanager-to-github-app
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
