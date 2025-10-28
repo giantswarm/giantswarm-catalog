@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/app-type: bundle
+  application.giantswarm.io/in-cluster-app: 'true'
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/security-bundle-1.14.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/security-bundle-1.14.0.tgz-meta/README.md
+  application.giantswarm.io/team: shield
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/security-bundle-1.14.0.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: security-bundle-1.14.0.tgz
+dateCreated: '2025-10-28T15:46:09.806216Z'
+digest: f155b1372cf22ea924596e8c8673a5acd55bd8d188201b2f579fcb6cf67576c8
+home: https://github.com/giantswarm/security-bundle
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
