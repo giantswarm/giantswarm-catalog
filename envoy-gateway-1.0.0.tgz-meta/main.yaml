@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/envoy-gateway-1.0.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/envoy-gateway-1.0.0.tgz-meta/README.md
+  application.giantswarm.io/team: cabbage
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/envoy-gateway-1.0.0.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: envoy-gateway-1.0.0.tgz
+dateCreated: '2025-10-29T08:37:21.679362Z'
+digest: ad23744557ea76887b40bd07fa618581f0bd8fca45c4ebb7b0fd2775fd97b73a
+home: https://github.com/giantswarm/envoy-gateway-app
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
