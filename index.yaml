@@ -40485,6 +40485,27 @@ entries:
     version: 0.0.1
   zot:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/zot-2.3.6.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/zot-2.3.6.tgz-meta/README.md
+      application.giantswarm.io/team: honeybadger
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/zot-2.3.6.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: v2.1.10
+    created: "2025-11-04T13:08:17.773705854Z"
+    description: A Helm chart for Kubernetes
+    digest: df1c0fca11c83f37ea62b952212d5876e9a8480973377e4c34c7429e7abd4040
+    home: https://github.com/giantswarm/zot
+    icon: https://s.giantswarm.io/app-icons/zot/1/light.svg
+    keywords:
+    - kubernetes-zot-registry
+    - oci-registry
+    name: zot
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/zot-2.3.6.tgz
+    version: 2.3.6
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/zot-2.3.5.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/zot-2.3.5.tgz-meta/README.md
       application.giantswarm.io/team: honeybadger
@@ -40925,4 +40946,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-11-04T12:37:22.70823732Z"
+generated: "2025-11-04T13:08:17.772174142Z"
