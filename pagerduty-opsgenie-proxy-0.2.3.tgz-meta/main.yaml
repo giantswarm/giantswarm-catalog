@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/pagerduty-opsgenie-proxy-0.2.3.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/pagerduty-opsgenie-proxy-0.2.3.tgz-meta/README.md
+  application.giantswarm.io/team: planeteers
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/pagerduty-opsgenie-proxy-0.2.3.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: pagerduty-opsgenie-proxy-0.2.3.tgz
+dateCreated: '2025-11-04T17:36:35.910177Z'
+digest: 47ea9d6ee6f69507bd3827d5e94080d913daef4b2356b5ebfd8bb622ecc6f5f9
+home: https://github.com/giantswarm/pagerduty-opsgenie-proxy
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
