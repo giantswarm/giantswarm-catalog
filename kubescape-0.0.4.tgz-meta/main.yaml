@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/kubescape-0.0.4.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/kubescape-0.0.4.tgz-meta/README.md
+  application.giantswarm.io/team: shield
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/kubescape-0.0.4.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: kubescape-0.0.4.tgz
+dateCreated: '2025-11-05T14:28:41.781498Z'
+digest: f60715e6ee0117665b918bde6c1e00b9d75a680b7a120c93d14eb2d0af448d46
+home: https://github.com/giantswarm/kubescape
+icon: https://s.giantswarm.io/app-icons/kubescape/1/color.svg
