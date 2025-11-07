@@ -31861,6 +31861,24 @@ entries:
     version: 2.0.0
   pagerduty-opsgenie-proxy:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/pagerduty-opsgenie-proxy-1.0.2.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/pagerduty-opsgenie-proxy-1.0.2.tgz-meta/README.md
+      application.giantswarm.io/team: planeteers
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/pagerduty-opsgenie-proxy-1.0.2.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 1.0.1
+    created: "2025-11-07T16:44:45.840257175Z"
+    description: Please add description
+    digest: 08c35dd1995903818db72814d8f62218922fba59432b0f05a4710318d9ddaccd
+    home: https://github.com/giantswarm/pagerduty-opsgenie-proxy
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: pagerduty-opsgenie-proxy
+    sources:
+    - https://github.com/giantswarm/pagerduty-opsgenie-proxy
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/pagerduty-opsgenie-proxy-1.0.2.tgz
+    version: 1.0.2
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/pagerduty-opsgenie-proxy-1.0.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/pagerduty-opsgenie-proxy-1.0.1.tgz-meta/README.md
       application.giantswarm.io/team: planeteers
@@ -41358,4 +41376,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-11-07T08:51:46.662735509Z"
+generated: "2025-11-07T16:44:45.839463962Z"
