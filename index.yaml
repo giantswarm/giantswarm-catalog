@@ -32411,6 +32411,24 @@ entries:
     version: 0.0.1
   pg-cluster-recovery-test:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/pg-cluster-recovery-test-0.3.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/pg-cluster-recovery-test-0.3.0.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/pg-cluster-recovery-test-0.3.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2025-11-19T15:23:38.298470227Z"
+    description: Please add description
+    digest: e26a3379d9bcff342b4945b98acf0412631abb5d625ae78932e1eaccfd725b33
+    home: https://github.com/giantswarm/pg-cluster-recovery-test
+    icon: https://s.giantswarm.io/app-icons/cloudnative-pg/icon-light.svg
+    name: pg-cluster-recovery-test
+    sources:
+    - https://github.com/some-org/some-repo
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/pg-cluster-recovery-test-0.3.0.tgz
+    version: 0.3.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/pg-cluster-recovery-test-0.2.4.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/pg-cluster-recovery-test-0.2.4.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -41763,4 +41781,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-11-19T08:54:16.021277225Z"
+generated: "2025-11-19T15:23:38.297427174Z"
