@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/teleport-tbot-0.4.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/teleport-tbot-0.4.0.tgz-meta/README.md
+  application.giantswarm.io/team: shield
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/teleport-tbot-0.4.0.tgz-meta/values.schema.json
+chartApiVersion: v1
+chartFile: teleport-tbot-0.4.0.tgz
+dateCreated: '2025-11-20T12:07:08.238695Z'
+digest: 84c8e4b4d4a8133608675931d665b7496c8be58bf3bfc66b28887f4c0009c2b3
+home: https://github.com/giantswarm/teleport-tbot
+icon: https://s.giantswarm.io/app-icons/teleport/1/light.png
