@@ -24236,6 +24236,35 @@ entries:
     version: 1.0.0
   kubescape:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/kubescape-0.0.5.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/kubescape-0.0.5.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/kubescape-0.0.5.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2025-12-04T16:08:56.630478743Z"
+    dependencies:
+    - condition: exceptions.enabled
+      name: exceptions
+      repository: ""
+      version: 0.0.0
+    - name: dependency_chart
+      repository: ""
+      version: 0.0.0
+    - name: kubescape-operator
+      repository: ""
+      version: '>1.28.0'
+    description: This chart contains the kubescape operator chart and custom Giant
+      Swarm resources.
+    digest: 1ef1a85657a386f71fd81ecb3c615987b31fa34f055384556e4ac20976d7ff7d
+    home: https://github.com/giantswarm/kubescape
+    icon: https://s.giantswarm.io/app-icons/kubescape/1/color.svg
+    name: kubescape
+    sources:
+    - https://github.com/kubescape/helm-charts
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/kubescape-0.0.5.tgz
+    version: 0.0.5
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/kubescape-0.0.4.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/kubescape-0.0.4.tgz-meta/README.md
       application.giantswarm.io/team: shield
@@ -42247,4 +42276,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-12-04T08:30:02.714083676Z"
+generated: "2025-12-04T16:08:56.623651285Z"
