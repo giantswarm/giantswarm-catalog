@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/mcp-kubernetes-0.0.50.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/mcp-kubernetes-0.0.50.tgz-meta/README.md
+  application.giantswarm.io/team: team-planeteers
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/mcp-kubernetes-0.0.50.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: mcp-kubernetes-0.0.50.tgz
+dateCreated: '2025-12-08T13:35:42.272676Z'
+digest: 3d3fec3ddc806203ed9a2674db4c79636648ddc18b975e491ab1ce3c9935f99c
+home: https://github.com/giantswarm/mcp-kubernetes
+icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
