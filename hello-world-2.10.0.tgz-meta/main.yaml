@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/team: honeybadger
+chartApiVersion: v2
+chartFile: hello-world-2.10.0.tgz
+dateCreated: '2025-12-09T09:36:58.403551Z'
+digest: 8a7b3380662260812d50ca8725485f764deffd8f111eedbf7f164b4d7224a30b
+home: https://github.com/giantswarm/hello-world-app
+icon: https://s.giantswarm.io/app-icons/1/png/hello-world-app-light.png

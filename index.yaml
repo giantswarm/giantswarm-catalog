@@ -18409,6 +18409,32 @@ entries:
     version: 0.2.0
   hello-world:
   - annotations:
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/hello-world-2.10.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/hello-world-app/refs/tags/v2.10.0/README.md
+      io.giantswarm.application.team: honeybadger
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/hello-world-app/refs/tags/v2.10.0/helm/hello-world/values.schema.json
+    apiVersion: v2
+    appVersion: 0.3.0
+    created: "2025-12-09T09:37:04.932575811Z"
+    description: A chart that deploys a basic hello world site and lets you test values
+      merging of user values configmap and secrets.
+    digest: 8a7b3380662260812d50ca8725485f764deffd8f111eedbf7f164b4d7224a30b
+    home: https://github.com/giantswarm/hello-world-app
+    icon: https://s.giantswarm.io/app-icons/1/png/hello-world-app-light.png
+    keywords:
+    - demo
+    - webapp
+    - testing
+    name: hello-world
+    sources:
+    - https://github.com/giantswarm/helloworld
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/hello-world-2.10.0.tgz
+    version: 2.10.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/hello-world-2.9.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/hello-world-2.9.1.tgz-meta/README.md
       application.giantswarm.io/team: honeybadger
@@ -43068,4 +43094,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-12-09T09:32:20.905119525Z"
+generated: "2025-12-09T09:37:04.930936331Z"
