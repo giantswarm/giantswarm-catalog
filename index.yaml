@@ -41479,6 +41479,26 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/tekton-dashboard-loki-proxy-0.0.2.tgz
     version: 0.0.2
+  teleport-exporter:
+  - annotations:
+      config.giantswarm.io/version: 1.x.x
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/teleport-exporter-0.0.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/teleport-exporter/refs/tags/v0.0.1/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/teleport-exporter/refs/tags/v0.0.1/helm/teleport-exporter/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2025-12-11T17:48:50.355616745Z"
+    description: A Helm chart for teleport-exporter, which exposes Prometheus metrics
+      about nodes, clusters, databases, and applications registered in Teleport.
+    digest: eab203593b154b17d551cd43f67edd2d35f42100a0ca6d59fd4694e22c82a556
+    home: https://github.com/giantswarm/teleport-exporter
+    icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+    name: teleport-exporter
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/teleport-exporter-0.0.1.tgz
+    version: 0.0.1
   teleport-kube-agent:
   - annotations:
       application.giantswarm.io/team: bigmac
@@ -43747,4 +43767,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-12-11T16:20:33.159256913Z"
+generated: "2025-12-11T17:48:50.354642436Z"
