@@ -30475,6 +30475,33 @@ entries:
     version: 0.1.0-alpha
   mcp-kubernetes:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/mcp-kubernetes-0.0.97.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mcp-kubernetes/refs/tags/v0.0.97/README.md
+      io.giantswarm.application.team: team-planeteers
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/mcp-kubernetes/refs/tags/v0.0.97/helm/mcp-kubernetes/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.97
+    created: "2025-12-14T13:43:39.752676001Z"
+    description: A Helm chart for mcp-kubernetes - Model Context Protocol server for
+      Kubernetes
+    digest: 34e38e2a3b3acd18bb4e7f9af6d50a0fbd59feb3c05f489e2aae9bd85eafd92b
+    home: https://github.com/giantswarm/mcp-kubernetes
+    icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
+    keywords:
+    - mcp
+    - kubernetes
+    - model-context-protocol
+    maintainers:
+    - email: team-planeteers@giantswarm.io
+      name: Giant Swarm
+    name: mcp-kubernetes
+    sources:
+    - https://github.com/giantswarm/mcp-kubernetes
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/mcp-kubernetes-0.0.97.tgz
+    version: 0.0.97
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/mcp-kubernetes-0.0.96.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mcp-kubernetes/refs/tags/v0.0.96/README.md
       io.giantswarm.application.team: team-planeteers
@@ -44087,4 +44114,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-12-14T12:48:10.889707353Z"
+generated: "2025-12-14T13:43:39.748764475Z"
