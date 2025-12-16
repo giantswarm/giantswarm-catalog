@@ -37650,6 +37650,32 @@ entries:
     version: 0.3.0
   prometheus-operator-crd:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/prometheus-operator-crd-19.0.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/prometheus-operator-crd/refs/tags/v19.0.0/README.md
+      io.giantswarm.application.restrictions.cluster-singleton: "true"
+      io.giantswarm.application.team: atlas
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/prometheus-operator-crd/refs/tags/v19.0.0/helm/prometheus-operator-crd/values.schema.json
+    apiVersion: v2
+    appVersion: v0.87.1
+    created: "2025-12-16T11:41:48.277144584Z"
+    dependencies:
+    - name: prometheus-operator-crds
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 25.0.1
+    description: kube-prometheus-stack CustomResourceDefinitions.
+    digest: 90669485d017ee15e6eb3022d82213d9ac92617f4e560e9994c8ba4b0e19d4ad
+    home: https://github.com/giantswarm/prometheus-operator-crd
+    icon: https://s.giantswarm.io/app-icons/prometheus-operator/2/light.svg
+    kubeVersion: '>=1.19.0-0'
+    name: prometheus-operator-crd
+    sources:
+    - https://github.com/prometheus-community/helm-charts
+    - https://github.com/prometheus-operator/kube-prometheus
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/prometheus-operator-crd-19.0.0.tgz
+    version: 19.0.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/prometheus-operator-crd-18.0.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/prometheus-operator-crd-18.0.0.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -44248,4 +44274,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-12-15T15:17:40.717514597Z"
+generated: "2025-12-16T11:41:48.248936703Z"
