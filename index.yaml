@@ -34509,6 +34509,28 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/openssf-scorecard-exporter-0.0.1.tgz
     version: 0.0.1
+  pagerduty-incident-proxy:
+  - annotations:
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/pagerduty-incident-proxy-0.0.2.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/pagerduty-incident-proxy/refs/tags/v0.0.2/README.md
+      io.giantswarm.application.team: planeteers
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/pagerduty-incident-proxy/refs/tags/v0.0.2/helm/pagerduty-incident-proxy/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2025-12-17T09:04:33.582254174Z"
+    description: Proxy PagerDuty incident webhooks to management cluster endpoints
+    digest: 6bd509fa16039669a41e1aabb92b36aec023f12990bfd2f8859df345214ad57e
+    home: https://github.com/giantswarm/pagerduty-incident-proxy
+    icon: https://s.giantswarm.io/app-icons/1/png/alfred-app-light.png
+    name: pagerduty-incident-proxy
+    sources:
+    - https://github.com/giantswarm/pagerduty-incident-proxy
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/pagerduty-incident-proxy-0.0.2.tgz
+    version: 0.0.2
   pagerduty-opsgenie-proxy:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/pagerduty-opsgenie-proxy-2.0.0.tgz-meta/main.yaml
@@ -44320,4 +44342,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-12-17T02:59:01.393614489Z"
+generated: "2025-12-17T09:04:33.581611477Z"
