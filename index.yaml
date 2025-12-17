@@ -34489,6 +34489,26 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/oauth2-proxy-2.0.0.tgz
     version: 2.0.0
+  openssf-scorecard-exporter:
+  - annotations:
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/openssf-scorecard-exporter-0.0.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/openssf-scorecard-exporter/refs/tags/v0.0.1/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/openssf-scorecard-exporter/refs/tags/v0.0.1/helm/openssf-scorecard-exporter/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2025-12-17T02:59:01.394285051Z"
+    description: OpenSSF Scorecard Exporter scrapes the OpenSSF API and exposes Prometheus
+      metrics for Scorecard data.
+    digest: ea17faa211af99ce89515365125ae08667d2a2ad2c02fafcd3347ab676cf51ad
+    home: https://github.com/giantswarm/openssf-scorecard-exporter
+    icon: https://s.giantswarm.io/app-icons/openssf/2/light.png
+    name: openssf-scorecard-exporter
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/openssf-scorecard-exporter-0.0.1.tgz
+    version: 0.0.1
   pagerduty-opsgenie-proxy:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/pagerduty-opsgenie-proxy-2.0.0.tgz-meta/main.yaml
@@ -44300,4 +44320,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-12-16T11:52:10.944474735Z"
+generated: "2025-12-17T02:59:01.393614489Z"
