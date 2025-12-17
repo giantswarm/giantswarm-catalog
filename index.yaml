@@ -2814,21 +2814,16 @@ entries:
     version: 1.0.0
   aws-load-balancer-controller-bundle:
   - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-bundle-3.0.0.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-bundle-3.0.0.tgz-meta/README.md
+      application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/in-cluster-app: "true"
       application.giantswarm.io/team: phoenix
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-bundle-3.0.0.tgz-meta/values.schema.json
     apiVersion: v2
-    appVersion: v2.8.3
-    created: "2025-12-04T08:29:03.909977915Z"
-    description: AWS Load Balancer Controller Bundle with Crossplane resources
-    digest: df4fc4982fd5c104ad5e8941bc3155984cebff72e97ddeadd9eb3f7992303597
-    home: https://github.com/giantswarm/aws-load-balancer-controller-app
-    icon: https://raw.githubusercontent.com/aws/eks-charts/master/docs/logo/aws.png
-    kubeVersion: '>=1.17.0-0'
+    created: "2025-12-17T09:49:47.706452123Z"
+    description: ALB controller Bundle with crossplane resources
+    digest: eb96405f4ef34e987b480dd39d943fcf2f73d81da3f895820e54b0190c44fe67
+    home: https://github.com/giantswarm/karpenter-bundle
+    icon: https://s.giantswarm.io/app-icons/karpenter/1/light.svg
     name: aws-load-balancer-controller-bundle
-    sources:
-    - https://github.com/giantswarm/aws-load-balancer-controller-app
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-bundle-3.0.0.tgz
     version: 3.0.0
@@ -44384,4 +44379,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-12-17T09:33:09.230020281Z"
+generated: "2025-12-17T09:49:47.705727654Z"
