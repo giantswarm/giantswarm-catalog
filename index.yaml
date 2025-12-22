@@ -32705,6 +32705,36 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/mcp-kubernetes-0.0.18.tgz
     version: 0.0.18
+  muster:
+  - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/muster-0.0.87.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/muster/refs/tags/v0.0.87/README.md
+      io.giantswarm.application.team: team-planeteers
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/muster/refs/tags/v0.0.87/helm/muster/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.87
+    created: "2025-12-22T22:01:21.105301993Z"
+    description: A Helm chart for muster - Universal Control Plane for AI Agents built
+      on MCP
+    digest: d379c622287d1b0e6fe1eb336c65dcb68f15169cebfcded64a1a9710d368c50d
+    home: https://github.com/giantswarm/muster
+    icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
+    keywords:
+    - mcp
+    - ai-agents
+    - model-context-protocol
+    - platform-engineering
+    - aggregator
+    maintainers:
+    - email: team-planeteers@giantswarm.io
+      name: Giant Swarm
+    name: muster
+    sources:
+    - https://github.com/giantswarm/muster
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/muster-0.0.87.tgz
+    version: 0.0.87
   nginx-ingress-controller-app:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/nginx-ingress-controller-app-2.30.1.tgz-meta/main.yaml
@@ -44818,4 +44848,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-12-22T21:50:20.563908951Z"
+generated: "2025-12-22T22:01:21.10280711Z"
