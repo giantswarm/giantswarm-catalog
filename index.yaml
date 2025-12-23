@@ -28186,6 +28186,33 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/kyverno-policy-operator-0.0.1.tgz
     version: 0.0.1
+  local-path-provisioner:
+  - annotations:
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/local-path-provisioner-0.1.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/local-path-provisioner-app/refs/tags/v0.1.0/README.md
+      io.giantswarm.application.team: rocket
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/local-path-provisioner-app/refs/tags/v0.1.0/helm/local-path-provisioner/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.32
+    created: "2025-12-23T17:35:14.747779531Z"
+    description: Dynamically provisioning persistent local storage with Kubernetes
+    digest: 704d895b2f2bfc4771228ad98dae5d5b743052fc7511fee0ef31163ee4749283
+    home: https://github.com/giantswarm/local-path-provisioner-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    keywords:
+    - storage
+    - hostpath
+    maintainers:
+    - email: team-rocket@giantswarm.io
+      name: Team Rocket
+    name: local-path-provisioner
+    sources:
+    - https://github.com/rancher/local-path-provisioner
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/local-path-provisioner-0.1.0.tgz
+    version: 0.1.0
   loki:
   - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/loki-0.35.0.tgz-meta/main.yaml
@@ -45354,4 +45381,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-12-23T16:24:51.586054027Z"
+generated: "2025-12-23T17:35:14.746760726Z"
