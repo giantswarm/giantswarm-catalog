@@ -42902,6 +42902,25 @@ entries:
   teleport-exporter:
   - annotations:
       config.giantswarm.io/version: 1.x.x
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/teleport-exporter-0.1.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/teleport-exporter/refs/tags/v0.1.1/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/teleport-exporter/refs/tags/v0.1.1/helm/teleport-exporter/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2025-12-23T14:42:53.005051143Z"
+    description: A Helm chart for teleport-exporter, which exposes Prometheus metrics
+      about nodes, clusters, databases, and applications registered in Teleport.
+    digest: 42cd976685e05ae6947480bca54a83acc72b58ad047fce75e8c515285df30207
+    home: https://github.com/giantswarm/teleport-exporter
+    icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+    name: teleport-exporter
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/teleport-exporter-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
+      config.giantswarm.io/version: 1.x.x
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/teleport-exporter-0.1.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/teleport-exporter/refs/tags/v0.1.0/README.md
       io.giantswarm.application.team: shield
@@ -45248,4 +45267,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2025-12-23T14:15:09.69168047Z"
+generated: "2025-12-23T14:42:53.004045215Z"

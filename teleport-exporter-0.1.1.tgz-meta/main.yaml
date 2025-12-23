@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/team: shield
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: teleport-exporter-0.1.1.tgz
+dateCreated: '2025-12-23T14:42:48.250184Z'
+digest: 42cd976685e05ae6947480bca54a83acc72b58ad047fce75e8c515285df30207
+home: https://github.com/giantswarm/teleport-exporter
+icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
