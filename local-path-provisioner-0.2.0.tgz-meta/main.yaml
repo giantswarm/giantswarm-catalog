@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: giantswarm
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: rocket
+chartApiVersion: v2
+chartFile: local-path-provisioner-0.2.0.tgz
+dateCreated: '2026-01-06T12:14:55.516446Z'
+digest: 29b4dbbab24ba73b9d57f9bc29f642556b787f5253fde898178e9e3271cb601e
+home: https://github.com/giantswarm/local-path-provisioner-app
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
