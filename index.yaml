@@ -45806,6 +45806,29 @@ entries:
     version: 0.1.2
   zot:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/zot-2.6.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/zot/refs/tags/v2.6.0/README.md
+      io.giantswarm.application.restrictions.cluster-singleton: "false"
+      io.giantswarm.application.restrictions.namespace-singleton: "false"
+      io.giantswarm.application.team: honeybadger
+      io.giantswarm.application.upstream-chart-version: 0.1.91
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/zot/refs/tags/v2.6.0/helm/zot/values.schema.json
+    apiVersion: v2
+    appVersion: v2.1.11
+    created: "2026-01-12T08:53:44.288781318Z"
+    description: A Helm chart for Kubernetes
+    digest: 5b28a25c9eb1f6c648b3bfb43df840687912904521c7d1ee845de8e397540b4d
+    home: https://github.com/giantswarm/zot
+    icon: https://s.giantswarm.io/app-icons/zot/1/light.svg
+    keywords:
+    - kubernetes-zot-registry
+    - oci-registry
+    name: zot
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/zot-2.6.0.tgz
+    version: 2.6.0
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/zot-2.5.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/zot/refs/tags/v2.5.0/README.md
       io.giantswarm.application.restrictions.cluster-singleton: "false"
@@ -46332,4 +46355,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-01-09T14:38:32.699774053Z"
+generated: "2026-01-12T08:53:44.285934619Z"
