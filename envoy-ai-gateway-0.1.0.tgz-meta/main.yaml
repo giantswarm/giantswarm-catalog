@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: cabbage
+chartApiVersion: v2
+chartFile: envoy-ai-gateway-0.1.0.tgz
+dateCreated: '2026-01-14T11:51:21.570678Z'
+digest: cbe2f75141d669da3f627db94099a820d53612b25bd1cff68b5eb87d6aa27131
+home: https://github.com/giantswarm/envoy-ai-gateway-app
+icon: https://raw.githubusercontent.com/envoyproxy/ai-gateway/refs/heads/main/site/static/img/logo.svg
