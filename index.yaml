@@ -5597,6 +5597,31 @@ entries:
   - annotations:
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/cluster-api-control-plane-provider-kamaji-0.2.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-api-control-plane-provider-kamaji-app/refs/tags/v0.2.0/README.md
+      io.giantswarm.application.team: rocket
+      io.giantswarm.application.upstream-chart-url: https://github.com/clastix/cluster-api-control-plane-provider-kamaji
+      io.giantswarm.application.upstream-chart-version: 0.16.0
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/cluster-api-control-plane-provider-kamaji-app/refs/tags/v0.2.0/helm/cluster-api-control-plane-provider-kamaji/values.schema.json
+    apiVersion: v2
+    appVersion: 0.16.0
+    created: "2026-01-16T09:06:18.618025173Z"
+    description: The Kamaji Control Plane provider for Cluster API
+    digest: 041d0b900ed0a8146528c20ce9191cdc30967e1c77e7b401c137570680a373b0
+    home: https://github.com/giantswarm/cluster-api-control-plane-provider-kamaji-app
+    icon: https://s.giantswarm.io/app-icons/kamaji/1/dark.png
+    maintainers:
+    - email: team-rocket@giantswarm.io
+      name: Team Rocket
+    name: cluster-api-control-plane-provider-kamaji
+    sources:
+    - https://github.com/clastix/cluster-api-control-plane-provider-kamaji
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/cluster-api-control-plane-provider-kamaji-0.2.0.tgz
+    version: 0.2.0
+  - annotations:
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/cluster-api-control-plane-provider-kamaji-0.1.1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-api-control-plane-provider-kamaji-app/refs/tags/v0.1.1/README.md
       io.giantswarm.application.team: rocket
@@ -46913,4 +46938,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-01-16T07:26:04.651892185Z"
+generated: "2026-01-16T09:06:18.612414858Z"
