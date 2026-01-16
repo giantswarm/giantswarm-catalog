@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/audience: giantswarm
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: rocket
+  application.giantswarm.io/upstreamChartUrl: https://github.com/rancher/local-path-provisioner
+  application.giantswarm.io/upstreamChartVersion: 0.0.34
+chartApiVersion: v2
+chartFile: local-path-provisioner-0.3.0.tgz
+dateCreated: '2026-01-16T10:58:47.882757Z'
+digest: e28d6a83e15b121883d87e122e42730d59ec11c7ab6c900521d1f38a32e0afa3
+home: https://github.com/giantswarm/local-path-provisioner-app
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
