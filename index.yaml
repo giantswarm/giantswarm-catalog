@@ -9605,6 +9605,30 @@ entries:
     version: 0.1.0
   envoy-gateway:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/envoy-gateway-1.4.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/envoy-gateway-app/refs/tags/v1.4.1/README.md
+      io.giantswarm.application.team: cabbage
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/envoy-gateway-app/refs/tags/v1.4.1/helm/envoy-gateway/values.schema.json
+    apiVersion: v2
+    appVersion: v1.5.4
+    created: "2026-01-19T11:03:50.547800792Z"
+    description: The Helm chart for Envoy Gateway
+    digest: 7bce82513da981d64a58c1f14852236624d07a8e7cc8774825dd16b2ae139e80
+    home: https://github.com/giantswarm/envoy-gateway-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    keywords:
+    - gateway-api
+    - envoyproxy
+    - envoy-gateway
+    - eg
+    name: envoy-gateway
+    sources:
+    - https://github.com/envoyproxy/gateway
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/envoy-gateway-1.4.1.tgz
+    version: 1.4.1
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/envoy-gateway-1.4.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/envoy-gateway-app/refs/tags/v1.4.0/README.md
       io.giantswarm.application.team: cabbage
@@ -47649,4 +47673,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-01-19T10:26:45.066671046Z"
+generated: "2026-01-19T11:03:50.524693793Z"
