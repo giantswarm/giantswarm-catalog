@@ -21254,6 +21254,38 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/k8s-dns-node-cache-app-1.0.0.tgz
     version: 1.0.0
+  kamaji:
+  - annotations:
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/kamaji-0.1.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kamaji-app/refs/tags/v0.1.0/README.md
+      io.giantswarm.application.team: rocket
+      io.giantswarm.application.upstream-chart-url: https://github.com/clastix/kamaji
+      io.giantswarm.application.upstream-chart-version: edge-25.12.3
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/kamaji-app/refs/tags/v0.1.0/helm/kamaji/values.schema.json
+    apiVersion: v2
+    appVersion: edge-25.12.3
+    created: "2026-01-20T10:58:00.637163464Z"
+    dependencies:
+    - name: kamaji-crds
+      repository: ""
+      version: 0.0.1
+    description: Kamaji is the Hosted Control Plane Manager for Kubernetes.
+    digest: 6c7f42739d195307d2a38c1d4be69638e16fd77a1d779812d8cc480600771342
+    home: https://github.com/giantswarm/kamaji-app
+    icon: https://s.giantswarm.io/app-icons/kamaji/1/light.png
+    kubeVersion: '>=1.21.0-0'
+    maintainers:
+    - email: team-rocket@giantswarm.io
+      name: Team Rocket
+    name: kamaji
+    sources:
+    - https://github.com/clastix/kamaji
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/kamaji-0.1.0.tgz
+    version: 0.1.0
   karpenter:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/karpenter-1.1.1.tgz-meta/main.yaml
@@ -48302,4 +48334,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-01-20T09:32:39.141424949Z"
+generated: "2026-01-20T10:58:00.631431255Z"
