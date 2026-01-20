@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/audience: giantswarm
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: rocket
+  application.giantswarm.io/upstreamChartUrl: https://github.com/clastix/cluster-api-control-plane-provider-kamaji
+  application.giantswarm.io/upstreamChartVersion: 0.16.0
+chartApiVersion: v2
+chartFile: cluster-api-control-plane-provider-kamaji-0.2.1.tgz
+dateCreated: '2026-01-20T16:56:17.656551Z'
+digest: 176625f342e5ec9dfbd3beb435f930edadd88eec70f49a17d0376247edbbd75f
+home: https://github.com/giantswarm/cluster-api-control-plane-provider-kamaji-app
+icon: https://s.giantswarm.io/app-icons/kamaji/1/dark.png
