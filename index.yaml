@@ -21372,6 +21372,37 @@ entries:
   - annotations:
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/kamaji-0.1.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kamaji-app/refs/tags/v0.1.1/README.md
+      io.giantswarm.application.team: rocket
+      io.giantswarm.application.upstream-chart-url: https://github.com/clastix/kamaji
+      io.giantswarm.application.upstream-chart-version: edge-25.12.3
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/kamaji-app/refs/tags/v0.1.1/helm/kamaji/values.schema.json
+    apiVersion: v2
+    appVersion: edge-25.12.3
+    created: "2026-01-20T16:56:39.786347522Z"
+    dependencies:
+    - name: kamaji-crds
+      repository: ""
+      version: 0.0.1
+    description: Kamaji is the Hosted Control Plane Manager for Kubernetes.
+    digest: 0ebfe0567fd7e2f4e6b4e7c02ef5982e7b4b8b4d93f3d02416b73003bc3d4016
+    home: https://github.com/giantswarm/kamaji-app
+    icon: https://s.giantswarm.io/app-icons/kamaji/1/light.png
+    kubeVersion: '>=1.21.0-0'
+    maintainers:
+    - email: team-rocket@giantswarm.io
+      name: Team Rocket
+    name: kamaji
+    sources:
+    - https://github.com/clastix/kamaji
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/kamaji-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/kamaji-0.1.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kamaji-app/refs/tags/v0.1.0/README.md
       io.giantswarm.application.team: rocket
@@ -48641,4 +48672,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-01-20T16:56:23.405298006Z"
+generated: "2026-01-20T16:56:39.781034295Z"
