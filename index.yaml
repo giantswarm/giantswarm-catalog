@@ -45695,6 +45695,24 @@ entries:
   starboard-exporter:
   - annotations:
       config.giantswarm.io/version: 1.x.x
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/starboard-exporter-1.0.2.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/starboard-exporter/refs/tags/v1.0.2/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/starboard-exporter/refs/tags/v1.0.2/helm/starboard-exporter/values.schema.json
+    apiVersion: v1
+    appVersion: 1.0.2
+    created: "2026-01-21T02:01:56.220440745Z"
+    description: A Helm chart for starboard-exporter, which exposes Prometheus metrics
+      from Aqua VulnerabilityReport and other custom resources.
+    digest: ac4b3c2af05029cb6f7ad4dc9cfc7be2d15651f3cf7c0218402a422b4e0f7a68
+    home: https://github.com/giantswarm/starboard-exporter
+    icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+    name: starboard-exporter
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/starboard-exporter-1.0.2.tgz
+    version: 1.0.2
+  - annotations:
+      config.giantswarm.io/version: 1.x.x
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/starboard-exporter-1.0.1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/starboard-exporter/refs/tags/v1.0.1/README.md
       io.giantswarm.application.team: shield
@@ -48899,4 +48917,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-01-21T00:58:28.709839531Z"
+generated: "2026-01-21T02:01:56.218536726Z"
