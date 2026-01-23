@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: giantswarm
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: planeteers
+chartApiVersion: v2
+chartFile: pagerduty-analyzer-0.0.1.tgz
+dateCreated: '2026-01-23T07:23:51.857405Z'
+digest: 2ab9ef96015b855ba775451c995a532cdbe1a061fe7b6f1dc887d46d9c9f418f
+home: https://github.com/giantswarm/pagerduty-analyzer
+icon: https://s.giantswarm.io/app-icons/1/png/alfred-app-light.png
