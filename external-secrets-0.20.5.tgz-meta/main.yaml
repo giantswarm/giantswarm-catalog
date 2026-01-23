@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/restrictions/clusterSingleton: 'true'
+  application.giantswarm.io/restrictions/namespaceSingleton: 'true'
+  application.giantswarm.io/team: honeybadger
+  application.giantswarm.io/upstreamChartVersion: 0.20.4
+chartApiVersion: v2
+chartFile: external-secrets-0.20.5.tgz
+dateCreated: '2026-01-23T11:35:31.458552Z'
+digest: 92e849c0c1bfd0b1242f0fcf2c616f3bfde0e78b1663d1fe6b4378c83a63573a
+home: https://github.com/giantswarm/external-secrets
+icon: https://s.giantswarm.io/app-icons/external-secrets/1/light.svg
