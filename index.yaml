@@ -40606,6 +40606,22 @@ entries:
     version: 0.0.6
   policy-meta-operator:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/policy-meta-operator-0.0.4.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/policy-meta-operator/refs/tags/v0.0.4/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/policy-meta-operator/refs/tags/v0.0.4/helm/policy-meta-operator/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.4
+    created: "2026-01-27T19:01:09.075630004Z"
+    description: Policy Meta Operator Helm chart for Giant Swarm
+    digest: a40444a4dcf05bcd390cdab622015a24ddb38a5831e91eeed998e42cc3956b0e
+    home: https://github.com/giantswarm/policy-meta-operator
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: policy-meta-operator
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/policy-meta-operator-0.0.4.tgz
+    version: 0.0.4
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/policy-meta-operator-0.0.3.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/policy-meta-operator-0.0.3.tgz-meta/README.md
       application.giantswarm.io/team: shield
@@ -50133,4 +50149,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-01-27T18:36:48.485428129Z"
+generated: "2026-01-27T19:01:09.074523463Z"
