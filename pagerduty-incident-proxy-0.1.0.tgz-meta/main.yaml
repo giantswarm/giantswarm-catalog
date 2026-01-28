@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/team: planeteers
+chartApiVersion: v2
+chartFile: pagerduty-incident-proxy-0.1.0.tgz
+dateCreated: '2026-01-28T11:49:07.346400Z'
+digest: c4a603726f76d050bfcd45f6e9dc1a4ab1f0b0fe8aa730d625273d6543f13327
+home: https://github.com/giantswarm/pagerduty-incident-proxy
+icon: https://s.giantswarm.io/app-icons/1/png/alfred-app-light.png

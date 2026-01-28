@@ -40000,6 +40000,27 @@ entries:
   - annotations:
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/pagerduty-incident-proxy-0.1.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/pagerduty-incident-proxy/refs/tags/v0.1.0/README.md
+      io.giantswarm.application.team: planeteers
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/pagerduty-incident-proxy/refs/tags/v0.1.0/helm/pagerduty-incident-proxy/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2026-01-28T11:49:12.666940636Z"
+    description: Proxy PagerDuty incident webhooks to management cluster endpoints
+    digest: c4a603726f76d050bfcd45f6e9dc1a4ab1f0b0fe8aa730d625273d6543f13327
+    home: https://github.com/giantswarm/pagerduty-incident-proxy
+    icon: https://s.giantswarm.io/app-icons/1/png/alfred-app-light.png
+    name: pagerduty-incident-proxy
+    sources:
+    - https://github.com/giantswarm/pagerduty-incident-proxy
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/pagerduty-incident-proxy-0.1.0.tgz
+    version: 0.1.0
+  - annotations:
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/pagerduty-incident-proxy-0.0.4.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/pagerduty-incident-proxy/refs/tags/v0.0.4/README.md
       io.giantswarm.application.team: planeteers
@@ -50181,4 +50202,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-01-28T09:27:46.154230005Z"
+generated: "2026-01-28T11:49:12.666052712Z"
