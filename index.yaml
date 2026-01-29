@@ -40067,6 +40067,28 @@ entries:
   - annotations:
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/pagerduty-analyzer-0.0.2.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/pagerduty-analyzer/refs/tags/v0.0.2/README.md
+      io.giantswarm.application.team: planeteers
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/pagerduty-analyzer/refs/tags/v0.0.2/helm/pagerduty-analyzer/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.2
+    created: "2026-01-29T09:04:32.632401467Z"
+    description: Automated incident analysis for Giant Swarm clusters using shoot
+      diagnostics
+    digest: 8463087a88c136d73ca583ca5d6f30afd82bba9e4f7cbbb30724cc7070757a03
+    home: https://github.com/giantswarm/pagerduty-analyzer
+    icon: https://s.giantswarm.io/app-icons/1/png/alfred-app-light.png
+    name: pagerduty-analyzer
+    sources:
+    - https://github.com/giantswarm/pagerduty-analyzer
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/pagerduty-analyzer-0.0.2.tgz
+    version: 0.0.2
+  - annotations:
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/pagerduty-analyzer-0.0.1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/pagerduty-analyzer/refs/tags/v0.0.1/README.md
       io.giantswarm.application.team: planeteers
@@ -50292,4 +50314,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-01-29T08:16:45.755234808Z"
+generated: "2026-01-29T09:04:32.631621983Z"
