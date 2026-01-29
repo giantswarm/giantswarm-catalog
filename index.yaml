@@ -45626,6 +45626,26 @@ entries:
   - annotations:
       io.giantswarm.application.app-type: bundle
       io.giantswarm.application.in-cluster-app: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/security-bundle-1.17.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/security-bundle/refs/tags/v1.17.0/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/security-bundle/refs/tags/v1.17.0/helm/security-bundle/values.schema.json
+    apiVersion: v2
+    created: "2026-01-29T20:49:14.885545897Z"
+    description: A Helm chart for Giant Swarm's collection of open-source security
+      tools.
+    digest: ea5395ac14ddd59f3e76f2be5518a1f0222345e53415b23d8444b0b12f9c7ebc
+    home: https://github.com/giantswarm/security-bundle
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: security-bundle
+    sources:
+    - https://github.com/giantswarm/security-bundle
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/security-bundle-1.17.0.tgz
+    version: 1.17.0
+  - annotations:
+      io.giantswarm.application.app-type: bundle
+      io.giantswarm.application.in-cluster-app: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/security-bundle-1.16.1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/security-bundle/refs/tags/v1.16.1/README.md
       io.giantswarm.application.team: shield
@@ -50566,4 +50586,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-01-29T17:21:18.831960435Z"
+generated: "2026-01-29T20:49:14.884001963Z"
