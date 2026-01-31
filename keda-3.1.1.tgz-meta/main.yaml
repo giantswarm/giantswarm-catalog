@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/team: tenet
+  ui.giantswarm.io/logo: https://raw.githubusercontent.com/kedacore/keda/main/images/keda-logo-500x500-white.png
+chartApiVersion: v2
+chartFile: keda-3.1.1.tgz
+dateCreated: '2026-01-31T18:38:08.060974Z'
+digest: 7957d1602a6a8c1bd856b6a8b98db0da5b03ff483b2d980bf1386cb8c9e34121
+home: https://github.com/kedacore/keda
+icon: https://raw.githubusercontent.com/kedacore/keda/main/images/keda-logo-500x500-white.png
