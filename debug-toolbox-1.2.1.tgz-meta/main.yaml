@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/team: planeteers
+chartApiVersion: v1
+chartFile: debug-toolbox-1.2.1.tgz
+dateCreated: '2026-02-02T12:24:34.360762Z'
+digest: bbbd0e366faa892d524c4afce00ea63a41cbefd8210a847115b67214b099f987
+home: https://github.com/giantswarm/debug-toolbox
+icon: https://s.giantswarm.io/app-icons/1/png/k8s-initiator-app-light.png
