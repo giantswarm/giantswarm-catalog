@@ -28679,6 +28679,30 @@ entries:
     version: 0.4.0
   kyverno-crds:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/kyverno-crds-1.17.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kyverno-crds/refs/tags/v1.17.0/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/kyverno-crds/refs/tags/v1.17.0/helm/kyverno-crds/values.schema.json
+    apiVersion: v2
+    created: "2026-02-03T16:53:04.245707449Z"
+    dependencies:
+    - name: crds
+      repository: ""
+      version: 3.7.0
+    - name: kyverno-api
+      repository: ""
+      version: 0.0.0
+    description: This app contains the Kyverno CRDs.
+    digest: 395833645b7f1643bef4451692bec17112b5e687c56b0126f2082354c01b02a5
+    home: https://github.com/giantswarm/kyverno-crds
+    icon: https://s.giantswarm.io/app-icons/kyverno/1/light.svg
+    name: kyverno-crds
+    sources:
+    - https://github.com/kyverno/kyverno
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/kyverno-crds-1.17.0.tgz
+    version: 1.17.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/kyverno-crds-1.16.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/kyverno-crds-1.16.0.tgz-meta/README.md
       application.giantswarm.io/team: shield
@@ -51168,4 +51192,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-02-03T13:33:42.479729433Z"
+generated: "2026-02-03T16:53:04.213988679Z"
