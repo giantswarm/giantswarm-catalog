@@ -1010,6 +1010,25 @@ entries:
     version: 1.6.0
   auth-bundle:
   - annotations:
+      io.giantswarm.application.app-type: bundle
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/auth-bundle-0.5.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/auth-bundle/refs/tags/v0.5.1/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/auth-bundle/refs/tags/v0.5.1/helm/auth-bundle/values.schema.json
+    apiVersion: v2
+    created: "2026-02-03T12:46:34.28126603Z"
+    description: A Helm chart for Giant Swarm's collection of auth tools.
+    digest: 27d19327001d1f858cbbf568c5ce64e0c34d5762ec3cdc2f87aa1bb437f40f6b
+    home: https://github.com/giantswarm/auth-bundle
+    icon: https://s.giantswarm.io/app-icons/athena/1/light.svg
+    name: auth-bundle
+    sources:
+    - https://github.com/giantswarm/auth-bundle
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/auth-bundle-0.5.1.tgz
+    version: 0.5.1
+  - annotations:
       config.giantswarm.io/version: 1.x.x
       io.giantswarm.application.app-type: bundle
       io.giantswarm.application.in-cluster-app: "true"
@@ -51119,4 +51138,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-02-03T12:42:09.201733013Z"
+generated: "2026-02-03T12:46:34.280548827Z"
