@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: customers
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: team-planeteers
+chartApiVersion: v2
+chartFile: mcp-kubernetes-0.0.151.tgz
+dateCreated: '2026-02-05T23:48:00.109586Z'
+digest: 543bb6cd9d9d313c8502523edd4fb9e3e96b6a1e0ca9b9480d6e2bc6522be1b4
+home: https://github.com/giantswarm/mcp-kubernetes
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
