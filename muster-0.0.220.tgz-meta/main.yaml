@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/team: planeteers
+chartApiVersion: v2
+chartFile: muster-0.0.220.tgz
+dateCreated: '2026-02-09T07:12:31.850386Z'
+digest: c278977c5f868b62e92e389f906209f9e54660e0ba3631744ec117c98b3815ed
+home: https://github.com/giantswarm/muster
+icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
