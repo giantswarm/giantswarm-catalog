@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/team: atlas
+  ui.giantswarm.io/logo: https://raw.githubusercontent.com/kedacore/keda/main/images/keda-logo-500x500-white.png
+chartApiVersion: v2
+chartFile: keda-5.0.0.tgz
+dateCreated: '2026-02-11T12:46:56.543318Z'
+digest: 767d4aaa6d4db78c487d4d5cf3b4a90b4e7730ef76332b1af7be33c98c11a2aa
+home: https://github.com/kedacore/keda
+icon: https://raw.githubusercontent.com/kedacore/keda/main/images/keda-logo-500x500-white.png
