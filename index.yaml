@@ -16853,6 +16853,22 @@ entries:
     version: 0.1.0
   gateway-api-config:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/gateway-api-config-1.7.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/gateway-api-config-app/refs/tags/v1.7.0/README.md
+      io.giantswarm.application.team: cabbage
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/gateway-api-config-app/refs/tags/v1.7.0/helm/gateway-api-config/values.schema.json
+    apiVersion: v2
+    appVersion: 1.7.0
+    created: "2026-02-12T13:10:17.844244331Z"
+    description: Default configuration for Envoy Gateway
+    digest: 8acd7fa5de2cc0af8e30ec8fd1ef3156e24aaa4aad98c3fac8c7e5f2d8d1f85a
+    home: https://github.com/giantswarm/gateway-api-config-app
+    icon: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
+    name: gateway-api-config
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/gateway-api-config-1.7.0.tgz
+    version: 1.7.0
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/gateway-api-config-1.6.2.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/gateway-api-config-app/refs/tags/v1.6.2/README.md
       io.giantswarm.application.team: cabbage
@@ -52451,4 +52467,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-02-12T10:47:09.298600743Z"
+generated: "2026-02-12T13:10:17.842800643Z"
