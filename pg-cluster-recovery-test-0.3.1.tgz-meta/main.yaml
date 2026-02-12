@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: atlas
+chartApiVersion: v2
+chartFile: pg-cluster-recovery-test-0.3.1.tgz
+dateCreated: '2026-02-12T15:15:34.627183Z'
+digest: 069128573f7b66aa8baf83c3e63b0e8540e77dffbf20191c9409008fb176f5a0
+home: https://github.com/giantswarm/pg-cluster-recovery-test
+icon: https://s.giantswarm.io/app-icons/cloudnative-pg/icon-light.svg
