@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: atlas
+chartApiVersion: v2
+chartFile: alertmanager-to-github-0.2.1.tgz
+dateCreated: '2026-02-12T15:36:07.920766Z'
+digest: 42a910234c3f98234901455ada04dfdd755f1419d823f837459a8e17f8dd7f14
+home: https://github.com/giantswarm/alertmanager-to-github-app
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
