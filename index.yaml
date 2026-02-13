@@ -17160,6 +17160,27 @@ entries:
     version: 0.1.0
   gateway-api-crds:
   - annotations:
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/gateway-api-crds-1.7.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/gateway-api-crds-app/refs/tags/v1.7.0/README.md
+      io.giantswarm.application.team: cabbage
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/gateway-api-crds-app/refs/tags/v1.7.0/helm/gateway-api-crds/values.schema.json
+    apiVersion: v2
+    appVersion: 'gateway-api: v1.4.1, gateway-api-inference-extension: v1.3.0'
+    created: "2026-02-13T10:04:54.843471441Z"
+    description: App to install Gateway API CRDs to Giantswarm Clusters
+    digest: ee1e8c9aa16a573e5dfa221ed5251b40095f6bef6e40f7ac420e04d9728b66cb
+    home: https://github.com/giantswarm/gateway-api-crds-app
+    icon: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
+    kubeVersion: '>=1.25.0-0'
+    name: gateway-api-crds
+    sources:
+    - https://github.com/kubernetes-sigs/gateway-api
+    - https://github.com/kubernetes-sigs/gateway-api-inference-extension
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/gateway-api-crds-1.7.0.tgz
+    version: 1.7.0
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/gateway-api-crds-1.6.1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/gateway-api-crds-app/refs/tags/v1.6.1/README.md
       io.giantswarm.application.team: team-cabbage
@@ -52621,4 +52642,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-02-12T15:59:39.176628881Z"
+generated: "2026-02-13T10:04:54.83082252Z"
