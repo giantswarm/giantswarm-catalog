@@ -23491,6 +23491,31 @@ entries:
     version: 0.1.0
   keda:
   - annotations:
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/keda-5.0.2.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/kedacore/keda/refs/tags/v5.0.2/README.md
+      io.giantswarm.application.team: atlas
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/kedacore/keda/refs/tags/v5.0.2/helm/keda/values.schema.json
+      ui.giantswarm.io/logo: https://raw.githubusercontent.com/kedacore/keda/main/images/keda-logo-500x500-white.png
+    apiVersion: v2
+    appVersion: 2.19.0
+    created: "2026-02-16T15:00:21.048618Z"
+    description: Event-based autoscaler for workloads on Kubernetes
+    digest: 46255659351fdd461ceb7d3120c46f7e38662c624d1eb1c4c0ceaf21d6e3d365
+    home: https://github.com/kedacore/keda
+    icon: https://raw.githubusercontent.com/kedacore/keda/main/images/keda-logo-500x500-white.png
+    kubeVersion: '>=v1.23.0-0'
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: keda
+    sources:
+    - https://github.com/kedacore/keda
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/keda-5.0.2.tgz
+    version: 5.0.2
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/keda-5.0.1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/kedacore/keda/refs/tags/v5.0.1/README.md
       io.giantswarm.application.team: atlas
@@ -52725,4 +52750,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-02-16T12:28:15.002736759Z"
+generated: "2026-02-16T15:00:21.037538129Z"
