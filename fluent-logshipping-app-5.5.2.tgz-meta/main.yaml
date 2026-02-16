@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: atlas
+chartApiVersion: v2
+chartFile: fluent-logshipping-app-5.5.2.tgz
+dateCreated: '2026-02-16T15:21:20.056641Z'
+digest: 976dd7773b5bf288521a6a17851926b35b7e0b989f95b83b202479770a2da359
+home: https://github.com/giantswarm/fluent-logshipping-app
+icon: https://s.giantswarm.io/app-icons/1/png/fluent-logshipping-app-light.png

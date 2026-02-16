@@ -13329,6 +13329,26 @@ entries:
     version: 0.5.0
   fluent-logshipping-app:
   - annotations:
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/fluent-logshipping-app-5.5.2.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/fluent-logshipping-app/refs/tags/v5.5.2/README.md
+      io.giantswarm.application.team: atlas
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/fluent-logshipping-app/refs/tags/v5.5.2/helm/fluent-logshipping-app/values.schema.json
+    apiVersion: v2
+    appVersion: 3.1.9
+    created: "2026-02-16T15:21:25.788948893Z"
+    description: The Log Shipping App forwards cluster logs to storage backends
+    digest: 976dd7773b5bf288521a6a17851926b35b7e0b989f95b83b202479770a2da359
+    home: https://github.com/giantswarm/fluent-logshipping-app
+    icon: https://s.giantswarm.io/app-icons/1/png/fluent-logshipping-app-light.png
+    name: fluent-logshipping-app
+    sources:
+    - https://github.com/giantswarm/fluent-logshipping-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/fluent-logshipping-app-5.5.2.tgz
+    version: 5.5.2
+  - annotations:
       config.giantswarm.io/version: 1.x.x
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/fluent-logshipping-app-5.5.1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/fluent-logshipping-app/refs/tags/v5.5.1/README.md
@@ -52750,4 +52770,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-02-16T15:00:21.037538129Z"
+generated: "2026-02-16T15:21:25.787637423Z"
