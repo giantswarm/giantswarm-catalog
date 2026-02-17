@@ -1,8 +1,0 @@
-annotations:
-  application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/prometheus-pushgateway-0.1.0.tgz-meta/main.yaml
-  application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/prometheus-pushgateway-0.1.0.tgz-meta/README.md
-chartApiVersion: v1
-chartFile: prometheus-pushgateway-0.1.0.tgz
-dateCreated: '2022-03-11T13:16:50.285976'
-digest: dac23f3b76b14611365d9b65a98675b1a722ba8d194c6c68060ebabb382368fa
-home: https://github.com/prometheus/pushgateway
