@@ -30540,6 +30540,26 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/kyverno-policy-operator-0.0.1.tgz
     version: 0.0.1
+  llm-testing:
+  - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/llm-testing-0.1.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/llm-testing/refs/tags/v0.1.0/README.md
+      io.giantswarm.application.team: planeteers
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/llm-testing/refs/tags/v0.1.0/helm/llm-testing/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2026-02-21T10:38:02.962060945Z"
+    description: LLM evaluation testing framework with MCP server and KServe integration
+    digest: 7d165e06e478650d1fb39f22dbdf687e896f15cb57d7d3baa2184780a747b60a
+    home: https://github.com/giantswarm/llm-testing
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: llm-testing
+    sources:
+    - https://github.com/giantswarm/llm-testing
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/llm-testing-0.1.0.tgz
+    version: 0.1.0
   local-path-provisioner:
   - annotations:
       io.giantswarm.application.audience: giantswarm
@@ -53674,4 +53694,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-02-21T00:09:45.286689811Z"
+generated: "2026-02-21T10:38:02.960883776Z"
