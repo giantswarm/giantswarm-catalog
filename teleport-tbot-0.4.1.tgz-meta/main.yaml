@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: giantswarm
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: shield
+chartApiVersion: v1
+chartFile: teleport-tbot-0.4.1.tgz
+dateCreated: '2026-02-25T15:51:53.803729Z'
+digest: 747025cdcc59123ebe90c2ccb0ee43eb87ce567dd05d3aaced9b76365fb8bacf
+home: https://github.com/giantswarm/teleport-tbot
+icon: https://s.giantswarm.io/app-icons/teleport/1/light.png

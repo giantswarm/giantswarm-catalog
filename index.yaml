@@ -51861,6 +51861,28 @@ entries:
     version: 0.3.0
   teleport-tbot:
   - annotations:
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/teleport-tbot-0.4.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/teleport-tbot/refs/tags/v0.4.1/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/teleport-tbot/refs/tags/v0.4.1/helm/teleport-tbot/values.schema.json
+    apiVersion: v1
+    created: "2026-02-25T15:52:01.286848237Z"
+    description: Teleport TBOT
+    digest: 747025cdcc59123ebe90c2ccb0ee43eb87ce567dd05d3aaced9b76365fb8bacf
+    home: https://github.com/giantswarm/teleport-tbot
+    icon: https://s.giantswarm.io/app-icons/teleport/1/light.png
+    keywords:
+    - teleport
+    maintainers:
+    - email: team-shield@giantswarm.io
+      name: giantswarm/team-shield
+    name: teleport-tbot
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/teleport-tbot-0.4.1.tgz
+    version: 0.4.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/teleport-tbot-0.4.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/teleport-tbot-0.4.0.tgz-meta/README.md
       application.giantswarm.io/team: shield
@@ -54174,4 +54196,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-02-25T11:58:17.178142909Z"
+generated: "2026-02-25T15:52:01.286017194Z"
