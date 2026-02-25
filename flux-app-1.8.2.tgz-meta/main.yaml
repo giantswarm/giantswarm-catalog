@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/logo: https://s.giantswarm.io/app-icons/flux/2/logo_dark.svg
+  application.giantswarm.io/restrictions/clusterSingleton: 'true'
+  application.giantswarm.io/team: honeybadger
+  application.giantswarm.io/twoStepInstall: 'true'
+chartApiVersion: v2
+chartFile: flux-app-1.8.2.tgz
+dateCreated: '2026-02-25T11:58:10.245996Z'
+digest: 3fab156f4be7b916d412d80cc498f1f6e820d226036f65239f4216ad5a1d01f5
+home: https://github.com/giantswarm/flux-app
+icon: https://s.giantswarm.io/app-icons/flux/2/icon_light.svg
