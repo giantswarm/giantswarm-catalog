@@ -2272,6 +2272,37 @@ entries:
     version: 4.0.0
   aws-load-balancer-controller:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-5.0.2.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-5.0.2.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-5.0.2.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v3.0.0
+    created: "2026-02-26T09:50:36.642059428Z"
+    description: AWS Load Balancer Controller Helm chart for Kubernetes
+    digest: 979312ca614fb70c30adfb27981f395b7da551374ceb11600a7c6a9a52da6d3f
+    home: https://github.com/aws/eks-charts
+    icon: https://raw.githubusercontent.com/aws/eks-charts/master/docs/logo/aws.png
+    keywords:
+    - eks
+    - alb
+    - load balancer
+    - ingress
+    - nlb
+    maintainers:
+    - email: kishorj@users.noreply.github.com
+      name: kishorj
+      url: https://github.com/kishorj
+    - email: m00nf1sh@users.noreply.github.com
+      name: m00nf1sh
+      url: https://github.com/m00nf1sh
+    name: aws-load-balancer-controller
+    sources:
+    - https://github.com/aws/eks-charts
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-5.0.2.tgz
+    version: 5.0.2
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-5.0.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-5.0.1.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -54291,4 +54322,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-02-26T09:50:13.866243576Z"
+generated: "2026-02-26T09:50:36.63794364Z"
