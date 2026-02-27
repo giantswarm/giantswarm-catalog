@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/team: planeteers
+chartApiVersion: v2
+chartFile: muster-0.1.6.tgz
+dateCreated: '2026-02-27T17:10:45.932518Z'
+digest: 9b6b596f0959d3d38a14beddf1209b504983bafcdb03f9220aec8aac6ff7d4aa
+home: https://github.com/giantswarm/muster
+icon: https://s.giantswarm.io/app-icons/muster/1/light.svg
