@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/team: shield
+chartApiVersion: v2
+chartFile: openssf-scorecard-exporter-0.1.1.tgz
+dateCreated: '2026-02-27T18:34:29.059279Z'
+digest: 8fdc7e32fb6d8cb0c26bc7a7bc4c0be0b1d03221edc809cb7839dce6d109a4e9
+home: https://github.com/giantswarm/openssf-scorecard-exporter
+icon: https://s.giantswarm.io/app-icons/openssf/2/light.png
