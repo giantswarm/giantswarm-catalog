@@ -37729,6 +37729,30 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/mcp-kubernetes-0.0.18.tgz
     version: 0.0.18
+  multus-cni:
+  - annotations:
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/multus-cni-0.1.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/multus-cni/refs/tags/v0.1.0/README.md
+      io.giantswarm.application.team: rocket
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/multus-cni/refs/tags/v0.1.0/helm/multus-cni/values.schema.json
+    apiVersion: v2
+    appVersion: 4.2.4
+    created: "2026-03-02T10:17:30.264918427Z"
+    description: A CNI meta-plugin for multi-homed pods in Kubernetes
+    digest: b7cbcb19fbe9c1d1d3feb667dfdb25a4dd9a63b78190b6aed43a6ffffcc4a446
+    home: https://github.com/giantswarm/multus-cni
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    maintainers:
+    - email: team-rocket@giantswarm.io
+      name: Team Rocket
+    name: multus-cni
+    sources:
+    - https://github.com/k8snetworkplumbingwg/multus-cni
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/multus-cni-0.1.0.tgz
+    version: 0.1.0
   muster:
   - annotations:
       io.giantswarm.application.audience: all
@@ -54744,4 +54768,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-03-02T07:18:41.310056438Z"
+generated: "2026-03-02T10:17:30.264293154Z"

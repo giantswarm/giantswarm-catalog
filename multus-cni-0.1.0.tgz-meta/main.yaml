@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: giantswarm
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: rocket
+chartApiVersion: v2
+chartFile: multus-cni-0.1.0.tgz
+dateCreated: '2026-03-02T10:17:23.340525Z'
+digest: b7cbcb19fbe9c1d1d3feb667dfdb25a4dd9a63b78190b6aed43a6ffffcc4a446
+home: https://github.com/giantswarm/multus-cni
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
