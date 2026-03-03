@@ -52377,6 +52377,26 @@ entries:
     version: 0.0.1
   tekton-dashboard-loki-proxy:
   - annotations:
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/tekton-dashboard-loki-proxy-0.5.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/tekton-dashboard-loki-proxy/refs/tags/v0.5.0/README.md
+      io.giantswarm.application.team: tenet
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/tekton-dashboard-loki-proxy/refs/tags/v0.5.0/helm/tekton-dashboard-loki-proxy/values.schema.json
+    apiVersion: v2
+    appVersion: 0.5.0
+    created: "2026-03-03T17:23:57.988299702Z"
+    description: Proxies logs from a Loki endpoint for use by Tekton Dashboard as
+      an external-logs source
+    digest: 56e7dc083314b4498a4acd69a5c85638688f564e1b494ac422c5c9daa6580f8c
+    home: https://github.com/giantswarm/tekton-dashboard-loki-proxy
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: tekton-dashboard-loki-proxy
+    sources:
+    - https://github.com/giantswarm/tekton-dashboard-loki-proxy
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/tekton-dashboard-loki-proxy-0.5.0.tgz
+    version: 0.5.0
+  - annotations:
       application.giantswarm.io/team: team-tinkerers
     apiVersion: v2
     appVersion: 0.4.1
@@ -55087,4 +55107,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-03-03T17:22:34.948293826Z"
+generated: "2026-03-03T17:23:57.987052892Z"
