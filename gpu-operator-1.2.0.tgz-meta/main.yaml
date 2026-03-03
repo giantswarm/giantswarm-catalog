@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/team: tenet
+chartApiVersion: v2
+chartFile: gpu-operator-1.2.0.tgz
+dateCreated: '2026-03-03T17:22:27.709352Z'
+digest: 4754405094af2e22bd7386ed1dff75a894bca5c45073e902f71c7c8b31c6efd1
+home: https://github.com/giantswarm/gpu-operator-app
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
