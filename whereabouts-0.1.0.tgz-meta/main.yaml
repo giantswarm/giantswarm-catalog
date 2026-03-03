@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/audience: giantswarm
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: rocket
+  application.giantswarm.io/upstreamChartUrl: https://github.com/k8snetworkplumbingwg/whereabouts/deployment/whereabouts-chart
+  application.giantswarm.io/upstreamChartVersion: 0.9.3
+chartApiVersion: v2
+chartFile: whereabouts-0.1.0.tgz
+dateCreated: '2026-03-03T13:30:22.472244Z'
+digest: 505833805ccbb4d1069d0dd1f889e76af748d07461a23ad2db31491e6c42d62c
+home: https://github.com/giantswarm/whereabouts
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
