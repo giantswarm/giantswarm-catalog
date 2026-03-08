@@ -34370,6 +34370,35 @@ entries:
   - annotations:
       io.giantswarm.application.audience: customers
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/mcp-kubernetes-0.1.13.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mcp-kubernetes/refs/tags/v0.1.13/README.md
+      io.giantswarm.application.team: team-planeteers
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/mcp-kubernetes/refs/tags/v0.1.13/helm/mcp-kubernetes/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.13
+    created: "2026-03-08T18:50:04.575057452Z"
+    description: A Helm chart for mcp-kubernetes - Model Context Protocol server for
+      Kubernetes
+    digest: c4e89c4f25dff38285fbd3fa045ec424a792950eaece0ae00c4e2b5f4491ffd7
+    home: https://github.com/giantswarm/mcp-kubernetes
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    keywords:
+    - mcp
+    - kubernetes
+    - model-context-protocol
+    maintainers:
+    - email: team-planeteers@giantswarm.io
+      name: Giant Swarm
+    name: mcp-kubernetes
+    sources:
+    - https://github.com/giantswarm/mcp-kubernetes
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/mcp-kubernetes-0.1.13.tgz
+    version: 0.1.13
+  - annotations:
+      io.giantswarm.application.audience: customers
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/mcp-kubernetes-0.1.12.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mcp-kubernetes/refs/tags/v0.1.12/README.md
       io.giantswarm.application.team: team-planeteers
@@ -56507,4 +56536,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-03-08T18:44:52.581178821Z"
+generated: "2026-03-08T18:50:04.569261367Z"
