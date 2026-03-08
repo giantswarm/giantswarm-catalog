@@ -31460,9 +31460,9 @@ entries:
       io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/llm-testing/refs/tags/v0.2.0/helm/llm-testing/values.schema.json
     apiVersion: v2
     appVersion: 0.0.1
-    created: "2026-03-08T09:00:28.73976771Z"
+    created: "2026-03-08T18:37:26.652218922Z"
     description: LLM evaluation testing framework with MCP server and KServe integration
-    digest: 4282336f56facc05fa328c14530fa0ada4927f3c4f5a6ae2c88acf73eb9c9424
+    digest: d116d04a5386c3e5e604d3845b442a24e60793c3502165600281f6dbb7d5c312
     home: https://github.com/giantswarm/llm-testing
     icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
     name: llm-testing
@@ -56398,4 +56398,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-03-08T17:41:34.646298899Z"
+generated: "2026-03-08T18:37:26.651307769Z"
