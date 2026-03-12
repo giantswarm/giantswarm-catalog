@@ -31799,15 +31799,12 @@ entries:
     version: 0.0.1
   llm-testing:
   - annotations:
-      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/llm-testing-0.2.0.tgz-meta/main.yaml
-      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/llm-testing/refs/tags/v0.2.0/README.md
-      io.giantswarm.application.team: planeteers
-      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/llm-testing/refs/tags/v0.2.0/helm/llm-testing/values.schema.json
+      application.giantswarm.io/team: planeteers
     apiVersion: v2
     appVersion: 0.0.1
-    created: "2026-03-12T18:39:12.126516086Z"
+    created: "2026-03-12T19:37:45.78823294Z"
     description: LLM evaluation testing framework with MCP server and KServe integration
-    digest: ea7584eb382a94b7e6aa61b26203c8fbae409d787ff1a8ab51e3f273a5568718
+    digest: aa272b790bd99589be93bbd4950b10648fa51b502d541e6682727bafe6a8dbe5
     home: https://github.com/giantswarm/llm-testing
     icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
     name: llm-testing
@@ -57883,4 +57880,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-03-12T18:47:45.080813211Z"
+generated: "2026-03-12T19:37:45.787276385Z"
