@@ -28155,6 +28155,39 @@ entries:
   - annotations:
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/kubeedge-cloudcore-0.4.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kubeedge-cloudcore-app/refs/tags/v0.4.0/README.md
+      io.giantswarm.application.team: rocket
+      io.giantswarm.application.upstream-chart-url: https://github.com/kubeedge/kubeedge/tree/master/manifests/charts/cloudcore
+      io.giantswarm.application.upstream-chart-version: 1.23.0
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/kubeedge-cloudcore-app/refs/tags/v0.4.0/helm/kubeedge-cloudcore/values.schema.json
+    apiVersion: v2
+    appVersion: 1.23.0
+    created: "2026-03-17T14:01:26.613167904Z"
+    dependencies:
+    - name: kubeedge-cloudcore-crds
+      repository: ""
+      version: 1.23.0
+    description: The KubeEdge cloudcore component.
+    digest: 44eeba68b956cd09889abf08606a76430e8af5cbb49ca541656a47ecd1da8eec
+    home: https://github.com/giantswarm/kubeedge-cloudcore-app
+    icon: https://s.giantswarm.io/app-icons/kubeedge/1/light.png
+    keywords:
+    - edge
+    - iot
+    - kubernetes
+    maintainers:
+    - email: team-rocket@giantswarm.io
+      name: Team Rocket
+    name: kubeedge-cloudcore
+    sources:
+    - https://github.com/kubeedge/kubeedge
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/kubeedge-cloudcore-0.4.0.tgz
+    version: 0.4.0
+  - annotations:
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/kubeedge-cloudcore-0.3.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kubeedge-cloudcore-app/refs/tags/v0.3.0/README.md
       io.giantswarm.application.team: rocket
@@ -58808,4 +58841,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-03-17T13:20:59.070980194Z"
+generated: "2026-03-17T14:01:26.608615237Z"
