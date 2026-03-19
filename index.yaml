@@ -39662,6 +39662,35 @@ entries:
     - https://giantswarm.github.io/giantswarm-catalog/mcp-prometheus-0.0.52.tgz
     version: 0.0.52
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/mcp-prometheus-0.0.51.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mcp-prometheus/refs/tags/v0.0.51/README.md
+      io.giantswarm.application.team: planeteers
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/mcp-prometheus/refs/tags/v0.0.51/helm/mcp-prometheus/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.51
+    created: "2026-03-19T09:20:29.21226718Z"
+    description: A Helm chart for mcp-prometheus - MCP server for Prometheus metrics
+    digest: 717defd95bd31d1060b5555ada9fa2b70dc5b2a718776df4c024fbc4d5d6f89a
+    home: https://github.com/giantswarm/mcp-prometheus
+    icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+    keywords:
+    - prometheus
+    - mcp
+    - model-context-protocol
+    - monitoring
+    - metrics
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - email: team-planeteers@giantswarm.io
+      name: Giant Swarm
+    name: mcp-prometheus
+    sources:
+    - https://github.com/giantswarm/mcp-prometheus
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/mcp-prometheus-0.0.51.tgz
+    version: 0.0.51
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/mcp-prometheus-0.0.50.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mcp-prometheus/refs/tags/v0.0.50/README.md
       io.giantswarm.application.team: planeteers
@@ -59663,4 +59692,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-03-19T09:20:19.180474578Z"
+generated: "2026-03-19T09:20:29.210146381Z"
