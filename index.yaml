@@ -1875,6 +1875,36 @@ entries:
     version: 1.21.0-gs1
   aws-efs-csi-driver:
   - annotations:
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/aws-efs-csi-driver-3.3.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/aws-efs-csi-driver/refs/tags/v3.3.0/README.md
+      io.giantswarm.application.restrictions.cluster-singleton: "true"
+      io.giantswarm.application.restrictions.compatible-providers: aws
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.upstream-chart-url: https://github.com/kubernetes-sigs/aws-efs-csi-driver
+      io.giantswarm.application.upstream-chart-version: 2.3.0
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/aws-efs-csi-driver/refs/tags/v3.3.0/helm/aws-efs-csi-driver/values.schema.json
+    apiVersion: v2
+    appVersion: 3.3.0
+    created: "2026-03-25T09:20:11.908506031Z"
+    dependencies:
+    - alias: upstream
+      name: aws-efs-csi-driver
+      repository: https://kubernetes-sigs.github.io/aws-efs-csi-driver/
+      version: 3.4.0
+    description: A Helm chart for AWS EFS CSI Driver
+    digest: 2fc7e5ebca38e7b5bf0e18a5263f1a432481d18bf525c4a62e924b33b86a834d
+    home: https://github.com/giantswarm/aws-efs-csi-driver
+    icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+    kubeVersion: '>=1.17.0-0'
+    name: aws-efs-csi-driver
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/aws-efs-csi-driver/v2.3.0/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/aws-efs-csi-driver-3.3.0.tgz
+    version: 3.3.0
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/aws-efs-csi-driver-3.2.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/aws-efs-csi-driver/refs/tags/v3.2.0/README.md
       io.giantswarm.application.team: phoenix
@@ -60498,4 +60528,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-03-25T08:36:02.837884652Z"
+generated: "2026-03-25T09:20:11.905880948Z"
