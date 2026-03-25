@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/restrictions/clusterSingleton: 'true'
+  application.giantswarm.io/restrictions/compatibleProviders: aws
+  application.giantswarm.io/team: phoenix
+chartApiVersion: v2
+chartFile: aws-efs-csi-driver-bundle-3.3.0.tgz
+dateCreated: '2026-03-25T09:20:18.184987Z'
+digest: c9e78a1e52484ce336a448ddd5849e988608300fa7b1ac42638599d03b9f23ef
+home: https://github.com/giantswarm/aws-efs-csi-driver
+icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
