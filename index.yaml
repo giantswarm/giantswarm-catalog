@@ -2385,6 +2385,32 @@ entries:
     version: 4.0.0
   aws-load-balancer-controller:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-5.1.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-5.1.0.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-5.1.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 5.1.0
+    created: "2026-03-25T14:43:33.636141819Z"
+    dependencies:
+    - alias: upstream
+      name: aws-load-balancer-controller
+      repository: https://aws.github.io/eks-charts
+      version: 3.0.0
+    description: AWS Load Balancer Controller Helm chart for Kubernetes (Giant Swarm)
+    digest: d2e922356cd3e1b8574b04fa8fe02c4337abb02f3f31f53554ea94865e7410bf
+    home: https://github.com/aws/eks-charts
+    icon: https://s.giantswarm.io/app-icons/aws/2/light.svg
+    maintainers:
+    - name: giantswarm/team-phoenix
+    name: aws-load-balancer-controller
+    sources:
+    - https://github.com/aws/eks-charts
+    - https://github.com/giantswarm/aws-load-balancer-controller-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-5.1.0.tgz
+    version: 5.1.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-5.0.3.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-5.0.3.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -60611,4 +60637,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-03-25T14:03:33.144545477Z"
+generated: "2026-03-25T14:43:33.629378958Z"
