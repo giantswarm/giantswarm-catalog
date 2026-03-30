@@ -58269,6 +58269,38 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/starboard-exporter-0.0.1.tgz
     version: 0.0.1
+  strimzi-kafka-operator:
+  - annotations:
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/strimzi-kafka-operator-0.0.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/strimzi-kafka-operator/refs/tags/v0.0.1/README.md
+      io.giantswarm.application.team: atlas
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/strimzi-kafka-operator/refs/tags/v0.0.1/helm/strimzi-kafka-operator/values.schema.json
+    apiVersion: v2
+    appVersion: 0.51.0
+    created: "2026-03-30T11:17:40.201167409Z"
+    dependencies:
+    - condition: strimzi-kafka-operator.enabled
+      name: strimzi-kafka-operator
+      repository: https://strimzi.io/charts/
+      version: 0.51.0
+    description: 'Giant Swarm app wrapping the Strimzi Kafka Operator, which manages
+      Apache Kafka clusters natively on Kubernetes via custom resources. '
+    digest: 3c9ef6889446ced5f4a60b02aad3a574c346d50a5828163e36d7431311b7588d
+    home: https://github.com/giantswarm/strimzi-kafka-operator
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: strimzi-kafka-operator
+    sources:
+    - https://github.com/strimzi/strimzi-kafka-operator
+    - https://github.com/giantswarm/strimzi-kafka-operator
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/strimzi-kafka-operator-0.0.1.tgz
+    version: 0.0.1
   tekton-dashboard-loki-proxy:
   - annotations:
       io.giantswarm.application.audience: giantswarm
@@ -61001,4 +61033,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-03-30T08:55:56.259283733Z"
+generated: "2026-03-30T11:17:40.183716331Z"
