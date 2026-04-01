@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: atlas
+chartApiVersion: v2
+chartFile: strimzi-kafka-operator-0.0.2.tgz
+dateCreated: '2026-04-01T23:10:36.408189Z'
+digest: 37aba9293b56a51e8741ff11e9afb122f77433ac6f95de914c9ab9be99c851c2
+home: https://github.com/giantswarm/strimzi-kafka-operator
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
