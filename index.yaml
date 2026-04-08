@@ -42233,6 +42233,28 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/mcp-prometheus-0.0.18.tgz
     version: 0.0.18
+  microservices-demo-app:
+  - annotations:
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/microservices-demo-app-0.1.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/microservices-demo-app/refs/tags/v0.1.0/README.md
+      io.giantswarm.application.team: cabbage
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/microservices-demo-app/refs/tags/v0.1.0/helm/microservices-demo-app/values.schema.json
+    apiVersion: v2
+    appVersion: v0.10.5
+    created: "2026-04-08T14:01:40.822527595Z"
+    description: Please add description
+    digest: 365c3f23f177a2bd681ab6edb23f6a518a47e24e0c5af13ecc95caa241e09bb5
+    home: https://github.com/giantswarm/microservices-demo-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: microservices-demo-app
+    sources:
+    - https://github.com/giantswarm/microservices-demo-app
+    - https://github.com/GoogleCloudPlatform/microservices-demo
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/microservices-demo-app-0.1.0.tgz
+    version: 0.1.0
   multus-cni:
   - annotations:
       io.giantswarm.application.audience: giantswarm
@@ -61755,4 +61777,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-04-08T13:48:38.259869973Z"
+generated: "2026-04-08T14:01:40.820734925Z"
