@@ -35976,6 +35976,35 @@ entries:
   - annotations:
       io.giantswarm.application.audience: customers
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/mcp-kubernetes-0.1.43.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mcp-kubernetes/refs/tags/v0.1.43/README.md
+      io.giantswarm.application.team: team-planeteers
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/mcp-kubernetes/refs/tags/v0.1.43/helm/mcp-kubernetes/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.43
+    created: "2026-04-12T09:23:28.468508295Z"
+    description: A Helm chart for mcp-kubernetes - Model Context Protocol server for
+      Kubernetes
+    digest: 35c9c00feab02a910fc249481076f4c5374d6539174b8e8674f143ca065be2b8
+    home: https://github.com/giantswarm/mcp-kubernetes
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    keywords:
+    - mcp
+    - kubernetes
+    - model-context-protocol
+    maintainers:
+    - email: team-planeteers@giantswarm.io
+      name: Giant Swarm
+    name: mcp-kubernetes
+    sources:
+    - https://github.com/giantswarm/mcp-kubernetes
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/mcp-kubernetes-0.1.43.tgz
+    version: 0.1.43
+  - annotations:
+      io.giantswarm.application.audience: customers
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/mcp-kubernetes-0.1.42.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mcp-kubernetes/refs/tags/v0.1.42/README.md
       io.giantswarm.application.team: team-planeteers
@@ -62359,4 +62388,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-04-12T08:54:47.262973165Z"
+generated: "2026-04-12T09:23:28.465110287Z"
