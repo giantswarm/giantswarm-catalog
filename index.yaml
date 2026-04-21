@@ -33107,9 +33107,9 @@ entries:
       application.giantswarm.io/team: planeteers
     apiVersion: v2
     appVersion: 0.0.1
-    created: "2026-04-21T10:34:09.056955975Z"
+    created: "2026-04-21T18:13:12.308592156Z"
     description: LLM evaluation testing framework with MCP server and KServe integration
-    digest: 639e569ec97daf67f83460673769b9e06acaae1cff9c448486606463d52cdd82
+    digest: 45d1005ba924a722fa137b35fd26db47c184c840ab9df2bbe371626bf4aed8a7
     home: https://github.com/giantswarm/llm-testing
     icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
     name: llm-testing
@@ -63704,4 +63704,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-04-21T17:00:48.379758657Z"
+generated: "2026-04-21T18:13:12.307480064Z"
