@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/appType: bundle
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/in-cluster-app: 'true'
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: shield
+chartApiVersion: v2
+chartFile: security-bundle-1.17.1.tgz
+dateCreated: '2026-04-22T22:53:53.985628Z'
+digest: e286d77ae4cade3b743da497b40a19a9e4011368be98ab2a527e02010be05560
+home: https://github.com/giantswarm/security-bundle
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
