@@ -33155,42 +33155,6 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/kyverno-policy-operator-0.0.1.tgz
     version: 0.0.1
-  llm-testing:
-  - annotations:
-      application.giantswarm.io/team: planeteers
-    apiVersion: v2
-    appVersion: 0.0.1
-    created: "2026-04-23T10:29:22.946847073Z"
-    description: LLM evaluation testing framework with MCP server and KServe integration
-    digest: 251e60ac8c81a71d8359d53944eae43961ce4d370f502215271f06900fb8d5d2
-    home: https://github.com/giantswarm/llm-testing
-    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-    name: llm-testing
-    sources:
-    - https://github.com/giantswarm/llm-testing
-    type: application
-    urls:
-    - https://giantswarm.github.io/giantswarm-catalog/llm-testing-0.2.0.tgz
-    version: 0.2.0
-  - annotations:
-      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/llm-testing-0.1.0.tgz-meta/main.yaml
-      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/llm-testing/refs/tags/v0.1.0/README.md
-      io.giantswarm.application.team: planeteers
-      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/llm-testing/refs/tags/v0.1.0/helm/llm-testing/values.schema.json
-    apiVersion: v2
-    appVersion: 0.0.1
-    created: "2026-02-21T10:38:02.962060945Z"
-    description: LLM evaluation testing framework with MCP server and KServe integration
-    digest: 7d165e06e478650d1fb39f22dbdf687e896f15cb57d7d3baa2184780a747b60a
-    home: https://github.com/giantswarm/llm-testing
-    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-    name: llm-testing
-    sources:
-    - https://github.com/giantswarm/llm-testing
-    type: application
-    urls:
-    - https://giantswarm.github.io/giantswarm-catalog/llm-testing-0.1.0.tgz
-    version: 0.1.0
   local-path-provisioner:
   - annotations:
       io.giantswarm.application.audience: giantswarm
