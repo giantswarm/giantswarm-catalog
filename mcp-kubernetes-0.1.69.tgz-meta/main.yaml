@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: customers
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: team-bumblebee
+chartApiVersion: v2
+chartFile: mcp-kubernetes-0.1.69.tgz
+dateCreated: '2026-04-30T11:32:55.358050Z'
+digest: d42636260297fdb0f8b082f00b4984dbae179ded071bff9cf831fba6e9c44df2
+home: https://github.com/giantswarm/mcp-kubernetes
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
