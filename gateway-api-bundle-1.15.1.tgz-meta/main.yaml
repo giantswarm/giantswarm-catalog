@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/team: cabbage
+chartApiVersion: v2
+chartFile: gateway-api-bundle-1.15.1.tgz
+dateCreated: '2026-05-05T09:38:33.373191Z'
+digest: 6175c13aa2d85b43d440062468bf6f41cd3017d48d88b0aae2d9e653dc1cfd89
+home: https://github.com/giantswarm/gateway-api-bundle
+icon: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg

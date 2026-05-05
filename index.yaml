@@ -17292,6 +17292,23 @@ entries:
   gateway-api-bundle:
   - annotations:
       io.giantswarm.application.audience: all
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/gateway-api-bundle-1.15.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/gateway-api-bundle/refs/tags/v1.15.1/README.md
+      io.giantswarm.application.team: cabbage
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/gateway-api-bundle/refs/tags/v1.15.1/helm/gateway-api-bundle/values.schema.json
+    apiVersion: v2
+    appVersion: 1.15.1
+    created: "2026-05-05T09:38:41.716314469Z"
+    description: Gateway API bundle
+    digest: 6175c13aa2d85b43d440062468bf6f41cd3017d48d88b0aae2d9e653dc1cfd89
+    home: https://github.com/giantswarm/gateway-api-bundle
+    icon: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
+    name: gateway-api-bundle
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/gateway-api-bundle-1.15.1.tgz
+    version: 1.15.1
+  - annotations:
+      io.giantswarm.application.audience: all
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/gateway-api-bundle-1.15.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/gateway-api-bundle/refs/tags/v1.15.0/README.md
       io.giantswarm.application.team: cabbage
@@ -65742,4 +65759,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-05-05T09:30:27.051341207Z"
+generated: "2026-05-05T09:38:41.715762947Z"
