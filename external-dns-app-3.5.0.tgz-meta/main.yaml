@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/team: cabbage
+chartApiVersion: v2
+chartFile: external-dns-app-3.5.0.tgz
+dateCreated: '2026-05-05T16:56:45.669039Z'
+digest: 2911ea32af0083a069829435463a4a7c03ec32cc7b79d47f05a7a376d2acf586
+home: https://github.com/giantswarm/external-dns-app
+icon: https://s.giantswarm.io/app-icons/external-dns/1/dark.png
