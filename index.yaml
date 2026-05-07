@@ -65829,6 +65829,29 @@ entries:
   zot:
   - annotations:
       io.giantswarm.application.audience: all
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/zot-2.7.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/zot/refs/tags/v2.7.0/README.md
+      io.giantswarm.application.restrictions.cluster-singleton: "false"
+      io.giantswarm.application.restrictions.namespace-singleton: "false"
+      io.giantswarm.application.team: honeybadger
+      io.giantswarm.application.upstream-chart-version: 0.1.112
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/zot/refs/tags/v2.7.0/helm/zot/values.schema.json
+    apiVersion: v2
+    appVersion: v2.1.16
+    created: "2026-05-07T11:50:53.807778475Z"
+    description: OCI-native container image registry that can be used as a cache
+    digest: df6cdc41a516c6bd06158c57cf57bc886348a0e07632c2e89d5c7ac733317573
+    home: https://github.com/giantswarm/zot
+    icon: https://s.giantswarm.io/app-icons/zot/2/light.svg
+    keywords:
+    - oci-registry
+    name: zot
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/zot-2.7.0.tgz
+    version: 2.7.0
+  - annotations:
+      io.giantswarm.application.audience: all
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/zot-2.6.2.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/zot/refs/tags/v2.6.2/README.md
       io.giantswarm.application.restrictions.cluster-singleton: "false"
@@ -66400,4 +66423,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-05-07T10:02:25.182861159Z"
+generated: "2026-05-07T11:50:53.805945528Z"
