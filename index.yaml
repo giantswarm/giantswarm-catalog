@@ -22292,6 +22292,28 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/hello-world-2.0.0.tgz
     version: 2.0.0
+  hr-recovery-controller:
+  - annotations:
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/hr-recovery-controller-0.0.2.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/hr-recovery-controller/refs/tags/v0.0.2/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/hr-recovery-controller/refs/tags/v0.0.2/helm/hr-recovery-controller/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.2
+    created: "2026-05-14T08:40:02.72672545Z"
+    description: Controller that auto-recovers HelmReleases wedged on Stalled=MissingRollbackTarget
+      by force-poking them.
+    digest: e6f57328020288ebdb6bd36374bfab22d2cfdeb99cb22a901369dc3fe08d1aaf
+    home: https://github.com/giantswarm/hr-recovery-controller
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: hr-recovery-controller
+    sources:
+    - https://github.com/giantswarm/hr-recovery-controller
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/hr-recovery-controller-0.0.2.tgz
+    version: 0.0.2
   ingress-nginx:
   - annotations:
       io.giantswarm.application.audience: all
@@ -68186,4 +68208,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-05-13T14:01:58.569151575Z"
+generated: "2026-05-14T08:40:02.725784368Z"
