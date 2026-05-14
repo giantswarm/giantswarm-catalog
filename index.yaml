@@ -18734,6 +18734,28 @@ entries:
   gpu-operator:
   - annotations:
       io.giantswarm.application.audience: all
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/gpu-operator-1.3.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/gpu-operator-app/refs/tags/v1.3.0/README.md
+      io.giantswarm.application.team: tenet
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/gpu-operator-app/refs/tags/v1.3.0/helm/gpu-operator/values.schema.json
+    apiVersion: v2
+    appVersion: 26.3.1
+    created: "2026-05-14T13:43:49.764218195Z"
+    dependencies:
+    - name: gpu-operator
+      repository: https://helm.ngc.nvidia.com/nvidia
+      version: v26.3.1
+    description: A Helm chart to deploy NVIDIA GPU Operator with custom Cilium Network
+      Policies.
+    digest: 86b4412bcf7c8b30c381b5361c6caa97a5565df2f755f037829a91550deb74ab
+    home: https://github.com/giantswarm/gpu-operator-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: gpu-operator
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/gpu-operator-1.3.0.tgz
+    version: 1.3.0
+  - annotations:
+      io.giantswarm.application.audience: all
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/gpu-operator-1.2.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/gpu-operator-app/refs/tags/v1.2.0/README.md
       io.giantswarm.application.team: tenet
@@ -68250,4 +68272,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-05-14T09:33:03.463876258Z"
+generated: "2026-05-14T13:43:49.758425903Z"
