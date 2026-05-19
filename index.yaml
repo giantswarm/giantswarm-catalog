@@ -30495,6 +30495,34 @@ entries:
     version: 0.1.0
   kuberay-operator:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/kuberay-operator-1.1.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/kuberay-operator-1.1.0.tgz-meta/README.md
+      application.giantswarm.io/team: planeteers
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/kuberay-operator-1.1.0.tgz-meta/values.schema.json
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.team: planeteers
+    apiVersion: v2
+    created: "2026-05-19T14:19:16.157706734Z"
+    description: A Helm chart for deploying the Kuberay operator on Kubernetes.
+    digest: 67390d956466bc3cba94a214821c66bf841c9cc786b2a00d3375886ccde6d575
+    home: https://github.com/ray-project/kuberay
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    keywords:
+    - ray
+    - ray operator
+    - distributed computing
+    - data processing
+    - machine learning
+    - deep learning
+    - hyperparameter tuning
+    - reinforcement learning
+    - model serving
+    name: kuberay-operator
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/kuberay-operator-1.1.0.tgz
+    version: 1.1.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/kuberay-operator-1.0.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/kuberay-operator-1.0.0.tgz-meta/README.md
       application.giantswarm.io/team: planeteers
@@ -69484,4 +69512,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-05-19T14:11:13.066934915Z"
+generated: "2026-05-19T14:19:16.145068642Z"
