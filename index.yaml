@@ -37394,6 +37394,35 @@ entries:
   - annotations:
       io.giantswarm.application.audience: customers
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/mcp-kubernetes-0.1.100.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mcp-kubernetes/refs/tags/v0.1.100/README.md
+      io.giantswarm.application.team: team-bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/mcp-kubernetes/refs/tags/v0.1.100/helm/mcp-kubernetes/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.100
+    created: "2026-05-20T19:22:02.926548063Z"
+    description: A Helm chart for mcp-kubernetes - Model Context Protocol server for
+      Kubernetes
+    digest: b5ab691eaf8911fd2063e7630f03e6c5c1c74171ecddef84fe2297ef15aac244
+    home: https://github.com/giantswarm/mcp-kubernetes
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    keywords:
+    - mcp
+    - kubernetes
+    - model-context-protocol
+    maintainers:
+    - email: team-bumblebee@giantswarm.io
+      name: Giant Swarm
+    name: mcp-kubernetes
+    sources:
+    - https://github.com/giantswarm/mcp-kubernetes
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/mcp-kubernetes-0.1.100.tgz
+    version: 0.1.100
+  - annotations:
+      io.giantswarm.application.audience: customers
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/mcp-kubernetes-0.1.99.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mcp-kubernetes/refs/tags/v0.1.99/README.md
       io.giantswarm.application.team: team-bumblebee
@@ -69923,4 +69952,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-05-20T19:18:55.620233882Z"
+generated: "2026-05-20T19:22:02.922438503Z"
