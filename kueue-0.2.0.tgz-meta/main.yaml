@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/team: planeteers
+chartApiVersion: v2
+chartFile: kueue-0.2.0.tgz
+dateCreated: '2026-05-21T11:16:38.168342Z'
+digest: babc131b33858c6b922dfbaa8c558c9a607757ddefbfd7fb1a52d1fd7c4c78dc
+home: https://github.com/giantswarm/kueue-app
+icon: https://s.giantswarm.io/app-icons/kueue/1/light.svg
