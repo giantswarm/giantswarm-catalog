@@ -29687,6 +29687,32 @@ entries:
     version: 0.7.1
   kube-prometheus-stack:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/kube-prometheus-stack-21.0.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kube-prometheus-stack-app/refs/tags/v21.0.0/README.md
+      io.giantswarm.application.team: atlas
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/kube-prometheus-stack-app/refs/tags/v21.0.0/helm/kube-prometheus-stack/values.schema.json
+    apiVersion: v2
+    appVersion: v0.90.1
+    created: "2026-05-22T09:42:58.494560393Z"
+    dependencies:
+    - name: kube-prometheus-stack
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 85.2.1
+    description: Giant Swarm's Prometheus Operator Deployment
+    digest: 2ac2e6b54d59bcfb03d55e0101d57cf02016584f0c39cc74e61aa15e819d8b85
+    home: https://github.com/giantswarm/kube-prometheus-stack-app
+    icon: https://s.giantswarm.io/app-icons/prometheus-operator/2/light.svg
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: kube-prometheus-stack
+    sources:
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-prometheus-stack
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/kube-prometheus-stack-21.0.0.tgz
+    version: 21.0.0
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/kube-prometheus-stack-20.2.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kube-prometheus-stack-app/refs/tags/v20.2.0/README.md
       io.giantswarm.application.team: atlas
@@ -70170,4 +70196,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-05-22T09:42:46.924683083Z"
+generated: "2026-05-22T09:42:58.422921169Z"
