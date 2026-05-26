@@ -1,5 +1,42 @@
 apiVersion: v1
 entries:
+  agentic-platform:
+  - annotations:
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agentic-platform-0.1.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agentic-platform/refs/tags/v0.1.0/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/agentic-platform/refs/tags/v0.1.0/helm/agentic-platform/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2026-05-26T15:01:49.514520559Z"
+    dependencies:
+    - name: muster
+      repository: oci://gsoci.azurecr.io/charts/giantswarm
+      version: 0.1.197
+    - name: agentgateway
+      repository: oci://cr.agentgateway.dev/charts
+      version: v1.2.1
+    - condition: valkey.enabled
+      name: valkey
+      repository: oci://giantswarmpublic.azurecr.io/giantswarm-catalog
+      version: 0.1.2
+    description: 'Giant Swarm agentic platform — MCP gateway consumer-side deploy
+      unit. Bundles muster (MCP aggregator control plane) and the agentgateway controller
+      + data-plane proxy, plus an opt-in giantswarm/valkey-app for muster''s OAuth
+      session storage. Required CRDs (agentgateway-crds, muster-crds) and the Gateway
+      API GatewayClass are cluster-level prerequisites — see README. '
+    digest: 2118e2b88169af9d778bc9816989bae03edb86338cf9d8413fa1657c8388a273
+    home: https://github.com/giantswarm/agentic-platform
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: agentic-platform
+    sources:
+    - https://github.com/giantswarm/agentic-platform
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/agentic-platform-0.1.0.tgz
+    version: 0.1.0
   alertmanager-to-github:
   - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/alertmanager-to-github-0.2.1.tgz-meta/main.yaml
@@ -70535,4 +70572,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-05-26T14:03:11.630117512Z"
+generated: "2026-05-26T15:01:49.506419881Z"
