@@ -47939,6 +47939,35 @@ entries:
   muster:
   - annotations:
       io.giantswarm.application.audience: all
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/muster-0.1.211.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/muster/refs/tags/v0.1.211/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/muster/refs/tags/v0.1.211/helm/muster/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.211
+    created: "2026-05-27T19:36:52.021891711Z"
+    description: A Helm chart for muster - Universal Control Plane for AI Agents built
+      on MCP
+    digest: 76326c6973b01b0fee95ee57ca0e87460a28ee807d9809d28f3d127b39d7e939
+    home: https://github.com/giantswarm/muster
+    icon: https://s.giantswarm.io/app-icons/muster/1/light.svg
+    keywords:
+    - mcp
+    - ai-agents
+    - model-context-protocol
+    - aggregator
+    maintainers:
+    - email: team-bumblebee@giantswarm.io
+      name: Giant Swarm
+    name: muster
+    sources:
+    - https://github.com/giantswarm/muster
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/muster-0.1.211.tgz
+    version: 0.1.211
+  - annotations:
+      io.giantswarm.application.audience: all
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/muster-0.1.210.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/muster/refs/tags/v0.1.210/README.md
       io.giantswarm.application.team: bumblebee
@@ -71007,4 +71036,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-05-27T19:36:38.495182244Z"
+generated: "2026-05-27T19:36:52.019728299Z"
