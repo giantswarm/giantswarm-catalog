@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/team: cabbage
+chartApiVersion: v2
+chartFile: gateway-api-crds-1.8.1.tgz
+dateCreated: '2026-05-28T06:39:21.458215Z'
+digest: ade9dcfb1383d3df7b87d4b9fa3f4af1d5d5601691a64d73144bfdc150a3696f
+home: https://github.com/giantswarm/gateway-api-crds-app
+icon: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
