@@ -4,6 +4,43 @@ entries:
   - annotations:
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agentic-platform-0.3.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agentic-platform/refs/tags/v0.3.0/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/agentic-platform/refs/tags/v0.3.0/helm/agentic-platform/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2026-05-28T07:49:27.515673405Z"
+    dependencies:
+    - name: muster
+      repository: oci://gsoci.azurecr.io/charts/giantswarm
+      version: 0.1.213
+    - name: agentgateway
+      repository: oci://cr.agentgateway.dev/charts
+      version: v1.2.1
+    - condition: valkey.enabled
+      name: valkey
+      repository: oci://giantswarmpublic.azurecr.io/giantswarm-catalog
+      version: 0.1.2
+    description: 'Giant Swarm agentic platform — MCP gateway consumer-side deploy
+      unit. Bundles muster (MCP aggregator control plane) and the agentgateway controller
+      + data-plane proxy, plus an opt-in giantswarm/valkey-app for muster''s OAuth
+      session storage. CRDs ship separately in the companion agentic-platform-crds
+      chart, which must be installed first; the Gateway API CRDs and GatewayClass
+      remain cluster-level prerequisites — see README. '
+    digest: e051a95928069fc3468351fc7efdf04f735cebe98d8c5ac6ceef48e6ff5c8098
+    home: https://github.com/giantswarm/agentic-platform
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: agentic-platform
+    sources:
+    - https://github.com/giantswarm/agentic-platform
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/agentic-platform-0.3.0.tgz
+    version: 0.3.0
+  - annotations:
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agentic-platform-0.2.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agentic-platform/refs/tags/v0.2.0/README.md
       io.giantswarm.application.team: bumblebee
@@ -71398,4 +71435,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-05-28T07:21:41.345607555Z"
+generated: "2026-05-28T07:49:27.504825939Z"
