@@ -2711,6 +2711,32 @@ entries:
     version: 4.0.0
   aws-load-balancer-controller:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-5.2.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/aws-lb-controller-bundle/refs/tags/v5.2.0/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/aws-lb-controller-bundle/refs/tags/v5.2.0/helm/aws-load-balancer-controller/values.schema.json
+    apiVersion: v2
+    appVersion: 5.2.0
+    created: "2026-05-29T08:07:30.799602001Z"
+    dependencies:
+    - alias: upstream
+      name: aws-load-balancer-controller
+      repository: https://aws.github.io/eks-charts
+      version: 3.0.0
+    description: AWS Load Balancer Controller Helm chart for Kubernetes (Giant Swarm)
+    digest: ec5fdd83d8694c1e1bb2d2b4c7b5d2f1016d6871143385a42f323ee5696d2019
+    home: https://github.com/giantswarm/aws-lb-controller-bundle
+    icon: https://s.giantswarm.io/app-icons/aws/2/light.svg
+    maintainers:
+    - name: giantswarm/team-phoenix
+    name: aws-load-balancer-controller
+    sources:
+    - https://github.com/aws/eks-charts
+    - https://github.com/giantswarm/aws-load-balancer-controller-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-5.2.0.tgz
+    version: 5.2.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-5.1.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-5.1.0.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -72329,4 +72355,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-05-29T08:07:19.52619287Z"
+generated: "2026-05-29T08:07:30.793059687Z"
