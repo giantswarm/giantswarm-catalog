@@ -2577,6 +2577,25 @@ entries:
     version: 3.0.0
   aws-lb-controller-bundle:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/aws-lb-controller-bundle-5.2.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/aws-lb-controller-bundle/refs/tags/v5.2.0/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/aws-lb-controller-bundle/refs/tags/v5.2.0/helm/aws-lb-controller-bundle/values.schema.json
+    apiVersion: v2
+    appVersion: 5.2.0
+    created: "2026-05-29T08:07:19.526796884Z"
+    description: AWS Load Balancer Controller Bundle with Crossplane resources
+    digest: cd13391fc91cd4f15c05afdc482981fd9e899bf66353da6485f44b9adc9e193b
+    home: https://github.com/giantswarm/aws-lb-controller-bundle
+    icon: https://s.giantswarm.io/app-icons/aws/2/light.svg
+    kubeVersion: '>=1.17.0-0'
+    name: aws-lb-controller-bundle
+    sources:
+    - https://github.com/giantswarm/aws-load-balancer-controller-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/aws-lb-controller-bundle-5.2.0.tgz
+    version: 5.2.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/aws-lb-controller-bundle-5.1.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/aws-lb-controller-bundle-5.1.0.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -72310,4 +72329,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-05-29T08:06:18.843290697Z"
+generated: "2026-05-29T08:07:19.52619287Z"
