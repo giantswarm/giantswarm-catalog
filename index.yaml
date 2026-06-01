@@ -67092,6 +67092,32 @@ entries:
     version: 0.1.0-alpha
   rbac-bootstrap:
   - annotations:
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/rbac-bootstrap-0.3.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/rbac-bootstrap-app/refs/tags/v0.3.0/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/rbac-bootstrap-app/refs/tags/v0.3.0/helm/rbac-bootstrap/values.schema.json
+    apiVersion: v2
+    appVersion: 0.3.0
+    created: "2026-06-01T14:44:54.99835205Z"
+    description: Helps to set up initial role bindings in a new cluster
+    digest: 2b492de084d9fa139d9fa9bb3204cce1e9b2b79626e8089a18384cc07bc73ff1
+    home: https://github.com/giantswarm/rbac-bootstrap-app
+    icon: https://s.giantswarm.io/app-icons/rbac-bootstrap/1/light.svg
+    keywords:
+    - authorization
+    - rbac
+    - bootstrapping
+    maintainers:
+    - name: Giant Swarm Team Shield
+    name: rbac-bootstrap
+    sources:
+    - https://github.com/giantswarm/rbac-bootstrap-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/rbac-bootstrap-0.3.0.tgz
+    version: 0.3.0
+  - annotations:
       io.giantswarm.application.audience: all
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/rbac-bootstrap-0.2.3.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/rbac-bootstrap-app/refs/tags/v0.2.3/README.md
@@ -72802,4 +72828,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-06-01T12:07:57.300059467Z"
+generated: "2026-06-01T14:44:54.997626308Z"
