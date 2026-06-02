@@ -48849,6 +48849,27 @@ entries:
   - annotations:
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/microservices-demo-app-0.8.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/microservices-demo-app/refs/tags/v0.8.0/README.md
+      io.giantswarm.application.team: cabbage
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/microservices-demo-app/refs/tags/v0.8.0/helm/microservices-demo-app/values.schema.json
+    apiVersion: v2
+    appVersion: v0.10.5
+    created: "2026-06-02T09:30:01.799734612Z"
+    description: Please add description
+    digest: c252a3b4d3c864aa222724383dd9ba27419c927a96cc6e5bdd93a426dbbd954d
+    home: https://github.com/giantswarm/microservices-demo-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: microservices-demo-app
+    sources:
+    - https://github.com/giantswarm/microservices-demo-app
+    - https://github.com/GoogleCloudPlatform/microservices-demo
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/microservices-demo-app-0.8.0.tgz
+    version: 0.8.0
+  - annotations:
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/microservices-demo-app-0.7.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/microservices-demo-app/refs/tags/v0.7.0/README.md
       io.giantswarm.application.team: cabbage
@@ -72828,4 +72849,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-06-01T14:44:54.997626308Z"
+generated: "2026-06-02T09:30:01.797893384Z"
