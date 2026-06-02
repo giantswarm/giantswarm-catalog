@@ -72368,6 +72368,31 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/valkey-0.1.2.tgz
     version: 0.1.2
+  - annotations:
+      config.giantswarm.io/version: 1.x.x
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/valkey-0.0.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/valkey-app/refs/tags/v0.0.1/README.md
+      io.giantswarm.application.team: planeteers
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/valkey-app/refs/tags/v0.0.1/helm/valkey/values.schema.json
+    apiVersion: v2
+    appVersion: 8.1.4
+    created: "2026-06-02T15:19:57.606391822Z"
+    dependencies:
+    - name: valkey
+      repository: file://charts/valkey
+      version: 0.8.1
+    description: A Giant Swarm app for deploying Valkey (a Redis alternative) on Kubernetes.
+    digest: 9d94f4bdc04cc57fabd4ceff26c8a70c0bc71e3ddb9c5902f8d58447fd40cb34
+    home: https://github.com/giantswarm/valkey-app
+    icon: https://s.giantswarm.io/app-icons/valkey/1/light.svg
+    name: valkey
+    sources:
+    - https://github.com/valkey-io/valkey-helm
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/valkey-0.0.1.tgz
+    version: 0.0.1
   whereabouts:
   - annotations:
       io.giantswarm.application.audience: giantswarm
@@ -72995,4 +73020,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-06-02T12:40:00.962335345Z"
+generated: "2026-06-02T15:19:57.601271119Z"
