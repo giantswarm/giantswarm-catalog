@@ -49198,10 +49198,10 @@ entries:
       io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/muster/refs/tags/v0.1.240/helm/muster/values.schema.json
     apiVersion: v2
     appVersion: 0.1.240
-    created: "2026-06-03T09:31:17.368620293Z"
+    created: "2026-06-03T09:44:43.123358856Z"
     description: A Helm chart for muster - Universal Control Plane for AI Agents built
       on MCP
-    digest: e57acfdadcc80dbe926bf2b01673e0f8a603cd44ea58b25a981d639193758ce2
+    digest: 4560f5eb539b7d0ea055ac9604d673132a77ae4cc60b4bac127b2b73f619e747
     home: https://github.com/giantswarm/muster
     icon: https://s.giantswarm.io/app-icons/muster/1/light.svg
     keywords:
@@ -74022,4 +74022,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-06-03T09:31:17.366579656Z"
+generated: "2026-06-03T09:44:43.121317391Z"
