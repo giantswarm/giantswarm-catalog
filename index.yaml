@@ -759,6 +759,42 @@ entries:
   - annotations:
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agentic-platform-crds-1.1.6.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agentic-platform/refs/tags/v1.1.6/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/agentic-platform/refs/tags/v1.1.6/helm/agentic-platform-crds/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2026-06-08T12:09:44.912889796Z"
+    dependencies:
+    - name: agentgateway-crds
+      repository: oci://cr.agentgateway.dev/charts
+      version: v1.2.1
+    - name: muster-crds
+      repository: oci://gsoci.azurecr.io/charts/giantswarm
+      version: 0.1.213
+    - name: kagent-crds
+      repository: oci://ghcr.io/kagent-dev/kagent/helm
+      version: 0.9.4
+    description: 'CustomResourceDefinitions for the Giant Swarm agentic platform.
+      Ships the agentgateway CRDs (AgentgatewayParameters / AgentgatewayPolicy / AgentgatewayBackend)
+      and muster CRDs (MCPServer / Workflow) as a single install unit. Install this
+      chart first; once the CRDs are Established the companion agentic-platform chart
+      can apply its CRs. The Gateway API CRDs and GatewayClass remain cluster-level
+      prerequisites — see README. '
+    digest: a8b74e546da578aee1ae52965dcacfa6c21e384fc3aa0d88a56d93d5aa2ceb9f
+    home: https://github.com/giantswarm/agentic-platform
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: agentic-platform-crds
+    sources:
+    - https://github.com/giantswarm/agentic-platform
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/agentic-platform-crds-1.1.6.tgz
+    version: 1.1.6
+  - annotations:
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agentic-platform-crds-1.1.5.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agentic-platform/refs/tags/v1.1.5/README.md
       io.giantswarm.application.team: bumblebee
@@ -76763,4 +76799,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-06-08T11:04:27.314158596Z"
+generated: "2026-06-08T12:09:44.889586767Z"
