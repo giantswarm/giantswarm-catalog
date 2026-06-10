@@ -24519,6 +24519,27 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/grafana-agent-0.2.0.tgz
     version: 0.2.0
+  growth-dashboard:
+  - annotations:
+      io.giantswarm.application.audience: internal
+      io.giantswarm.application.managed: "false"
+      io.giantswarm.application.team: rocket
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-06-10T07:30:01.548247191Z"
+    description: Internal growth dashboard hosted on gazelle-operations.
+    digest: 96b419d34db651c4557d9805ce56eb1d68e14af5014804f2d5c5a4483ee399c4
+    home: https://github.com/giantswarm/growth-dashboard-app
+    icon: https://s.giantswarm.io/app-icons/1/png/hello-world-app-light.png
+    keywords:
+    - dashboard
+    - internal
+    - growth
+    name: growth-dashboard
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/growth-dashboard-0.1.0.tgz
+    version: 0.1.0
   hello-world:
   - annotations:
       io.giantswarm.application.audience: all
@@ -79177,4 +79198,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-06-10T07:23:09.130712943Z"
+generated: "2026-06-10T07:30:01.547558785Z"
