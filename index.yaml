@@ -41844,6 +41844,37 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/loki-0.1.0-alpha.tgz
     version: 0.1.0-alpha
+  mcp-capi:
+  - annotations:
+      io.giantswarm.application.audience: customers
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/mcp-capi-0.0.44.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mcp-capi/refs/tags/v0.0.44/README.md
+      io.giantswarm.application.team: team-planeteers
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/mcp-capi/refs/tags/v0.0.44/helm/mcp-capi/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.44
+    created: "2026-06-10T19:37:23.045030268Z"
+    description: A Helm chart for mcp-capi - Model Context Protocol server for Cluster
+      API
+    digest: 908c1477302e9a86c9c1e94c483a4f742ae18eff0d8aa52a30043dd1d9ade63e
+    home: https://github.com/giantswarm/mcp-capi
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    keywords:
+    - mcp
+    - capi
+    - cluster-api
+    - model-context-protocol
+    maintainers:
+    - email: team-planeteers@giantswarm.io
+      name: Giant Swarm
+    name: mcp-capi
+    sources:
+    - https://github.com/giantswarm/mcp-capi
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/mcp-capi-0.0.44.tgz
+    version: 0.0.44
   mcp-kubernetes:
   - annotations:
       io.giantswarm.application.audience: customers
@@ -79921,4 +79952,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-06-10T19:36:42.455129661Z"
+generated: "2026-06-10T19:37:23.044373011Z"
