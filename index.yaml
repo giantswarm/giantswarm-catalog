@@ -65430,6 +65430,36 @@ entries:
   muster-crds:
   - annotations:
       io.giantswarm.application.audience: all
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/muster-crds-0.3.13.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/muster/refs/tags/v0.3.13/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/muster/refs/tags/v0.3.13/helm/muster-crds/values.schema.json
+    apiVersion: v2
+    appVersion: 0.3.13
+    created: "2026-06-10T22:18:13.123428681Z"
+    description: CRD-only Helm chart for muster - ships the MCPServer and Workflow
+      CustomResourceDefinitions
+    digest: ce9e16378b90e79bb24f6b33a4f7ae6f87e4c90185a827a1a3655810978a182d
+    home: https://github.com/giantswarm/muster
+    icon: https://s.giantswarm.io/app-icons/muster/1/light.svg
+    keywords:
+    - mcp
+    - ai-agents
+    - model-context-protocol
+    - aggregator
+    - crds
+    maintainers:
+    - email: team-bumblebee@giantswarm.io
+      name: Giant Swarm
+    name: muster-crds
+    sources:
+    - https://github.com/giantswarm/muster
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/muster-crds-0.3.13.tgz
+    version: 0.3.13
+  - annotations:
+      io.giantswarm.application.audience: all
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/muster-crds-0.3.12.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/muster/refs/tags/v0.3.12/README.md
       io.giantswarm.application.team: bumblebee
@@ -80112,4 +80142,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-06-10T22:14:59.98604676Z"
+generated: "2026-06-10T22:18:13.122643821Z"
