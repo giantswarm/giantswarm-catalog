@@ -75548,6 +75548,26 @@ entries:
   - annotations:
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/search-mcp-0.3.2.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/search-mcp/refs/tags/v0.3.2/README.md
+      io.giantswarm.application.team: honeybadger
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/search-mcp/refs/tags/v0.3.2/helm/search-mcp/values.schema.json
+    apiVersion: v2
+    appVersion: 0.3.2
+    created: "2026-06-11T12:56:44.641945502Z"
+    description: MCP server for access to Giant Swarm documentation and more
+    digest: 1a75b7619b1246930020609a72ec6df97ee69c44243604f4823d32aa3fdbbe22
+    home: https://github.com/giantswarm/search-mcp
+    icon: https://s.giantswarm.io/app-icons/search-mcp/1/light.svg
+    name: search-mcp
+    sources:
+    - https://github.com/giantswarm/search-mcp
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/search-mcp-0.3.2.tgz
+    version: 0.3.2
+  - annotations:
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/search-mcp-0.3.1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/search-mcp/refs/tags/v0.3.1/README.md
       io.giantswarm.application.team: honeybadger
@@ -80853,4 +80873,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-06-11T12:54:15.00047027Z"
+generated: "2026-06-11T12:56:44.640923941Z"
