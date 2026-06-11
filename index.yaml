@@ -25253,6 +25253,26 @@ entries:
   - annotations:
       io.giantswarm.application.audience: internal
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/growth-dashboard-0.1.4.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/growth-dashboard-app/refs/tags/v0.1.4/README.md
+      io.giantswarm.application.team: honeybadger
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/growth-dashboard-app/refs/tags/v0.1.4/helm/growth-dashboard/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.4
+    created: "2026-06-11T14:57:08.047244543Z"
+    description: Growth dashboard displaying HeyReach, HubSpot, and LinkedIn Ads metrics.
+    digest: 2e4e5e3479ca5423dd29aaa2d11ab1b78d6673958eeab3bf00a10c50b1c7e095
+    home: https://github.com/giantswarm/growth-dashboard-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: growth-dashboard
+    sources:
+    - https://github.com/giantswarm/growth-dashboard
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/growth-dashboard-0.1.4.tgz
+    version: 0.1.4
+  - annotations:
+      io.giantswarm.application.audience: internal
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/growth-dashboard-0.1.3.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/growth-dashboard-app/refs/tags/v0.1.3/README.md
       io.giantswarm.application.team: honeybadger
@@ -81314,4 +81334,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-06-11T14:16:42.933382897Z"
+generated: "2026-06-11T14:57:08.046396582Z"

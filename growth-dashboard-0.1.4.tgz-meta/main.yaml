@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: internal
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/team: honeybadger
+chartApiVersion: v2
+chartFile: growth-dashboard-0.1.4.tgz
+dateCreated: '2026-06-11T14:56:57.972267Z'
+digest: 2e4e5e3479ca5423dd29aaa2d11ab1b78d6673958eeab3bf00a10c50b1c7e095
+home: https://github.com/giantswarm/growth-dashboard-app
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
