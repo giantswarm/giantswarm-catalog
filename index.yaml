@@ -26180,6 +26180,37 @@ entries:
   - annotations:
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/ingress-nginx-4.3.4.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/ingress-nginx-app/refs/tags/v4.3.4/README.md
+      io.giantswarm.application.team: team-cabbage
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/ingress-nginx-app/refs/tags/v4.3.4/helm/ingress-nginx/values.schema.json
+      io.giantswarm.ui.logo: https://s.giantswarm.io/app-icons/ingress-nginx/2/logo_dark.svg
+    apiVersion: v2
+    appVersion: 1.15.7
+    created: "2026-06-12T11:48:57.912888027Z"
+    description: Ingress controller for Kubernetes using NGINX as a reverse proxy
+      and load balancer
+    digest: 744f42a41513c114b252ad80c0dde9dda219b3bcaf8c48abaad609fdcae13f1f
+    home: https://github.com/giantswarm/ingress-nginx-app
+    icon: https://s.giantswarm.io/app-icons/ingress-nginx/2/icon_dark.svg
+    keywords:
+    - ingress
+    - nginx
+    kubeVersion: '>=1.21.0-0'
+    maintainers:
+    - name: cpanato
+    - name: Gacko
+    - name: strongjz
+    - name: tao12345666333
+    name: ingress-nginx
+    sources:
+    - https://github.com/kubernetes/ingress-nginx
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/ingress-nginx-4.3.4.tgz
+    version: 4.3.4
+  - annotations:
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/ingress-nginx-4.3.3.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/ingress-nginx-app/refs/tags/v4.3.3/README.md
       io.giantswarm.application.team: team-cabbage
@@ -81609,4 +81640,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-06-12T09:33:48.373402252Z"
+generated: "2026-06-12T11:48:57.908490487Z"
