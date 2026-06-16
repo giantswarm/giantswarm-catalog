@@ -31552,6 +31552,27 @@ entries:
     version: 3.0.0
   klaus:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/klaus-0.0.210.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/klaus/refs/tags/v0.0.210/README.md
+      io.giantswarm.application.team: planeteers
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/klaus/refs/tags/v0.0.210/helm/klaus/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.210
+    created: "2026-06-16T20:45:32.76708125Z"
+    description: A Go wrapper around claude-code to orchestrate AI agents within Kubernetes
+    digest: f0cefcd70fbbe83ff7e3885d1b65051377b27449336e7e55e23ab2f86941f153
+    home: https://github.com/giantswarm/klaus
+    icon: https://s.giantswarm.io/app-icons/klaus/1/light.png
+    maintainers:
+    - email: team-planeteers@giantswarm.io
+      name: giantswarm/team-planeteers
+    name: klaus
+    sources:
+    - https://github.com/giantswarm/klaus
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/klaus-0.0.210.tgz
+    version: 0.0.210
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/klaus-0.0.208.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/klaus/refs/tags/v0.0.208/README.md
       io.giantswarm.application.team: planeteers
@@ -84629,4 +84650,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-06-16T20:42:54.298619277Z"
+generated: "2026-06-16T20:45:32.765284779Z"
