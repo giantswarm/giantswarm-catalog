@@ -1,5 +1,29 @@
 apiVersion: v1
 entries:
+  agent-sandbox-crds:
+  - annotations:
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agent-sandbox-crds-0.1.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agent-sandbox/refs/tags/v0.1.1/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/agent-sandbox/refs/tags/v0.1.1/helm/agent-sandbox-crds/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.1
+    created: "2026-06-16T15:31:25.67534709Z"
+    description: CustomResourceDefinitions for kubernetes-sigs/agent-sandbox (Sandbox,
+      SandboxTemplate, SandboxClaim, SandboxWarmPool), packaged for the Giant Swarm
+      agentic platform.
+    digest: 29b316ed224ca49c5f4fe3438a8528824997bfbe25cd0f541a31f3c7ca200cf6
+    home: https://github.com/giantswarm/agent-sandbox
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: agent-sandbox-crds
+    sources:
+    - https://github.com/giantswarm/agent-sandbox
+    - https://github.com/kubernetes-sigs/agent-sandbox
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/agent-sandbox-crds-0.1.1.tgz
+    version: 0.1.1
   agentic-platform:
   - annotations:
       io.giantswarm.application.audience: all
@@ -84273,4 +84297,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-06-16T15:30:39.224243919Z"
+generated: "2026-06-16T15:31:25.674067647Z"
