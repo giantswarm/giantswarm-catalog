@@ -56,6 +56,57 @@ entries:
   - annotations:
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agentic-platform-1.2.8.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agentic-platform/refs/tags/v1.2.8/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/agentic-platform/refs/tags/v1.2.8/helm/agentic-platform/values.schema.json
+    apiVersion: v2
+    appVersion: 1.2.8
+    created: "2026-06-16T22:47:02.134113685Z"
+    dependencies:
+    - name: muster
+      repository: oci://gsoci.azurecr.io/charts/giantswarm
+      version: 0.5.7
+    - condition: agentgateway.enabled
+      name: agentgateway
+      repository: oci://cr.agentgateway.dev/charts
+      version: v1.2.1
+    - condition: valkey.enabled
+      name: valkey
+      repository: oci://giantswarmpublic.azurecr.io/giantswarm-catalog
+      version: 0.1.2
+    - condition: mcps.enabled
+      name: agentic-platform-mcps
+      repository: oci://gsoci.azurecr.io/charts/giantswarm
+      version: 0.4.1
+    - condition: kagent.enabled
+      name: kagent
+      repository: oci://ghcr.io/kagent-dev/kagent/helm
+      version: 0.9.8
+    - alias: klausGateway
+      condition: klausGateway.enabled
+      name: klaus-gateway
+      repository: oci://gsoci.azurecr.io/charts/giantswarm
+      version: 0.2.2
+    description: 'Giant Swarm agentic platform — MCP gateway consumer-side deploy
+      unit. Bundles muster (MCP aggregator control plane) and the agentgateway controller
+      + data-plane proxy, plus an opt-in giantswarm/valkey-app for muster''s OAuth
+      session storage. CRDs ship separately in the companion agentic-platform-crds
+      chart, which must be installed first; the Gateway API CRDs and GatewayClass
+      remain cluster-level prerequisites — see README. '
+    digest: 9b09fe56a463297621c6f0551b9a9dfc37ba85479b0f143f42807ec700876820
+    home: https://github.com/giantswarm/agentic-platform
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: agentic-platform
+    sources:
+    - https://github.com/giantswarm/agentic-platform
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/agentic-platform-1.2.8.tgz
+    version: 1.2.8
+  - annotations:
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agentic-platform-1.2.7.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agentic-platform/refs/tags/v1.2.7/README.md
       io.giantswarm.application.team: bumblebee
@@ -84824,4 +84875,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-06-16T22:46:57.967780307Z"
+generated: "2026-06-16T22:47:02.107812157Z"
