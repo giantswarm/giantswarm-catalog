@@ -32439,6 +32439,30 @@ entries:
     version: 0.0.15
   klaus-gateway:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/klaus-gateway-0.2.2.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/klaus-gateway/refs/tags/v0.2.2/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/klaus-gateway/refs/tags/v0.2.2/helm/klaus-gateway/values.schema.json
+      klaus-gateway.giantswarm.io/agentgateway-version: v1.1.0
+    apiVersion: v2
+    appVersion: 0.2.2
+    created: "2026-06-16T10:04:05.399444901Z"
+    description: Channel and routing gateway in front of klaus instances; uses agentgateway
+      as the LLM/MCP/A2A data plane
+    digest: 876c79704689cce3ab80eb5a0a970d2d7da2dcea981d08cebb69d7127037a643
+    home: https://github.com/giantswarm/klaus-gateway
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    maintainers:
+    - name: Giant Swarm
+      url: https://www.giantswarm.io
+    name: klaus-gateway
+    sources:
+    - https://github.com/giantswarm/klaus-gateway
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/klaus-gateway-0.2.2.tgz
+    version: 0.2.2
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/klaus-gateway-0.2.1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/klaus-gateway/refs/tags/v0.2.1/README.md
       io.giantswarm.application.team: bumblebee
@@ -83306,4 +83330,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-06-16T09:33:32.919699443Z"
+generated: "2026-06-16T10:04:05.397564603Z"
