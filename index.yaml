@@ -34683,6 +34683,28 @@ entries:
     version: 0.0.6
   klaus-operator:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/klaus-operator-0.0.99.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/klaus-operator/refs/tags/v0.0.99/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/klaus-operator/refs/tags/v0.0.99/helm/klaus-operator/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.99
+    created: "2026-06-16T17:49:53.184899254Z"
+    description: Kubernetes operator for dynamic management of Klaus AI agent instances
+    digest: bdf16444ddc9bd918006a999b5eb78548a89d649d114546762807d95f0783202
+    home: https://github.com/giantswarm/klaus-operator
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    maintainers:
+    - name: Giant Swarm
+      url: https://www.giantswarm.io
+    name: klaus-operator
+    sources:
+    - https://github.com/giantswarm/klaus-operator
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/klaus-operator-0.0.99.tgz
+    version: 0.0.99
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/klaus-operator-0.0.98.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/klaus-operator/refs/tags/v0.0.98/README.md
       io.giantswarm.application.team: phoenix
@@ -84499,4 +84521,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-06-16T17:42:21.035018536Z"
+generated: "2026-06-16T17:49:53.183876854Z"
