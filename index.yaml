@@ -3667,6 +3667,26 @@ entries:
   - annotations:
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agentic-platform-mcps-0.4.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agentic-platform-mcps/refs/tags/v0.4.1/README.md
+      io.giantswarm.application.team: team-bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/agentic-platform-mcps/refs/tags/v0.4.1/helm/agentic-platform-mcps/values.schema.json
+    apiVersion: v2
+    appVersion: 0.4.1
+    created: "2026-06-16T10:43:44.339100034Z"
+    description: Chart to deploy MCPs for GiantSwarm Agentic Platform.
+    digest: 36c855817ccf0a2c1c1f3c6b7f19c96be77c0abd9d59bb2816dc5a06ccf4b79d
+    home: https://github.com/giantswarm/agentic-platform-mcps
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: agentic-platform-mcps
+    sources:
+    - https://github.com/giantswarm/agentic-platform-mcps
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/agentic-platform-mcps-0.4.1.tgz
+    version: 0.4.1
+  - annotations:
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agentic-platform-mcps-0.4.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agentic-platform-mcps/refs/tags/v0.4.0/README.md
       io.giantswarm.application.team: team-bumblebee
@@ -83330,4 +83350,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-06-16T10:04:05.397564603Z"
+generated: "2026-06-16T10:43:44.338010072Z"
