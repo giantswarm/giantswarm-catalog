@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: bumblebee
+chartApiVersion: v2
+chartFile: agent-sandbox-0.1.1.tgz
+dateCreated: '2026-06-16T15:31:44.582960Z'
+digest: 85e3a3794a5f392b1dfcdf1bea5e1b99eb9f4658ae987c85cc84c283b09e9022
+home: https://github.com/giantswarm/agent-sandbox
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
