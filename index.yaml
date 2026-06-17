@@ -2937,6 +2937,45 @@ entries:
   - annotations:
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agentic-platform-crds-1.2.9-dev.head.2026-06-17.21-32-22.h3172d9c.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agentic-platform/refs/tags/v1.2.9-dev.head.2026-06-17.21-32-22.h3172d9c/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/agentic-platform/refs/tags/v1.2.9-dev.head.2026-06-17.21-32-22.h3172d9c/helm/agentic-platform-crds/values.schema.json
+    apiVersion: v2
+    appVersion: 1.2.9-dev.head.2026-06-17.21-32-22.h3172d9c
+    created: "2026-06-17T21:34:36.603533478Z"
+    dependencies:
+    - name: agentgateway-crds
+      repository: oci://cr.agentgateway.dev/charts
+      version: v1.2.1
+    - name: muster-crds
+      repository: oci://gsoci.azurecr.io/charts/giantswarm
+      version: 0.5.8
+    - name: kagent-crds
+      repository: oci://ghcr.io/kagent-dev/kagent/helm
+      version: 0.9.8
+    - name: agent-sandbox-crds
+      repository: oci://gsoci.azurecr.io/charts/giantswarm
+      version: 0.1.1
+    description: 'CustomResourceDefinitions for the Giant Swarm agentic platform.
+      Ships the agentgateway CRDs (AgentgatewayParameters / AgentgatewayPolicy / AgentgatewayBackend)
+      and muster CRDs (MCPServer / Workflow) as a single install unit. Install this
+      chart first; once the CRDs are Established the companion agentic-platform chart
+      can apply its CRs. The Gateway API CRDs and GatewayClass remain cluster-level
+      prerequisites — see README. '
+    digest: cd3dbf9f98020bb7830b4d9aba689acda24d3d577bdcc99ac1602f4cb17666a6
+    home: https://github.com/giantswarm/agentic-platform
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: agentic-platform-crds
+    sources:
+    - https://github.com/giantswarm/agentic-platform
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/agentic-platform-crds-1.2.9-dev.head.2026-06-17.21-32-22.h3172d9c.tgz
+    version: 1.2.9-dev.head.2026-06-17.21-32-22.h3172d9c
+  - annotations:
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agentic-platform-crds-1.2.9-dev.head.2026-06-17.16-14-36.h954a2ab.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agentic-platform/refs/tags/v1.2.9-dev.head.2026-06-17.16-14-36.h954a2ab/README.md
       io.giantswarm.application.team: bumblebee
@@ -85628,4 +85667,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-06-17T21:34:10.270594953Z"
+generated: "2026-06-17T21:34:36.585042173Z"
