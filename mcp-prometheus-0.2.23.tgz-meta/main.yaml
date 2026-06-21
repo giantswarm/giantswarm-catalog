@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: planeteers
+chartApiVersion: v2
+chartFile: mcp-prometheus-0.2.23.tgz
+dateCreated: '2026-06-21T15:12:59.301174Z'
+digest: 78ea5c7a39b008786f6185977ad16625effdb75b85ee6656badcc83277a3352a
+home: https://github.com/giantswarm/mcp-prometheus
+icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
