@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/team: bumblebee
+chartApiVersion: v2
+chartFile: muster-0.18.1.tgz
+dateCreated: '2026-06-24T07:18:51.667717Z'
+digest: a33a07962d98c7376896bcc7b380bcc7c03494b6c8f237e16c51ee562583db73
+home: https://github.com/giantswarm/muster
+icon: https://s.giantswarm.io/app-icons/muster/1/light.svg
