@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: giantswarm
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: atlas
+chartApiVersion: v2
+chartFile: mcp-observability-platform-0.2.2.tgz
+dateCreated: '2026-06-26T21:35:07.613901Z'
+digest: 94a018a6bdce5884ae0e7c5b8066a5119abee8dbba809c9d40282fda9e49d775
+home: https://github.com/giantswarm/mcp-observability-platform
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
