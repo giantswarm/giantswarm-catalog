@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/team: bumblebee
+  klaus-gateway.giantswarm.io/agentgateway-version: v1.1.0
+chartApiVersion: v2
+chartFile: klaus-gateway-0.10.2.tgz
+dateCreated: '2026-06-28T13:11:40.888288Z'
+digest: 5c9bcd5a4afd9c7f652e393c0d1a2dd80f4a0df6333d8f68e2981e2e54d98699
+home: https://github.com/giantswarm/klaus-gateway
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
