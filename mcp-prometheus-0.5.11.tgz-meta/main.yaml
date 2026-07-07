@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: atlas
+chartApiVersion: v2
+chartFile: mcp-prometheus-0.5.11.tgz
+dateCreated: '2026-07-07T09:51:23.407285Z'
+digest: 5f176c180f23dc580d68430f286c3788824aeb5f5cb8ac863da2e028666cea97
+home: https://github.com/giantswarm/mcp-prometheus
+icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
