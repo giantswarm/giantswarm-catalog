@@ -261,47 +261,6 @@ You: "Add issue https://github.com/giantswarm/example/issues/42 to the roadmap b
 AI:  [Uses add_existing_issue with board="roadmap"]
 ```
 
-## Library Usage
-
-The board core is importable as `@giantswarm/pro`, independent of the MCP server. Consumers (e.g. the Backstage roadmap backend plugin) get the same board registry, GraphQL queries, and field semantics the MCP server uses.
-
-```bash
-npm install @giantswarm/pro
-# or, before the package is on npm / for unreleased versions:
-npm install github:giantswarm/pro#v1.2.53
-```
-
-```js
-import {
-  BOARDS, resolveBoardId,
-  listItems, getItemByID, updateItemField,
-  listFields, findFieldByName, findMatchingOption,
-  listSubIssues, addSubIssue, removeSubIssue, getParentIssue
-} from '@giantswarm/pro';
-
-const boardId = resolveBoardId('roadmap');
-
-// Reads -- every function accepts an optional per-request token as its last
-// argument (falls back to the GITHUB_API_TOKEN environment variable).
-const { data } = await listItems({ boardId, filters: { Team: 'Bumblebee🐝' }, token });
-const item = await getItemByID('PVTI_xxx', token);
-
-// Writes -- resolve field and option names to node IDs, then mutate.
-const field = await findFieldByName('Status', boardId, token);
-const option = findMatchingOption(field.options, 'In Progress ⛏️');
-await updateItemField('PVTI_xxx', field.id, { singleSelectOptionId: option.id }, boardId, token);
-
-// Sub-issues (REST) -- targets take explicit owner/repo/issue_number,
-// child issues are referenced by their integer ID (use resolveIssueId).
-await addSubIssue({ owner: 'giantswarm', repo: 'giantswarm', issue_number: 1234, subIssueId: 987654321 }, token);
-```
-
-The exported surface is defined in [`src/index.js`](src/index.js). The MCP server and CLI are not part of the library entry point.
-
-### Releases
-
-The `Publish package` workflow runs on every GitHub Release (created automatically by the Auto-release workflow), sets the package version from the release tag, attaches the npm tarball to the release, and publishes `@giantswarm/pro` to npm (skipped while the `NPM_TOKEN` repository secret is not configured).
-
 ## Development
 
 ```bash
