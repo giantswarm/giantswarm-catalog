@@ -263,10 +263,10 @@ AI:  [Uses add_existing_issue with board="roadmap"]
 
 ## Library Usage
 
-The board core is importable as `@giantswarm/pro`, independent of the MCP server. Consumers (e.g. the Backstage roadmap backend plugin) get the same board registry, GraphQL queries, and field semantics the MCP server uses.
+The board core is importable as `@giantswarm-io/pro`, independent of the MCP server. Consumers (e.g. the Backstage roadmap backend plugin) get the same board registry, GraphQL queries, and field semantics the MCP server uses.
 
 ```bash
-npm install @giantswarm/pro
+npm install @giantswarm-io/pro
 # or, before the package is on npm / for unreleased versions:
 npm install github:giantswarm/pro#v1.2.53
 ```
@@ -277,7 +277,7 @@ import {
   listItems, getItemByID, updateItemField,
   listFields, findFieldByName, findMatchingOption,
   listSubIssues, addSubIssue, removeSubIssue, getParentIssue
-} from '@giantswarm/pro';
+} from '@giantswarm-io/pro';
 
 const boardId = resolveBoardId('roadmap');
 
@@ -300,7 +300,7 @@ The exported surface is defined in [`src/index.js`](src/index.js). The MCP serve
 
 ### Releases
 
-The `Publish package` workflow runs on every GitHub Release (created automatically by the Auto-release workflow), sets the package version from the release tag, attaches the npm tarball to the release, and publishes `@giantswarm/pro` to npm (skipped while the `NPM_TOKEN` repository secret is not configured).
+The `Publish package` workflow runs on every GitHub Release (created automatically by the Auto-release workflow), sets the package version from the release tag, attaches the npm tarball to the release, and publishes `@giantswarm-io/pro` to npm (skipped while the `NPM_TOKEN` repository secret is not configured).
 
 ## Development
 
