@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: customers
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: team-planeteers
+chartApiVersion: v2
+chartFile: mcp-capi-0.0.63.tgz
+dateCreated: '2026-07-11T20:04:13.824069Z'
+digest: 524a01e700961718a44be6c7a9f8abc2c386838df8a461457d94ae36722bea0d
+home: https://github.com/giantswarm/mcp-capi
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
