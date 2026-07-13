@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/team: bumblebee
+chartApiVersion: v2
+chartFile: agent-0.1.0.tgz
+dateCreated: '2026-07-13T12:41:28.029539Z'
+digest: 0fea8dcd1be2ad58b5cf405e24822e97c13eab80d3c9b301f4aac8de20c0415a
+home: https://github.com/giantswarm/agent
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
