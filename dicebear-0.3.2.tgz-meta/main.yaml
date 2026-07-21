@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: bumblebee
+chartApiVersion: v2
+chartFile: dicebear-0.3.2.tgz
+dateCreated: '2026-07-21T12:36:30.882798Z'
+digest: 562e7f6a9249df871b0cfe8c78a2b43b6ae4d1b92e057e93f6cdb34b63f1f1fc
+home: https://github.com/giantswarm/dicebear
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
