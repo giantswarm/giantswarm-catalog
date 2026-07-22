@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/team: honeybadger
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: "- name: Support\n  url: https://github.com/giantswarm/hello-world-app/issues\n\
+    - name: Giant Swarm\n  url: https://www.giantswarm.io\n"
+chartApiVersion: v2
+chartFile: hello-world-3.0.4.tgz
+dateCreated: '2026-07-22T07:36:14.191085Z'
+digest: 7b5fb81342d9a3a4be276ac1edbdcbe959fdd8b5fb1c6835839bb3f3835eb834
+home: https://github.com/giantswarm/hello-world-app
+icon: https://s.giantswarm.io/app-icons/1/png/hello-world-app-light.png
