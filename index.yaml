@@ -95,6 +95,39 @@ entries:
     version: 0.1.0
   agent-sandbox:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/agent-sandbox/issues
+        - name: Upstream project
+          url: https://github.com/kubernetes-sigs/agent-sandbox
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agent-sandbox-0.2.16.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agent-sandbox/refs/tags/v0.2.16/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/agent-sandbox/refs/tags/v0.2.16/helm/agent-sandbox/values.schema.json
+    apiVersion: v2
+    appVersion: 0.2.16
+    created: "2026-07-28T10:14:07.177655291Z"
+    dependencies:
+    - name: agent-sandbox
+      repository: file://charts/agent-sandbox
+      version: 0.1.0
+    description: Giant Swarm packaging of the upstream kubernetes-sigs/agent-sandbox
+      controller, which manages Sandbox resources (isolated, stateful, singleton pods)
+      for AI agent runtimes on Kubernetes.
+    digest: 6cac6eeab1a7d5cb31a94bddc54072cdac4ed03c60838a0bb993c5d03dd6d819
+    home: https://github.com/giantswarm/agent-sandbox
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: agent-sandbox
+    sources:
+    - https://github.com/giantswarm/agent-sandbox
+    - https://github.com/kubernetes-sigs/agent-sandbox
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/agent-sandbox-0.2.16.tgz
+    version: 0.2.16
+  - annotations:
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agent-sandbox-0.2.15.tgz-meta/main.yaml
@@ -108749,4 +108782,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-07-28T10:13:58.202261484Z"
+generated: "2026-07-28T10:14:07.172361203Z"
