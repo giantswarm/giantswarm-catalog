@@ -6529,6 +6529,36 @@ entries:
   - annotations:
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agentic-platform-connectivity-2.5.2.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agentic-platform/refs/tags/v2.5.2/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/agentic-platform/refs/tags/v2.5.2/helm/agentic-platform-connectivity/values.schema.json
+    apiVersion: v2
+    appVersion: 2.5.2
+    created: "2026-07-29T08:31:39.857846631Z"
+    description: 'Giant Swarm agentic platform — connectivity / integration layer.
+      Renders the consumer-side wiring that turns the platform components into a working
+      whole on a cluster: the public muster route and the agentgateway data-plane
+      Gateway + AgentgatewayParameters + HTTPRoutes + BackendTrafficPolicies, the
+      NetworkPolicies, the kagent and klaus-gateway routes, the kagent declarative-agent
+      wiring, and the CloudNativePG Cluster. Ships NO workloads of its own — those
+      are separate releases rendered by the agentic-platform meta-chart. The CRDs
+      these CRs consume are app-owned: each component (agentgateway, kagent, …) ships
+      its own CRDs, so this chart''s HelmRelease dependsOn those CRD-owning component
+      releases. '
+    digest: 836217a5e3dfdffcad0f425c0ae7c2dfde41bc64aed1f51cc719b42bd076c6b5
+    home: https://github.com/giantswarm/agentic-platform
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: agentic-platform-connectivity
+    sources:
+    - https://github.com/giantswarm/agentic-platform
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/agentic-platform-connectivity-2.5.2.tgz
+    version: 2.5.2
+  - annotations:
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agentic-platform-connectivity-2.5.1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agentic-platform/refs/tags/v2.5.1/README.md
       io.giantswarm.application.team: bumblebee
@@ -109190,4 +109220,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-07-29T07:45:41.897067293Z"
+generated: "2026-07-29T08:31:39.854089999Z"
