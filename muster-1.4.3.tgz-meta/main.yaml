@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/team: bumblebee
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/muster/issues\n"
+chartApiVersion: v2
+chartFile: muster-1.4.3.tgz
+dateCreated: '2026-07-29T11:49:23.814196Z'
+digest: 5c6a5bdd653c72e6fd40860d22aec00b32f69c4ae199abec0a7224f176c7c71e
+home: https://github.com/giantswarm/muster
+icon: https://s.giantswarm.io/app-icons/muster/1/light.svg
