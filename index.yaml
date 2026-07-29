@@ -742,6 +742,35 @@ entries:
   - annotations:
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agentic-platform-2.5.2.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agentic-platform/refs/tags/v2.5.2/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/agentic-platform/refs/tags/v2.5.2/helm/agentic-platform/values.schema.json
+    apiVersion: v2
+    appVersion: 2.5.2
+    created: "2026-07-29T08:31:55.723562116Z"
+    description: 'Giant Swarm agentic platform — MCP gateway deploy unit, packaged
+      as an app-of-apps meta-package. Renders each component (muster, agentgateway,
+      kagent, klaus-gateway, valkey, agentic-platform-mcps, agent-sandbox) and the
+      consumer-side connectivity layer as a Flux OCIRepository + HelmRelease (or Argo
+      Application), with each component''s version expressed as a value RANGE rather
+      than a Chart.yaml pin — so a component release rolls forward with no PR to this
+      chart. Each component ships its own CRDs (app-owned CRDs, upgraded via Flux
+      CreateReplace); the Gateway API CRDs and GatewayClass remain cluster-level prerequisites
+      — see README. '
+    digest: c6a8d13a15de376925332b8eda02f570c75b6aba500eccc63e2b412e9f1fe742
+    home: https://github.com/giantswarm/agentic-platform
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: agentic-platform
+    sources:
+    - https://github.com/giantswarm/agentic-platform
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/agentic-platform-2.5.2.tgz
+    version: 2.5.2
+  - annotations:
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agentic-platform-2.5.1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agentic-platform/refs/tags/v2.5.1/README.md
       io.giantswarm.application.team: bumblebee
@@ -109220,4 +109249,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-07-29T08:31:39.854089999Z"
+generated: "2026-07-29T08:31:55.720194014Z"
