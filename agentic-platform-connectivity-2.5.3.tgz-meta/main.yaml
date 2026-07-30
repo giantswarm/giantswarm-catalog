@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: bumblebee
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/agentic-platform/issues\n"
+chartApiVersion: v2
+chartFile: agentic-platform-connectivity-2.5.3.tgz
+dateCreated: '2026-07-30T10:42:08.136265Z'
+digest: e343a71e637c8a5fce25df3b1c951abb44dbc9fe828e971d0bf5831ff74da351
+home: https://github.com/giantswarm/agentic-platform
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
