@@ -104135,10 +104135,10 @@ entries:
       io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/security-bundle/refs/tags/v1.17.1/helm/security-bundle/values.schema.json
     apiVersion: v2
     appVersion: 1.17.1
-    created: "2026-07-30T13:09:34.054224792Z"
+    created: "2026-07-30T13:19:23.232749666Z"
     description: A Helm chart for Giant Swarm's collection of open-source security
       tools.
-    digest: 7b28047962b1904cd10559189a89dc65bc4b04698297d08e09f76cc03e7a4745
+    digest: f530518cc9002b958c858cef59fc4a6b7da793bbad4b7f0abaf002d60890a33c
     home: https://github.com/giantswarm/security-bundle
     icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
     name: security-bundle
@@ -109642,4 +109642,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-07-30T13:09:34.053289346Z"
+generated: "2026-07-30T13:19:23.231757229Z"
