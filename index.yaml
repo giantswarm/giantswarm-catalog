@@ -22839,6 +22839,34 @@ entries:
     version: 1.22.2
   dicebear:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/dicebear/issues
+        - name: Upstream project
+          url: https://github.com/dicebear/dicebear
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/dicebear-0.3.3.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/dicebear/refs/tags/v0.3.3/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/dicebear/refs/tags/v0.3.3/helm/dicebear/values.schema.json
+    apiVersion: v2
+    appVersion: 0.3.3
+    created: "2026-07-30T10:22:39.027162221Z"
+    description: Self-hosted DiceBear avatar HTTP API, used to render deterministic
+      agent avatar icons.
+    digest: 5bb27ee96d67fa72bacbd46c4f03ed5fb22e782513e74f7760fc6cb3c4ec388f
+    home: https://github.com/giantswarm/dicebear
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: dicebear
+    sources:
+    - https://github.com/giantswarm/dicebear
+    - https://github.com/dicebear/dicebear
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/dicebear-0.3.3.tgz
+    version: 0.3.3
+  - annotations:
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/dicebear-0.3.2.tgz-meta/main.yaml
@@ -109429,4 +109457,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-07-30T06:21:12.649286777Z"
+generated: "2026-07-30T10:22:39.026181449Z"
