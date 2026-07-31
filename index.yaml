@@ -4,6 +4,29 @@ entries:
   - annotations:
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agent-0.4.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agent/refs/tags/v0.4.0/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/agent/refs/tags/v0.4.0/helm/agent/values.schema.json
+    apiVersion: v2
+    appVersion: 0.4.0
+    created: "2026-07-31T09:28:17.584146153Z"
+    description: Create a kagent agent on the Giant Swarm agentic platform from a
+      small, curated values surface. One chart release renders exactly one Agent custom
+      resource; model configuration, credentials and the muster gateway are platform-admin
+      owned and only referenced by name.
+    digest: 1ef1d87b70712762145772d0142e5b4b49408303e87fcdaad6df42234bac3d4b
+    home: https://github.com/giantswarm/agent
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: agent
+    sources:
+    - https://github.com/giantswarm/agent
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/agent-0.4.0.tgz
+    version: 0.4.0
+  - annotations:
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agent-0.3.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agent/refs/tags/v0.3.0/README.md
       io.giantswarm.application.team: bumblebee
@@ -109670,4 +109693,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-07-30T14:16:31.017667578Z"
+generated: "2026-07-31T09:28:17.583055477Z"
