@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/team: bumblebee
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/muster/issues\n"
+chartApiVersion: v2
+chartFile: muster-crds-1.4.4.tgz
+dateCreated: '2026-08-04T10:50:58.967385Z'
+digest: ba51261337c4adc92f21197dfdd56ea2264b42f9b84a2356b07bee23a3d4a92b
+home: https://github.com/giantswarm/muster
+icon: https://s.giantswarm.io/app-icons/muster/1/light.svg

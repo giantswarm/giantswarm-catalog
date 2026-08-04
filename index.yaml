@@ -90240,6 +90240,40 @@ entries:
         - name: Support
           url: https://github.com/giantswarm/muster/issues
       io.giantswarm.application.audience: all
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/muster-crds-1.4.4.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/muster/refs/tags/v1.4.4/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/muster/refs/tags/v1.4.4/helm/muster-crds/values.schema.json
+    apiVersion: v2
+    appVersion: 1.4.4
+    created: "2026-08-04T10:51:11.406042778Z"
+    description: CRD-only Helm chart for muster - ships the MCPServer and Workflow
+      CustomResourceDefinitions
+    digest: ba51261337c4adc92f21197dfdd56ea2264b42f9b84a2356b07bee23a3d4a92b
+    home: https://github.com/giantswarm/muster
+    icon: https://s.giantswarm.io/app-icons/muster/1/light.svg
+    keywords:
+    - mcp
+    - ai-agents
+    - model-context-protocol
+    - aggregator
+    - crds
+    maintainers:
+    - email: team-bumblebee@giantswarm.io
+      name: Giant Swarm
+    name: muster-crds
+    sources:
+    - https://github.com/giantswarm/muster
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/muster-crds-1.4.4.tgz
+    version: 1.4.4
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/muster/issues
+      io.giantswarm.application.audience: all
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/muster-crds-1.4.3.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/muster/refs/tags/v1.4.3/README.md
       io.giantswarm.application.team: bumblebee
@@ -109806,4 +109840,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-08-04T08:06:51.596073039Z"
+generated: "2026-08-04T10:51:11.404946715Z"
