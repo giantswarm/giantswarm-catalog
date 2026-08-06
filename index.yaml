@@ -20299,6 +20299,39 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/csi-driver-nfs-0.1.0.tgz
     version: 0.1.0
+  csi-external-snapshotter-app:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/csi-external-snapshotter-app/issues
+        - name: Upstream project
+          url: https://github.com/kubernetes-csi/external-snapshotter
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/csi-external-snapshotter-app-0.4.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/csi-external-snapshotter-app/refs/tags/v0.4.0/README.md
+      io.giantswarm.application.team: rocket
+      io.giantswarm.application.upstream-chart-url: https://github.com/kubernetes-csi/external-snapshotter
+      io.giantswarm.application.upstream-chart-version: v8.6.0
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/csi-external-snapshotter-app/refs/tags/v0.4.0/helm/csi-external-snapshotter-app/values.schema.json
+    apiVersion: v2
+    appVersion: 0.4.0
+    created: "2026-08-06T10:18:49.69252067Z"
+    dependencies:
+    - condition: crds.install
+      name: csi-external-snapshotter-crds
+      repository: ""
+      version: 8.6.0
+    description: CSI external snapshotter which deploys CRDs and controllers
+    digest: d3aa4e72516b9d09781425582093be3242e64d03ed99d0d25dd8f1ef8e1f7024
+    home: https://github.com/giantswarm/csi-external-snapshotter-app
+    icon: https://s.giantswarm.io/app-icons/csi/1/dark.svg
+    name: csi-external-snapshotter-app
+    sources:
+    - https://github.com/giantswarm/csi-external-snapshotter-app
+    - https://github.com/kubernetes-csi/external-snapshotter
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/csi-external-snapshotter-app-0.4.0.tgz
+    version: 0.4.0
   datadog:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/datadog-2.6.0.tgz-meta/main.yaml
@@ -110187,4 +110220,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-08-06T08:48:42.130590138Z"
+generated: "2026-08-06T10:18:49.690696972Z"
