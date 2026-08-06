@@ -99069,6 +99069,34 @@ entries:
     version: 0.0.1
   pro:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/pro-1.7.8.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/pro/refs/tags/v1.7.8/README.md
+      io.giantswarm.application.team: planeteers
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/pro/refs/tags/v1.7.8/helm/pro/values.schema.json
+    apiVersion: v2
+    appVersion: 1.7.8
+    created: "2026-08-06T08:40:41.720673219Z"
+    description: Giant Swarm Portfolio Roadmap Organizer (PRO) - MCP server for roadmap
+      management
+    digest: ac7609bc97e554d762f422d26661898b797fdd7075b60edbe422589cff40c446
+    home: https://github.com/giantswarm/pro
+    icon: https://s.giantswarm.io/app-icons/muster/1/light.svg
+    keywords:
+    - roadmap
+    - project-management
+    - mcp
+    - github-projects
+    maintainers:
+    - name: Giant Swarm
+      url: https://www.giantswarm.io
+    name: pro
+    sources:
+    - https://github.com/giantswarm/pro
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/pro-1.7.8.tgz
+    version: 1.7.8
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/pro-1.7.7.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/pro/refs/tags/v1.7.7/README.md
       io.giantswarm.application.team: planeteers
@@ -110099,4 +110127,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-08-05T17:00:22.036490478Z"
+generated: "2026-08-06T08:40:41.719981511Z"
