@@ -41672,6 +41672,30 @@ entries:
           url: https://github.com/giantswarm/kepler-collector/issues
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/kepler-investigator-0.5.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kepler-collector/refs/tags/v0.5.0/README.md
+      io.giantswarm.application.team: tenet
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/kepler-collector/refs/tags/v0.5.0/helm/kepler-investigator/values.schema.json
+    apiVersion: v2
+    appVersion: 0.5.0
+    created: "2026-08-10T14:34:36.008698434Z"
+    description: Receives Tekton failure triggers and posts investigation replies
+      in
+    digest: b3c2ba96627f319670ff26c82781ef4f5fdcaf923b4125590341f9c2a17d4e8b
+    home: https://github.com/giantswarm/kepler-collector
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: kepler-investigator
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/kepler-investigator-0.5.0.tgz
+    version: 0.5.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/kepler-collector/issues
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/kepler-investigator-0.4.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kepler-collector/refs/tags/v0.4.0/README.md
       io.giantswarm.application.team: tenet
@@ -110410,4 +110434,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-08-10T14:33:53.486287929Z"
+generated: "2026-08-10T14:34:36.00734012Z"
