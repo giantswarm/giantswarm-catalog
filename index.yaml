@@ -41553,6 +41553,30 @@ entries:
     version: 0.1.1
   kepler-collector:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/kepler-collector/issues
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/kepler-collector-0.3.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kepler-collector/refs/tags/v0.3.0/README.md
+      io.giantswarm.application.team: tenet
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/kepler-collector/refs/tags/v0.3.0/helm/kepler-collector/values.schema.json
+    apiVersion: v2
+    appVersion: 0.3.0
+    created: "2026-08-10T11:29:43.707656458Z"
+    description: Turns capa e2e test failures into Mimir metrics and Loki logs for
+      failure-triage dashboards.
+    digest: 85f6dfef97a48acdb999cd982f054e5b44748abf242bd01e17747271c697bf05
+    home: https://github.com/giantswarm/kepler-collector
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: kepler-collector
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/kepler-collector-0.3.0.tgz
+    version: 0.3.0
+  - annotations:
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/kepler-collector-0.2.0.tgz-meta/main.yaml
@@ -110285,4 +110309,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-08-07T09:02:14.817733079Z"
+generated: "2026-08-10T11:29:43.706746685Z"
