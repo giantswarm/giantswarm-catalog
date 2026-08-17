@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/team: phoenix
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/klaus-operator/issues\n"
+chartApiVersion: v2
+chartFile: klaus-operator-0.0.130.tgz
+dateCreated: '2026-08-17T11:52:54.394989Z'
+digest: ecd5b871b8650044da7ff6b890082bc876319918cca43f95c37a3ae6e701eb2b
+home: https://github.com/giantswarm/klaus-operator
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
