@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/audience: customers
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: bumblebee
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/mcp-kubernetes/issues\n"
+chartApiVersion: v2
+chartFile: mcp-kubernetes-1.0.31.tgz
+dateCreated: '2026-08-18T08:07:38.811220Z'
+digest: c592a3b41454b237bbea5e111e63ae8f5221a52f4875a09b86d8c63bfcaee568
+home: https://github.com/giantswarm/mcp-kubernetes
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
