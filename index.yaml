@@ -32686,6 +32686,33 @@ entries:
         - name: Upstream project
           url: https://github.com/kubernetes-sigs/gateway-api
       io.giantswarm.application.audience: all
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/gateway-api-crds-1.9.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/gateway-api-crds-app/refs/tags/v1.9.1/README.md
+      io.giantswarm.application.team: cabbage
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/gateway-api-crds-app/refs/tags/v1.9.1/helm/gateway-api-crds/values.schema.json
+    apiVersion: v2
+    appVersion: 'gateway-api: v1.6.1, gateway-api-inference-extension: v1.5.0'
+    created: "2026-08-19T07:31:25.780884786Z"
+    description: App to install Gateway API CRDs to Giantswarm Clusters
+    digest: e4dceaaeaf6f48b16922f9b144e8eca3ab0e1584ca361eac7d22b2352375d5c7
+    home: https://github.com/giantswarm/gateway-api-crds-app
+    icon: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
+    kubeVersion: '>=1.25.0-0'
+    name: gateway-api-crds
+    sources:
+    - https://github.com/kubernetes-sigs/gateway-api
+    - https://github.com/kubernetes-sigs/gateway-api-inference-extension
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/gateway-api-crds-1.9.1.tgz
+    version: 1.9.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/gateway-api-crds-app/issues
+        - name: Upstream project
+          url: https://github.com/kubernetes-sigs/gateway-api
+      io.giantswarm.application.audience: all
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/gateway-api-crds-1.9.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/gateway-api-crds-app/refs/tags/v1.9.0/README.md
       io.giantswarm.application.team: cabbage
@@ -111974,4 +112001,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-08-18T10:35:58.022945746Z"
+generated: "2026-08-19T07:31:25.780190542Z"
