@@ -143,6 +143,31 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/agent-0.1.0.tgz
     version: 0.1.0
+  agent-platform-mcps:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/agent-platform-mcps/issues
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agent-platform-mcps-0.6.4.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agent-platform-mcps/refs/tags/v0.6.4/README.md
+      io.giantswarm.application.team: team-bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/agent-platform-mcps/refs/tags/v0.6.4/helm/agent-platform-mcps/values.schema.json
+    apiVersion: v2
+    appVersion: 0.6.4
+    created: "2026-08-20T09:20:19.386258099Z"
+    description: Chart to deploy MCPs for the Giant Swarm Agent Platform.
+    digest: 0e032896faa6b6bc0b4ee71abd3b69b8fe7244dcca4fa7492a4fdea91d206f90
+    home: https://github.com/giantswarm/agent-platform-mcps
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: agent-platform-mcps
+    sources:
+    - https://github.com/giantswarm/agent-platform-mcps
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/agent-platform-mcps-0.6.4.tgz
+    version: 0.6.4
   agent-sandbox:
   - annotations:
       artifacthub.io/license: Apache-2.0
@@ -112585,4 +112610,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-08-20T09:04:24.43180796Z"
+generated: "2026-08-20T09:20:19.385248628Z"
