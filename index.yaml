@@ -143,6 +143,39 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/agent-0.1.0.tgz
     version: 0.1.0
+  agent-platform:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/agent-platform/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agent-platform-2.5.5.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agent-platform/refs/tags/v2.5.5/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/agent-platform/refs/tags/v2.5.5/helm/agent-platform/values.schema.json
+    apiVersion: v2
+    appVersion: 2.5.5
+    created: "2026-08-20T09:23:41.692445128Z"
+    description: 'Giant Swarm Agent Platform — MCP gateway deploy unit, packaged as
+      an app-of-apps meta-package. Renders each component (muster, agentgateway, kagent,
+      klaus-gateway, valkey, agent-platform-mcps, agent-sandbox) and the consumer-side
+      connectivity layer as a Flux OCIRepository + HelmRelease (or Argo Application),
+      with each component''s version expressed as a value RANGE rather than a Chart.yaml
+      pin — so a component release rolls forward with no PR to this chart. Each component
+      ships its own CRDs (app-owned CRDs, upgraded via Flux CreateReplace); the Gateway
+      API CRDs and GatewayClass remain cluster-level prerequisites — see README. '
+    digest: 6129bc8281a6e72c0a3b16981ac4ee03c405d9091a1c383eceb2af6dcbe81b8d
+    home: https://github.com/giantswarm/agent-platform
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: agent-platform
+    sources:
+    - https://github.com/giantswarm/agent-platform
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/agent-platform-2.5.5.tgz
+    version: 2.5.5
   agent-platform-connectivity:
   - annotations:
       artifacthub.io/license: Apache-2.0
@@ -112644,4 +112677,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-08-20T09:23:17.19977041Z"
+generated: "2026-08-20T09:23:41.688762029Z"
