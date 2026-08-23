@@ -23716,6 +23716,34 @@ entries:
           url: https://github.com/dicebear/dicebear
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/dicebear-0.3.6.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/dicebear/refs/tags/v0.3.6/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/dicebear/refs/tags/v0.3.6/helm/dicebear/values.schema.json
+    apiVersion: v2
+    appVersion: 0.3.6
+    created: "2026-08-23T12:40:13.51395528Z"
+    description: Self-hosted DiceBear avatar HTTP API, used to render deterministic
+      agent avatar icons.
+    digest: 1dec1876ca394f3e955ede083907d87d777d62c2bb1d0de514951af628086034
+    home: https://github.com/giantswarm/dicebear
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: dicebear
+    sources:
+    - https://github.com/giantswarm/dicebear
+    - https://github.com/dicebear/dicebear
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/dicebear-0.3.6.tgz
+    version: 0.3.6
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/dicebear/issues
+        - name: Upstream project
+          url: https://github.com/dicebear/dicebear
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/dicebear-0.3.5.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/dicebear/refs/tags/v0.3.5/README.md
       io.giantswarm.application.team: bumblebee
@@ -115081,4 +115109,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-08-23T12:39:45.051703505Z"
+generated: "2026-08-23T12:40:13.512992194Z"
