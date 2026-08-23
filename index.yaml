@@ -8,6 +8,33 @@ entries:
           url: https://github.com/giantswarm/agent/issues
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agent-0.4.3.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agent/refs/tags/v0.4.3/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/agent/refs/tags/v0.4.3/helm/agent/values.schema.json
+    apiVersion: v2
+    appVersion: 0.4.3
+    created: "2026-08-23T12:38:35.281309173Z"
+    description: Create a kagent agent on the Giant Swarm Agent Platform from a small,
+      curated values surface. One chart release renders exactly one Agent custom resource;
+      model configuration, credentials and the muster gateway are platform-admin owned
+      and only referenced by name.
+    digest: 86f6a1a9fdd0f66f468c0ceb80bfd863c30df13537b082f13b49c9ceb9482dd0
+    home: https://github.com/giantswarm/agent
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: agent
+    sources:
+    - https://github.com/giantswarm/agent
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/agent-0.4.3.tgz
+    version: 0.4.3
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/agent/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agent-0.4.2.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agent/refs/tags/v0.4.2/README.md
       io.giantswarm.application.team: bumblebee
@@ -115030,4 +115057,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-08-23T08:43:38.786921015Z"
+generated: "2026-08-23T12:38:35.280047237Z"
