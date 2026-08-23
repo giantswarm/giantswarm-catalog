@@ -94274,6 +94274,40 @@ entries:
         - name: Support
           url: https://github.com/giantswarm/muster/issues
       io.giantswarm.application.audience: all
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/muster-crds-1.7.10.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/muster/refs/tags/v1.7.10/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/muster/refs/tags/v1.7.10/helm/muster-crds/values.schema.json
+    apiVersion: v2
+    appVersion: 1.7.10
+    created: "2026-08-23T08:42:57.560265086Z"
+    description: CRD-only Helm chart for muster - ships the MCPServer and Workflow
+      CustomResourceDefinitions
+    digest: a8d95bfcd0f5269fbaf3008e0f6481f912ad693c3ed7a6beb94660394e24ba97
+    home: https://github.com/giantswarm/muster
+    icon: https://s.giantswarm.io/app-icons/muster/1/light.svg
+    keywords:
+    - mcp
+    - ai-agents
+    - model-context-protocol
+    - aggregator
+    - crds
+    maintainers:
+    - email: team-bumblebee@giantswarm.io
+      name: Giant Swarm
+    name: muster-crds
+    sources:
+    - https://github.com/giantswarm/muster
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/muster-crds-1.7.10.tgz
+    version: 1.7.10
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/muster/issues
+      io.giantswarm.application.audience: all
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/muster-crds-1.7.9.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/muster/refs/tags/v1.7.9/README.md
       io.giantswarm.application.team: bumblebee
@@ -114963,4 +114997,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-08-23T08:03:06.131275494Z"
+generated: "2026-08-23T08:42:57.55907675Z"
