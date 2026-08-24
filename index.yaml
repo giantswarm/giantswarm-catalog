@@ -40577,6 +40577,40 @@ entries:
           url: https://github.com/kagent-dev/kagent
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/kagent-0.1.37.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kagent-app/refs/tags/v0.1.37/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/kagent-app/refs/tags/v0.1.37/helm/kagent/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.37
+    created: "2026-08-24T08:37:44.764575672Z"
+    dependencies:
+    - name: kagent
+      repository: file://charts/kagent
+      version: 0.9.12
+    description: Giant Swarm packaging of the upstream kagent-dev/kagent controller
+      (Kubernetes-native AI agent runtime). The upstream app chart is vendored as
+      a subchart; the kagent.dev and kmcp CRDs ship in this chart's crds/ directory
+      so the app owns its CRDs (delivered via Flux CreateReplace).
+    digest: 6bb5a643c7378d5eefb2c30d6f4f86ac00116f530b8f346c021b26ea94de029b
+    home: https://github.com/giantswarm/kagent-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: kagent
+    sources:
+    - https://github.com/giantswarm/kagent-app
+    - https://github.com/kagent-dev/kagent
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/kagent-0.1.37.tgz
+    version: 0.1.37
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/kagent-app/issues
+        - name: Upstream project
+          url: https://github.com/kagent-dev/kagent
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/kagent-0.1.36.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kagent-app/refs/tags/v0.1.36/README.md
       io.giantswarm.application.team: bumblebee
@@ -116139,4 +116173,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-08-24T08:37:29.590615677Z"
+generated: "2026-08-24T08:37:44.721008227Z"
