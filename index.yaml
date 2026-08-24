@@ -366,6 +366,39 @@ entries:
           url: https://github.com/giantswarm/agent-platform/issues
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agent-platform-connectivity-2.5.9.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agent-platform/refs/tags/v2.5.9/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/agent-platform/refs/tags/v2.5.9/helm/agent-platform-connectivity/values.schema.json
+    apiVersion: v2
+    appVersion: 2.5.9
+    created: "2026-08-24T07:00:04.841211361Z"
+    description: 'Giant Swarm Agent Platform — connectivity / integration layer. Renders
+      the consumer-side wiring that turns the platform components into a working whole
+      on a cluster: the public muster route and the agentgateway data-plane Gateway
+      + AgentgatewayParameters + HTTPRoutes + BackendTrafficPolicies, the NetworkPolicies,
+      the kagent and klaus-gateway routes, the kagent declarative-agent wiring, and
+      the CloudNativePG Cluster. Ships NO workloads of its own — those are separate
+      releases rendered by the agent-platform meta-chart. The CRDs these CRs consume
+      are app-owned: each component (agentgateway, kagent, …) ships its own CRDs,
+      so this chart''s HelmRelease dependsOn those CRD-owning component releases. '
+    digest: a4eaa9badf897b18ed5ce5a08b4d0c22b74d6f0c7d2e72ca4028ddea6f01cb97
+    home: https://github.com/giantswarm/agent-platform
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: agent-platform-connectivity
+    sources:
+    - https://github.com/giantswarm/agent-platform
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/agent-platform-connectivity-2.5.9.tgz
+    version: 2.5.9
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/agent-platform/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agent-platform-connectivity-2.5.8.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agent-platform/refs/tags/v2.5.8/README.md
       io.giantswarm.application.team: bumblebee
@@ -115744,4 +115777,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-08-24T06:59:57.686770873Z"
+generated: "2026-08-24T07:00:04.835582272Z"
