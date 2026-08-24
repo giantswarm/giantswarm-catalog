@@ -46858,6 +46858,34 @@ entries:
       artifacthub.io/links: |
         - name: Support
           url: https://github.com/giantswarm/klaus-gateway/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/klaus-gateway-0.30.14.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/klaus-gateway/refs/tags/v0.30.14/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/klaus-gateway/refs/tags/v0.30.14/helm/klaus-gateway/values.schema.json
+      klaus-gateway.giantswarm.io/agentgateway-version: v1.1.0
+    apiVersion: v2
+    appVersion: 0.30.14
+    created: "2026-08-24T06:55:41.240412722Z"
+    description: Channel and routing gateway in front of klaus instances; uses agentgateway
+      as the LLM/MCP/A2A data plane
+    digest: bd37dd54066aed27636f5221ef59800ed9bf1703448bf2128e3ab7222c028b78
+    home: https://github.com/giantswarm/klaus-gateway
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    maintainers:
+    - name: Giant Swarm
+      url: https://www.giantswarm.io
+    name: klaus-gateway
+    sources:
+    - https://github.com/giantswarm/klaus-gateway
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/klaus-gateway-0.30.14.tgz
+    version: 0.30.14
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/klaus-gateway/issues
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/klaus-gateway-0.30.13.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/klaus-gateway/refs/tags/v0.30.13/README.md
       io.giantswarm.application.team: bumblebee
@@ -115684,4 +115712,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-08-24T06:55:32.756263183Z"
+generated: "2026-08-24T06:55:41.237948864Z"
