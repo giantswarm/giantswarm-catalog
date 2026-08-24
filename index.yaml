@@ -624,6 +624,30 @@ entries:
           url: https://github.com/giantswarm/agent-platform-mcps/issues
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agent-platform-mcps-0.6.7.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agent-platform-mcps/refs/tags/v0.6.7/README.md
+      io.giantswarm.application.team: team-bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/agent-platform-mcps/refs/tags/v0.6.7/helm/agent-platform-mcps/values.schema.json
+    apiVersion: v2
+    appVersion: 0.6.7
+    created: "2026-08-24T08:31:37.866639524Z"
+    description: Chart to deploy MCPs for the Giant Swarm Agent Platform.
+    digest: d5dd8852f1b4c2f665ac69ea21a5f55abb8daba97444306fab8d19e1cb41dc9f
+    home: https://github.com/giantswarm/agent-platform-mcps
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: agent-platform-mcps
+    sources:
+    - https://github.com/giantswarm/agent-platform-mcps
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/agent-platform-mcps-0.6.7.tgz
+    version: 0.6.7
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/agent-platform-mcps/issues
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agent-platform-mcps-0.6.6.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agent-platform-mcps/refs/tags/v0.6.6/README.md
       io.giantswarm.application.team: team-bumblebee
@@ -116020,4 +116044,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-08-24T08:29:08.955002215Z"
+generated: "2026-08-24T08:31:37.865724393Z"
