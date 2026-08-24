@@ -104632,6 +104632,28 @@ entries:
     version: 1.0.1
   pagerduty-opsgenie-proxy:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/pagerduty-opsgenie-proxy/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/pagerduty-opsgenie-proxy-2.8.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/pagerduty-opsgenie-proxy/refs/tags/v2.8.1/README.md
+      io.giantswarm.application.team: planeteers
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/pagerduty-opsgenie-proxy/refs/tags/v2.8.1/helm/pagerduty-opsgenie-proxy/values.schema.json
+    apiVersion: v2
+    appVersion: 2.8.1
+    created: "2026-08-24T13:53:08.309407221Z"
+    description: Please add description
+    digest: 667f992e6e4a870581cb436cd8fddc9d3af52e67dbac1c034986baa0f2b5ed69
+    home: https://github.com/giantswarm/pagerduty-opsgenie-proxy
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: pagerduty-opsgenie-proxy
+    sources:
+    - https://github.com/giantswarm/pagerduty-opsgenie-proxy
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/pagerduty-opsgenie-proxy-2.8.1.tgz
+    version: 2.8.1
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/pagerduty-opsgenie-proxy-2.8.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/pagerduty-opsgenie-proxy/refs/tags/v2.8.0/README.md
       io.giantswarm.application.team: planeteers
@@ -116821,4 +116843,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-08-24T12:50:40.568055506Z"
+generated: "2026-08-24T13:53:08.308714965Z"
