@@ -1628,6 +1628,39 @@ entries:
     version: 0.1.1
   agentgateway:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/agentgateway/issues
+        - name: Upstream project
+          url: https://github.com/agentgateway/agentgateway
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agentgateway-1.0.11.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agentgateway/refs/tags/v1.0.11/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/agentgateway/refs/tags/v1.0.11/helm/agentgateway/values.schema.json
+    apiVersion: v2
+    appVersion: 1.0.11
+    created: "2026-08-24T10:47:27.756567175Z"
+    dependencies:
+    - name: agentgateway
+      repository: file://charts/agentgateway
+      version: v1.4.1
+    description: Giant Swarm packaging of the upstream agentgateway controller (kgateway-based
+      control plane + data-plane proxy), shipping its agentgateway.dev CRDs as app-owned
+      CRDs for the Giant Swarm Agent Platform.
+    digest: 53f1ccc9ca9e525ee499d5bfcbd1908e5c6718c5cc8b819a8dd8e004d13cd434
+    home: https://github.com/giantswarm/agentgateway
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: agentgateway
+    sources:
+    - https://github.com/giantswarm/agentgateway
+    - https://github.com/agentgateway/agentgateway
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/agentgateway-1.0.11.tgz
+    version: 1.0.11
+  - annotations:
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agentgateway-0.1.0.tgz-meta/main.yaml
@@ -116623,4 +116656,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-08-24T10:29:53.590123124Z"
+generated: "2026-08-24T10:47:27.745915549Z"
