@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: shield
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/trivy-app/issues\n"
+chartApiVersion: v2
+chartFile: trivy-0.18.0.tgz
+dateCreated: '2026-08-25T02:16:04.180856Z'
+digest: 80ce4623ee41ac336b04fd68f0e3a03339c659e08219e0f3cb30146118e53458
+home: https://github.com/giantswarm/trivy-app
+icon: https://s.giantswarm.io/app-icons/trivy/1/light.svg
