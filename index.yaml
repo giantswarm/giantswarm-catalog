@@ -1937,6 +1937,31 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/agent-platform-mcps-0.6.4.tgz
     version: 0.6.4
+  agent-platform-standalone:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/agent-platform-standalone/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agent-platform-standalone-0.1.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agent-platform-standalone/refs/tags/v0.1.1/README.md
+      io.giantswarm.application.team: TEAM-NAME
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/agent-platform-standalone/refs/tags/v0.1.1/helm/agent-platform-standalone/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.1
+    created: "2026-08-27T20:23:27.915207681Z"
+    description: Please add description
+    digest: a29a650a1f17497772e1777131d80d2683042857485b5bcf648176b4f2ba4f9f
+    home: https://github.com/giantswarm/agent-platform-standalone
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: agent-platform-standalone
+    sources:
+    - https://github.com/some-org/some-repo
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/agent-platform-standalone-0.1.1.tgz
+    version: 0.1.1
   agent-sandbox:
   - annotations:
       artifacthub.io/license: Apache-2.0
@@ -120754,4 +120779,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-08-27T20:19:50.796421585Z"
+generated: "2026-08-27T20:23:27.914714902Z"
