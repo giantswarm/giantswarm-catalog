@@ -286,6 +286,38 @@ entries:
           url: https://github.com/giantswarm/agent-platform/issues
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agent-platform-3.0.4.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agent-platform/refs/tags/v3.0.4/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/agent-platform/refs/tags/v3.0.4/helm/agent-platform/values.schema.json
+    apiVersion: v2
+    appVersion: 3.0.4
+    created: "2026-08-27T20:18:43.393907319Z"
+    description: 'Giant Swarm Agent Platform — MCP gateway deploy unit, packaged as
+      an app-of-apps meta-package. Renders each component (muster, agentgateway, kagent,
+      klaus-gateway, valkey, agent-platform-mcps, agent-sandbox) and the consumer-side
+      connectivity layer as a Flux OCIRepository + HelmRelease (or Argo Application),
+      with each component''s version expressed as a value RANGE rather than a Chart.yaml
+      pin — so a component release rolls forward with no PR to this chart. Each component
+      ships its own CRDs (app-owned CRDs, upgraded via Flux CreateReplace); the Gateway
+      API CRDs and GatewayClass remain cluster-level prerequisites — see README. '
+    digest: 69b3218c4b68a5519589a626d40d102732ffd8be3a213dd5b7ba68b7eb973584
+    home: https://github.com/giantswarm/agent-platform
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: agent-platform
+    sources:
+    - https://github.com/giantswarm/agent-platform
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/agent-platform-3.0.4.tgz
+    version: 3.0.4
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/agent-platform/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agent-platform-3.0.3.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agent-platform/refs/tags/v3.0.3/README.md
       io.giantswarm.application.team: bumblebee
@@ -120664,4 +120696,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-08-27T20:18:31.148195443Z"
+generated: "2026-08-27T20:18:43.390413227Z"
