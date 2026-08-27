@@ -1,0 +1,10 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Values",
+    "description": "The chart takes no values of its own, so the upstream values.yaml is empty and parses to null. The schema stays permissive because the Giant Swarm app platform merges the <cluster>-cluster-values ConfigMap into every App's values, and a strict schema would reject those keys on install.",
+    "type": [
+        "object",
+        "null"
+    ],
+    "additionalProperties": true
+}
