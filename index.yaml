@@ -44841,6 +44841,30 @@ entries:
           url: https://github.com/giantswarm/kepler-collector/issues
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/kepler-collector-0.8.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kepler-collector/refs/tags/v0.8.0/README.md
+      io.giantswarm.application.team: tenet
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/kepler-collector/refs/tags/v0.8.0/helm/kepler-collector/values.schema.json
+    apiVersion: v2
+    appVersion: 0.8.0
+    created: "2026-08-28T10:13:13.747746842Z"
+    description: Turns capa e2e test failures into Mimir metrics and Loki logs for
+      failure-triage dashboards.
+    digest: 33b33dfddd087f99674040f868a207a36bb51ea0026535c1200b3b4a94eed3b2
+    home: https://github.com/giantswarm/kepler-collector
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: kepler-collector
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/kepler-collector-0.8.0.tgz
+    version: 0.8.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/kepler-collector/issues
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/kepler-collector-0.7.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kepler-collector/refs/tags/v0.7.0/README.md
       io.giantswarm.application.team: tenet
@@ -120965,4 +120989,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-08-28T08:06:47.007019656Z"
+generated: "2026-08-28T10:13:13.746664471Z"
