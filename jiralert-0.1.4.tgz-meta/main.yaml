@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: shield
+chartApiVersion: v2
+chartFile: jiralert-0.1.4.tgz
+dateCreated: '2026-09-01T18:26:02.426282Z'
+digest: 1415deb4496edf5b211fc7e85bd2706e31f484815e6921935ebac478b1287fa5
+home: https://github.com/giantswarm/jiralert-app
+icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg

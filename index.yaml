@@ -44752,6 +44752,24 @@ entries:
   - annotations:
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/jiralert-0.1.4.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/jiralert-app/refs/tags/v0.1.4/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/jiralert-app/refs/tags/v0.1.4/helm/jiralert/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.4
+    created: "2026-09-01T18:26:15.947804986Z"
+    description: Alertmanager plugin that creates Jira tickets
+    digest: 1415deb4496edf5b211fc7e85bd2706e31f484815e6921935ebac478b1287fa5
+    home: https://github.com/giantswarm/jiralert-app
+    icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+    name: jiralert
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/jiralert-0.1.4.tgz
+    version: 0.1.4
+  - annotations:
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/jiralert-0.1.3.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/jiralert-app/refs/tags/v0.1.3/README.md
       io.giantswarm.application.team: shield
@@ -125306,4 +125324,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-01T18:20:00.227892079Z"
+generated: "2026-09-01T18:26:15.946975717Z"
