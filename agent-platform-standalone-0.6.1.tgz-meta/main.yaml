@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/team: bumblebee
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: "- name: Support\n  url: https://github.com/giantswarm/agent-platform-standalone/issues\n"
+chartApiVersion: v2
+chartFile: agent-platform-standalone-0.6.1.tgz
+dateCreated: '2026-09-01T10:19:57.793957Z'
+digest: 464d941782d90aa1dddf91bf28ac97939eae33d0ae301ae0f0c84186809438dd
+home: https://github.com/giantswarm/agent-platform-standalone
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
