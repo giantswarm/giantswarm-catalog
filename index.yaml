@@ -28827,6 +28827,37 @@ entries:
         - name: Upstream project
           url: https://github.com/envoyproxy/gateway
       io.giantswarm.application.audience: all
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/envoy-gateway-1.10.3.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/envoy-gateway-app/refs/tags/v1.10.3/README.md
+      io.giantswarm.application.team: cabbage
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/envoy-gateway-app/refs/tags/v1.10.3/helm/envoy-gateway/values.schema.json
+    apiVersion: v2
+    appVersion: 1.9.1
+    created: "2026-09-01T11:39:59.27044461Z"
+    description: The Helm chart for Envoy Gateway
+    digest: 0f0a7655643c335b6174ccf4bd0871e341641c4050eaae2d314fba5f613b63d0
+    home: https://github.com/giantswarm/envoy-gateway-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    keywords:
+    - gateway-api
+    - envoyproxy
+    - envoy-gateway
+    - eg
+    name: envoy-gateway
+    sources:
+    - https://github.com/envoyproxy/gateway
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/envoy-gateway-1.10.3.tgz
+    version: 1.10.3
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/envoy-gateway-app/issues
+        - name: Upstream project
+          url: https://github.com/envoyproxy/gateway
+      io.giantswarm.application.audience: all
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/envoy-gateway-1.10.2.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/envoy-gateway-app/refs/tags/v1.10.2/README.md
       io.giantswarm.application.team: cabbage
@@ -124856,4 +124887,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-01T10:36:03.625229207Z"
+generated: "2026-09-01T11:39:59.267871436Z"
