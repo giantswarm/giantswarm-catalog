@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/team: shield
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: "- name: Support\n  url: https://github.com/giantswarm/kyverno-playground/issues\n"
+chartApiVersion: v2
+chartFile: kyverno-playground-0.0.1.tgz
+dateCreated: '2026-09-03T14:05:08.677384Z'
+digest: f9f0c1a52cf837d3ac1f4816ee22e565ea8eeef0aba9857d27ec2399d1f78e06
+home: https://github.com/giantswarm/kyverno-playground
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

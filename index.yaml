@@ -64978,6 +64978,35 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/kyverno-crds-1.11.0.tgz
     version: 1.11.0
+  kyverno-playground:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/kyverno-playground/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/kyverno-playground-0.0.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kyverno-playground/refs/tags/v0.0.1/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/kyverno-playground/refs/tags/v0.0.1/helm/kyverno-playground/values.schema.json
+    apiVersion: v2
+    appVersion: v0.10.4
+    created: "2026-09-03T14:05:26.580355489Z"
+    dependencies:
+    - name: kyverno-playground
+      repository: ""
+      version: 0.10.5
+    description: Kyverno Playground Web Application
+    digest: f9f0c1a52cf837d3ac1f4816ee22e565ea8eeef0aba9857d27ec2399d1f78e06
+    home: https://github.com/giantswarm/kyverno-playground
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: kyverno-playground
+    sources:
+    - https://github.com/some-org/some-repo
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/kyverno-playground-0.0.1.tgz
+    version: 0.0.1
   kyverno-policies:
   - annotations:
       artifacthub.io/license: Apache-2.0
@@ -128944,4 +128973,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-03T13:34:29.750733092Z"
+generated: "2026-09-03T14:05:26.575202434Z"
