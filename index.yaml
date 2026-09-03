@@ -305,6 +305,43 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/agent-0.1.0.tgz
     version: 0.1.0
+  agent-manager:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/agent-manager/issues
+      io.giantswarm.application.audience: customers
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agent-manager-0.1.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agent-manager/refs/tags/v0.1.0/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/agent-manager/refs/tags/v0.1.0/helm/agent-manager/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2026-09-03T15:37:39.005023232Z"
+    description: Agent lifecycle service for the Agent Platform — creates, updates,
+      deletes and inspects kagent agents as Flux HelmReleases of the agent chart,
+      validated against the chart schema, exposed as REST and MCP
+    digest: d1bb1c37cd83f7b5130fa921b4ea2bb0d6134c3b2b5cd549ab12382dc4663cfc
+    home: https://github.com/giantswarm/agent-manager
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    keywords:
+    - mcp
+    - agents
+    - kagent
+    - flux
+    - agent-platform
+    maintainers:
+    - email: team-bumblebee@giantswarm.io
+      name: Giant Swarm
+    name: agent-manager
+    sources:
+    - https://github.com/giantswarm/agent-manager
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/agent-manager-0.1.0.tgz
+    version: 0.1.0
   agent-platform:
   - annotations:
       artifacthub.io/license: Apache-2.0
@@ -129158,4 +129195,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-03T15:05:10.326903042Z"
+generated: "2026-09-03T15:37:39.003716147Z"
