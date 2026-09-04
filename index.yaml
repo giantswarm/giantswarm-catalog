@@ -2820,6 +2820,102 @@ entries:
           url: https://github.com/giantswarm/agent-platform-standalone/issues
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agent-platform-standalone-0.35.9.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agent-platform-standalone/refs/tags/v0.35.9/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/agent-platform-standalone/refs/tags/v0.35.9/helm/agent-platform-standalone/values.schema.json
+    apiVersion: v2
+    appVersion: 0.35.9
+    created: "2026-09-04T12:38:09.523347514Z"
+    dependencies:
+    - condition: components.muster.enabled
+      name: muster
+      repository: oci://gsoci.azurecr.io/charts/giantswarm
+      version: 5.7.18
+    - condition: components.valkey.enabled
+      name: valkey
+      repository: oci://gsoci.azurecr.io/charts/giantswarm
+      version: 0.1.4
+    - condition: components.kagent.enabled
+      name: kagent
+      repository: oci://gsoci.azurecr.io/charts/giantswarm
+      version: 0.1.40
+    - condition: components.agentgateway.enabled
+      name: agentgateway
+      repository: oci://gsoci.azurecr.io/charts/giantswarm
+      version: 2.0.4
+    - condition: components.agent-platform-mcps.enabled
+      name: agent-platform-mcps
+      repository: oci://gsoci.azurecr.io/charts/giantswarm
+      version: 0.6.8
+    - condition: components.klaus-gateway.enabled
+      name: klaus-gateway
+      repository: oci://gsoci.azurecr.io/charts/giantswarm
+      version: 0.38.1
+    - condition: components.dicebear.enabled
+      name: dicebear
+      repository: oci://gsoci.azurecr.io/charts/giantswarm
+      version: 0.3.8
+    - condition: components.agent-sandbox.enabled
+      name: agent-sandbox
+      repository: oci://gsoci.azurecr.io/charts/giantswarm
+      version: 0.2.26
+    - condition: components.mcp-kubernetes.enabled
+      name: mcp-kubernetes
+      repository: oci://gsoci.azurecr.io/charts/giantswarm
+      version: 1.1.1
+    - condition: components.backstage.enabled
+      name: backstage
+      repository: oci://gsoci.azurecr.io/charts/giantswarm
+      version: 0.219.1
+    - condition: components.cloudnative-pg.enabled
+      name: cloudnative-pg
+      repository: oci://ghcr.io/cloudnative-pg/charts
+      version: 0.29.0
+    - condition: components.model-manager.enabled
+      name: model-manager
+      repository: oci://gsoci.azurecr.io/charts/giantswarm
+      version: 0.16.0
+    - condition: components.agent-manager.enabled
+      name: agent-manager
+      repository: oci://gsoci.azurecr.io/charts/giantswarm
+      version: 0.2.0
+    - condition: components.kserve.enabled
+      name: kserve-crd
+      repository: oci://gsoci.azurecr.io/charts/giantswarm
+      version: 0.2.0
+    - condition: components.kserve.enabled
+      name: kserve-resources
+      repository: oci://gsoci.azurecr.io/charts/giantswarm
+      version: 0.2.0
+    - condition: components.kserve.llmisvc.enabled
+      name: kserve-llmisvc-resources
+      repository: oci://gsoci.azurecr.io/charts/giantswarm
+      version: 0.2.0
+    description: 'Giant Swarm Agent Platform as one plain Helm chart: muster (MCP
+      gateway), kagent (agent runtime), agentgateway (data plane), valkey, the platform
+      MCP servers, klaus-gateway, DiceBear avatars, agent-sandbox, Backstage and the
+      CloudNativePG operator as dependencies, plus the wiring (routes, gateway, network
+      policies) that makes them one platform. Installs on any conformant Kubernetes
+      cluster with `helm install`; no GitOps controller required. '
+    digest: 8bdcc82788b7c03243f4097729edd33f2cf4639c32f2aa9d56e6c7f045320ddd
+    home: https://github.com/giantswarm/agent-platform-standalone
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: agent-platform-standalone
+    sources:
+    - https://github.com/giantswarm/agent-platform-standalone
+    - https://github.com/giantswarm/agent-platform
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/agent-platform-standalone-0.35.9.tgz
+    version: 0.35.9
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/agent-platform-standalone/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agent-platform-standalone-0.35.8.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agent-platform-standalone/refs/tags/v0.35.8/README.md
       io.giantswarm.application.team: bumblebee
@@ -132093,4 +132189,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-04T12:24:37.965001492Z"
+generated: "2026-09-04T12:38:09.371924583Z"
