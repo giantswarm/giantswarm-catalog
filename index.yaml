@@ -51424,6 +51424,30 @@ entries:
           url: https://github.com/giantswarm/inspektor-gadget-app/issues
         - name: Upstream project
           url: https://github.com/some-org/some-repo
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/inspektor-gadget-0.1.7.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/inspektor-gadget-app/refs/tags/v0.1.7/README.md
+      io.giantswarm.application.team: planeteers
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/inspektor-gadget-app/refs/tags/v0.1.7/helm/inspektor-gadget/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2026-09-05T07:09:57.627918983Z"
+    description: Please add description
+    digest: 29a5ea0890c55196743184295b9313c87d45dedb7be7497d533d460b54ffd318
+    home: https://github.com/giantswarm/inspektor-gadget-app
+    icon: https://s.giantswarm.io/app-icons/inspektor-gadget/1/light.svg
+    name: inspektor-gadget
+    sources:
+    - https://github.com/some-org/some-repo
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/inspektor-gadget-0.1.7.tgz
+    version: 0.1.7
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/inspektor-gadget-app/issues
+        - name: Upstream project
+          url: https://github.com/some-org/some-repo
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/inspektor-gadget-0.1.6.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/inspektor-gadget-app/refs/tags/v0.1.6/README.md
       io.giantswarm.application.team: planeteers
@@ -136723,4 +136747,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-05T07:09:40.545033539Z"
+generated: "2026-09-05T07:09:57.627056312Z"
