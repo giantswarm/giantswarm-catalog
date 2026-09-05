@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/audience: customers
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: team-planeteers
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/mcp-capi/issues\n"
+chartApiVersion: v2
+chartFile: mcp-capi-0.2.0.tgz
+dateCreated: '2026-09-05T14:56:40.262086Z'
+digest: db9715cf7958ed08d63dbac37405b60e549a49b519540845ebfee68cd1d5e2ab
+home: https://github.com/giantswarm/mcp-capi
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
