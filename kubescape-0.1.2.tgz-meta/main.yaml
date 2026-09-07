@@ -1,0 +1,14 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: shield
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/kubescape-app/issues\n\
+    - name: Upstream project\n  url: https://github.com/kubescape/helm-charts\n"
+chartApiVersion: v2
+chartFile: kubescape-0.1.2.tgz
+dateCreated: '2026-09-07T14:25:21.701312Z'
+digest: 76441e3024c16c4ea0a588437e973da3ccd4b31546250a21f949a2dfb8e58ad0
+home: https://github.com/giantswarm/kubescape-app
+icon: https://s.giantswarm.io/app-icons/kubescape/1/color.svg
