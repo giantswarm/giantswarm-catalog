@@ -138278,6 +138278,40 @@ entries:
     version: 0.7.0
   trivy-operator:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/trivy-operator-app/issues
+        - name: Upstream project
+          url: https://github.com/aquasecurity/trivy-operator
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.15.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/trivy-operator-app/refs/tags/v0.15.0/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/trivy-operator-app/refs/tags/v0.15.0/helm/trivy-operator/values.schema.json
+    apiVersion: v2
+    appVersion: 0.15.0
+    created: "2026-09-07T17:19:44.961932976Z"
+    dependencies:
+    - name: trivy-operator
+      repository: ""
+      version: 0.36.0
+    description: A Giant Swarm App for trivy-operator, the cluster security tool from
+      Aqua Security.
+    digest: 3fb4c572be8eee345e0d2e14ecdb27d31084c1a6f0b754952125fb71bb0c2c77
+    home: https://github.com/giantswarm/trivy-operator-app
+    icon: https://s.giantswarm.io/app-icons/trivy/1/light.svg
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/trivy-operator-app
+    name: trivy-operator
+    sources:
+    - https://github.com/aquasecurity/trivy-operator
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.15.0.tgz
+    version: 0.15.0
+  - annotations:
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/trivy-operator-0.14.0.tgz-meta/main.yaml
@@ -140224,4 +140258,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-07T17:18:45.55799066Z"
+generated: "2026-09-07T17:19:44.955704103Z"
