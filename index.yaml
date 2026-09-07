@@ -41920,6 +41920,40 @@ entries:
   - annotations:
       io.giantswarm.application.audience: all
       io.giantswarm.application.logo: https://s.giantswarm.io/app-icons/flux/2/logo_dark.svg
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/flux-app-1.10.3.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/flux-app/refs/tags/v1.10.3/README.md
+      io.giantswarm.application.restrictions.cluster-singleton: "true"
+      io.giantswarm.application.team: honeybadger
+      io.giantswarm.application.two-step-install: "true"
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/flux-app/refs/tags/v1.10.3/helm/flux-app/values.schema.json
+    apiVersion: v2
+    appVersion: 1.10.3
+    created: "2026-09-07T14:24:09.889774419Z"
+    dependencies:
+    - alias: kubeStateMetrics
+      condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 7.8.1
+    description: 'Flux is a collection of tools for keeping Kubernetes clusters in
+      sync with sources of configuration (like Git repositories), and automating updates
+      to configuration when there is new code to deploy. '
+    digest: 1b9713b6e16d0b476727065ba66584b976e9c58d3bc73abbe13d28021819b855
+    home: https://github.com/giantswarm/flux-app
+    icon: https://s.giantswarm.io/app-icons/flux/2/icon_light.svg
+    keywords:
+    - gitops
+    - flux
+    name: flux-app
+    sources:
+    - https://github.com/fluxcd/flux2
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/flux-app-1.10.3.tgz
+    version: 1.10.3
+  - annotations:
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.logo: https://s.giantswarm.io/app-icons/flux/2/logo_dark.svg
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/flux-app-1.10.2.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/flux-app/refs/tags/v1.10.2/README.md
       io.giantswarm.application.restrictions.cluster-singleton: "true"
@@ -140018,4 +140052,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-07T11:33:42.457985991Z"
+generated: "2026-09-07T14:24:09.882403626Z"
