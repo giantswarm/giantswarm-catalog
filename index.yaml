@@ -3579,6 +3579,30 @@ entries:
           url: https://github.com/giantswarm/agent-platform-mcps/issues
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agent-platform-mcps-0.9.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agent-platform-mcps/refs/tags/v0.9.0/README.md
+      io.giantswarm.application.team: team-bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/agent-platform-mcps/refs/tags/v0.9.0/helm/agent-platform-mcps/values.schema.json
+    apiVersion: v2
+    appVersion: 0.9.0
+    created: "2026-09-07T17:11:49.107355008Z"
+    description: Chart to deploy MCPs for the Giant Swarm Agent Platform.
+    digest: b8e58d60c8b25ff1a4d397df099a7a46e5a4e2392866e9239e088c9a8833a93e
+    home: https://github.com/giantswarm/agent-platform-mcps
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: agent-platform-mcps
+    sources:
+    - https://github.com/giantswarm/agent-platform-mcps
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/agent-platform-mcps-0.9.0.tgz
+    version: 0.9.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/agent-platform-mcps/issues
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agent-platform-mcps-0.8.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agent-platform-mcps/refs/tags/v0.8.0/README.md
       io.giantswarm.application.team: team-bumblebee
@@ -140123,4 +140147,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-07T16:09:30.592792728Z"
+generated: "2026-09-07T17:11:49.106237968Z"
