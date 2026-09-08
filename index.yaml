@@ -56002,6 +56002,36 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/kagent-0.1.2.tgz
     version: 0.1.2
+  kagent-crds:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/kagent/issues
+        - name: Upstream project
+          url: https://github.com/kagent-dev/kagent
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/kagent-crds-0.2.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kagent/refs/tags/v0.2.0/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/kagent/refs/tags/v0.2.0/helm/kagent-crds/values.schema.json
+    apiVersion: v2
+    appVersion: 0.10.0
+    created: "2026-09-08T12:27:03.278749682Z"
+    description: Giant Swarm packaging of the upstream kagent.dev CRDs (Agent, AgentHarness,
+      Memory, ModelConfig, ModelProviderConfig, RemoteMCPServer, SandboxAgent, ToolServer)
+      and the kmcp MCPServer CRD as a Helm-managed chart.
+    digest: 0b2a311086db4b0c07a77175ffb9870f2d40938459bb9685b85e658fd1d2278c
+    home: https://github.com/giantswarm/kagent
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: kagent-crds
+    sources:
+    - https://github.com/giantswarm/kagent
+    - https://github.com/kagent-dev/kagent
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/kagent-crds-0.2.0.tgz
+    version: 0.2.0
   kamaji:
   - annotations:
       io.giantswarm.application.audience: giantswarm
@@ -142109,4 +142139,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-08T11:18:01.789782978Z"
+generated: "2026-09-08T12:27:03.268226654Z"
