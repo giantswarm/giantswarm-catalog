@@ -8,6 +8,34 @@ entries:
           url: https://github.com/giantswarm/agent/issues
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agent-1.0.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agent/refs/tags/v1.0.1/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/agent/refs/tags/v1.0.1/helm/agent/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2026-09-11T01:39:46.120313786Z"
+    description: Create a kagent agent on the Giant Swarm Agent Platform from a small,
+      curated values surface. One chart release renders one AgentTemplate (kagent.dev/v1alpha3)
+      and the agent's muster RemoteMCPServer, which carries its toolset; the Harness
+      that runs the agent, the model configuration and the credentials are platform-owned
+      and only referenced by name or label.
+    digest: d8c450237d87ee00338940e5cac5c60ce9272b317d7bc4faae26a4d9ba8778ee
+    home: https://github.com/giantswarm/agent
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: agent
+    sources:
+    - https://github.com/giantswarm/agent
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/agent-1.0.1.tgz
+    version: 1.0.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/agent/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agent-1.0.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agent/refs/tags/v1.0.0/README.md
       io.giantswarm.application.team: bumblebee
@@ -149912,4 +149940,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-11T00:59:24.7193849Z"
+generated: "2026-09-11T01:39:46.119256484Z"
