@@ -88281,6 +88281,40 @@ entries:
           url: https://github.com/giantswarm/mcp-capi/issues
       io.giantswarm.application.audience: customers
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/mcp-capi-0.5.15.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mcp-capi/refs/tags/v0.5.15/README.md
+      io.giantswarm.application.team: team-planeteers
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/mcp-capi/refs/tags/v0.5.15/helm/mcp-capi/values.schema.json
+    apiVersion: v2
+    appVersion: 0.5.15
+    created: "2026-09-14T19:15:02.338614098Z"
+    description: A Helm chart for mcp-capi - Model Context Protocol server for Cluster
+      API
+    digest: 07ca77d17f995c4598c6fe02a44409097bb2d3e7a70be709928fa945ca43f9d4
+    home: https://github.com/giantswarm/mcp-capi
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    keywords:
+    - mcp
+    - capi
+    - cluster-api
+    - model-context-protocol
+    maintainers:
+    - email: team-planeteers@giantswarm.io
+      name: Giant Swarm
+    name: mcp-capi
+    sources:
+    - https://github.com/giantswarm/mcp-capi
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/mcp-capi-0.5.15.tgz
+    version: 0.5.15
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/mcp-capi/issues
+      io.giantswarm.application.audience: customers
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/mcp-capi-0.5.14.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mcp-capi/refs/tags/v0.5.14/README.md
       io.giantswarm.application.team: team-planeteers
@@ -157095,4 +157129,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-14T19:14:47.747213909Z"
+generated: "2026-09-14T19:15:02.337397383Z"
