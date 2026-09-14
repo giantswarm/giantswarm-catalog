@@ -20218,6 +20218,39 @@ entries:
           url: https://github.com/kubernetes-sigs/agent-sandbox
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agent-sandbox-0.2.34.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agent-sandbox/refs/tags/v0.2.34/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/agent-sandbox/refs/tags/v0.2.34/helm/agent-sandbox/values.schema.json
+    apiVersion: v2
+    appVersion: 0.4.6
+    created: "2026-09-14T16:10:32.72260335Z"
+    dependencies:
+    - name: agent-sandbox
+      repository: file://charts/agent-sandbox
+      version: 0.1.0
+    description: Giant Swarm packaging of the upstream kubernetes-sigs/agent-sandbox
+      controller, which manages Sandbox resources (isolated, stateful, singleton pods)
+      for AI agent runtimes on Kubernetes.
+    digest: 32f9d4ab2ffe5064ff0a2aa5209fa09badfa41dfd96b6e0615af28509d1b0b12
+    home: https://github.com/giantswarm/agent-sandbox
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: agent-sandbox
+    sources:
+    - https://github.com/giantswarm/agent-sandbox
+    - https://github.com/kubernetes-sigs/agent-sandbox
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/agent-sandbox-0.2.34.tgz
+    version: 0.2.34
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/agent-sandbox/issues
+        - name: Upstream project
+          url: https://github.com/kubernetes-sigs/agent-sandbox
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agent-sandbox-0.2.33.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agent-sandbox/refs/tags/v0.2.33/README.md
       io.giantswarm.application.team: bumblebee
@@ -156668,4 +156701,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-14T15:45:54.855753993Z"
+generated: "2026-09-14T16:10:32.719551897Z"
