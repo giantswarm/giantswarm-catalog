@@ -150166,6 +150166,37 @@ entries:
           url: https://github.com/giantswarm/prometheus-operator-crd/issues
         - name: Upstream project
           url: https://github.com/prometheus-community/helm-charts
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/prometheus-operator-crd-24.0.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/prometheus-operator-crd/refs/tags/v24.0.0/README.md
+      io.giantswarm.application.team: atlas
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/prometheus-operator-crd/refs/tags/v24.0.0/helm/prometheus-operator-crd/values.schema.json
+    apiVersion: v2
+    appVersion: v0.94.0
+    created: "2026-09-15T10:20:39.749692889Z"
+    dependencies:
+    - name: prometheus-operator-crds
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 32.0.0
+    description: kube-prometheus-stack CustomResourceDefinitions.
+    digest: b588a41b5fb41b5dbc64da7074c675a0cae60ad49eb11a4022fc6abd653646d7
+    home: https://github.com/giantswarm/prometheus-operator-crd
+    icon: https://s.giantswarm.io/app-icons/prometheus-operator/2/light.svg
+    kubeVersion: '>=1.19.0-0'
+    name: prometheus-operator-crd
+    sources:
+    - https://github.com/prometheus-community/helm-charts
+    - https://github.com/prometheus-operator/kube-prometheus
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/prometheus-operator-crd-24.0.0.tgz
+    version: 24.0.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/prometheus-operator-crd/issues
+        - name: Upstream project
+          url: https://github.com/prometheus-community/helm-charts
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/prometheus-operator-crd-23.0.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/prometheus-operator-crd/refs/tags/v23.0.0/README.md
       io.giantswarm.application.team: atlas
@@ -158783,4 +158814,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-15T10:07:00.694944325Z"
+generated: "2026-09-15T10:20:39.72665641Z"
