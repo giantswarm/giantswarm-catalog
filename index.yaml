@@ -57036,6 +57036,31 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/gateway-api-crds-1.2.0.tgz
     version: 1.2.0
+  gpu-node-pool:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/gpu-node-pool/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/gpu-node-pool-0.1.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/gpu-node-pool/refs/tags/v0.1.0/README.md
+      io.giantswarm.application.team: TEAM-NAME
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/gpu-node-pool/refs/tags/v0.1.0/helm/gpu-node-pool/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2026-09-15T22:00:03.58706096Z"
+    description: Please add description
+    digest: aa2e9fd6e064ccbd53e3d2f1a982fbf7e0bda39e773f311f87e513df83710d19
+    home: https://github.com/giantswarm/gpu-node-pool
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: gpu-node-pool
+    sources:
+    - https://github.com/some-org/some-repo
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/gpu-node-pool-0.1.0.tgz
+    version: 0.1.0
   gpu-operator:
   - annotations:
       io.giantswarm.application.audience: all
@@ -160937,4 +160962,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-15T21:32:10.813090292Z"
+generated: "2026-09-15T22:00:03.586307843Z"
