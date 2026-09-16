@@ -59449,6 +59449,32 @@ entries:
         - name: Support
           url: https://github.com/giantswarm/gpu-operator-app/issues
       io.giantswarm.application.audience: all
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/gpu-operator-1.4.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/gpu-operator-app/refs/tags/v1.4.1/README.md
+      io.giantswarm.application.team: tenet
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/gpu-operator-app/refs/tags/v1.4.1/helm/gpu-operator/values.schema.json
+    apiVersion: v2
+    appVersion: 1.4.1
+    created: "2026-09-16T21:24:07.212235111Z"
+    dependencies:
+    - name: gpu-operator
+      repository: https://helm.ngc.nvidia.com/nvidia
+      version: v26.7.0
+    description: A Helm chart to deploy NVIDIA GPU Operator with custom Cilium Network
+      Policies.
+    digest: b0420c3610b5c3c1a424bdaf17adb279203bcea5adf710b8365003e369abd3cb
+    home: https://github.com/giantswarm/gpu-operator-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: gpu-operator
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/gpu-operator-1.4.1.tgz
+    version: 1.4.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/gpu-operator-app/issues
+      io.giantswarm.application.audience: all
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/gpu-operator-1.4.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/gpu-operator-app/refs/tags/v1.4.0/README.md
       io.giantswarm.application.team: tenet
@@ -164152,4 +164178,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-16T21:23:29.915900385Z"
+generated: "2026-09-16T21:24:07.202534761Z"
