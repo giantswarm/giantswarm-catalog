@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/team: bumblebee
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: "- name: Support\n  url: https://github.com/giantswarm/bumblebee-accept-page-app-20260917/issues\n"
+chartApiVersion: v2
+chartFile: bumblebee-accept-page-app-20260917-0.1.0.tgz
+dateCreated: '2026-09-17T18:26:36.339488Z'
+digest: 6f0bd7d9fdb89783e14f1c5f59e37776e8bd476d286277bcd61ee16b17fb19cf
+home: https://github.com/giantswarm/bumblebee-accept-page-app-20260917
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

@@ -41948,6 +41948,31 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/bumblebee-accept-devctl-20260917-0.1.0.tgz
     version: 0.1.0
+  bumblebee-accept-page-app-20260917:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/bumblebee-accept-page-app-20260917/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/bumblebee-accept-page-app-20260917-0.1.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/bumblebee-accept-page-app-20260917/refs/tags/v0.1.0/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/bumblebee-accept-page-app-20260917/refs/tags/v0.1.0/helm/bumblebee-accept-page-app-20260917/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2026-09-17T18:26:56.247207691Z"
+    description: Please add description
+    digest: 6f0bd7d9fdb89783e14f1c5f59e37776e8bd476d286277bcd61ee16b17fb19cf
+    home: https://github.com/giantswarm/bumblebee-accept-page-app-20260917
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: bumblebee-accept-page-app-20260917
+    sources:
+    - https://github.com/some-org/some-repo
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/bumblebee-accept-page-app-20260917-0.1.0.tgz
+    version: 0.1.0
   bumblebee-reposetup-proof-app-20260916:
   - annotations:
       artifacthub.io/license: Apache-2.0
@@ -167847,4 +167872,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-17T18:16:20.557927863Z"
+generated: "2026-09-17T18:26:56.246626085Z"
