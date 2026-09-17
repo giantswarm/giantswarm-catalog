@@ -158888,6 +158888,31 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/promtail-0.1.0-alpha.tgz
     version: 0.1.0-alpha
+  rancher-fleet:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/rancher-fleet/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/rancher-fleet-0.1.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/rancher-fleet/refs/tags/v0.1.0/README.md
+      io.giantswarm.application.team: rocket
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/rancher-fleet/refs/tags/v0.1.0/helm/rancher-fleet/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2026-09-17T09:52:15.931874797Z"
+    description: Please add description
+    digest: 56aa3040f6a46243417d5e1fa2bc6740c53de482d97640858422f8edfb86df80
+    home: https://github.com/giantswarm/rancher-fleet
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: rancher-fleet
+    sources:
+    - https://github.com/some-org/some-repo
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/rancher-fleet-0.1.0.tgz
+    version: 0.1.0
   rbac-bootstrap:
   - annotations:
       io.giantswarm.application.audience: giantswarm
@@ -166013,4 +166038,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-17T09:51:14.909784312Z"
+generated: "2026-09-17T09:52:15.931332871Z"

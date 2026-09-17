@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/team: rocket
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: "- name: Support\n  url: https://github.com/giantswarm/rancher-fleet/issues\n"
+chartApiVersion: v2
+chartFile: rancher-fleet-0.1.0.tgz
+dateCreated: '2026-09-17T09:51:56.617407Z'
+digest: 56aa3040f6a46243417d5e1fa2bc6740c53de482d97640858422f8edfb86df80
+home: https://github.com/giantswarm/rancher-fleet
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
