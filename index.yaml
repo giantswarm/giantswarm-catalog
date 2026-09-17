@@ -15170,6 +15170,30 @@ entries:
           url: https://github.com/giantswarm/agent-platform-mcps/issues
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agent-platform-mcps-0.10.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agent-platform-mcps/refs/tags/v0.10.1/README.md
+      io.giantswarm.application.team: team-bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/agent-platform-mcps/refs/tags/v0.10.1/helm/agent-platform-mcps/values.schema.json
+    apiVersion: v2
+    appVersion: 0.10.1
+    created: "2026-09-17T20:03:58.484055823Z"
+    description: Chart to deploy MCPs for the Giant Swarm Agent Platform.
+    digest: 0027eef0297840544f823186dbde67d29fedd8366345824d4c22c15ebe899c1e
+    home: https://github.com/giantswarm/agent-platform-mcps
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: agent-platform-mcps
+    sources:
+    - https://github.com/giantswarm/agent-platform-mcps
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/agent-platform-mcps-0.10.1.tgz
+    version: 0.10.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/agent-platform-mcps/issues
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agent-platform-mcps-0.10.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agent-platform-mcps/refs/tags/v0.10.0/README.md
       io.giantswarm.application.team: team-bumblebee
@@ -168197,4 +168221,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-17T19:40:10.233693607Z"
+generated: "2026-09-17T20:03:58.482593514Z"
