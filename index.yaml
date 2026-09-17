@@ -60375,6 +60375,46 @@ entries:
           url: https://github.com/giantswarm/giantswarm-repo-manager/issues
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/giantswarm-repo-manager-0.6.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/giantswarm-repo-manager/refs/tags/v0.6.0/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/giantswarm-repo-manager/refs/tags/v0.6.0/helm/giantswarm-repo-manager/values.schema.json
+    apiVersion: v2
+    appVersion: 0.6.0
+    created: "2026-09-17T12:11:05.759283823Z"
+    dependencies:
+    - condition: valkey.enabled
+      name: valkey
+      repository: oci://gsoci.azurecr.io/charts/giantswarm
+      version: 0.1.4
+    description: Giant Swarm's repository set-up service — an MCP server behind muster
+      that lists, validates, creates and reconciles the giantswarm org's repositories
+      as the person, with its own Valkey for the inventory
+    digest: 6c446d7d92a06eec33e2abd88f2e0e263b97726f5d5983f396a436c904dc891c
+    home: https://github.com/giantswarm/giantswarm-repo-manager
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    keywords:
+    - mcp
+    - repositories
+    - github
+    - agent-platform
+    maintainers:
+    - email: team-bumblebee@giantswarm.io
+      name: Giant Swarm
+    name: giantswarm-repo-manager
+    sources:
+    - https://github.com/giantswarm/giantswarm-repo-manager
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/giantswarm-repo-manager-0.6.0.tgz
+    version: 0.6.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/giantswarm-repo-manager/issues
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/giantswarm-repo-manager-0.5.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/giantswarm-repo-manager/refs/tags/v0.5.0/README.md
       io.giantswarm.application.team: bumblebee
@@ -166536,4 +166576,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-17T12:02:29.396542471Z"
+generated: "2026-09-17T12:11:05.753245771Z"
