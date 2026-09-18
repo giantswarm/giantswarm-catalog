@@ -169679,6 +169679,42 @@ entries:
           url: https://github.com/giantswarm/vm-manager/issues
       io.giantswarm.application.audience: customers
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/vm-manager-0.20.14.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/vm-manager/refs/tags/v0.20.14/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/vm-manager/refs/tags/v0.20.14/helm/vm-manager/values.schema.json
+    apiVersion: v2
+    appVersion: 0.20.14
+    created: "2026-09-18T12:26:27.775629915Z"
+    description: VM provisioning service for the Agent Platform — KVM virtual machines
+      with an instance metadata service, a vTPM with measured boot, an immutable image
+      and attestation, exposed as REST and MCP
+    digest: a390ee768b915fc42b7c1d4ccb14665c6636fc08ae5ed380d466f9bbd4f46f0c
+    home: https://github.com/giantswarm/vm-manager
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    keywords:
+    - mcp
+    - kvm
+    - virtual-machines
+    - attestation
+    - agent-platform
+    maintainers:
+    - email: team-bumblebee@giantswarm.io
+      name: Giant Swarm
+    name: vm-manager
+    sources:
+    - https://github.com/giantswarm/vm-manager
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/vm-manager-0.20.14.tgz
+    version: 0.20.14
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/vm-manager/issues
+      io.giantswarm.application.audience: customers
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/vm-manager-0.20.13.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/vm-manager/refs/tags/v0.20.13/README.md
       io.giantswarm.application.team: bumblebee
@@ -170905,4 +170941,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-18T11:59:20.02084984Z"
+generated: "2026-09-18T12:26:27.774044461Z"
