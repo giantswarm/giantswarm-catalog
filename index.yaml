@@ -8872,7 +8872,7 @@ entries:
       io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/agent-platform/refs/tags/v4.32.0/helm/agent-platform-connectivity/values.schema.json
     apiVersion: v2
     appVersion: 4.32.0
-    created: "2026-09-18T01:31:11.320948827Z"
+    created: "2026-09-18T01:33:19.979200513Z"
     description: 'Giant Swarm Agent Platform — connectivity / integration layer. Renders
       the consumer-side wiring that turns the platform components into a working whole
       on a cluster: the public muster route and the agentgateway data-plane Gateway
@@ -8885,7 +8885,7 @@ entries:
       releases rendered by the agent-platform meta-chart. The CRDs these CRs consume
       are app-owned: each component (agentgateway, kagent, muster, …) ships its own
       CRDs, so this chart''s HelmRelease dependsOn those CRD-owning component releases. '
-    digest: 1375b5df51547275e84e831d78f05fd8b04fae091131d1f68093f31e2fa65089
+    digest: f4adbfe8c39b60f3b935dec7f7cb49f874ff91dc9911f9c9a62d159d38b4d5e7
     home: https://github.com/giantswarm/agent-platform
     icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
     name: agent-platform-connectivity
@@ -169219,4 +169219,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-18T01:31:11.302077357Z"
+generated: "2026-09-18T01:33:19.964519024Z"
