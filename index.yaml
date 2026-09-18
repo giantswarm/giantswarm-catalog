@@ -43220,6 +43220,31 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/bumblebee-slack-round-04-0.1.0.tgz
     version: 0.1.0
+  bumblebee-slack-round-05:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/bumblebee-slack-round-05/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/bumblebee-slack-round-05-0.1.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/bumblebee-slack-round-05/refs/tags/v0.1.0/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/bumblebee-slack-round-05/refs/tags/v0.1.0/helm/bumblebee-slack-round-05/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2026-09-18T16:08:46.11554958Z"
+    description: Please add description
+    digest: 450f5755139f000a81fed14df7520b8293b461b0ac382a674ab1d695aaf46f12
+    home: https://github.com/giantswarm/bumblebee-slack-round-05
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: bumblebee-slack-round-05
+    sources:
+    - https://github.com/some-org/some-repo
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/bumblebee-slack-round-05-0.1.0.tgz
+    version: 0.1.0
   capa-karpenter-taint-remover:
   - annotations:
       application.giantswarm.io/team: phoenix
@@ -172586,4 +172611,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-18T15:59:36.916407693Z"
+generated: "2026-09-18T16:08:46.115021517Z"
