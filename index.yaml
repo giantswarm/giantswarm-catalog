@@ -48374,6 +48374,33 @@ entries:
         - name: Upstream project
           url: https://raw.githubusercontent.com/giantswarm/debug-toolbox/v1.0.0/README.md
       io.giantswarm.application.audience: all
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/debug-toolbox-1.2.11.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/debug-toolbox/refs/tags/v1.2.11/README.md
+      io.giantswarm.application.team: planeteers
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/debug-toolbox/refs/tags/v1.2.11/helm/debug-toolbox/values.schema.json
+    apiVersion: v1
+    appVersion: 1.2.11
+    created: "2026-09-18T07:07:34.108430109Z"
+    description: The debug toolbox is a collection of tools that can be used to debug
+      issues in a Kubernetes cluster.
+    digest: 923e1f6e2c6e6f0a01969779a4d4bf6073c87e75c890daaba27c58d820d87758
+    home: https://github.com/giantswarm/debug-toolbox
+    icon: https://s.giantswarm.io/app-icons/1/png/k8s-initiator-app-light.png
+    name: debug-toolbox
+    sources:
+    - https://github.com/giantswarm/debug-toolbox
+    - https://raw.githubusercontent.com/giantswarm/debug-toolbox/v1.0.0/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/debug-toolbox-1.2.11.tgz
+    version: 1.2.11
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/debug-toolbox/issues
+        - name: Upstream project
+          url: https://raw.githubusercontent.com/giantswarm/debug-toolbox/v1.0.0/README.md
+      io.giantswarm.application.audience: all
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/debug-toolbox-1.2.10.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/debug-toolbox/refs/tags/v1.2.10/README.md
       io.giantswarm.application.team: planeteers
@@ -169924,4 +169951,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-18T06:26:16.787816037Z"
+generated: "2026-09-18T07:07:34.107584645Z"
