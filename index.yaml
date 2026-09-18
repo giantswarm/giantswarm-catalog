@@ -43474,6 +43474,31 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/bumblebee-accept-page-app-20260917-0.1.0.tgz
     version: 0.1.0
+  bumblebee-align-proof:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/bumblebee-align-proof/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/bumblebee-align-proof-0.1.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/bumblebee-align-proof/refs/tags/v0.1.0/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/bumblebee-align-proof/refs/tags/v0.1.0/helm/bumblebee-align-proof/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2026-09-18T19:34:51.024454377Z"
+    description: Please add description
+    digest: f42e04ce7a831b369eccd0f290bcff6efd68a7d7b3364c480aa9d9beda386e10
+    home: https://github.com/giantswarm/bumblebee-align-proof
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: bumblebee-align-proof
+    sources:
+    - https://github.com/some-org/some-repo
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/bumblebee-align-proof-0.1.0.tgz
+    version: 0.1.0
   bumblebee-reposetup-proof-app-20260916:
   - annotations:
       artifacthub.io/license: Apache-2.0
@@ -174402,4 +174427,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-18T19:28:00.761816478Z"
+generated: "2026-09-18T19:34:51.023803527Z"
