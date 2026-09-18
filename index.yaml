@@ -82424,6 +82424,34 @@ entries:
       artifacthub.io/links: |
         - name: Support
           url: https://github.com/giantswarm/klaus-gateway/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/klaus-gateway-1.14.2.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/klaus-gateway/refs/tags/v1.14.2/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/klaus-gateway/refs/tags/v1.14.2/helm/klaus-gateway/values.schema.json
+      klaus-gateway.giantswarm.io/agentgateway-version: v1.1.0
+    apiVersion: v2
+    appVersion: 1.14.2
+    created: "2026-09-18T18:54:29.944802606Z"
+    description: Channel and routing gateway in front of klaus instances; uses agentgateway
+      as the LLM/MCP/A2A data plane
+    digest: 0d42e6f07a5b4d2a132dfc836808285f28ff9f5bd832a395750f27be21ce2a15
+    home: https://github.com/giantswarm/klaus-gateway
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    maintainers:
+    - name: Giant Swarm
+      url: https://www.giantswarm.io
+    name: klaus-gateway
+    sources:
+    - https://github.com/giantswarm/klaus-gateway
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/klaus-gateway-1.14.2.tgz
+    version: 1.14.2
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/klaus-gateway/issues
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/klaus-gateway-1.14.1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/klaus-gateway/refs/tags/v1.14.1/README.md
       io.giantswarm.application.team: bumblebee
@@ -174049,4 +174077,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-18T18:53:07.895739694Z"
+generated: "2026-09-18T18:54:29.942817316Z"
