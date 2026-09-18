@@ -63181,6 +63181,32 @@ entries:
           url: https://github.com/giantswarm/gpu-node-pool/issues
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/gpu-node-pool-0.6.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/gpu-node-pool/refs/tags/v0.6.0/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/gpu-node-pool/refs/tags/v0.6.0/helm/gpu-node-pool/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2026-09-18T12:44:45.397968059Z"
+    description: A GPU node pool as its own Cluster API release for an existing Giant
+      Swarm cluster — MachinePool, KubeadmConfig and KarpenterMachinePool with their
+      own worker bootstrap.
+    digest: 33df312af02ab53bde496ce91a3f9d7b0930f1e528c43ae542cb5a40b1225f2d
+    home: https://github.com/giantswarm/gpu-node-pool
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: gpu-node-pool
+    sources:
+    - https://github.com/giantswarm/gpu-node-pool
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/gpu-node-pool-0.6.0.tgz
+    version: 0.6.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/gpu-node-pool/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/gpu-node-pool-0.5.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/gpu-node-pool/refs/tags/v0.5.0/README.md
       io.giantswarm.application.team: bumblebee
@@ -170977,4 +171003,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-18T12:40:31.381864226Z"
+generated: "2026-09-18T12:44:45.396180972Z"
