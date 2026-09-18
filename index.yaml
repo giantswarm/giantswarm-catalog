@@ -122981,6 +122981,44 @@ entries:
           url: https://github.com/giantswarm/model-manager/issues
       io.giantswarm.application.audience: customers
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/model-manager-0.25.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/model-manager/refs/tags/v0.25.1/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/model-manager/refs/tags/v0.25.1/helm/model-manager/values.schema.json
+    apiVersion: v2
+    appVersion: 0.25.1
+    created: "2026-09-18T20:27:42.522387137Z"
+    description: Model management service for the Agent Platform — backend-abstracted
+      (ollama, kserve, lemonade) inventory, pull with progress, load/unload, delete
+      and kagent ModelConfig wiring, exposed as REST and MCP
+    digest: 496c1326cba0bb15de4ed928b907ae67171edfb9ff7d1c68f79e86734658015e
+    home: https://github.com/giantswarm/model-manager
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    keywords:
+    - mcp
+    - models
+    - ollama
+    - kserve
+    - lemonade
+    - kagent
+    - agent-platform
+    maintainers:
+    - email: team-bumblebee@giantswarm.io
+      name: Giant Swarm
+    name: model-manager
+    sources:
+    - https://github.com/giantswarm/model-manager
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/model-manager-0.25.1.tgz
+    version: 0.25.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/model-manager/issues
+      io.giantswarm.application.audience: customers
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/model-manager-0.25.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/model-manager/refs/tags/v0.25.0/README.md
       io.giantswarm.application.team: bumblebee
@@ -174723,4 +174761,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-18T20:24:41.180301189Z"
+generated: "2026-09-18T20:27:42.518855844Z"
