@@ -125473,6 +125473,39 @@ entries:
         - name: Support
           url: https://github.com/giantswarm/muster/issues
       io.giantswarm.application.audience: all
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/muster-5.27.3.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/muster/refs/tags/v5.27.3/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/muster/refs/tags/v5.27.3/helm/muster/values.schema.json
+    apiVersion: v2
+    appVersion: 5.27.3
+    created: "2026-09-18T18:52:54.889563864Z"
+    description: muster, the aggregating MCP server - one authenticated endpoint for
+      every MCP server a platform runs, with MCPServer and Workflow custom resources
+    digest: 189bd8298ca7dac13e8c13f73ca64d2a8a775eec151fbb1757732d9a4cc3d195
+    home: https://github.com/giantswarm/muster
+    icon: https://s.giantswarm.io/app-icons/muster/1/light.svg
+    keywords:
+    - mcp
+    - ai-agents
+    - model-context-protocol
+    - aggregator
+    maintainers:
+    - email: team-bumblebee@giantswarm.io
+      name: Giant Swarm
+    name: muster
+    sources:
+    - https://github.com/giantswarm/muster
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/muster-5.27.3.tgz
+    version: 5.27.3
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/muster/issues
+      io.giantswarm.application.audience: all
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/muster-5.27.2.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/muster/refs/tags/v5.27.2/README.md
       io.giantswarm.application.team: bumblebee
@@ -173982,4 +174015,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-18T18:48:35.131624314Z"
+generated: "2026-09-18T18:52:54.885321023Z"
