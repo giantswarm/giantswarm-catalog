@@ -168440,6 +168440,29 @@ entries:
           url: https://github.com/giantswarm/openssf-scorecard-exporter/issues
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/openssf-scorecard-exporter-0.1.4.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/openssf-scorecard-exporter/refs/tags/v0.1.4/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/openssf-scorecard-exporter/refs/tags/v0.1.4/helm/openssf-scorecard-exporter/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.4
+    created: "2026-09-22T12:50:55.592125713Z"
+    description: OpenSSF Scorecard Exporter scrapes the OpenSSF API and exposes Prometheus
+      metrics for Scorecard data.
+    digest: a4de2097ec5f350c975e3099c6c3f7ffff652c0ca39b810028a3cdec65c9d4b9
+    home: https://github.com/giantswarm/openssf-scorecard-exporter
+    icon: https://s.giantswarm.io/app-icons/openssf/2/light.png
+    name: openssf-scorecard-exporter
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/openssf-scorecard-exporter-0.1.4.tgz
+    version: 0.1.4
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/openssf-scorecard-exporter/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/openssf-scorecard-exporter-0.1.3.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/openssf-scorecard-exporter/refs/tags/v0.1.3/README.md
       io.giantswarm.application.team: shield
@@ -182592,4 +182615,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-22T12:04:42.715064212Z"
+generated: "2026-09-22T12:50:55.591042464Z"
