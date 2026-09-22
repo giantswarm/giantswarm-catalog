@@ -55787,6 +55787,28 @@ entries:
     version: 0.3.0
   dra-driver-nvidia-gpu:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/dra-driver-nvidia-gpu/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/dra-driver-nvidia-gpu-26.0.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/dra-driver-nvidia-gpu/refs/tags/v26.0.0/README.md
+      io.giantswarm.application.team: tenet
+    apiVersion: v2
+    appVersion: 0.5.0
+    created: "2026-09-22T13:26:04.459185591Z"
+    description: Official Helm chart for the DRA Driver for NVIDIA GPUs
+    digest: 85896a106a5833e03256d7e327a5b8cc5eb963fce78c69046bfee338c7cd15e8
+    home: https://github.com/giantswarm/dra-driver-nvidia-gpu
+    icon: https://s.giantswarm.io/app-icons/kubernetes-gpu/1/light.svg
+    kubeVersion: '>=1.32.0-0'
+    name: dra-driver-nvidia-gpu
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/dra-driver-nvidia-gpu-26.0.0.tgz
+    version: 26.0.0
+  - annotations:
       io.giantswarm.application.audience: all
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/dra-driver-nvidia-gpu-25.3.2-flatcar.1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/dra-driver-nvidia-gpu/refs/tags/v25.3.2-flatcar.1/README.md
@@ -182691,4 +182713,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-22T13:18:19.035598334Z"
+generated: "2026-09-22T13:26:04.457262178Z"
