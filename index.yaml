@@ -100174,6 +100174,32 @@ entries:
       artifacthub.io/links: |
         - name: Support
           url: https://github.com/giantswarm/klaus-operator/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/klaus-operator-0.0.167.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/klaus-operator/refs/tags/v0.0.167/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/klaus-operator/refs/tags/v0.0.167/helm/klaus-operator/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.167
+    created: "2026-09-23T22:41:55.707137765Z"
+    description: Kubernetes operator for dynamic management of Klaus AI agent instances
+    digest: 4e59dfc65a4945e5953d997fc3bfe2f94711feaafc31d1fc7e8566a0b61803c5
+    home: https://github.com/giantswarm/klaus-operator
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    maintainers:
+    - name: Giant Swarm
+      url: https://www.giantswarm.io
+    name: klaus-operator
+    sources:
+    - https://github.com/giantswarm/klaus-operator
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/klaus-operator-0.0.167.tgz
+    version: 0.0.167
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/klaus-operator/issues
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/klaus-operator-0.0.166.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/klaus-operator/refs/tags/v0.0.166/README.md
       io.giantswarm.application.team: phoenix
@@ -190612,4 +190638,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-23T22:39:46.357874611Z"
+generated: "2026-09-23T22:41:55.706014533Z"
