@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/team: bumblebee
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: "- name: Support\n  url: https://github.com/giantswarm/bumblebee-slack-round-09/issues\n"
+chartApiVersion: v2
+chartFile: bumblebee-slack-round-09-0.1.0.tgz
+dateCreated: '2026-09-18T17:18:41.957235Z'
+digest: d5bbaf7fb1f0529fee61d530ae44764623d51b8425ef64453f929dd90ecfdc04
+home: https://github.com/giantswarm/bumblebee-slack-round-09
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/team: bumblebee
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: "- name: Support\n  url: https://github.com/giantswarm/bumblebee-accept-devctl-20260917/issues\n"
+chartApiVersion: v2
+chartFile: bumblebee-accept-devctl-20260917-0.1.0.tgz
+dateCreated: '2026-09-16T23:19:41.327888Z'
+digest: f2d5f6c91b0e0e7e1a95447897f399e4ea51fd6b1c8896d92a7602c9d54e9365
+home: https://github.com/giantswarm/bumblebee-accept-devctl-20260917
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

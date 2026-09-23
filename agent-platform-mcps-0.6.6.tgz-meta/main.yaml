@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/audience: giantswarm
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: team-bumblebee
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/agent-platform-mcps/issues\n"
+chartApiVersion: v2
+chartFile: agent-platform-mcps-0.6.6.tgz
+dateCreated: '2026-08-23T12:39:33.653546Z'
+digest: 25fe6b6464827a1df0cca7a86174f85d2ff29601a012a217589481b71daf9396
+home: https://github.com/giantswarm/agent-platform-mcps
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
