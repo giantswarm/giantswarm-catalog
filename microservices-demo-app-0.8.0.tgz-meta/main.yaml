@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: giantswarm
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/team: cabbage
+chartApiVersion: v2
+chartFile: microservices-demo-app-0.8.0.tgz
+dateCreated: '2026-06-02T09:29:53.429554Z'
+digest: c252a3b4d3c864aa222724383dd9ba27419c927a96cc6e5bdd93a426dbbd954d
+home: https://github.com/giantswarm/microservices-demo-app
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: phoenix
+chartApiVersion: v2
+chartFile: aws-load-balancer-controller-5.2.0.tgz
+dateCreated: '2026-05-29T08:07:20.783484Z'
+digest: ec5fdd83d8694c1e1bb2d2b4c7b5d2f1016d6871143385a42f323ee5696d2019
+home: https://github.com/giantswarm/aws-lb-controller-bundle
+icon: https://s.giantswarm.io/app-icons/aws/2/light.svg

@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: giantswarm
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/team: honeybadger
+chartApiVersion: v2
+chartFile: search-mcp-0.3.5.tgz
+dateCreated: '2026-06-16T20:42:46.066453Z'
+digest: 58f129bcfe4282f64903093b58d4f90deebccf35209caed5e4d2647d6bcff788
+home: https://github.com/giantswarm/search-mcp
+icon: https://s.giantswarm.io/app-icons/search-mcp/1/light.svg

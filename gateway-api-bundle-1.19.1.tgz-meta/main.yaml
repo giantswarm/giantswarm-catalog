@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/team: cabbage
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/gateway-api-bundle/issues\n"
+chartApiVersion: v2
+chartFile: gateway-api-bundle-1.19.1.tgz
+dateCreated: '2026-08-31T15:55:14.308811Z'
+digest: 70564a5b51651e2f9ace859e08c52f5071b7745533bca4f1f8a2ed0b549d6ab1
+home: https://github.com/giantswarm/gateway-api-bundle
+icon: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg

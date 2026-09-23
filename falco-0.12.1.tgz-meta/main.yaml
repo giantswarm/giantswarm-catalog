@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/logo: https://s.giantswarm.io/app-icons/falco/2/logo_dark.svg
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: shield
+chartApiVersion: v2
+chartFile: falco-0.12.1.tgz
+dateCreated: '2026-06-09T12:27:19.026136Z'
+digest: dd6051867c1bdebf929c0145a9c10a5bffcbcc9a5338a54bf4c525d14c2a6bd4
+home: https://github.com/giantswarm/falco-app
+icon: https://s.giantswarm.io/app-icons/falco/2/icon_dark.svg

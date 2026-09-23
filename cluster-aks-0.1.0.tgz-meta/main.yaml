@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/app-type: cluster
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/team: phoenix
+chartApiVersion: v2
+chartFile: cluster-aks-0.1.0.tgz
+dateCreated: '2026-06-19T10:27:39.719004Z'
+digest: 46325cdccb818e80c5b5510af194efd62addc305b37953052daa231a83c40a87
+home: https://github.com/giantswarm/cluster-aks
+icon: https://s.giantswarm.io/app-icons/azure/1/light.svg

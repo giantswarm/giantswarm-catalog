@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: bumblebee
+chartApiVersion: v2
+chartFile: agentic-platform-crds-1.1.27.tgz
+dateCreated: '2026-06-15T16:59:43.345972Z'
+digest: d3b6e50cfa691c8eed1e0f5205775237b9afe987286c7165113e7f951d3fc486
+home: https://github.com/giantswarm/agentic-platform
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/team: cabbage
+chartApiVersion: v2
+chartFile: envoy-gateway-crds-0.1.0.tgz
+dateCreated: '2026-05-27T07:26:16.569061Z'
+digest: 0bd7d3184c8d84ce79a1830572b7459fa6b8d230ca6f007423af86a4f05b8a35
+home: https://github.com/giantswarm/envoy-gateway-crds-app
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

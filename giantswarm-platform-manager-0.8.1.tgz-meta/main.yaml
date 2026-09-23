@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/audience: giantswarm
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: bumblebee
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/giantswarm-platform-manager/issues\n"
+chartApiVersion: v2
+chartFile: giantswarm-platform-manager-0.8.1.tgz
+dateCreated: '2026-09-18T16:40:52.172817Z'
+digest: 2f296c8743a3a41bb60ffe4d2c8b593e3f14c86a5ba61c3c5589c5e0f8e8a856
+home: https://github.com/giantswarm/giantswarm-platform-manager
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg

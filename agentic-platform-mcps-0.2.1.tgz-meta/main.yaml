@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: giantswarm
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: team-bumblebee
+chartApiVersion: v2
+chartFile: agentic-platform-mcps-0.2.1.tgz
+dateCreated: '2026-06-03T15:46:53.848563Z'
+digest: 8d0e7d61f3b1293b2ff57ddb9311325eb08d346f30f181d7f6fd0c4f51118286
+home: https://github.com/giantswarm/agentic-platform-mcps
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

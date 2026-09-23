@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/team: cabbage
+chartApiVersion: v2
+chartFile: envoy-gateway-1.6.2.tgz
+dateCreated: '2026-05-07T10:02:16.680664Z'
+digest: 841a66cfd7cb74f54ef73650f2aead3863e718b21d434047bf28bd9c21600350
+home: https://github.com/giantswarm/envoy-gateway-app
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

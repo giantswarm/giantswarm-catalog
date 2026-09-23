@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: bumblebee
+chartApiVersion: v2
+chartFile: kagent-0.1.21.tgz
+dateCreated: '2026-06-27T06:25:58.796663Z'
+digest: 954722a776d48bf5fd992c5e4b92726ccb10056dd1e806e66bb6eedaa05653f9
+home: https://github.com/giantswarm/kagent-app
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

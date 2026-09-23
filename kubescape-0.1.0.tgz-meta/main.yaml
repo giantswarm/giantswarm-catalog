@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: shield
+chartApiVersion: v2
+chartFile: kubescape-0.1.0.tgz
+dateCreated: '2026-05-28T13:54:00.762572Z'
+digest: 2d22fe051a762c58d431754b19bf49bb32b0b76135c308363d3b86a6b0aeee72
+home: https://github.com/giantswarm/kubescape-app
+icon: https://s.giantswarm.io/app-icons/kubescape/1/color.svg

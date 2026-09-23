@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/restrictions/clusterSingleton: 'true'
+  application.giantswarm.io/team: honeybadger
+chartApiVersion: v2
+chartFile: flux-operator-0.2.0.tgz
+dateCreated: '2026-05-12T12:00:32.879086Z'
+digest: b344da5760510561afae0480f90f211188e5d326b1cba7e4589277927d40b36a
+home: https://github.com/giantswarm/flux-operator-app
+icon: https://s.giantswarm.io/app-icons/flux/2/icon_light.svg

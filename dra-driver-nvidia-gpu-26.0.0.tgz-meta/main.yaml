@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/team: tenet
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/dra-driver-nvidia-gpu/issues\n"
+chartApiVersion: v2
+chartFile: dra-driver-nvidia-gpu-26.0.0.tgz
+dateCreated: '2026-09-22T13:25:51.058766Z'
+digest: 85896a106a5833e03256d7e327a5b8cc5eb963fce78c69046bfee338c7cd15e8
+home: https://github.com/giantswarm/dra-driver-nvidia-gpu
+icon: https://s.giantswarm.io/app-icons/kubernetes-gpu/1/light.svg

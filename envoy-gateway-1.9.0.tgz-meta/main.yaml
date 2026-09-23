@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/team: cabbage
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/envoy-gateway-app/issues\n\
+    - name: Upstream project\n  url: https://github.com/envoyproxy/gateway\n"
+chartApiVersion: v2
+chartFile: envoy-gateway-1.9.0.tgz
+dateCreated: '2026-07-28T10:13:08.609255Z'
+digest: 7d65ad82a5b464aeb9356a18fecb283725f010a596f9fbc804b6e2c32d867d4f
+home: https://github.com/giantswarm/envoy-gateway-app
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

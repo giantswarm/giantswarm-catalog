@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: giantswarm
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: bumblebee
+chartApiVersion: v2
+chartFile: hr-recovery-controller-0.0.14.tgz
+dateCreated: '2026-06-24T22:27:31.619230Z'
+digest: 3856e3dcb833905e679f56a2399a10a000764dbc4c408e3e778d7825f401b551
+home: https://github.com/giantswarm/hr-recovery-controller
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

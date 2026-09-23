@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: bumblebee
+chartApiVersion: v2
+chartFile: agentgateway-0.1.0.tgz
+dateCreated: '2026-06-21T15:54:16.292800Z'
+digest: dc899d6ce298b645a4cbc1afedcc44ab0155aaa0052abe18f779f62a444f51ef
+home: https://github.com/giantswarm/agentgateway
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

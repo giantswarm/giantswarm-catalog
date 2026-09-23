@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: giantswarm
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/team: tenet
+chartApiVersion: v2
+chartFile: kepler-collector-0.1.0.tgz
+dateCreated: '2026-07-21T14:00:51.115948Z'
+digest: 40139c7051480be938ad9c303003ed2ef715406109499bf63117980004dc3e96
+home: https://github.com/giantswarm/kepler-collector
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

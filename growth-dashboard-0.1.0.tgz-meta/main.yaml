@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: internal
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/team: rocket
+chartApiVersion: v2
+chartFile: growth-dashboard-0.1.0.tgz
+dateCreated: '2026-06-10T07:29:51.774711Z'
+digest: 96b419d34db651c4557d9805ce56eb1d68e14af5014804f2d5c5a4483ee399c4
+home: https://github.com/giantswarm/growth-dashboard-app
+icon: https://s.giantswarm.io/app-icons/1/png/hello-world-app-light.png

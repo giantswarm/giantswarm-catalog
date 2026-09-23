@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/team: planeteers
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: valkey-0.0.2.tgz
+dateCreated: '2026-06-11T11:55:06.103841Z'
+digest: 9f604822bb3f9e4ea9a29dd64109345cd752c81852bcdfe584f7d1e1dd68b36a
+home: https://github.com/giantswarm/valkey-app
+icon: https://s.giantswarm.io/app-icons/valkey/1/light.svg
