@@ -46509,6 +46509,31 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/bumblebee-align-proof-0.1.0.tgz
     version: 0.1.0
+  bumblebee-release-watch-proof-20260923:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/bumblebee-release-watch-proof-20260923/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/bumblebee-release-watch-proof-20260923-0.1.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/bumblebee-release-watch-proof-20260923/refs/tags/v0.1.1/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/bumblebee-release-watch-proof-20260923/refs/tags/v0.1.1/helm/bumblebee-release-watch-proof-20260923/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2026-09-23T10:08:45.32106013Z"
+    description: Please add description
+    digest: 74937ffee0ffbac69214bd32676809cc9c05c4845a592d930530b3a17ebe6f2d
+    home: https://github.com/giantswarm/bumblebee-release-watch-proof-20260923
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: bumblebee-release-watch-proof-20260923
+    sources:
+    - https://github.com/some-org/some-repo
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/bumblebee-release-watch-proof-20260923-0.1.1.tgz
+    version: 0.1.1
   bumblebee-reposetup-proof-app-20260916:
   - annotations:
       artifacthub.io/license: Apache-2.0
@@ -185597,4 +185622,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-23T10:04:37.017967509Z"
+generated: "2026-09-23T10:08:45.320493306Z"

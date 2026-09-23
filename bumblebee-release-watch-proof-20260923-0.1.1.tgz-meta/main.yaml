@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/team: bumblebee
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: "- name: Support\n  url: https://github.com/giantswarm/bumblebee-release-watch-proof-20260923/issues\n"
+chartApiVersion: v2
+chartFile: bumblebee-release-watch-proof-20260923-0.1.1.tgz
+dateCreated: '2026-09-23T10:08:30.938374Z'
+digest: 74937ffee0ffbac69214bd32676809cc9c05c4845a592d930530b3a17ebe6f2d
+home: https://github.com/giantswarm/bumblebee-release-watch-proof-20260923
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
