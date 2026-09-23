@@ -46282,31 +46282,6 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/aws-nth-crossplane-resources-1.0.0.tgz
     version: 1.0.0
-  bumblebee-accept-devctl-20260917:
-  - annotations:
-      artifacthub.io/license: Apache-2.0
-      artifacthub.io/links: |
-        - name: Support
-          url: https://github.com/giantswarm/bumblebee-accept-devctl-20260917/issues
-      io.giantswarm.application.audience: all
-      io.giantswarm.application.managed: "false"
-      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/bumblebee-accept-devctl-20260917-0.1.0.tgz-meta/main.yaml
-      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/bumblebee-accept-devctl-20260917/refs/tags/v0.1.0/README.md
-      io.giantswarm.application.team: bumblebee
-      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/bumblebee-accept-devctl-20260917/refs/tags/v0.1.0/helm/bumblebee-accept-devctl-20260917/values.schema.json
-    apiVersion: v2
-    appVersion: 0.0.1
-    created: "2026-09-16T23:20:12.701329026Z"
-    description: Please add description
-    digest: f2d5f6c91b0e0e7e1a95447897f399e4ea51fd6b1c8896d92a7602c9d54e9365
-    home: https://github.com/giantswarm/bumblebee-accept-devctl-20260917
-    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-    name: bumblebee-accept-devctl-20260917
-    sources:
-    - https://github.com/some-org/some-repo
-    urls:
-    - https://giantswarm.github.io/giantswarm-catalog/bumblebee-accept-devctl-20260917-0.1.0.tgz
-    version: 0.1.0
   bumblebee-accept-page-app-20260917:
   - annotations:
       artifacthub.io/license: Apache-2.0
