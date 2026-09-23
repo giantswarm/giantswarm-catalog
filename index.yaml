@@ -86221,6 +86221,35 @@ entries:
           url: https://github.com/kagent-dev/kagent
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/kagent-crds-0.3.4.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kagent/refs/tags/v0.3.4/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/kagent/refs/tags/v0.3.4/helm/kagent-crds/values.schema.json
+    apiVersion: v2
+    appVersion: 0.10.1
+    created: "2026-09-23T19:35:53.351407605Z"
+    description: Giant Swarm packaging of the upstream kagent.dev CRDs (Agent, AgentHarness,
+      Memory, ModelConfig, ModelProviderConfig, RemoteMCPServer, SandboxAgent, ToolServer)
+      and the kmcp MCPServer CRD as a Helm-managed chart.
+    digest: 32c7ca0623b8ef5cc50dd82da04390de3bf4cf7ae5acbeead5c864ef46b0be49
+    home: https://github.com/giantswarm/kagent
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: kagent-crds
+    sources:
+    - https://github.com/giantswarm/kagent
+    - https://github.com/kagent-dev/kagent
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/kagent-crds-0.3.4.tgz
+    version: 0.3.4
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/kagent/issues
+        - name: Upstream project
+          url: https://github.com/kagent-dev/kagent
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/kagent-crds-0.3.3.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kagent/refs/tags/v0.3.3/README.md
       io.giantswarm.application.team: bumblebee
@@ -189270,4 +189299,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-23T18:10:39.11460374Z"
+generated: "2026-09-23T19:35:53.335487426Z"
