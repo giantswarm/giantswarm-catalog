@@ -1,0 +1,14 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/logo: https://s.giantswarm.io/app-icons/falco/2/logo_dark.svg
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: shield
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/falco-app/issues\n"
+chartApiVersion: v2
+chartFile: falco-0.14.0.tgz
+dateCreated: '2026-09-22T14:01:16.170630Z'
+digest: 4763041a134f8791f142af91e3996f14dcc03ab94b5e3f97fc195fd1c38ade61
+home: https://github.com/giantswarm/falco-app
+icon: https://s.giantswarm.io/app-icons/falco/2/icon_dark.svg

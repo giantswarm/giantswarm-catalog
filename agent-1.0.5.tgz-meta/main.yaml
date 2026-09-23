@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/team: bumblebee
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/agent/issues\n"
+chartApiVersion: v2
+chartFile: agent-1.0.5.tgz
+dateCreated: '2026-09-11T13:47:54.188235Z'
+digest: 7fd4b5c328c318e7c3f443f9ceeec18d670ad59445a18411299c37b7958f82c9
+home: https://github.com/giantswarm/agent
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

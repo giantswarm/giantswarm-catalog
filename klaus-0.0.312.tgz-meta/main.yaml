@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/team: planeteers
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/klaus/issues\n"
+chartApiVersion: v2
+chartFile: klaus-0.0.312.tgz
+dateCreated: '2026-08-31T07:22:52.079516Z'
+digest: 9def0fb7cc2bd5517b12dd961d9641598a8e545e1cdcf7bd656de4ab414c2f66
+home: https://github.com/giantswarm/klaus
+icon: https://s.giantswarm.io/app-icons/klaus/1/light.png
