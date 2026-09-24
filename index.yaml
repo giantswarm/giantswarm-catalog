@@ -135428,6 +135428,41 @@ entries:
           url: https://github.com/giantswarm/mcp-timescale/issues
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/mcp-timescale-0.5.13.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mcp-timescale/refs/tags/v0.5.13/README.md
+      io.giantswarm.application.team: team-bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/mcp-timescale/refs/tags/v0.5.13/helm/mcp-timescale/values.schema.json
+    apiVersion: v2
+    appVersion: 0.5.13
+    created: "2026-09-24T00:02:04.047580622Z"
+    description: Read-only MCP server for TimescaleDB and PostgreSQL databases, acting
+      on the caller identity
+    digest: 0852395c05786c15bac54a694b5cee59afe66d973e296ced709833b5b84c8591
+    home: https://github.com/giantswarm/mcp-timescale
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    keywords:
+    - mcp
+    - timescaledb
+    - postgresql
+    - model-context-protocol
+    kubeVersion: '>=1.27.0-0'
+    maintainers:
+    - name: Giant Swarm
+      url: https://giantswarm.io
+    name: mcp-timescale
+    sources:
+    - https://github.com/giantswarm/mcp-timescale
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/mcp-timescale-0.5.13.tgz
+    version: 0.5.13
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/mcp-timescale/issues
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/mcp-timescale-0.5.12.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mcp-timescale/refs/tags/v0.5.12/README.md
       io.giantswarm.application.team: team-bumblebee
@@ -191044,4 +191079,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-24T00:00:31.160617256Z"
+generated: "2026-09-24T00:02:04.046225357Z"
