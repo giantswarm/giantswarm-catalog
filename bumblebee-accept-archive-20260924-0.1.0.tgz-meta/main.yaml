@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/team: bumblebee
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: "- name: Support\n  url: https://github.com/giantswarm/bumblebee-accept-archive-20260924/issues\n"
+chartApiVersion: v2
+chartFile: bumblebee-accept-archive-20260924-0.1.0.tgz
+dateCreated: '2026-09-24T10:10:23.325512Z'
+digest: eeed48810aeecb43cc1626aac3a637d9ed0c89e97e2b962eb277c72d585659fd
+home: https://github.com/giantswarm/bumblebee-accept-archive-20260924
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

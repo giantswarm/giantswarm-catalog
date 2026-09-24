@@ -49028,6 +49028,31 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/aws-nth-crossplane-resources-1.0.0.tgz
     version: 1.0.0
+  bumblebee-accept-archive-20260924:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/bumblebee-accept-archive-20260924/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/bumblebee-accept-archive-20260924-0.1.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/bumblebee-accept-archive-20260924/refs/tags/v0.1.0/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/bumblebee-accept-archive-20260924/refs/tags/v0.1.0/helm/bumblebee-accept-archive-20260924/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2026-09-24T10:10:44.874684823Z"
+    description: Please add description
+    digest: eeed48810aeecb43cc1626aac3a637d9ed0c89e97e2b962eb277c72d585659fd
+    home: https://github.com/giantswarm/bumblebee-accept-archive-20260924
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: bumblebee-accept-archive-20260924
+    sources:
+    - https://github.com/some-org/some-repo
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/bumblebee-accept-archive-20260924-0.1.0.tgz
+    version: 0.1.0
   bumblebee-accept-devctl-20260917:
   - annotations:
       artifacthub.io/license: Apache-2.0
@@ -195538,4 +195563,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-24T10:09:28.445711454Z"
+generated: "2026-09-24T10:10:44.874116478Z"
