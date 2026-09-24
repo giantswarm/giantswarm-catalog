@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/audience: giantswarm
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: team-bumblebee
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/mcp-timescale/issues\n"
+chartApiVersion: v2
+chartFile: mcp-timescale-0.5.15.tgz
+dateCreated: '2026-09-24T04:10:59.041805Z'
+digest: 08b4be35db31d5a5687bf3e4549a696701125962373b24d9051aa7814ec38734
+home: https://github.com/giantswarm/mcp-timescale
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
