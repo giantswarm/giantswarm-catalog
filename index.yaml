@@ -49103,6 +49103,31 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/bumblebee-align-proof-0.1.0.tgz
     version: 0.1.0
+  bumblebee-first-release-proof-2-20260924:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/bumblebee-first-release-proof-2-20260924/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/bumblebee-first-release-proof-2-20260924-0.1.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/bumblebee-first-release-proof-2-20260924/refs/tags/v0.1.0/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/bumblebee-first-release-proof-2-20260924/refs/tags/v0.1.0/helm/bumblebee-first-release-proof-2-20260924/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2026-09-24T10:07:47.955631702Z"
+    description: Please add description
+    digest: 2dc82487fc6b9380675e4a0a443e82ad690dbec59decdc1d003ab55fbb2fdfcd
+    home: https://github.com/giantswarm/bumblebee-first-release-proof-2-20260924
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: bumblebee-first-release-proof-2-20260924
+    sources:
+    - https://github.com/some-org/some-repo
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/bumblebee-first-release-proof-2-20260924-0.1.0.tgz
+    version: 0.1.0
   bumblebee-release-watch-proof-20260923:
   - annotations:
       artifacthub.io/license: Apache-2.0
@@ -195437,4 +195462,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-24T10:07:26.924430795Z"
+generated: "2026-09-24T10:07:47.954651681Z"
