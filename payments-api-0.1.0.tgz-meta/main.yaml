@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/team: bumblebee
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: "- name: Support\n  url: https://github.com/giantswarm/payments-api/issues\n"
+chartApiVersion: v2
+chartFile: payments-api-0.1.0.tgz
+dateCreated: '2026-09-24T07:23:41.414781Z'
+digest: 9d86a6ff94a12f534019db238d60a11b64cf10c539354370d0e46f5e8ceb83a3
+home: https://github.com/giantswarm/payments-api
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

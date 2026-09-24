@@ -179442,6 +179442,31 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/pagerduty-opsgenie-proxy-0.0.1.tgz
     version: 0.0.1
+  payments-api:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/payments-api/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/payments-api-0.1.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/payments-api/refs/tags/v0.1.0/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/payments-api/refs/tags/v0.1.0/helm/payments-api/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2026-09-24T07:24:01.455987567Z"
+    description: Please add description
+    digest: 9d86a6ff94a12f534019db238d60a11b64cf10c539354370d0e46f5e8ceb83a3
+    home: https://github.com/giantswarm/payments-api
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: payments-api
+    sources:
+    - https://github.com/some-org/some-repo
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/payments-api-0.1.0.tgz
+    version: 0.1.0
   pg-cluster-recovery-test:
   - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/pg-cluster-recovery-test-0.5.0.tgz-meta/main.yaml
@@ -193954,4 +193979,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-24T07:20:57.68426897Z"
+generated: "2026-09-24T07:24:01.455522819Z"
