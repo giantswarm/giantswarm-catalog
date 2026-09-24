@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/audience: giantswarm
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: bumblebee
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/hr-recovery-controller/issues\n"
+chartApiVersion: v2
+chartFile: hr-recovery-controller-0.0.49.tgz
+dateCreated: '2026-09-24T09:49:21.346528Z'
+digest: 2bd05f1484d1490e461168cbbeec5e926201fad8ad4ec2dd7597f5786098a649
+home: https://github.com/giantswarm/hr-recovery-controller
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
