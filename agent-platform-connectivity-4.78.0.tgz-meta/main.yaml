@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: bumblebee
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/agent-platform/issues\n"
+chartApiVersion: v2
+chartFile: agent-platform-connectivity-4.78.0.tgz
+dateCreated: '2026-09-25T14:02:53.358735Z'
+digest: de1c232fdd8b8b37d6101ba1f6a1b88c8394278b679f62f9d3480fa551964e26
+home: https://github.com/giantswarm/agent-platform
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
