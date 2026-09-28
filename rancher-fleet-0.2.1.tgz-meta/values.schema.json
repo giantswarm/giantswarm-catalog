@@ -1,0 +1,414 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "additionalKnownHosts": {
+            "type": "array",
+            "title": "additionalKnownHosts",
+            "description": "Adds hosts to the known_hosts configmap if using a custom git provider for gitrepos"
+        },
+        "affinity": {
+            "type": "object",
+            "title": "affinity",
+            "description": "Pod affinity for the controllers."
+        },
+        "agent": {
+            "type": "object",
+            "title": "agent",
+            "description": "Fleet agent configuration",
+            "properties": {
+                "leaderElection": {
+                    "type": "object",
+                    "title": "leaderElection",
+                    "description": "Leader election configuration",
+                    "properties": {
+                        "leaseDuration": {
+                            "type": "string",
+                            "title": "leaseDuration"
+                        },
+                        "renewDeadline": {
+                            "type": "string",
+                            "title": "renewDeadline"
+                        },
+                        "retryPeriod": {
+                            "type": "string",
+                            "title": "retryPeriod"
+                        }
+                    }
+                },
+                "reconciler": {
+                    "type": "object",
+                    "title": "reconciler",
+                    "properties": {
+                        "workers": {
+                            "type": "object",
+                            "title": "workers",
+                            "description": "The number of workers that are allowed for each type of reconciler",
+                            "properties": {
+                                "bundledeployment": {
+                                    "type": "string",
+                                    "title": "bundledeployment"
+                                },
+                                "drift": {
+                                    "type": "string",
+                                    "title": "drift"
+                                }
+                            }
+                        }
+                    }
+                },
+                "replicas": {
+                    "type": "integer",
+                    "title": "replicas"
+                }
+            }
+        },
+        "agentCheckinInterval": {
+            "type": "string",
+            "title": "agentCheckinInterval",
+            "description": "A duration string for how often agents should report a heartbeat"
+        },
+        "agentImage": {
+            "type": "object",
+            "title": "agentImage",
+            "properties": {
+                "imagePullPolicy": {
+                    "type": "string",
+                    "title": "imagePullPolicy"
+                },
+                "repository": {
+                    "type": "string",
+                    "title": "repository"
+                },
+                "tag": {
+                    "type": "string",
+                    "title": "tag"
+                }
+            }
+        },
+        "agentTLSMode": {
+            "type": "string",
+            "title": "agentTLSMode",
+            "description": "Determines whether the agent should trust CA bundles from the operating system's trust store when connecting to a management cluster. True in `system-store` mode, false in `strict` mode."
+        },
+        "apiServerCA": {
+            "type": "string",
+            "title": "apiServerCA",
+            "description": "For cluster registration the pem encoded value of the CA of the Kubernetes API server must be set here. If left empty it is assumed this Kubernetes API TLS is signed by a well known CA."
+        },
+        "apiServerURL": {
+            "type": "string",
+            "title": "apiServerURL",
+            "description": "For cluster registration the public URL of the Kubernetes API server must be set here Example: https://example.com:6443"
+        },
+        "bootstrap": {
+            "type": "object",
+            "title": "bootstrap",
+            "properties": {
+                "agentNamespace": {
+                    "type": "string",
+                    "title": "agentNamespace",
+                    "description": "The namespace where the fleet agent for the local cluster will be ran, if empty this will default to cattle-fleet-system"
+                },
+                "branch": {
+                    "type": "string",
+                    "title": "branch"
+                },
+                "clusterLabels": {
+                    "type": "object",
+                    "title": "clusterLabels",
+                    "description": "Apply extra clusterLabels to the local cluster bootstrapped by fleet-controller"
+                },
+                "enabled": {
+                    "type": "boolean",
+                    "title": "enabled"
+                },
+                "localAgentDisabled": {
+                    "type": "boolean",
+                    "title": "localAgentDisabled",
+                    "description": "If true, the local cluster stays registered (Cluster + ClusterGroup) but the fleet-agent is NOT deployed into it. An already-running local agent will be removed. The local cluster will not receive deployments."
+                },
+                "namespace": {
+                    "type": "string",
+                    "title": "namespace",
+                    "description": "The namespace that will be autocreated and the local cluster will be registered in"
+                },
+                "paths": {
+                    "type": "string",
+                    "title": "paths"
+                },
+                "repo": {
+                    "type": "string",
+                    "title": "repo",
+                    "description": "A repo to add at install time that will deploy to the local cluster. This allows one to fully bootstrap fleet, its configuration and all its downstream clusters in one shot."
+                },
+                "secret": {
+                    "type": "string",
+                    "title": "secret"
+                }
+            }
+        },
+        "controller": {
+            "type": "object",
+            "title": "controller",
+            "description": "# Fleet controller configuration",
+            "properties": {
+                "reconciler": {
+                    "type": "object",
+                    "title": "reconciler",
+                    "properties": {
+                        "workers": {
+                            "type": "object",
+                            "title": "workers",
+                            "description": "The number of workers that are allowed to each type of reconciler",
+                            "properties": {
+                                "bundle": {
+                                    "type": "string",
+                                    "title": "bundle"
+                                },
+                                "bundledeployment": {
+                                    "type": "string",
+                                    "title": "bundledeployment"
+                                },
+                                "cluster": {
+                                    "type": "string",
+                                    "title": "cluster"
+                                },
+                                "clustergroup": {
+                                    "type": "string",
+                                    "title": "clustergroup"
+                                },
+                                "content": {
+                                    "type": "string",
+                                    "title": "content"
+                                },
+                                "gitrepo": {
+                                    "type": "string",
+                                    "title": "gitrepo"
+                                },
+                                "imagescan": {
+                                    "type": "string",
+                                    "title": "imagescan"
+                                },
+                                "schedule": {
+                                    "type": "string",
+                                    "title": "schedule"
+                                }
+                            }
+                        }
+                    }
+                },
+                "registrationTokenTTL": {
+                    "type": "object",
+                    "title": "registrationTokenTTL",
+                    "properties": {
+                        "required": {
+                            "type": "boolean",
+                            "title": "required"
+                        }
+                    }
+                },
+                "replicas": {
+                    "type": "integer",
+                    "title": "replicas"
+                }
+            }
+        },
+        "debug": {
+            "type": "boolean",
+            "title": "debug"
+        },
+        "debugLevel": {
+            "type": "integer",
+            "title": "debugLevel"
+        },
+        "disableSecurityContext": {
+            "type": "boolean",
+            "title": "disableSecurityContext"
+        },
+        "garbageCollectionInterval": {
+            "type": "string",
+            "title": "garbageCollectionInterval",
+            "description": "The amount of time that agents will wait before they clean up old Helm releases. A non-existent value or 0 will result in an interval of 15 minutes."
+        },
+        "gitClientTimeout": {
+            "type": "string",
+            "title": "gitClientTimeout",
+            "description": "The amount of time to wait for a response from the server before canceling the request.  Used to retrieve the latest commit of configured git repositories. A non-existent value or 0 will result in a timeout of 30 seconds."
+        },
+        "gitjob": {
+            "type": "object",
+            "title": "gitjob",
+            "properties": {
+                "replicas": {
+                    "type": "integer",
+                    "title": "replicas"
+                }
+            }
+        },
+        "gitops": {
+            "type": "object",
+            "title": "gitops",
+            "properties": {
+                "enabled": {
+                    "type": "boolean",
+                    "title": "enabled"
+                },
+                "syncPeriod": {
+                    "type": "string",
+                    "title": "syncPeriod",
+                    "description": "syncPeriod is used to pick up polling for lost gitrepo events. It should be larger than the largest gitrepo pollinginterval."
+                }
+            }
+        },
+        "global": {
+            "type": "object",
+            "title": "global",
+            "properties": {
+                "cattle": {
+                    "type": "object",
+                    "title": "cattle",
+                    "properties": {
+                        "imagePullSecrets": {
+                            "type": "array",
+                            "title": "imagePullSecrets"
+                        },
+                        "systemDefaultRegistry": {
+                            "type": "string",
+                            "title": "systemDefaultRegistry"
+                        }
+                    }
+                }
+            }
+        },
+        "helmops": {
+            "type": "object",
+            "title": "helmops",
+            "properties": {
+                "enabled": {
+                    "type": "boolean",
+                    "title": "enabled"
+                },
+                "replicas": {
+                    "type": "integer",
+                    "title": "replicas"
+                }
+            }
+        },
+        "ignoreClusterRegistrationLabels": {
+            "type": "boolean",
+            "title": "ignoreClusterRegistrationLabels",
+            "description": "Whether you want to allow cluster upon registration to specify their labels."
+        },
+        "image": {
+            "type": "object",
+            "title": "image",
+            "properties": {
+                "imagePullPolicy": {
+                    "type": "string",
+                    "title": "imagePullPolicy"
+                },
+                "repository": {
+                    "type": "string",
+                    "title": "repository"
+                },
+                "tag": {
+                    "type": "string",
+                    "title": "tag"
+                }
+            }
+        },
+        "imagescan": {
+            "type": "object",
+            "title": "imagescan",
+            "description": "When enabled, the imagescan controller will run to monitor image repositories. If disabled, config files (e.g. fleet.yaml) containing non-empty imageScan fields will result in errors. This option may be deprecated in a future release, and imagescan removed.",
+            "properties": {
+                "enabled": {
+                    "type": "boolean",
+                    "title": "enabled"
+                }
+            }
+        },
+        "insecureSkipHostKeyChecks": {
+            "type": "boolean",
+            "title": "insecureSkipHostKeyChecks",
+            "description": "Determines whether SSH operations (eg. cloning git repos, downloading Helm charts) could succeed if host verification fails. Insecure when set to true."
+        },
+        "leaderElection": {
+            "type": "object",
+            "title": "leaderElection",
+            "description": "# Leader election configuration",
+            "properties": {
+                "leaseDuration": {
+                    "type": "string",
+                    "title": "leaseDuration"
+                },
+                "renewDeadline": {
+                    "type": "string",
+                    "title": "renewDeadline"
+                },
+                "retryPeriod": {
+                    "type": "string",
+                    "title": "retryPeriod"
+                }
+            }
+        },
+        "metrics": {
+            "type": "object",
+            "title": "metrics",
+            "properties": {
+                "enabled": {
+                    "type": "boolean",
+                    "title": "enabled"
+                }
+            }
+        },
+        "migrations": {
+            "type": "object",
+            "title": "migrations",
+            "properties": {
+                "clusterRegistrationCleanup": {
+                    "type": "boolean",
+                    "title": "clusterRegistrationCleanup"
+                },
+                "gitrepoHelmURLRegexMigration": {
+                    "type": "boolean",
+                    "title": "gitrepoHelmURLRegexMigration"
+                },
+                "gitrepoJobsCleanup": {
+                    "type": "boolean",
+                    "title": "gitrepoJobsCleanup"
+                }
+            }
+        },
+        "noProxy": {
+            "type": "string",
+            "title": "noProxy",
+            "description": "comma separated list of domains or ip addresses that will not use the proxy"
+        },
+        "nodeSelector": {
+            "type": "object",
+            "title": "nodeSelector",
+            "description": "# Node labels for pod assignment. Ref: https://kubernetes.io/docs/user-guide/node-selection/"
+        },
+        "priorityClassName": {
+            "type": "string",
+            "title": "priorityClassName",
+            "description": "PriorityClassName assigned to deployment."
+        },
+        "propagateDebugSettingsToAgents": {
+            "type": "boolean",
+            "title": "propagateDebugSettingsToAgents"
+        },
+        "resources": {
+            "type": "object",
+            "title": "resources",
+            "description": "Container resource limits and requests for the controllers"
+        },
+        "tolerations": {
+            "type": "array",
+            "title": "tolerations",
+            "description": "List of node taints to tolerate."
+        }
+    }
+}
