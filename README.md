@@ -2,6 +2,8 @@
 
 The public Helm chart repository for apps maintained by [Giant Swarm](https://www.giantswarm.io).
 
+Source: [giantswarm/giantswarm-catalog](https://github.com/giantswarm/giantswarm-catalog)
+
 <!-- Keep full URL links because GitHub Pages renders this README as the public page. -->
 
 ## Usage
