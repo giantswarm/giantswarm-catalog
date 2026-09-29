@@ -157211,10 +157211,10 @@ entries:
       io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/muster/refs/tags/v5.34.7/helm/muster/values.schema.json
     apiVersion: v2
     appVersion: 5.34.7
-    created: "2026-09-29T17:32:04.132558685Z"
+    created: "2026-09-29T17:34:30.122609327Z"
     description: muster, the aggregating MCP server - one authenticated endpoint for
       every MCP server a platform runs, with MCPServer and Workflow custom resources
-    digest: f116b12753f61583d0042650715128f0ebe0ae726cc0552e3a58023060ea4d73
+    digest: 22b02f66e3a244f16a645dcb892ff304d1140629c0a59a69964f7764e587d1fc
     home: https://github.com/giantswarm/muster
     icon: https://s.giantswarm.io/app-icons/muster/1/light.svg
     keywords:
@@ -211792,4 +211792,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-29T17:34:13.783436176Z"
+generated: "2026-09-29T17:34:30.118519548Z"
