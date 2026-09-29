@@ -180081,10 +180081,10 @@ entries:
       io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/muster/refs/tags/v5.34.7/helm/muster-crds/values.schema.json
     apiVersion: v2
     appVersion: 5.34.7
-    created: "2026-09-29T17:32:23.862236445Z"
+    created: "2026-09-29T17:34:13.784414512Z"
     description: CRD-only chart for muster - ships the MCPServer, Workflow and WorkflowExecution
       CustomResourceDefinitions
-    digest: 328d90a218762695a5e218997b750453b0adc33f290acf4c6571a5ba174febb9
+    digest: 835f73b14a79a1434a75cb9118035c1ae51d0f9f4faf2306de08bebc4e8a0b75
     home: https://github.com/giantswarm/muster
     icon: https://s.giantswarm.io/app-icons/muster/1/light.svg
     keywords:
@@ -211792,4 +211792,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-29T17:32:23.86108317Z"
+generated: "2026-09-29T17:34:13.783436176Z"
