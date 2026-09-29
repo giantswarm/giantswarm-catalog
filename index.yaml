@@ -91517,6 +91517,41 @@ entries:
           url: https://www.giantswarm.io
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/hello-world-3.2.3.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/hello-world-app/refs/tags/v3.2.3/README.md
+      io.giantswarm.application.team: honeybadger
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/hello-world-app/refs/tags/v3.2.3/helm/hello-world/values.schema.json
+    apiVersion: v2
+    appVersion: 3.2.3
+    created: "2026-09-29T01:18:53.851984539Z"
+    description: A chart that deploys a basic hello world site and lets you test values
+      merging of user values configmap and secrets.
+    digest: 879dd481d13cfc49d55a7645cc38aefd07e513f7bc886cab9ba032d649d0e733
+    home: https://github.com/giantswarm/hello-world-app
+    icon: https://s.giantswarm.io/app-icons/1/png/hello-world-app-light.png
+    keywords:
+    - demo
+    - webapp
+    - testing
+    maintainers:
+    - name: Giant Swarm
+      url: https://github.com/giantswarm
+    name: hello-world
+    sources:
+    - https://github.com/giantswarm/helloworld
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/hello-world-3.2.3.tgz
+    version: 3.2.3
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/hello-world-app/issues
+        - name: Giant Swarm
+          url: https://www.giantswarm.io
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/hello-world-3.2.2.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/hello-world-app/refs/tags/v3.2.2/README.md
       io.giantswarm.application.team: honeybadger
@@ -209384,4 +209419,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-29T00:56:47.549726279Z"
+generated: "2026-09-29T01:18:53.850207077Z"
