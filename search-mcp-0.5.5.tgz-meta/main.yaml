@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/audience: giantswarm
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/team: honeybadger
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/search-mcp/issues\n"
+chartApiVersion: v2
+chartFile: search-mcp-0.5.5.tgz
+dateCreated: '2026-09-29T18:30:42.997663Z'
+digest: 6e3fd1e4c8718349a67583d17fc4238e00a0b9a5aea7a973a8ac2ce2b1e3fcd5
+home: https://github.com/giantswarm/search-mcp
+icon: https://s.giantswarm.io/app-icons/search-mcp/1/light.svg
