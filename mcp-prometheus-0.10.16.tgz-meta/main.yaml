@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/team: atlas
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/mcp-prometheus/issues\n"
+chartApiVersion: v2
+chartFile: mcp-prometheus-0.10.16.tgz
+dateCreated: '2026-09-29T16:38:50.846976Z'
+digest: cb94e3750e213029ebf1cd46ded6c3dca8612f57abca594091d8aab4e6736536
+home: https://github.com/giantswarm/mcp-prometheus
+icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
