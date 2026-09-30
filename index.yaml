@@ -75939,6 +75939,32 @@ entries:
           url: https://github.com/giantswarm/gateway-api-bundle/issues
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/gateway-api-bundle-1.20.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/gateway-api-bundle/refs/tags/v1.20.1/README.md
+      io.giantswarm.application.team: cabbage
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/gateway-api-bundle/refs/tags/v1.20.1/helm/gateway-api-bundle/values.schema.json
+    apiVersion: v2
+    appVersion: 1.20.1
+    created: "2026-09-30T09:55:11.952758929Z"
+    description: Gateway API bundle
+    digest: 1ca1be57c9c565bc658b7b342d37b4b7eb45ad7bf88a362763f2bb4ba9382491
+    home: https://github.com/giantswarm/gateway-api-bundle
+    icon: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
+    keywords:
+    - gateway-api
+    - networking
+    - bundle
+    name: gateway-api-bundle
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/gateway-api-bundle-1.20.1.tgz
+    version: 1.20.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/gateway-api-bundle/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/gateway-api-bundle-1.20.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/gateway-api-bundle/refs/tags/v1.20.0/README.md
       io.giantswarm.application.team: cabbage
@@ -213656,4 +213682,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-30T09:38:41.457320105Z"
+generated: "2026-09-30T09:55:11.951754087Z"
