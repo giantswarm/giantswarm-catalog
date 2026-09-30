@@ -1,0 +1,14 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/team: cabbage
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/cloudwatch-exporter-app/issues\n\
+    - name: Upstream project\n  url: https://github.com/prometheus-community/yet-another-cloudwatch-exporter\n"
+chartApiVersion: v2
+chartFile: cloudwatch-exporter-0.0.8.tgz
+dateCreated: '2026-09-30T11:16:13.120572Z'
+digest: 1bd646e2e87b2538c3a45f384d3857bd44455d9798373387b3838d138f631d16
+home: https://github.com/giantswarm/cloudwatch-exporter-app
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
