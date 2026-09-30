@@ -203946,6 +203946,30 @@ entries:
           url: https://github.com/giantswarm/search-mcp/issues
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/search-mcp-0.5.6-rc.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/search-mcp/refs/tags/v0.5.6-rc.1/README.md
+      io.giantswarm.application.team: honeybadger
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/search-mcp/refs/tags/v0.5.6-rc.1/helm/search-mcp/values.schema.json
+    apiVersion: v2
+    appVersion: 0.5.6-rc.1
+    created: "2026-09-30T04:04:57.882065414Z"
+    description: MCP server for access to Giant Swarm documentation and more
+    digest: d66c06906c934cb04b802f75c8ef52243d311101d78c4b3d9a76f6f4ff1b0af8
+    home: https://github.com/giantswarm/search-mcp
+    icon: https://s.giantswarm.io/app-icons/search-mcp/1/light.svg
+    name: search-mcp
+    sources:
+    - https://github.com/giantswarm/search-mcp
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/search-mcp-0.5.6-rc.1.tgz
+    version: 0.5.6-rc.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/search-mcp/issues
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/search-mcp-0.5.5.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/search-mcp/refs/tags/v0.5.5/README.md
       io.giantswarm.application.team: honeybadger
@@ -212726,4 +212750,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-09-30T04:04:42.764283443Z"
+generated: "2026-09-30T04:04:57.880154253Z"
