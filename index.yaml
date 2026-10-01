@@ -200525,6 +200525,31 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/oauth2-proxy-2.0.0.tgz
     version: 2.0.0
+  oneonone:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/oneonone/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/oneonone-0.1.0-rc.2.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/oneonone/refs/tags/v0.1.0-rc.2/README.md
+      io.giantswarm.application.team: cabbage
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/oneonone/refs/tags/v0.1.0-rc.2/helm/oneonone/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2026-10-01T09:24:02.898651231Z"
+    description: Please add description
+    digest: 8d4007031be0bfb42108569fc039bcf248fdd156557a89547eb6eb3476b74c82
+    home: https://github.com/giantswarm/oneonone
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: oneonone
+    sources:
+    - https://github.com/some-org/some-repo
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/oneonone-0.1.0-rc.2.tgz
+    version: 0.1.0-rc.2
   openssf-scorecard-exporter:
   - annotations:
       artifacthub.io/license: Apache-2.0
@@ -216928,4 +216953,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-10-01T08:52:20.271809347Z"
+generated: "2026-10-01T09:24:02.897985079Z"
