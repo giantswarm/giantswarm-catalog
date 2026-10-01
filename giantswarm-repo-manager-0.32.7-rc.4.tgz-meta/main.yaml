@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/audience: giantswarm
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: bumblebee
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/giantswarm-repo-manager/issues\n"
+chartApiVersion: v2
+chartFile: giantswarm-repo-manager-0.32.7-rc.4.tgz
+dateCreated: '2026-10-01T12:02:43.754636Z'
+digest: b2aadd37dd30188f53895c571d72d8b26ff5677ca7b71e5a6ca68738caeba21b
+home: https://github.com/giantswarm/giantswarm-repo-manager
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
