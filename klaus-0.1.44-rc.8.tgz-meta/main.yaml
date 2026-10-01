@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/team: bumblebee
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/klaus/issues\n"
+chartApiVersion: v2
+chartFile: klaus-0.1.44-rc.8.tgz
+dateCreated: '2026-10-01T04:05:18.930081Z'
+digest: b1a4157294697920c5dbab9378ee254c4730674ff30c59e4d4a637d73f9edf8a
+home: https://github.com/giantswarm/klaus
+icon: https://s.giantswarm.io/app-icons/klaus/1/light.png
