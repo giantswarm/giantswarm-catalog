@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/audience: giantswarm
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/team: cabbage
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: "- name: Support\n  url: https://github.com/giantswarm/oneonone/issues\n"
+chartApiVersion: v2
+chartFile: oneonone-0.1.0-rc.3.tgz
+dateCreated: '2026-10-01T13:29:14.388968Z'
+digest: 0e3535d3b157bbbecd9e0692ceeb172c8cb774ce66288f5008b0db81725314fd
+home: https://github.com/giantswarm/oneonone
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
