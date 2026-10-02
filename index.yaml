@@ -150185,6 +150185,39 @@ entries:
       artifacthub.io/links: |
         - name: Support
           url: https://github.com/giantswarm/mcp-prometheus/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/mcp-prometheus-0.11.6.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mcp-prometheus/refs/tags/v0.11.6/README.md
+      io.giantswarm.application.team: atlas
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/mcp-prometheus/refs/tags/v0.11.6/helm/mcp-prometheus/values.schema.json
+    apiVersion: v2
+    appVersion: 0.11.6
+    created: "2026-10-02T10:31:41.6705839Z"
+    description: A Helm chart for mcp-prometheus - MCP server for Prometheus metrics
+    digest: c89c7737b1b5cacdee62b44b7f5c1cf6e54b6c5f73f47a8c5744e282dc240a74
+    home: https://github.com/giantswarm/mcp-prometheus
+    icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+    keywords:
+    - prometheus
+    - mcp
+    - model-context-protocol
+    - monitoring
+    - metrics
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - email: team-planeteers@giantswarm.io
+      name: Giant Swarm
+    name: mcp-prometheus
+    sources:
+    - https://github.com/giantswarm/mcp-prometheus
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/mcp-prometheus-0.11.6.tgz
+    version: 0.11.6
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/mcp-prometheus/issues
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/mcp-prometheus-0.11.5.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mcp-prometheus/refs/tags/v0.11.5/README.md
       io.giantswarm.application.team: atlas
@@ -222031,4 +222064,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-10-02T10:24:51.702200473Z"
+generated: "2026-10-02T10:31:41.66901963Z"
