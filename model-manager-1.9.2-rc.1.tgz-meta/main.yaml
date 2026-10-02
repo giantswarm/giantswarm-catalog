@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/audience: customers
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: bumblebee
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/model-manager/issues\n"
+chartApiVersion: v2
+chartFile: model-manager-1.9.2-rc.1.tgz
+dateCreated: '2026-10-02T07:27:25.290856Z'
+digest: 153f47134e1beedb6483a788fb82f4988311abc50d232ecddfd320e1d43a8bee
+home: https://github.com/giantswarm/model-manager
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
