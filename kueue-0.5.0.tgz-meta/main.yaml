@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/team: planeteers
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/kueue-app/issues\n- name:\
+    \ Upstream project\n  url: https://github.com/kubernetes-sigs/kueue\n"
+chartApiVersion: v2
+chartFile: kueue-0.5.0.tgz
+dateCreated: '2026-10-02T07:06:36.508376Z'
+digest: 9c4f28650d3eaeb7f96526c640fb8f1f3ff1b4cb46c6f6b9ab22fea76a57b2dd
+home: https://github.com/giantswarm/kueue-app
+icon: https://s.giantswarm.io/app-icons/kueue/1/light.svg
