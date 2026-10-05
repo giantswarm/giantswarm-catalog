@@ -1,0 +1,14 @@
+annotations:
+  application.giantswarm.io/team: rocket
+  application.giantswarm.io/upstreamChartUrl: https://github.com/kubernetes-csi/external-snapshotter
+  application.giantswarm.io/upstreamChartVersion: v8.6.0
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/csi-external-snapshotter-app/issues\n\
+    - name: Upstream project\n  url: https://github.com/kubernetes-csi/external-snapshotter\n"
+chartApiVersion: v2
+chartFile: csi-external-snapshotter-app-0.4.2.tgz
+dateCreated: '2026-10-05T16:29:52.481647Z'
+digest: 08c818d7dddf298f5d5c765b3868d4dd90b24a17ff86f5e442b8dc9532e22a74
+home: https://github.com/giantswarm/csi-external-snapshotter-app
+icon: https://s.giantswarm.io/app-icons/csi/1/dark.svg
