@@ -126772,6 +126772,38 @@ entries:
         - name: Support
           url: https://github.com/giantswarm/kuberay/issues
       io.giantswarm.application.audience: all
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/kuberay-operator-1.2.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kuberay/refs/tags/v1.2.1/README.md
+      io.giantswarm.application.team: planeteers
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/kuberay/refs/tags/v1.2.1/helm/kuberay/values.schema.json
+    apiVersion: v2
+    appVersion: v1.7.1
+    created: "2026-10-05T10:49:58.242652082Z"
+    description: A Helm chart for deploying the Kuberay operator on Kubernetes.
+    digest: 7891b6aa9cd8794f4e9a1cd17281126dc3547c67adad2dd93349411c3329de73
+    home: https://github.com/giantswarm/kuberay
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    keywords:
+    - ray
+    - ray operator
+    - distributed computing
+    - data processing
+    - machine learning
+    - deep learning
+    - hyperparameter tuning
+    - reinforcement learning
+    - model serving
+    name: kuberay-operator
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/kuberay-operator-1.2.1.tgz
+    version: 1.2.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/kuberay/issues
+      io.giantswarm.application.audience: all
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/kuberay-operator-1.2.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kuberay/refs/tags/v1.2.0/README.md
       io.giantswarm.application.team: planeteers
@@ -225820,4 +225852,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-10-05T10:48:51.095538638Z"
+generated: "2026-10-05T10:49:58.225061138Z"
