@@ -116303,6 +116303,32 @@ entries:
       artifacthub.io/links: |
         - name: Support
           url: https://github.com/giantswarm/klaus-gateway/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/klaus-gateway-4.1.0-rc.16.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/klaus-gateway/refs/tags/v4.1.0-rc.16/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/klaus-gateway/refs/tags/v4.1.0-rc.16/helm/klaus-gateway/values.schema.json
+    apiVersion: v2
+    appVersion: 4.1.0-rc.16
+    created: "2026-10-05T22:21:13.198648644Z"
+    description: Slack channel gateway for the Agent Platform's kagent agents
+    digest: f716800707643432b6d1a0c2546bb8216d0d51f57dd5bd0b50686c1b1a7c24ec
+    home: https://github.com/giantswarm/klaus-gateway
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    maintainers:
+    - name: Giant Swarm
+      url: https://www.giantswarm.io
+    name: klaus-gateway
+    sources:
+    - https://github.com/giantswarm/klaus-gateway
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/klaus-gateway-4.1.0-rc.16.tgz
+    version: 4.1.0-rc.16
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/klaus-gateway/issues
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/klaus-gateway-4.1.0-rc.15.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/klaus-gateway/refs/tags/v4.1.0-rc.15/README.md
       io.giantswarm.application.team: bumblebee
@@ -228073,4 +228099,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-10-05T22:20:47.082193015Z"
+generated: "2026-10-05T22:21:13.19700698Z"
