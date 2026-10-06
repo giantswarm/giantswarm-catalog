@@ -119250,6 +119250,32 @@ entries:
       artifacthub.io/links: |
         - name: Support
           url: https://github.com/giantswarm/klaus-gateway/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/klaus-gateway-4.1.0-rc.20.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/klaus-gateway/refs/tags/v4.1.0-rc.20/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/klaus-gateway/refs/tags/v4.1.0-rc.20/helm/klaus-gateway/values.schema.json
+    apiVersion: v2
+    appVersion: 4.1.0-rc.20
+    created: "2026-10-06T21:16:46.46133625Z"
+    description: Slack channel gateway for the Agent Platform's kagent agents
+    digest: 0c69dd1b85ca409edd05caf57761448092b5b572133d6cc0a399666d1f4c59ec
+    home: https://github.com/giantswarm/klaus-gateway
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    maintainers:
+    - name: Giant Swarm
+      url: https://www.giantswarm.io
+    name: klaus-gateway
+    sources:
+    - https://github.com/giantswarm/klaus-gateway
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/klaus-gateway-4.1.0-rc.20.tgz
+    version: 4.1.0-rc.20
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/klaus-gateway/issues
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/klaus-gateway-4.1.0-rc.19.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/klaus-gateway/refs/tags/v4.1.0-rc.19/README.md
       io.giantswarm.application.team: bumblebee
@@ -231739,4 +231765,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-10-06T21:14:22.00919633Z"
+generated: "2026-10-06T21:16:46.459409375Z"
