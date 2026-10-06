@@ -97923,6 +97923,32 @@ entries:
           url: https://github.com/giantswarm/gpu-node-pool/issues
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/gpu-node-pool-0.8.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/gpu-node-pool/refs/tags/v0.8.0/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/gpu-node-pool/refs/tags/v0.8.0/helm/gpu-node-pool/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2026-10-06T05:21:34.104748108Z"
+    description: A GPU node pool as its own Cluster API release for an existing Giant
+      Swarm cluster — MachinePool, KubeadmConfig and KarpenterMachinePool with their
+      own worker bootstrap.
+    digest: 5e0a7e1a7c019373f72569113be30d2f8f88cee93f81e457208fc6416eae1e62
+    home: https://github.com/giantswarm/gpu-node-pool
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: gpu-node-pool
+    sources:
+    - https://github.com/giantswarm/gpu-node-pool
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/gpu-node-pool-0.8.0.tgz
+    version: 0.8.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/gpu-node-pool/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/gpu-node-pool-0.8.0-rc.1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/gpu-node-pool/refs/tags/v0.8.0-rc.1/README.md
       io.giantswarm.application.team: bumblebee
@@ -229275,4 +229301,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-10-06T05:14:30.073265363Z"
+generated: "2026-10-06T05:21:34.103101188Z"
