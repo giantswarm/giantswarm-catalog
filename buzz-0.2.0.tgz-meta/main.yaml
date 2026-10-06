@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/team: bumblebee
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: "- name: Support\n  url: https://github.com/giantswarm/buzz/issues\n"
+chartApiVersion: v2
+chartFile: buzz-0.2.0.tgz
+dateCreated: '2026-10-06T08:33:32.440825Z'
+digest: 85f0e5721cd4c1bd0757eb2b991b818c7ca85639387f7ab481cd8105019692c1
+home: https://github.com/giantswarm/buzz
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
