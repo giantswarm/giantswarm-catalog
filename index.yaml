@@ -112173,6 +112173,30 @@ entries:
           url: https://github.com/giantswarm/kepler-collector/issues
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/kepler-investigator-0.10.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kepler-collector/refs/tags/v0.10.0/README.md
+      io.giantswarm.application.team: tenet
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/kepler-collector/refs/tags/v0.10.0/helm/kepler-investigator/values.schema.json
+    apiVersion: v2
+    appVersion: 0.10.0
+    created: "2026-10-06T12:54:15.546627615Z"
+    description: Receives Tekton failure triggers and posts investigation replies
+      in
+    digest: 2057754eb66d7259d956b6008656c958c62a1e19ed5c129e53b1217c1f78db04
+    home: https://github.com/giantswarm/kepler-collector
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: kepler-investigator
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/kepler-investigator-0.10.0.tgz
+    version: 0.10.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/kepler-collector/issues
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/kepler-investigator-0.9.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kepler-collector/refs/tags/v0.9.0/README.md
       io.giantswarm.application.team: tenet
@@ -230524,4 +230548,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-10-06T12:53:51.441458254Z"
+generated: "2026-10-06T12:54:15.545471471Z"
