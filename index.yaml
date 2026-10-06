@@ -111940,6 +111940,30 @@ entries:
           url: https://github.com/giantswarm/kepler-collector/issues
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/kepler-collector-0.10.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kepler-collector/refs/tags/v0.10.0/README.md
+      io.giantswarm.application.team: tenet
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/kepler-collector/refs/tags/v0.10.0/helm/kepler-collector/values.schema.json
+    apiVersion: v2
+    appVersion: 0.10.0
+    created: "2026-10-06T12:53:51.443088975Z"
+    description: Turns capa e2e test failures into Mimir metrics and Loki logs for
+      failure-triage dashboards.
+    digest: 6e3259ec0dd788876d55ff158f89eef7d2e58e83811135bb0658d5d2d72d5d12
+    home: https://github.com/giantswarm/kepler-collector
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: kepler-collector
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/kepler-collector-0.10.0.tgz
+    version: 0.10.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/kepler-collector/issues
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/kepler-collector-0.9.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kepler-collector/refs/tags/v0.9.0/README.md
       io.giantswarm.application.team: tenet
@@ -230500,4 +230524,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-10-06T12:34:23.429768964Z"
+generated: "2026-10-06T12:53:51.441458254Z"
