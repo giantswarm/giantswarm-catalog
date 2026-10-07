@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/audience: customers
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: bumblebee
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/cluster-manager/issues\n"
+chartApiVersion: v2
+chartFile: cluster-manager-0.31.0-rc.1.tgz
+dateCreated: '2026-10-07T17:50:34.560512Z'
+digest: 61a8cff916d191a1ccfd22d5d3f5c823fd9212d0ba57115d1d161f23fae12187
+home: https://github.com/giantswarm/cluster-manager
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
