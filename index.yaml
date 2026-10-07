@@ -56834,6 +56834,38 @@ entries:
           url: https://github.com/giantswarm/aws-lb-controller-bundle/issues
         - name: Upstream project
           url: https://github.com/aws/eks-charts
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-6.0.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/aws-lb-controller-bundle/refs/tags/v6.0.0/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/aws-lb-controller-bundle/refs/tags/v6.0.0/helm/aws-load-balancer-controller/values.schema.json
+    apiVersion: v2
+    appVersion: 6.0.0
+    created: "2026-10-07T11:12:45.201915755Z"
+    dependencies:
+    - alias: upstream
+      name: aws-load-balancer-controller
+      repository: https://aws.github.io/eks-charts
+      version: 3.6.0
+    description: AWS Load Balancer Controller Helm chart for Kubernetes (Giant Swarm)
+    digest: 770927ae4f8c20c8b5b99e45dde385e1c7b21f0ad781be8d62c50939ea3a5636
+    home: https://github.com/giantswarm/aws-lb-controller-bundle
+    icon: https://s.giantswarm.io/app-icons/aws/2/light.svg
+    maintainers:
+    - name: giantswarm/team-phoenix
+    name: aws-load-balancer-controller
+    sources:
+    - https://github.com/aws/eks-charts
+    - https://github.com/giantswarm/aws-load-balancer-controller-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-6.0.0.tgz
+    version: 6.0.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/aws-lb-controller-bundle/issues
+        - name: Upstream project
+          url: https://github.com/aws/eks-charts
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/aws-load-balancer-controller-5.2.2.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/aws-lb-controller-bundle/refs/tags/v5.2.2/README.md
       io.giantswarm.application.team: phoenix
@@ -233288,4 +233320,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-10-07T11:12:26.098755225Z"
+generated: "2026-10-07T11:12:45.196334015Z"
