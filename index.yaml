@@ -227320,6 +227320,37 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/rbac-bootstrap-0.1.1.tgz
     version: 0.1.1
+  release-test-app:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/release-test-app/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/release-test-app-2.2.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/release-test-app/refs/tags/v2.2.1/README.md
+      io.giantswarm.application.team: honeybadger
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/release-test-app/refs/tags/v2.2.1/helm/release-test-app/values.schema.json
+    apiVersion: v2
+    appVersion: 2.2.1
+    created: "2026-10-08T10:33:32.413190225Z"
+    description: A chart that deploys a basic hello world site and lets you test values
+      merging of user values configmap and secrets.
+    digest: c2c0295fbc580851d6e7f8634ab8d0db5c8aaf7b1d6f5996e91d263820261b9a
+    home: https://github.com/giantswarm/release-test-app
+    icon: https://s.giantswarm.io/app-icons/1/png/hello-world-app-light.png
+    keywords:
+    - demo
+    - webapp
+    - testing
+    name: release-test-app
+    sources:
+    - https://github.com/giantswarm/helloworld
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/release-test-app-2.2.1.tgz
+    version: 2.2.1
   reports-server:
   - annotations:
       io.giantswarm.application.audience: all
@@ -236875,4 +236906,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-10-08T10:06:04.344913824Z"
+generated: "2026-10-08T10:33:32.411296137Z"
