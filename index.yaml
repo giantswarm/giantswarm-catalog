@@ -233273,6 +233273,37 @@ entries:
       config.giantswarm.io/version: 1.x.x
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/valkey-0.3.4.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/valkey-app/refs/tags/v0.3.4/README.md
+      io.giantswarm.application.team: planeteers
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/valkey-app/refs/tags/v0.3.4/helm/valkey/values.schema.json
+    apiVersion: v2
+    appVersion: 9.1.2
+    created: "2026-10-08T06:14:42.691860981Z"
+    dependencies:
+    - name: valkey
+      repository: file://charts/valkey
+      version: 0.12.0
+    description: A Giant Swarm app for deploying Valkey (a Redis alternative) on Kubernetes.
+    digest: d0bd1d657c3240e7b9dd38154fc57d3d35362c2ad21c7f5347ada46173b45800
+    home: https://github.com/giantswarm/valkey-app
+    icon: https://s.giantswarm.io/app-icons/valkey/1/light.svg
+    name: valkey
+    sources:
+    - https://github.com/valkey-io/valkey-helm
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/valkey-0.3.4.tgz
+    version: 0.3.4
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/valkey-app/issues
+        - name: Upstream project
+          url: https://github.com/valkey-io/valkey-helm
+      config.giantswarm.io/version: 1.x.x
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/valkey-0.3.3.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/valkey-app/refs/tags/v0.3.3/README.md
       io.giantswarm.application.team: planeteers
@@ -236498,4 +236529,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-10-08T05:55:20.867137226Z"
+generated: "2026-10-08T06:14:42.685923825Z"
