@@ -104869,6 +104869,33 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/giantswarm-repo-manager-0.1.1.tgz
     version: 0.1.1
+  gitlab:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/gitlab/issues
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/gitlab-0.1.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/gitlab/refs/tags/v0.1.0/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/gitlab/refs/tags/v0.1.0/helm/gitlab/values.schema.json
+    apiVersion: v2
+    appVersion: 19.4.1-ce.0
+    created: "2026-10-10T19:01:58.637474813Z"
+    description: GitLab CE in one Omnibus container on the installation's PostgreSQL,
+      Valkey and object storage, a small GitLab instance for testing integrations.
+    digest: 73b3c5f51dd32abf4bfd8567dcc6363961649167155ac70ae95988f6ebb30ddb
+    home: https://github.com/giantswarm/gitlab
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: gitlab
+    sources:
+    - https://gitlab.com/gitlab-org/omnibus-gitlab
+    - https://hub.docker.com/r/gitlab/gitlab-ce
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/gitlab-0.1.0.tgz
+    version: 0.1.0
   gpu-node-pool:
   - annotations:
       artifacthub.io/license: Apache-2.0
@@ -240242,4 +240269,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-10-10T18:58:34.457167972Z"
+generated: "2026-10-10T19:01:58.635628911Z"
