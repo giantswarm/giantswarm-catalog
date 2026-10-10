@@ -238476,6 +238476,36 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/whereabouts-0.1.0.tgz
     version: 0.1.0
+  workspace-manager:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/workspace-manager/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/workspace-manager-0.1.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/workspace-manager/refs/tags/v0.1.1/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/workspace-manager/refs/tags/v0.1.1/helm/workspace-manager/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.1
+    created: "2026-10-10T04:55:03.729938171Z"
+    description: Manages the Agent Platform's workspaces, the sources agent sessions
+      work on and their provider sign-ins, as one MCP server behind muster
+    digest: ae48f063db220058465c9c093e56d3c6e1c7b94f5c5d57729d2b0b95ef0d8efb
+    home: https://github.com/giantswarm/workspace-manager
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    keywords:
+    - mcp
+    - workspaces
+    - agent-platform
+    name: workspace-manager
+    sources:
+    - https://github.com/giantswarm/workspace-manager
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/workspace-manager-0.1.1.tgz
+    version: 0.1.1
   zot:
   - annotations:
       artifacthub.io/license: Apache-2.0
@@ -239173,4 +239203,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-10-10T03:10:13.164579639Z"
+generated: "2026-10-10T04:55:03.726288766Z"
