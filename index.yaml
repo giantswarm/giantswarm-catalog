@@ -115417,6 +115417,35 @@ entries:
     version: 0.1.0
   k8s-dns-node-cache-app:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/k8s-dns-node-cache-app/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/k8s-dns-node-cache-app-2.11.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/k8s-dns-node-cache-app/refs/tags/v2.11.1/README.md
+      io.giantswarm.application.restrictions.cluster-singleton: "true"
+      io.giantswarm.application.restrictions.fixed-namespace: kube-system
+      io.giantswarm.application.restrictions.gpu-instances: "false"
+      io.giantswarm.application.team: cabbage
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/k8s-dns-node-cache-app/refs/tags/v2.11.1/helm/k8s-dns-node-cache-app/values.schema.json
+    apiVersion: v2
+    appVersion: 1.26.7
+    created: "2026-10-13T09:00:12.084817959Z"
+    description: A Helm chart to run NodeLocal DNSCache in Kubernetes clusters
+    digest: d44029a3bf31997e75365f6d7355eb3d97ab9bf21f6f3e0dd719261cae777e70
+    home: https://github.com/giantswarm/k8s-dns-node-cache-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    keywords:
+    - dns
+    - caching
+    - networking
+    name: k8s-dns-node-cache-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/k8s-dns-node-cache-app-2.11.1.tgz
+    version: 2.11.1
+  - annotations:
       io.giantswarm.application.audience: all
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/k8s-dns-node-cache-app-2.11.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/k8s-dns-node-cache-app/refs/tags/v2.11.0/README.md
@@ -243972,4 +244001,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-10-13T08:40:48.026560696Z"
+generated: "2026-10-13T09:00:12.083790138Z"
