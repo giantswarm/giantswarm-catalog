@@ -236866,6 +236866,30 @@ entries:
           url: https://github.com/giantswarm/release-automation-sandbox/issues
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/release-automation-sandbox-0.2.3.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/release-automation-sandbox/refs/tags/v0.2.3/README.md
+      io.giantswarm.application.team: honeybadger
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/release-automation-sandbox/refs/tags/v0.2.3/helm/release-automation-sandbox/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2026-10-15T16:08:06.446388539Z"
+    description: Please add description
+    digest: d81ad4b58aaab3b83de4730d0ece3ce4e1ead71b1cf0cabdf623dd139cf44645
+    home: https://github.com/giantswarm/release-automation-sandbox
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: release-automation-sandbox
+    sources:
+    - https://github.com/some-org/some-repo
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/release-automation-sandbox-0.2.3.tgz
+    version: 0.2.3
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/release-automation-sandbox/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/release-automation-sandbox-0.2.2.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/release-automation-sandbox/refs/tags/v0.2.2/README.md
       io.giantswarm.application.team: honeybadger
@@ -247269,4 +247293,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-10-15T15:34:14.651213983Z"
+generated: "2026-10-15T16:08:06.445711181Z"
