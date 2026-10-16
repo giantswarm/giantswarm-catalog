@@ -1,0 +1,14 @@
+name: Release Candidate Cleanup
+on:
+  workflow_dispatch:
+    inputs:
+      dry-run:
+        description: "Enable dry-run mode"
+        default: true
+        type: boolean
+jobs:
+  cleanup:
+    uses: giantswarm/app-catalog-cleanup-tool/.github/workflows/cleanup.yaml@main
+    with:
+      pre-release: 'rc\.[0-9]+'
+      dry-run: ${{ inputs.dry-run }}
