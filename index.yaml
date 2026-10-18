@@ -122633,6 +122633,32 @@ entries:
       artifacthub.io/links: |
         - name: Support
           url: https://github.com/giantswarm/klaus-gateway/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/klaus-gateway-4.9.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/klaus-gateway/refs/tags/v4.9.1/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/klaus-gateway/refs/tags/v4.9.1/helm/klaus-gateway/values.schema.json
+    apiVersion: v2
+    appVersion: 4.9.1
+    created: "2026-10-18T09:23:30.853438645Z"
+    description: Slack channel gateway for the Agent Platform's kagent agents
+    digest: 4c61eb6e81abb31ff718ee11c4c8e97a8f9820470fc5424fc7d1cdec7d662deb
+    home: https://github.com/giantswarm/klaus-gateway
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    maintainers:
+    - name: Giant Swarm
+      url: https://www.giantswarm.io
+    name: klaus-gateway
+    sources:
+    - https://github.com/giantswarm/klaus-gateway
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/klaus-gateway-4.9.1.tgz
+    version: 4.9.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/klaus-gateway/issues
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/klaus-gateway-4.9.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/klaus-gateway/refs/tags/v4.9.0/README.md
       io.giantswarm.application.team: bumblebee
@@ -235161,4 +235187,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-10-18T09:22:38.898295435Z"
+generated: "2026-10-18T09:23:30.851723528Z"
