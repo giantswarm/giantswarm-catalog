@@ -1,0 +1,14 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: bumblebee
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/dicebear/issues\n- name:\
+    \ Upstream project\n  url: https://github.com/dicebear/dicebear\n"
+chartApiVersion: v2
+chartFile: dicebear-0.3.16.tgz
+dateCreated: '2026-10-18T09:11:01.616634Z'
+digest: a58ade7e9e33c7b309f8f1441f816b70fa2cc47170524c7f0cd5a7fdb7b83f5b
+home: https://github.com/giantswarm/dicebear
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
