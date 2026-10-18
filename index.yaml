@@ -109606,6 +109606,31 @@ entries:
           url: https://github.com/giantswarm/hr-recovery-controller/issues
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/hr-recovery-controller-0.0.51.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/hr-recovery-controller/refs/tags/v0.0.51/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/hr-recovery-controller/refs/tags/v0.0.51/helm/hr-recovery-controller/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.51
+    created: "2026-10-18T22:18:22.229336249Z"
+    description: Controller that auto-recovers HelmReleases wedged on Stalled=MissingRollbackTarget
+      by force-poking them.
+    digest: b3cfdccc16604088239c6d4e82d231229e385dd400f9ce5595b02239529e21a4
+    home: https://github.com/giantswarm/hr-recovery-controller
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: hr-recovery-controller
+    sources:
+    - https://github.com/giantswarm/hr-recovery-controller
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/hr-recovery-controller-0.0.51.tgz
+    version: 0.0.51
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/hr-recovery-controller/issues
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/hr-recovery-controller-0.0.50.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/hr-recovery-controller/refs/tags/v0.0.50/README.md
       io.giantswarm.application.team: bumblebee
@@ -237871,4 +237896,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-10-18T22:18:10.799770734Z"
+generated: "2026-10-18T22:18:22.228469084Z"
