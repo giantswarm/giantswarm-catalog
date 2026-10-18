@@ -142778,6 +142778,39 @@ entries:
           url: https://github.com/giantswarm/marge/issues
       io.giantswarm.application.audience: customers
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/marge-0.44.6.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/marge/refs/tags/v0.44.6/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/marge/refs/tags/v0.44.6/helm/marge/values.schema.json
+    apiVersion: v2
+    appVersion: 0.44.6
+    created: "2026-10-18T17:26:10.69646153Z"
+    description: A housekeeping tool for dependency update PRs, served as an MCP server
+    digest: ada17614adf764f1b2cbaed28fdfe2b64d5e690197a03452f07442fd83b2bdab
+    home: https://github.com/giantswarm/marge
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    keywords:
+    - mcp
+    - renovate
+    - dependabot
+    - model-context-protocol
+    maintainers:
+    - email: team-bumblebee@giantswarm.io
+      name: Giant Swarm
+    name: marge
+    sources:
+    - https://github.com/giantswarm/marge
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/marge-0.44.6.tgz
+    version: 0.44.6
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/marge/issues
+      io.giantswarm.application.audience: customers
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/marge-0.44.5.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/marge/refs/tags/v0.44.5/README.md
       io.giantswarm.application.team: bumblebee
@@ -236354,4 +236387,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-10-18T17:22:51.454986874Z"
+generated: "2026-10-18T17:26:10.694970648Z"
