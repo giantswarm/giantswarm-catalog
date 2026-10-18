@@ -1,0 +1,14 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: bumblebee
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/agentgateway/issues\n-\
+    \ name: Upstream project\n  url: https://github.com/agentgateway/agentgateway\n"
+chartApiVersion: v2
+chartFile: agentgateway-crds-2.8.4.tgz
+dateCreated: '2026-10-18T22:11:54.320256Z'
+digest: 68fae083ab8fbb972019102ba3c460b676c17e31cf679d838c68216fb5376c6b
+home: https://github.com/giantswarm/agentgateway
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
