@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/audience: customers
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: bumblebee
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/agent-manager/issues\n"
+chartApiVersion: v2
+chartFile: agent-manager-2.6.6.tgz
+dateCreated: '2026-10-19T04:04:19.764333Z'
+digest: 570816aa75305d1629139a17a376845ea6e38b013c9ba92bf4c51f5568989e26
+home: https://github.com/giantswarm/agent-manager
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
