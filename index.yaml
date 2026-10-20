@@ -1357,6 +1357,42 @@ entries:
           url: https://github.com/giantswarm/agent-manager/issues
       io.giantswarm.application.audience: customers
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agent-manager-2.8.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agent-manager/refs/tags/v2.8.0/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/agent-manager/refs/tags/v2.8.0/helm/agent-manager/values.schema.json
+    apiVersion: v2
+    appVersion: 2.8.0
+    created: "2026-10-20T23:28:50.059728994Z"
+    description: Agent lifecycle service for the Agent Platform — creates, updates,
+      deletes and inspects kagent agents as Flux HelmReleases of the agent chart,
+      validated against the chart schema, exposed as REST and MCP
+    digest: 7f3de230c0980f6943a912319feedda25b158f57a2f7498f898b0aeeccb86806
+    home: https://github.com/giantswarm/agent-manager
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    keywords:
+    - mcp
+    - agents
+    - kagent
+    - flux
+    - agent-platform
+    maintainers:
+    - email: team-bumblebee@giantswarm.io
+      name: Giant Swarm
+    name: agent-manager
+    sources:
+    - https://github.com/giantswarm/agent-manager
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/agent-manager-2.8.0.tgz
+    version: 2.8.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/agent-manager/issues
+      io.giantswarm.application.audience: customers
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agent-manager-2.7.2.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agent-manager/refs/tags/v2.7.2/README.md
       io.giantswarm.application.team: bumblebee
@@ -228770,4 +228806,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-10-20T23:05:59.492261569Z"
+generated: "2026-10-20T23:28:50.056545201Z"
