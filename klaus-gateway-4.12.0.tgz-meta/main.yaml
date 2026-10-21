@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/team: bumblebee
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/klaus-gateway/issues\n"
+chartApiVersion: v2
+chartFile: klaus-gateway-4.12.0.tgz
+dateCreated: '2026-10-21T13:11:09.272396Z'
+digest: e175a66c32177bb0fd6d6a8037b2daaca4e2d987bd063d5686bfa950be4b816a
+home: https://github.com/giantswarm/klaus-gateway
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
