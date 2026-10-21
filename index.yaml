@@ -54932,7 +54932,7 @@ entries:
       io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/buzz/refs/tags/v0.3.10/helm/buzz/values.schema.json
     apiVersion: v2
     appVersion: 0.2.1
-    created: "2026-10-21T14:56:38.80288816Z"
+    created: "2026-10-21T15:15:06.465904988Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.enabled
@@ -54945,7 +54945,7 @@ entries:
       version: 0.37.5
     description: Buzz, a self-hostable Nostr relay workspace where people and AI agents
       share channels, repositories and workflows.
-    digest: ba9bf54934704389b8ce1e951123497c19da3f1c3622f6660806576064642c7d
+    digest: d73704590c15329fd5d8a08d8b1dde5ccd64c826ad6d6faba3a348287f17db47
     home: https://github.com/giantswarm/buzz
     icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
     name: buzz
@@ -230932,4 +230932,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-10-21T15:08:47.601026578Z"
+generated: "2026-10-21T15:15:06.447634791Z"
