@@ -103078,6 +103078,30 @@ entries:
           url: https://github.com/giantswarm/inspektor-gadget-app/issues
         - name: Upstream project
           url: https://github.com/some-org/some-repo
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/inspektor-gadget-0.1.19.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/inspektor-gadget-app/refs/tags/v0.1.19/README.md
+      io.giantswarm.application.team: planeteers
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/inspektor-gadget-app/refs/tags/v0.1.19/helm/inspektor-gadget/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2026-10-21T22:12:31.426749088Z"
+    description: Please add description
+    digest: 3bc6f3614d43c9ea5b4fb38981021bd4cbaaf88db4033ef0caccf9df4ebf4a28
+    home: https://github.com/giantswarm/inspektor-gadget-app
+    icon: https://s.giantswarm.io/app-icons/inspektor-gadget/1/light.svg
+    name: inspektor-gadget
+    sources:
+    - https://github.com/some-org/some-repo
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/inspektor-gadget-0.1.19.tgz
+    version: 0.1.19
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/inspektor-gadget-app/issues
+        - name: Upstream project
+          url: https://github.com/some-org/some-repo
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/inspektor-gadget-0.1.18.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/inspektor-gadget-app/refs/tags/v0.1.18/README.md
       io.giantswarm.application.team: planeteers
@@ -231696,4 +231720,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-10-21T22:12:04.134219602Z"
+generated: "2026-10-21T22:12:31.425067627Z"
