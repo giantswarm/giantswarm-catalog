@@ -65202,6 +65202,41 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/descheduler-1.0.0.tgz
     version: 1.0.0
+  devctl:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/devctl/issues
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/devctl-8.151.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/devctl/refs/tags/v8.151.0/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/devctl/refs/tags/v8.151.0/helm/devctl/values.schema.json
+    apiVersion: v2
+    appVersion: 8.151.0
+    created: "2026-10-21T22:59:11.55970715Z"
+    description: devctl serve on a Giant Swarm management cluster — devctl's agent-facing
+      commands as MCP tools behind muster, acting on GitHub as the calling person
+      through the installation's agents App
+    digest: 7810cb01e47ab34b4040723e9a6e94ccc5ffba4b813e4f19f6237c448f99ff2e
+    home: https://github.com/giantswarm/devctl
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    keywords:
+    - mcp
+    - github
+    - agent-platform
+    maintainers:
+    - email: team-bumblebee@giantswarm.io
+      name: Giant Swarm
+    name: devctl
+    sources:
+    - https://github.com/giantswarm/devctl
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/devctl-8.151.0.tgz
+    version: 8.151.0
   dex-app:
   - annotations:
       artifacthub.io/license: Apache-2.0
@@ -232354,4 +232389,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-10-21T22:39:38.596182836Z"
+generated: "2026-10-21T22:59:11.557924604Z"
