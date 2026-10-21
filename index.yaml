@@ -114817,9 +114817,9 @@ entries:
       io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/klaus-gateway/refs/tags/v4.12.2/helm/klaus-gateway/values.schema.json
     apiVersion: v2
     appVersion: 4.12.2
-    created: "2026-10-21T15:50:52.683706055Z"
+    created: "2026-10-21T16:07:23.123680853Z"
     description: Slack channel gateway for the Agent Platform's kagent agents
-    digest: d3755c125b4223430da5c49bddec3db0ec8a7d24f7ace6798bc629316c749197
+    digest: c1b1792f667936a298b1a9cf010a0fe5ea8f0afbb8db618bdecd13e1795add90
     home: https://github.com/giantswarm/klaus-gateway
     icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
     maintainers:
@@ -230991,4 +230991,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-10-21T15:50:52.681961357Z"
+generated: "2026-10-21T16:07:23.122002315Z"
