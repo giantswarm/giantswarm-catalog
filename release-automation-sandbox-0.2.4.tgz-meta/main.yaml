@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/team: honeybadger
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: "- name: Support\n  url: https://github.com/giantswarm/release-automation-sandbox/issues\n"
+chartApiVersion: v2
+chartFile: release-automation-sandbox-0.2.4.tgz
+dateCreated: '2026-10-22T11:22:15.006495Z'
+digest: 7cbc703d6432892cce87a048d6d799f809ec1d12d21674ea14c36707536dea70
+home: https://github.com/giantswarm/release-automation-sandbox
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

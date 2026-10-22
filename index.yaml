@@ -224495,6 +224495,35 @@ entries:
           url: https://github.com/giantswarm/release-automation-sandbox/issues
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/release-automation-sandbox-0.2.4.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/release-automation-sandbox/refs/tags/v0.2.4/README.md
+      io.giantswarm.application.team: honeybadger
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/release-automation-sandbox/refs/tags/v0.2.4/helm/release-automation-sandbox/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2026-10-22T11:22:35.095750231Z"
+    dependencies:
+    - condition: podinfo.enabled
+      name: podinfo
+      repository: ""
+      version: 6.14.0
+    description: Please add description
+    digest: 7cbc703d6432892cce87a048d6d799f809ec1d12d21674ea14c36707536dea70
+    home: https://github.com/giantswarm/release-automation-sandbox
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: release-automation-sandbox
+    sources:
+    - https://github.com/some-org/some-repo
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/release-automation-sandbox-0.2.4.tgz
+    version: 0.2.4
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/release-automation-sandbox/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/release-automation-sandbox-0.2.3.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/release-automation-sandbox/refs/tags/v0.2.3/README.md
       io.giantswarm.application.team: honeybadger
@@ -235433,4 +235462,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-10-22T11:09:28.353617602Z"
+generated: "2026-10-22T11:22:35.093902301Z"
