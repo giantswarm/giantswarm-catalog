@@ -227415,6 +227415,32 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/rook-operator-0.2.4.tgz
     version: 0.2.4
+  sbom-advisory-operator:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/sbom-advisory-operator/issues
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/sbom-advisory-operator-0.1.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/sbom-advisory-operator/refs/tags/v0.1.0/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/sbom-advisory-operator/refs/tags/v0.1.0/helm/sbom-advisory-operator/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2026-10-22T18:18:30.204107002Z"
+    description: Evaluates kubescape SBOMs against package version floors and publishes
+      PolicyReports
+    digest: d21c60e35627ce36dac905260335d47985c4867260b817540422f0ba80a9d0c3
+    home: https://github.com/giantswarm/sbom-advisory-operator
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: sbom-advisory-operator
+    sources:
+    - https://github.com/giantswarm/sbom-advisory-operator
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/sbom-advisory-operator-0.1.0.tgz
+    version: 0.1.0
   search-mcp:
   - annotations:
       artifacthub.io/license: Apache-2.0
@@ -237946,4 +237972,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-10-22T18:11:30.65675536Z"
+generated: "2026-10-22T18:18:30.203225791Z"
