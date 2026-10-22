@@ -232198,6 +232198,30 @@ entries:
           url: https://github.com/giantswarm/toolchain-manager/issues
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/toolchain-manager-0.1.2.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/toolchain-manager/refs/tags/v0.1.2/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/toolchain-manager/refs/tags/v0.1.2/helm/toolchain-manager/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.2
+    created: "2026-10-22T20:51:36.685590315Z"
+    description: Please add description
+    digest: 85ea84ab3e2bad9637892d039575e6a388a3a3b2ca29cd7a4a9ffcab49a9cffa
+    home: https://github.com/giantswarm/toolchain-manager
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: toolchain-manager
+    sources:
+    - https://github.com/some-org/some-repo
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/toolchain-manager-0.1.2.tgz
+    version: 0.1.2
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/toolchain-manager/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/toolchain-manager-0.1.1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/toolchain-manager/refs/tags/v0.1.1/README.md
       io.giantswarm.application.team: bumblebee
@@ -238442,4 +238466,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-10-22T20:47:38.659931934Z"
+generated: "2026-10-22T20:51:36.684506693Z"
