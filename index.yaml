@@ -132316,6 +132316,40 @@ entries:
           url: https://github.com/giantswarm/kyverno-policies/issues
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/kyverno-policies-0.28.7.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kyverno-policies/refs/tags/v0.28.7/README.md
+      io.giantswarm.application.restrictions.cluster-singleton: "true"
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/kyverno-policies/refs/tags/v0.28.7/helm/kyverno-policies/values.schema.json
+    apiVersion: v2
+    appVersion: 0.28.7
+    created: "2026-10-22T07:10:31.868195455Z"
+    dependencies:
+    - name: kyverno-policies
+      repository: ""
+      version: 3.9.1
+    description: 'Kubernetes Pod Security Standards implemented as Kyverno policies '
+    digest: f7e5b0928029cf849a760ca0c1a839066ec2219bdaff52b15aa502e4950751de
+    home: https://github.com/giantswarm/kyverno-policies
+    icon: https://s.giantswarm.io/app-icons/kyverno/1/light.svg
+    keywords:
+    - kubernetes
+    - policy-agent
+    - validating-webhook
+    - admission-controller
+    name: kyverno-policies
+    sources:
+    - https://github.com/giantswarm/kyverno-policies
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/kyverno-policies-0.28.7.tgz
+    version: 0.28.7
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/kyverno-policies/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/kyverno-policies-0.28.6.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kyverno-policies/refs/tags/v0.28.6/README.md
       io.giantswarm.application.restrictions.cluster-singleton: "true"
@@ -234723,4 +234757,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-10-22T07:02:35.878779265Z"
+generated: "2026-10-22T07:10:31.863399249Z"
