@@ -98452,6 +98452,32 @@ entries:
           url: https://github.com/giantswarm/gitlab/issues
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/gitlab-0.1.7.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/gitlab/refs/tags/v0.1.7/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/gitlab/refs/tags/v0.1.7/helm/gitlab/values.schema.json
+    apiVersion: v2
+    appVersion: 19.5.1-ce.0
+    created: "2026-10-22T22:12:05.158571623Z"
+    description: GitLab CE in one Omnibus container on the installation's PostgreSQL,
+      Valkey and object storage, a small GitLab instance for testing integrations.
+    digest: 32d78607637a7c7cd667f8c32c3c139a30e7d0ad052ee4b9e92c8cdbf98e6aff
+    home: https://github.com/giantswarm/gitlab
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: gitlab
+    sources:
+    - https://gitlab.com/gitlab-org/omnibus-gitlab
+    - https://hub.docker.com/r/gitlab/gitlab-ce
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/gitlab-0.1.7.tgz
+    version: 0.1.7
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/gitlab/issues
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/gitlab-0.1.6.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/gitlab/refs/tags/v0.1.6/README.md
       io.giantswarm.application.team: bumblebee
@@ -239355,4 +239381,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-10-22T22:12:08.110773979Z"
+generated: "2026-10-22T22:12:05.15714541Z"
