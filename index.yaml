@@ -50567,6 +50567,39 @@ entries:
         - name: Support
           url: https://github.com/giantswarm/beekeeper/issues
       io.giantswarm.application.audience: all
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/beekeeper-0.161.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/beekeeper/refs/tags/v0.161.0/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/beekeeper/refs/tags/v0.161.0/helm/beekeeper/values.schema.json
+    apiVersion: v2
+    appVersion: 0.161.0
+    created: "2026-10-22T21:03:26.126037695Z"
+    description: beekeeper serve, the central instance - leases, holds, merge lanes,
+      notes and the agent roster as MCP tools behind muster, over beekeeper.giantswarm.io
+      resources
+    digest: 2213734995f9fe0420f5daac6ae5cb5de0f80514d005368026456eba024e69c2
+    home: https://github.com/giantswarm/beekeeper
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    keywords:
+    - mcp
+    - ai-agents
+    - coordination
+    maintainers:
+    - email: team-bumblebee@giantswarm.io
+      name: Giant Swarm
+    name: beekeeper
+    sources:
+    - https://github.com/giantswarm/beekeeper
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/beekeeper-0.161.0.tgz
+    version: 0.161.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/beekeeper/issues
+      io.giantswarm.application.audience: all
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/beekeeper-0.160.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/beekeeper/refs/tags/v0.160.0/README.md
       io.giantswarm.application.team: bumblebee
@@ -238466,4 +238499,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-10-22T20:51:36.684506693Z"
+generated: "2026-10-22T21:03:26.123969666Z"
