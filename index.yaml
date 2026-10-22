@@ -55874,6 +55874,42 @@ entries:
           url: https://github.com/giantswarm/buzz/issues
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/buzz-0.3.16.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/buzz/refs/tags/v0.3.16/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/buzz/refs/tags/v0.3.16/helm/buzz/values.schema.json
+    apiVersion: v2
+    appVersion: 0.2.1
+    created: "2026-10-22T12:59:42.067673364Z"
+    dependencies:
+    - alias: postgresql
+      condition: postgresql.enabled
+      name: postgres
+      repository: file://charts/postgres
+      version: 0.21.2
+    - condition: redis.enabled
+      name: redis
+      repository: file://charts/redis
+      version: 0.37.8
+    description: Buzz, a self-hostable Nostr relay workspace where people and AI agents
+      share channels, repositories and workflows.
+    digest: c9ba23568783b7c89d2c28d73aa5fc663b3d33d4ccc9df1cb807e52888c88f18
+    home: https://github.com/giantswarm/buzz
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: buzz
+    sources:
+    - https://github.com/block/buzz
+    - https://github.com/giantswarm/buzz
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/buzz-0.3.16.tgz
+    version: 0.3.16
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/buzz/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/buzz-0.3.15.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/buzz/refs/tags/v0.3.15/README.md
       io.giantswarm.application.team: bumblebee
@@ -235868,4 +235904,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-10-22T12:59:36.335284336Z"
+generated: "2026-10-22T12:59:42.051634268Z"
