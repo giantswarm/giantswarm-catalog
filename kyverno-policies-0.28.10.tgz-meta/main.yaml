@@ -1,0 +1,14 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/restrictions/clusterSingleton: 'true'
+  application.giantswarm.io/team: shield
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/kyverno-policies/issues\n"
+chartApiVersion: v2
+chartFile: kyverno-policies-0.28.10.tgz
+dateCreated: '2026-10-23T14:36:13.171526Z'
+digest: 9df6c4811d213b27fa2ef6f0689e16f06973463efa853468c84b8da909849cd4
+home: https://github.com/giantswarm/kyverno-policies
+icon: https://s.giantswarm.io/app-icons/kyverno/1/light.svg
