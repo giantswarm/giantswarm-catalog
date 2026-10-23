@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/team: bumblebee
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: "- name: Support\n  url: https://github.com/giantswarm/toolchain-manager/issues\n"
+chartApiVersion: v2
+chartFile: toolchain-manager-0.5.0.tgz
+dateCreated: '2026-10-23T09:07:56.190497Z'
+digest: c6e9da0c35cab341b64943b9956737d4785affa2ae040ff3ed2bf9f419bfe5f7
+home: https://github.com/giantswarm/toolchain-manager
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
