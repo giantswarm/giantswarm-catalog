@@ -70575,14 +70575,14 @@ entries:
       io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/dex-app/refs/tags/v3.4.15/helm/dex-app/values.schema.json
     apiVersion: v2
     appVersion: 3.4.15
-    created: "2026-10-23T21:49:03.190685629Z"
+    created: "2026-10-23T21:51:30.589818156Z"
     dependencies:
     - name: dex
       repository: ""
       version: 0.23.0
     description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
       connectors
-    digest: 4909ab957370f2761597e6cbcf45299a05800911bf7085f5abd9868b2fcf4b40
+    digest: faba243876333087aadc40ce1c0aeb79d3ea3aec83858e1ccc67da68761d3f74
     home: https://github.com/giantswarm/dex-app
     icon: https://s.giantswarm.io/app-icons/dex/2/icon_light.svg
     keywords:
@@ -244306,4 +244306,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-10-23T21:51:30.255323654Z"
+generated: "2026-10-23T21:51:30.576200028Z"
