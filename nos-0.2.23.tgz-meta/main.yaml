@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/team: team-planeteers
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/nos-app/issues\n- name:\
+    \ Upstream project\n  url: https://github.com/nebuly-ai/nos\n"
+chartApiVersion: v2
+chartFile: nos-0.2.23.tgz
+dateCreated: '2026-10-23T22:08:46.510455Z'
+digest: 7f5132d48eb49c586fd3b4f0fc317f33262cdef75e1c3202148d7d79e70c1249
+home: https://github.com/giantswarm/nos-app
+icon: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
