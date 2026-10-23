@@ -1,0 +1,14 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: bumblebee
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/agent-sandbox/issues\n\
+    - name: Upstream project\n  url: https://github.com/kubernetes-sigs/agent-sandbox\n"
+chartApiVersion: v2
+chartFile: agent-sandbox-0.2.49.tgz
+dateCreated: '2026-10-23T05:02:07.611468Z'
+digest: 2a9df394f2a92fe948f48895bfe050e2ef7f1cb600bd87676b157cda92559873
+home: https://github.com/giantswarm/agent-sandbox
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
