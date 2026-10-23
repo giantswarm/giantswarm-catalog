@@ -8,6 +8,35 @@ entries:
           url: https://github.com/giantswarm/agent/issues
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agent-2.4.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agent/refs/tags/v2.4.0/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/agent/refs/tags/v2.4.0/helm/agent/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2026-10-23T10:18:06.597050294Z"
+    description: Create a kagent agent on the Giant Swarm Agent Platform from a small,
+      curated values surface. One chart release renders one Agent (api.kagent.dev/v1alpha3)
+      with its template inline and its Harness referenced by name, and the agent's
+      muster RemoteMCPServer, which carries its toolset; the Harness that runs the
+      agent, the model configuration and the credentials are platform-owned and only
+      referenced by name.
+    digest: 24cb6c4689230b3a3375f1290f56e1576206ad859b17b66199b6f46675624b66
+    home: https://github.com/giantswarm/agent
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: agent
+    sources:
+    - https://github.com/giantswarm/agent
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/agent-2.4.0.tgz
+    version: 2.4.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/agent/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agent-2.3.4.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agent/refs/tags/v2.3.4/README.md
       io.giantswarm.application.team: bumblebee
@@ -242014,4 +242043,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-10-23T10:04:46.506633575Z"
+generated: "2026-10-23T10:18:06.592679715Z"
