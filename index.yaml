@@ -49145,6 +49145,42 @@ entries:
           url: https://raw.githubusercontent.com/giantswarm/aws-efs-csi-driver/v2.3.0/README.md
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/aws-efs-csi-driver-4.0.4.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/aws-efs-csi-driver/refs/tags/v4.0.4/README.md
+      io.giantswarm.application.restrictions.cluster-singleton: "true"
+      io.giantswarm.application.restrictions.compatible-providers: aws
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.upstream-chart-url: https://github.com/kubernetes-sigs/aws-efs-csi-driver
+      io.giantswarm.application.upstream-chart-version: 4.5.0
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/aws-efs-csi-driver/refs/tags/v4.0.4/helm/aws-efs-csi-driver/values.schema.json
+    apiVersion: v2
+    appVersion: 4.0.4
+    created: "2026-10-23T10:37:25.480854506Z"
+    dependencies:
+    - alias: upstream
+      name: aws-efs-csi-driver
+      repository: https://kubernetes-sigs.github.io/aws-efs-csi-driver/
+      version: 4.5.2
+    description: A Helm chart for AWS EFS CSI Driver
+    digest: d25422cd0084dd8f28973e995882e184e4931e3dee2f32a8a5b13cff19b90b2c
+    home: https://github.com/giantswarm/aws-efs-csi-driver
+    icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+    kubeVersion: '>=1.17.0-0'
+    name: aws-efs-csi-driver
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/aws-efs-csi-driver/v2.3.0/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/aws-efs-csi-driver-4.0.4.tgz
+    version: 4.0.4
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/aws-efs-csi-driver/issues
+        - name: Upstream project
+          url: https://raw.githubusercontent.com/giantswarm/aws-efs-csi-driver/v2.3.0/README.md
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/aws-efs-csi-driver-4.0.3.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/aws-efs-csi-driver/refs/tags/v4.0.3/README.md
       io.giantswarm.application.restrictions.cluster-singleton: "true"
@@ -242225,4 +242261,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-10-23T10:37:26.118033563Z"
+generated: "2026-10-23T10:37:25.479020895Z"
