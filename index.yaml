@@ -245091,6 +245091,35 @@ entries:
           url: https://github.com/giantswarm/workspace-manager/issues
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/workspace-manager-0.14.5.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/workspace-manager/refs/tags/v0.14.5/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/workspace-manager/refs/tags/v0.14.5/helm/workspace-manager/values.schema.json
+    apiVersion: v2
+    appVersion: 0.14.5
+    created: "2026-10-24T04:21:53.146129848Z"
+    description: Manages the Agent Platform's workspaces, the sources agent sessions
+      work on and their provider sign-ins, as one MCP server behind muster
+    digest: a953a34f5daa8199d662013ad8d0d769002b4b6b71cf113a8b8881cbe32b6365
+    home: https://github.com/giantswarm/workspace-manager
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    keywords:
+    - mcp
+    - workspaces
+    - agent-platform
+    name: workspace-manager
+    sources:
+    - https://github.com/giantswarm/workspace-manager
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/workspace-manager-0.14.5.tgz
+    version: 0.14.5
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/workspace-manager/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/workspace-manager-0.14.4.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/workspace-manager/refs/tags/v0.14.4/README.md
       io.giantswarm.application.team: bumblebee
@@ -246676,4 +246705,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-10-24T04:19:13.886998575Z"
+generated: "2026-10-24T04:21:53.14352826Z"
