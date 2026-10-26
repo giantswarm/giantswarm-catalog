@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/team: bumblebee
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: "- name: Support\n  url: https://github.com/giantswarm/gpu-node-pool/issues\n"
+chartApiVersion: v2
+chartFile: gpu-node-pool-0.8.12.tgz
+dateCreated: '2026-10-26T11:48:35.751589Z'
+digest: 564409deb39d02a5b9b844f3e20d301b6d462ff6a8cd8488a68587cdf6d1bdde
+home: https://github.com/giantswarm/gpu-node-pool
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
