@@ -241943,6 +241943,31 @@ entries:
           url: https://github.com/giantswarm/toolchain-manager/issues
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/toolchain-manager-0.5.8.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/toolchain-manager/refs/tags/v0.5.8/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/toolchain-manager/refs/tags/v0.5.8/helm/toolchain-manager/values.schema.json
+    apiVersion: v2
+    appVersion: 0.5.8
+    created: "2026-10-26T11:50:20.889749945Z"
+    description: MCP server that manages toolchains for coding agents, their sources,
+      package search and the Dockerfile they are built from.
+    digest: c0d1281a0b6aae29ee59330c41213c7440af0f71eea6f0e68c1bbac271f06e62
+    home: https://github.com/giantswarm/toolchain-manager
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: toolchain-manager
+    sources:
+    - https://github.com/giantswarm/toolchain-manager
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/toolchain-manager-0.5.8.tgz
+    version: 0.5.8
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/toolchain-manager/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/toolchain-manager-0.5.7.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/toolchain-manager/refs/tags/v0.5.7/README.md
       io.giantswarm.application.team: bumblebee
@@ -248929,4 +248954,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-10-26T11:49:16.33358043Z"
+generated: "2026-10-26T11:50:20.88800768Z"
