@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/team: bumblebee
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/beekeeper/issues\n"
+chartApiVersion: v2
+chartFile: beekeeper-0.170.7.tgz
+dateCreated: '2026-10-26T12:02:37.128291Z'
+digest: c471032f2808a708ce1d84eae629381607e5a898ba71559a1b8fa535f32b85f4
+home: https://github.com/giantswarm/beekeeper
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
