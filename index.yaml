@@ -230854,6 +230854,29 @@ entries:
           url: https://github.com/giantswarm/openssf-scorecard-exporter/issues
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/openssf-scorecard-exporter-0.1.10.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/openssf-scorecard-exporter/refs/tags/v0.1.10/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/openssf-scorecard-exporter/refs/tags/v0.1.10/helm/openssf-scorecard-exporter/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.10
+    created: "2026-10-27T08:48:57.193394128Z"
+    description: OpenSSF Scorecard Exporter scrapes the OpenSSF API and exposes Prometheus
+      metrics for Scorecard data.
+    digest: 9bc10f806cea1a30851c76ff8806863b7966bd809db696b6ca399158466e14b6
+    home: https://github.com/giantswarm/openssf-scorecard-exporter
+    icon: https://s.giantswarm.io/app-icons/openssf/2/light.png
+    name: openssf-scorecard-exporter
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/openssf-scorecard-exporter-0.1.10.tgz
+    version: 0.1.10
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/openssf-scorecard-exporter/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/openssf-scorecard-exporter-0.1.9.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/openssf-scorecard-exporter/refs/tags/v0.1.9/README.md
       io.giantswarm.application.team: shield
@@ -251328,4 +251351,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-10-27T07:29:00.381771164Z"
+generated: "2026-10-27T08:48:57.192319805Z"
