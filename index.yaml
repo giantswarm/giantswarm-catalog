@@ -105560,6 +105560,32 @@ entries:
           url: https://github.com/giantswarm/gitlab/issues
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/gitlab-0.1.9.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/gitlab/refs/tags/v0.1.9/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/gitlab/refs/tags/v0.1.9/helm/gitlab/values.schema.json
+    apiVersion: v2
+    appVersion: 19.5.1-ce.0
+    created: "2026-10-27T22:19:15.533974816Z"
+    description: GitLab CE in one Omnibus container on the installation's PostgreSQL,
+      Valkey and object storage, a small GitLab instance for testing integrations.
+    digest: b848e9b288bd973d68e3669606c29e76c25e343f94a701c81be160eb0dcab675
+    home: https://github.com/giantswarm/gitlab
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: gitlab
+    sources:
+    - https://gitlab.com/gitlab-org/omnibus-gitlab
+    - https://hub.docker.com/r/gitlab/gitlab-ce
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/gitlab-0.1.9.tgz
+    version: 0.1.9
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/gitlab/issues
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/gitlab-0.1.8.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/gitlab/refs/tags/v0.1.8/README.md
       io.giantswarm.application.team: bumblebee
@@ -253835,4 +253861,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-10-27T22:18:23.927093971Z"
+generated: "2026-10-27T22:19:15.53264378Z"
