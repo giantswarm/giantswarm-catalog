@@ -88025,6 +88025,42 @@ entries:
           url: https://github.com/giantswarm/giantswarm-platform-manager/issues
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/giantswarm-platform-manager-0.81.28.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/giantswarm-platform-manager/refs/tags/v0.81.28/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/giantswarm-platform-manager/refs/tags/v0.81.28/helm/giantswarm-platform-manager/values.schema.json
+    apiVersion: v2
+    appVersion: 0.81.28
+    created: "2026-10-27T14:38:10.044621902Z"
+    description: Giant Swarm's platform manager — an MCP server behind muster that
+      enables, reconciles and verifies platform capabilities on the registry's installations
+      as the person, every write a pull request to the installation's GitOps repository
+    digest: 85decbd237a8355fd2be09cf70ed2ef864ff106b3ea45e2fd1c0a975f7e0fdc9
+    home: https://github.com/giantswarm/giantswarm-platform-manager
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    keywords:
+    - mcp
+    - installations
+    - capabilities
+    - gitops
+    - agent-platform
+    maintainers:
+    - email: team-bumblebee@giantswarm.io
+      name: Giant Swarm
+    name: giantswarm-platform-manager
+    sources:
+    - https://github.com/giantswarm/giantswarm-platform-manager
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/giantswarm-platform-manager-0.81.28.tgz
+    version: 0.81.28
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/giantswarm-platform-manager/issues
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/giantswarm-platform-manager-0.81.27.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/giantswarm-platform-manager/refs/tags/v0.81.27/README.md
       io.giantswarm.application.team: bumblebee
@@ -252393,4 +252429,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-10-27T14:22:42.10862345Z"
+generated: "2026-10-27T14:38:10.042872695Z"
