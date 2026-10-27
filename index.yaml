@@ -114550,6 +114550,30 @@ entries:
           url: https://github.com/giantswarm/inspektor-gadget-app/issues
         - name: Upstream project
           url: https://github.com/some-org/some-repo
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/inspektor-gadget-0.1.22.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/inspektor-gadget-app/refs/tags/v0.1.22/README.md
+      io.giantswarm.application.team: planeteers
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/inspektor-gadget-app/refs/tags/v0.1.22/helm/inspektor-gadget/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2026-10-27T22:24:39.296647051Z"
+    description: Please add description
+    digest: 1e5ad489b502d66cf1c261b210736d1d6b4023c0d5278622e2a1b3ec823bd26b
+    home: https://github.com/giantswarm/inspektor-gadget-app
+    icon: https://s.giantswarm.io/app-icons/inspektor-gadget/1/light.svg
+    name: inspektor-gadget
+    sources:
+    - https://github.com/some-org/some-repo
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/inspektor-gadget-0.1.22.tgz
+    version: 0.1.22
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/inspektor-gadget-app/issues
+        - name: Upstream project
+          url: https://github.com/some-org/some-repo
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/inspektor-gadget-0.1.21.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/inspektor-gadget-app/refs/tags/v0.1.21/README.md
       io.giantswarm.application.team: planeteers
@@ -254055,4 +254079,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-10-27T22:23:21.558402963Z"
+generated: "2026-10-27T22:24:39.293494473Z"
