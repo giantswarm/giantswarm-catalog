@@ -1,0 +1,19 @@
+name: Old Releases Cleanup
+on:
+  schedule:
+    # Mondays 06:00 UTC
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+    inputs:
+      dry-run:
+        description: "Enable dry-run mode"
+        default: true
+        type: boolean
+jobs:
+  cleanup:
+    uses: giantswarm/app-catalog-cleanup-tool/.github/workflows/cleanup.yaml@main
+    with:
+      # Removes every version (stable and pre-release) created more than 3 years ago.
+      delete-before: "3 years"
+      # Scheduled runs have no inputs, so they always apply the cleanup.
+      dry-run: ${{ github.event_name == 'workflow_dispatch' && inputs.dry-run }}
