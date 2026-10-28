@@ -244173,6 +244173,31 @@ entries:
           url: https://github.com/giantswarm/sbom-advisory-operator/issues
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/sbom-advisory-operator-0.2.14.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/sbom-advisory-operator/refs/tags/v0.2.14/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/sbom-advisory-operator/refs/tags/v0.2.14/helm/sbom-advisory-operator/values.schema.json
+    apiVersion: v2
+    appVersion: 0.2.14
+    created: "2026-10-28T19:02:58.270392041Z"
+    description: Evaluates kubescape SBOMs against package version floors and publishes
+      PolicyReports
+    digest: 52a16fdbdd31d1a9fbd33144edaa1c3c9b637142d0997123a7436534a8a1d37d
+    home: https://github.com/giantswarm/sbom-advisory-operator
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: sbom-advisory-operator
+    sources:
+    - https://github.com/giantswarm/sbom-advisory-operator
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/sbom-advisory-operator-0.2.14.tgz
+    version: 0.2.14
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/sbom-advisory-operator/issues
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/sbom-advisory-operator-0.2.13.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/sbom-advisory-operator/refs/tags/v0.2.13/README.md
       io.giantswarm.application.team: shield
@@ -256625,4 +256650,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-10-28T18:39:14.838145406Z"
+generated: "2026-10-28T19:02:58.269372765Z"
