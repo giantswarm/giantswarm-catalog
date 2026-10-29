@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/team: bumblebee
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/substrate-credential-providers/issues\n"
+chartApiVersion: v2
+chartFile: google-access-token-credential-provider-0.2.14.tgz
+dateCreated: '2026-10-29T05:08:22.266187Z'
+digest: dfa45a28b978dd0de211d601b9c97327fcb4aef00f7faa2f387fdb5bbd3b948d
+home: https://github.com/giantswarm/substrate-credential-providers
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
