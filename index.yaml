@@ -108417,6 +108417,32 @@ entries:
           url: https://github.com/giantswarm/gitlab/issues
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/gitlab-0.1.11.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/gitlab/refs/tags/v0.1.11/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/gitlab/refs/tags/v0.1.11/helm/gitlab/values.schema.json
+    apiVersion: v2
+    appVersion: 19.5.3-ce.0
+    created: "2026-10-30T01:55:50.717509474Z"
+    description: GitLab CE in one Omnibus container on the installation's PostgreSQL,
+      Valkey and object storage, a small GitLab instance for testing integrations.
+    digest: 1afc91b8ff510d9137d191083fa54e3c747f70517912b4066fb5af0a33e875ab
+    home: https://github.com/giantswarm/gitlab
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: gitlab
+    sources:
+    - https://gitlab.com/gitlab-org/omnibus-gitlab
+    - https://hub.docker.com/r/gitlab/gitlab-ce
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/gitlab-0.1.11.tgz
+    version: 0.1.11
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/gitlab/issues
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/gitlab-0.1.10.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/gitlab/refs/tags/v0.1.10/README.md
       io.giantswarm.application.team: bumblebee
@@ -259548,4 +259574,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-10-30T00:59:00.339822167Z"
+generated: "2026-10-30T01:55:50.715336481Z"
