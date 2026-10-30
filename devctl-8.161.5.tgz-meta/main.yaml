@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/audience: giantswarm
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: bumblebee
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/devctl/issues\n"
+chartApiVersion: v2
+chartFile: devctl-8.161.5.tgz
+dateCreated: '2026-10-30T18:50:19.647139Z'
+digest: 3e4a754eb2bc75c45ecd006b585a1d54853dcf98f4a44e91f4b7d7a2f9520f71
+home: https://github.com/giantswarm/devctl
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
