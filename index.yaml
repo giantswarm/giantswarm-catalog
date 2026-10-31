@@ -109866,6 +109866,34 @@ entries:
       artifacthub.io/links: |
         - name: Support
           url: https://github.com/giantswarm/substrate-credential-providers/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/google-access-token-credential-provider-0.2.16.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/substrate-credential-providers/refs/tags/v0.2.16/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/substrate-credential-providers/refs/tags/v0.2.16/helm/google-access-token-credential-provider/values.schema.json
+    apiVersion: v2
+    appVersion: 0.2.16
+    created: "2026-10-31T22:19:18.57073585Z"
+    description: Agent Substrate credential provider for the google-access-token.k8s.io
+      class, minting Google access tokens for Vertex AI from service account keys
+      held in Kubernetes Secrets
+    digest: 8aac21c21f098c96a4b04c6df81fce7410367a32deb726ee3ee126198b01756e
+    home: https://github.com/giantswarm/substrate-credential-providers
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    maintainers:
+    - name: Giant Swarm
+      url: https://www.giantswarm.io
+    name: google-access-token-credential-provider
+    sources:
+    - https://github.com/giantswarm/substrate-credential-providers
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/google-access-token-credential-provider-0.2.16.tgz
+    version: 0.2.16
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/substrate-credential-providers/issues
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/google-access-token-credential-provider-0.2.15.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/substrate-credential-providers/refs/tags/v0.2.15/README.md
       io.giantswarm.application.team: bumblebee
@@ -261880,4 +261908,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-10-31T22:14:44.940365699Z"
+generated: "2026-10-31T22:19:18.56949917Z"
