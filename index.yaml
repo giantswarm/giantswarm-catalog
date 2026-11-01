@@ -125333,6 +125333,35 @@ entries:
           url: https://github.com/kagent-dev/kagent
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/kagent-crds-0.3.36.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kagent/refs/tags/v0.3.36/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/kagent/refs/tags/v0.3.36/helm/kagent-crds/values.schema.json
+    apiVersion: v2
+    appVersion: 0.10.4
+    created: "2026-11-01T21:58:05.888709806Z"
+    description: Giant Swarm packaging of the upstream kagent.dev CRDs (Agent, AgentHarness,
+      Memory, ModelConfig, ModelProviderConfig, RemoteMCPServer, SandboxAgent, ToolServer)
+      and the kmcp MCPServer CRD as a Helm-managed chart.
+    digest: c8120d0cd5304d1732f053fae609be36df0e273e84a3024d19dabfaccb7cc3be
+    home: https://github.com/giantswarm/kagent
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: kagent-crds
+    sources:
+    - https://github.com/giantswarm/kagent
+    - https://github.com/kagent-dev/kagent
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/kagent-crds-0.3.36.tgz
+    version: 0.3.36
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/kagent/issues
+        - name: Upstream project
+          url: https://github.com/kagent-dev/kagent
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/kagent-crds-0.3.35.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kagent/refs/tags/v0.3.35/README.md
       io.giantswarm.application.team: bumblebee
@@ -263377,4 +263406,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-11-01T19:01:40.496934643Z"
+generated: "2026-11-01T21:58:05.878298346Z"
