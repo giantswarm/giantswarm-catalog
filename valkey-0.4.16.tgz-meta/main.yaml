@@ -1,0 +1,15 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/team: planeteers
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/valkey-app/issues\n- name:\
+    \ Upstream project\n  url: https://github.com/valkey-io/valkey-helm\n"
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: valkey-0.4.16.tgz
+dateCreated: '2026-11-02T22:10:16.502094Z'
+digest: 99552ead4215c663c0d6fa035a269315c9551b8a8f21e18ce3893575bb6a24f3
+home: https://github.com/giantswarm/valkey-app
+icon: https://s.giantswarm.io/app-icons/valkey/1/light.svg
