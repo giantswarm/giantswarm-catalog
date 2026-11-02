@@ -65298,6 +65298,39 @@ entries:
           url: https://github.com/prometheus-community/yet-another-cloudwatch-exporter
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/cloudwatch-exporter-0.1.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cloudwatch-exporter-app/refs/tags/v0.1.0/README.md
+      io.giantswarm.application.team: cabbage
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/cloudwatch-exporter-app/refs/tags/v0.1.0/helm/cloudwatch-exporter/values.schema.json
+    apiVersion: v2
+    appVersion: v0.68.0
+    created: "2026-11-02T07:56:17.784834738Z"
+    description: Yace - Yet Another CloudWatch Exporter
+    digest: e50d9d61f2f5d2f2896f7d1a2f8ce85df84a8a4b30ac5a7ea0b03f0bc64b6360
+    home: https://github.com/giantswarm/cloudwatch-exporter-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    keywords:
+    - aws
+    - cloudwatch
+    - prometheus
+    - exporter
+    - yace
+    name: cloudwatch-exporter
+    sources:
+    - https://github.com/prometheus-community/yet-another-cloudwatch-exporter
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/cloudwatch-exporter-0.1.0.tgz
+    version: 0.1.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/cloudwatch-exporter-app/issues
+        - name: Upstream project
+          url: https://github.com/prometheus-community/yet-another-cloudwatch-exporter
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/cloudwatch-exporter-0.0.12.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cloudwatch-exporter-app/refs/tags/v0.0.12/README.md
       io.giantswarm.application.team: cabbage
@@ -241615,4 +241648,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-11-02T07:40:36.403122618Z"
+generated: "2026-11-02T07:56:17.782974824Z"
