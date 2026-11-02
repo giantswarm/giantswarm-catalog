@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/team: planeteers
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/inspektor-gadget-app/issues\n\
+    - name: Upstream project\n  url: https://github.com/some-org/some-repo\n"
+chartApiVersion: v2
+chartFile: inspektor-gadget-0.1.25.tgz
+dateCreated: '2026-11-02T22:15:25.581109Z'
+digest: 3eac1ee96a8ca4ab4d54f5e859563122f547d5af51dcdf07e78bc33d3c9d9391
+home: https://github.com/giantswarm/inspektor-gadget-app
+icon: https://s.giantswarm.io/app-icons/inspektor-gadget/1/light.svg
