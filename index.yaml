@@ -53372,6 +53372,35 @@ entries:
           url: https://raw.githubusercontent.com/giantswarm/aws-efs-csi-driver/v2.1.9/README.md
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/aws-efs-csi-driver-bundle-4.0.7.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/aws-efs-csi-driver/refs/tags/v4.0.7/README.md
+      io.giantswarm.application.restrictions.cluster-singleton: "true"
+      io.giantswarm.application.restrictions.compatible-providers: aws
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/aws-efs-csi-driver/refs/tags/v4.0.7/helm/aws-efs-csi-driver-bundle/values.schema.json
+    apiVersion: v2
+    appVersion: 4.0.7
+    created: "2026-11-02T14:27:14.452728534Z"
+    description: A Helm chart for AWS EFS CSI Driver
+    digest: 240516f4acc605616aba19e388a278ad57e27c56b61fc7543e91f6703447fbb7
+    home: https://github.com/giantswarm/aws-efs-csi-driver
+    icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+    kubeVersion: '>=1.17.0-0'
+    name: aws-efs-csi-driver-bundle
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/aws-efs-csi-driver/v2.1.9/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/aws-efs-csi-driver-bundle-4.0.7.tgz
+    version: 4.0.7
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/aws-efs-csi-driver/issues
+        - name: Upstream project
+          url: https://raw.githubusercontent.com/giantswarm/aws-efs-csi-driver/v2.1.9/README.md
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/aws-efs-csi-driver-bundle-4.0.6.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/aws-efs-csi-driver/refs/tags/v4.0.6/README.md
       io.giantswarm.application.restrictions.cluster-singleton: "true"
@@ -242219,4 +242248,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-11-02T14:07:37.070873798Z"
+generated: "2026-11-02T14:27:14.451509387Z"
