@@ -1,0 +1,14 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: bumblebee
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/kagent/issues\n- name:\
+    \ Upstream project\n  url: https://github.com/kagent-dev/kagent\n"
+chartApiVersion: v2
+chartFile: kagent-crds-0.3.37.tgz
+dateCreated: '2026-11-02T05:01:05.627646Z'
+digest: d6315d86b3ed81dc22b6c3dc7c9ba0a3d9167ee87c303bcfd00ef3aaa999fd54
+home: https://github.com/giantswarm/kagent
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
