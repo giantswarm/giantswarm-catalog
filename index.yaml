@@ -226355,6 +226355,31 @@ entries:
           url: https://github.com/giantswarm/nos-app/issues
         - name: Upstream project
           url: https://github.com/nebuly-ai/nos
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/nos-0.2.28.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/nos-app/refs/tags/v0.2.28/README.md
+      io.giantswarm.application.team: team-planeteers
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/nos-app/refs/tags/v0.2.28/helm/nos/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.2
+    created: "2026-11-02T22:16:00.789063248Z"
+    description: Nebuly Open Source (NOS) is a Kubernetes-native solution for managing
+      and optimizing GPU workloads.
+    digest: 1f0bca77459eb442dba408e2a05970ef8b1d5c7396ea2c1b04a1fb7324cd45a1
+    home: https://github.com/giantswarm/nos-app
+    icon: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
+    name: nos
+    sources:
+    - https://github.com/nebuly-ai/nos
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/nos-0.2.28.tgz
+    version: 0.2.28
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/nos-app/issues
+        - name: Upstream project
+          url: https://github.com/nebuly-ai/nos
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/nos-0.2.27.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/nos-app/refs/tags/v0.2.27/README.md
       io.giantswarm.application.team: team-planeteers
@@ -243178,4 +243203,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-11-02T22:15:42.257626163Z"
+generated: "2026-11-02T22:16:00.786722485Z"
