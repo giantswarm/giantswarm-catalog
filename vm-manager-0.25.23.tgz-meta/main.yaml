@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/audience: customers
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: bumblebee
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/vm-manager/issues\n"
+chartApiVersion: v2
+chartFile: vm-manager-0.25.23.tgz
+dateCreated: '2026-11-02T05:04:08.390928Z'
+digest: 01dccb37cdc24f4e12620dec32e12f0b7f951d2d49f1daf0a6df86fea3a14c7d
+home: https://github.com/giantswarm/vm-manager
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
