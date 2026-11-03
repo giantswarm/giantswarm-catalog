@@ -1,0 +1,386 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "additionalKnownHosts": {
+            "type": "array"
+        },
+        "affinity": {
+            "type": "object",
+            "additionalProperties": false
+        },
+        "agent": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "leaderElection": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                        "leaseDuration": {
+                            "type": "string"
+                        },
+                        "renewDeadline": {
+                            "type": "string"
+                        },
+                        "retryPeriod": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "reconciler": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                        "workers": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                                "bundledeployment": {
+                                    "type": "string"
+                                },
+                                "drift": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                },
+                "replicas": {
+                    "type": "integer"
+                }
+            }
+        },
+        "agentCheckinInterval": {
+            "type": "string"
+        },
+        "agentImage": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "imagePullPolicy": {
+                    "type": "string"
+                },
+                "repository": {
+                    "type": "string"
+                },
+                "tag": {
+                    "type": "string"
+                }
+            }
+        },
+        "agentTLSMode": {
+            "type": "string"
+        },
+        "apiServerCA": {
+            "type": "string"
+        },
+        "apiServerURL": {
+            "type": "string"
+        },
+        "baseDomain": {
+            "type": "string"
+        },
+        "bootstrap": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "agentNamespace": {
+                    "type": "string"
+                },
+                "branch": {
+                    "type": "string"
+                },
+                "clusterLabels": {
+                    "type": "object",
+                    "additionalProperties": false
+                },
+                "enabled": {
+                    "type": "boolean"
+                },
+                "localAgentDisabled": {
+                    "type": "boolean"
+                },
+                "namespace": {
+                    "type": "string"
+                },
+                "paths": {
+                    "type": "string"
+                },
+                "repo": {
+                    "type": "string"
+                },
+                "secret": {
+                    "type": "string"
+                }
+            }
+        },
+        "bootstrapMode": {
+            "type": "object",
+            "additionalProperties": true
+        },
+        "chartOperator": {
+            "type": "object",
+            "additionalProperties": true
+        },
+        "ciliumNetworkPolicy": {
+            "type": "object",
+            "additionalProperties": true
+        },
+        "cluster": {
+            "type": "object",
+            "additionalProperties": true
+        },
+        "clusterCA": {
+            "type": "string"
+        },
+        "clusterCIDR": {
+            "type": "string"
+        },
+        "clusterDNSIP": {
+            "type": "string"
+        },
+        "clusterID": {
+            "type": "string"
+        },
+        "controller": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "reconciler": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                        "workers": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                                "bundle": {
+                                    "type": "string"
+                                },
+                                "bundledeployment": {
+                                    "type": "string"
+                                },
+                                "cluster": {
+                                    "type": "string"
+                                },
+                                "clustergroup": {
+                                    "type": "string"
+                                },
+                                "content": {
+                                    "type": "string"
+                                },
+                                "gitrepo": {
+                                    "type": "string"
+                                },
+                                "imagescan": {
+                                    "type": "string"
+                                },
+                                "schedule": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                },
+                "registrationTokenTTL": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                        "required": {
+                            "type": "boolean"
+                        }
+                    }
+                },
+                "replicas": {
+                    "type": "integer"
+                }
+            }
+        },
+        "debug": {
+            "type": "boolean"
+        },
+        "debugLevel": {
+            "type": "integer"
+        },
+        "disableSecurityContext": {
+            "type": "boolean"
+        },
+        "externalDNSIP": {
+            "type": "string"
+        },
+        "garbageCollectionInterval": {
+            "type": "string"
+        },
+        "gcpProject": {
+            "type": "string"
+        },
+        "gitClientTimeout": {
+            "type": "string"
+        },
+        "gitjob": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "replicas": {
+                    "type": "integer"
+                }
+            }
+        },
+        "gitops": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "enabled": {
+                    "type": "boolean"
+                },
+                "syncPeriod": {
+                    "type": "string"
+                }
+            }
+        },
+        "global": {
+            "type": "object",
+            "description": "Global values shared between all subcharts and the platform.",
+            "additionalProperties": true,
+            "properties": {
+                "cattle": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                        "imagePullSecrets": {
+                            "type": "array"
+                        },
+                        "systemDefaultRegistry": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "podSecurityStandards": {
+                    "type": "object",
+                    "additionalProperties": true
+                }
+            }
+        },
+        "helm": {
+            "type": "object",
+            "additionalProperties": true
+        },
+        "helmops": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "enabled": {
+                    "type": "boolean"
+                },
+                "replicas": {
+                    "type": "integer"
+                }
+            }
+        },
+        "ignoreClusterRegistrationLabels": {
+            "type": "boolean"
+        },
+        "image": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "imagePullPolicy": {
+                    "type": "string"
+                },
+                "repository": {
+                    "type": "string"
+                },
+                "tag": {
+                    "type": "string"
+                }
+            }
+        },
+        "imagescan": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "enabled": {
+                    "type": "boolean"
+                }
+            }
+        },
+        "insecureSkipHostKeyChecks": {
+            "type": "boolean"
+        },
+        "leaderElection": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "leaseDuration": {
+                    "type": "string"
+                },
+                "renewDeadline": {
+                    "type": "string"
+                },
+                "retryPeriod": {
+                    "type": "string"
+                }
+            }
+        },
+        "managementCluster": {
+            "type": "string"
+        },
+        "metrics": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "enabled": {
+                    "type": "boolean"
+                }
+            }
+        },
+        "migrations": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "clusterRegistrationCleanup": {
+                    "type": "boolean"
+                },
+                "gitrepoHelmURLRegexMigration": {
+                    "type": "boolean"
+                },
+                "gitrepoJobsCleanup": {
+                    "type": "boolean"
+                }
+            }
+        },
+        "noProxy": {
+            "type": "string"
+        },
+        "nodeSelector": {
+            "type": "object",
+            "additionalProperties": false
+        },
+        "priorityClassName": {
+            "type": "string"
+        },
+        "propagateDebugSettingsToAgents": {
+            "type": "boolean"
+        },
+        "provider": {
+            "type": "string"
+        },
+        "rancher-fleet-crds": {
+            "type": "object",
+            "description": "The rancher-fleet-crds subchart takes no values; Helm adds this key, with `global` inside, for every dependency.",
+            "additionalProperties": true
+        },
+        "resources": {
+            "type": "object",
+            "additionalProperties": false
+        },
+        "subscriptionID": {
+            "type": "string"
+        },
+        "tolerations": {
+            "type": "array"
+        }
+    }
+}

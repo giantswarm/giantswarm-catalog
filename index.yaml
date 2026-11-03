@@ -233440,6 +233440,41 @@ entries:
           url: https://github.com/rancher/fleet
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/rancher-fleet-0.2.3.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/rancher-fleet/refs/tags/v0.2.3/README.md
+      io.giantswarm.application.team: rocket
+      io.giantswarm.application.upstream-chart-url: https://github.com/rancher/fleet/tree/main/charts/fleet
+      io.giantswarm.application.upstream-chart-version: 0.16.1
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/rancher-fleet/refs/tags/v0.2.3/helm/rancher-fleet/values.schema.json
+    apiVersion: v2
+    appVersion: 0.16.1
+    created: "2026-11-03T11:58:22.203831725Z"
+    dependencies:
+    - name: rancher-fleet-crds
+      repository: ""
+      version: 0.16.1
+    description: Fleet Controller - GitOps at Scale
+    digest: fa860126fc5ed4cc67d7aec8abcb17f0d148254adb70ae7e8f267907df66c103
+    home: https://github.com/giantswarm/rancher-fleet
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    maintainers:
+    - email: team-rocket@giantswarm.io
+      name: Team Rocket
+    name: rancher-fleet
+    sources:
+    - https://github.com/rancher/fleet
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/rancher-fleet-0.2.3.tgz
+    version: 0.2.3
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/rancher-fleet/issues
+        - name: Upstream project
+          url: https://github.com/rancher/fleet
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/rancher-fleet-0.2.1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/rancher-fleet/refs/tags/v0.2.1/README.md
       io.giantswarm.application.team: rocket
@@ -245248,4 +245283,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-11-03T10:38:49.667300856Z"
+generated: "2026-11-03T11:58:22.198837888Z"

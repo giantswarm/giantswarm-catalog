@@ -1,0 +1,16 @@
+annotations:
+  application.giantswarm.io/audience: giantswarm
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: rocket
+  application.giantswarm.io/upstreamChartUrl: https://github.com/rancher/fleet/tree/main/charts/fleet
+  application.giantswarm.io/upstreamChartVersion: 0.16.1
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/rancher-fleet/issues\n\
+    - name: Upstream project\n  url: https://github.com/rancher/fleet\n"
+chartApiVersion: v2
+chartFile: rancher-fleet-0.2.3.tgz
+dateCreated: '2026-11-03T11:57:56.025161Z'
+digest: fa860126fc5ed4cc67d7aec8abcb17f0d148254adb70ae7e8f267907df66c103
+home: https://github.com/giantswarm/rancher-fleet
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
