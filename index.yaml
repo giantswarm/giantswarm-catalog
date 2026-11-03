@@ -236458,10 +236458,10 @@ entries:
       io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/toolchain-manager/refs/tags/v0.5.16/helm/toolchain-manager/values.schema.json
     apiVersion: v2
     appVersion: 0.5.16
-    created: "2026-11-03T05:12:17.137811237Z"
+    created: "2026-11-03T05:13:34.651501106Z"
     description: MCP server that manages toolchains for coding agents, their sources,
       package search and the Dockerfile they are built from.
-    digest: 64a9e3525ec3f8a5cd20996dab174380541f6c79829e5764edd20abf9e7a0d02
+    digest: 0fb4afa114780c71b0a3ce8277091d145f5256d2834519baa16ed288c677000a
     home: https://github.com/giantswarm/toolchain-manager
     icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
     name: toolchain-manager
@@ -244362,4 +244362,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-11-03T05:13:30.093380599Z"
+generated: "2026-11-03T05:13:34.650302128Z"
