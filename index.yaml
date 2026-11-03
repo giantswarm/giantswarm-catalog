@@ -54664,6 +54664,29 @@ entries:
       artifacthub.io/links: |
         - name: Support
           url: https://github.com/giantswarm/aws-lb-controller-bundle/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/aws-lb-controller-bundle-6.1.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/aws-lb-controller-bundle/refs/tags/v6.1.0/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/aws-lb-controller-bundle/refs/tags/v6.1.0/helm/aws-lb-controller-bundle/values.schema.json
+    apiVersion: v2
+    appVersion: 6.1.0
+    created: "2026-11-03T15:58:44.980376965Z"
+    description: AWS Load Balancer Controller Bundle with Crossplane resources
+    digest: ab6b111760eb2b705a27be25f47af6f263d3bdb3be395ec00d37961e0335b5de
+    home: https://github.com/giantswarm/aws-lb-controller-bundle
+    icon: https://s.giantswarm.io/app-icons/aws/2/light.svg
+    kubeVersion: '>=1.17.0-0'
+    name: aws-lb-controller-bundle
+    sources:
+    - https://github.com/giantswarm/aws-load-balancer-controller-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/aws-lb-controller-bundle-6.1.0.tgz
+    version: 6.1.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/aws-lb-controller-bundle/issues
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/aws-lb-controller-bundle-6.0.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/aws-lb-controller-bundle/refs/tags/v6.0.0/README.md
       io.giantswarm.application.team: phoenix
@@ -246819,4 +246842,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-11-03T15:55:30.372213833Z"
+generated: "2026-11-03T15:58:44.978457836Z"
