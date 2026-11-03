@@ -103418,11 +103418,11 @@ entries:
       io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/substrate-credential-providers/refs/tags/v0.2.18/helm/google-access-token-credential-provider/values.schema.json
     apiVersion: v2
     appVersion: 0.2.18
-    created: "2026-11-03T05:10:08.058154644Z"
+    created: "2026-11-03T05:13:48.510355503Z"
     description: Agent Substrate credential provider for the google-access-token.k8s.io
       class, minting Google access tokens for Vertex AI from service account keys
       held in Kubernetes Secrets
-    digest: 9eebeaf2abb728ee2dea2a30365fb3604fddd0819136f3260a5a8d116c7ac890
+    digest: f9f3522b370c8ae6d17afabc28d04c39b7f9e45ddd9ea97b367a2915ef80731b
     home: https://github.com/giantswarm/substrate-credential-providers
     icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
     maintainers:
@@ -244362,4 +244362,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-11-03T05:13:34.650302128Z"
+generated: "2026-11-03T05:13:48.509235018Z"
