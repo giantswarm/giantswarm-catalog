@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/audience: giantswarm
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/team: tenet
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/kepler-collector/issues\n"
+chartApiVersion: v2
+chartFile: kepler-investigator-0.13.1.tgz
+dateCreated: '2026-11-03T12:22:42.015060Z'
+digest: 3a5cfe1abb7055fe5f3d54492619bdfb8790892b3da1c02d102540ecb0bd8c40
+home: https://github.com/giantswarm/kepler-collector
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
