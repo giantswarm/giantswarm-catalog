@@ -120108,6 +120108,30 @@ entries:
           url: https://github.com/giantswarm/kepler-collector/issues
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/kepler-collector-0.13.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kepler-collector/refs/tags/v0.13.1/README.md
+      io.giantswarm.application.team: tenet
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/kepler-collector/refs/tags/v0.13.1/helm/kepler-collector/values.schema.json
+    apiVersion: v2
+    appVersion: 0.13.1
+    created: "2026-11-03T12:21:47.065880895Z"
+    description: Turns capa e2e test failures into Mimir metrics and Loki logs for
+      failure-triage dashboards.
+    digest: bff91feea89b4b65195fc0873047dae9fa73e18872d29cc14710a371b9720047
+    home: https://github.com/giantswarm/kepler-collector
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: kepler-collector
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/kepler-collector-0.13.1.tgz
+    version: 0.13.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/kepler-collector/issues
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/kepler-collector-0.13.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kepler-collector/refs/tags/v0.13.0/README.md
       io.giantswarm.application.team: tenet
@@ -245315,4 +245339,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-11-03T12:18:39.074263958Z"
+generated: "2026-11-03T12:21:47.064669411Z"
