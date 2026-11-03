@@ -234052,10 +234052,10 @@ entries:
       io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/sbom-advisory-operator/refs/tags/v0.2.15/helm/sbom-advisory-operator/values.schema.json
     apiVersion: v2
     appVersion: 0.2.15
-    created: "2026-11-03T12:46:43.147341117Z"
+    created: "2026-11-03T12:48:44.250602163Z"
     description: Evaluates kubescape SBOMs against package version floors and publishes
       PolicyReports
-    digest: 2f8cea60dacfba578e4553d822689c73abe74b6e6897f47f6ceaed8d6a2024bf
+    digest: 2a2ad3e298fe0f55b99a92d80a2427ded6d0a6ccb8484e153e6d6f8bc847b154
     home: https://github.com/giantswarm/sbom-advisory-operator
     icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
     name: sbom-advisory-operator
@@ -245445,4 +245445,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-11-03T12:47:02.082642233Z"
+generated: "2026-11-03T12:48:44.249729836Z"
