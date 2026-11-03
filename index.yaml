@@ -242938,10 +242938,10 @@ entries:
       io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/workspace-manager/refs/tags/v0.14.25/helm/workspace-manager/values.schema.json
     apiVersion: v2
     appVersion: 0.14.25
-    created: "2026-11-03T09:36:47.360943091Z"
+    created: "2026-11-03T09:39:19.839032177Z"
     description: Manages the Agent Platform's workspaces, the sources agent sessions
       work on and their provider sign-ins, as one MCP server behind muster
-    digest: bb0fcbed1a45a335fc638ed3d0eeb5af49b2cff50999c8a9fea88e99bcf01506
+    digest: ac5c640504592a6e70ead7c2934ab959ce8e0314019c5f07dba5c27a0281353d
     home: https://github.com/giantswarm/workspace-manager
     icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
     keywords:
@@ -245126,4 +245126,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-11-03T09:36:47.357619258Z"
+generated: "2026-11-03T09:39:19.836399844Z"
