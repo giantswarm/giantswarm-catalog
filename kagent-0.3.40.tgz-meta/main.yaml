@@ -1,0 +1,14 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: bumblebee
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/kagent/issues\n- name:\
+    \ Upstream project\n  url: https://github.com/kagent-dev/kagent\n"
+chartApiVersion: v2
+chartFile: kagent-0.3.40.tgz
+dateCreated: '2026-11-03T15:44:58.748234Z'
+digest: 9ffdd1a578bd5bd27965038667611d58a989a7b61d86a87a218d834597b1d297
+home: https://github.com/giantswarm/kagent
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
