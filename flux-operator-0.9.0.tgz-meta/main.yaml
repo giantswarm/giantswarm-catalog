@@ -1,0 +1,14 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/restrictions/clusterSingleton: 'true'
+  application.giantswarm.io/team: honeybadger
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/flux-operator-app/issues\n\
+    - name: Upstream project\n  url: https://github.com/controlplaneio-fluxcd/charts/tree/main/charts/flux-operator\n"
+chartApiVersion: v2
+chartFile: flux-operator-0.9.0.tgz
+dateCreated: '2026-11-04T08:48:16.349893Z'
+digest: 74ec816e3c6632ba4090831231f0e759d02aa0009447fa2285ea32359f2eab57
+home: https://github.com/giantswarm/flux-operator-app
+icon: https://s.giantswarm.io/app-icons/flux/2/icon_light.svg
