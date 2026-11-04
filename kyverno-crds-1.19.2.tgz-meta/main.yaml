@@ -1,0 +1,14 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: shield
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/kyverno-crds/issues\n-\
+    \ name: Upstream project\n  url: https://github.com/kyverno/kyverno\n"
+chartApiVersion: v2
+chartFile: kyverno-crds-1.19.2.tgz
+dateCreated: '2026-11-04T15:09:23.272666Z'
+digest: bf96afdb1dcb8c13c0acdb2cbf3b4821fc372ab6229232b303902896762d967d
+home: https://github.com/giantswarm/kyverno-crds
+icon: https://s.giantswarm.io/app-icons/kyverno/1/light.svg
