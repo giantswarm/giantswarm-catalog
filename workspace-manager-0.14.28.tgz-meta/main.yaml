@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: bumblebee
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: "- name: Support\n  url: https://github.com/giantswarm/workspace-manager/issues\n"
+chartApiVersion: v2
+chartFile: workspace-manager-0.14.28.tgz
+dateCreated: '2026-11-05T19:24:16.690497Z'
+digest: 307771dab45227dca11a37136e49896ba53fc437e38f03cdffffd42d75416ea6
+home: https://github.com/giantswarm/workspace-manager
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
