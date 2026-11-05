@@ -41776,6 +41776,32 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/agent-platform-mcps-0.6.4.tgz
     version: 0.6.4
+  agent-platform-operator:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/agent-platform-operator/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agent-platform-operator-0.1.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agent-platform-operator/refs/tags/v0.1.0/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/agent-platform-operator/refs/tags/v0.1.0/helm/agent-platform-operator/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2026-11-05T16:35:07.378355463Z"
+    description: Reconciles each AgentPlatformOrganization (agent-platform.giantswarm.io)
+      into its organization namespace.
+    digest: dfa60df344e350215af7c6076ff7f5615a3f23ccd9519df0bb0adae54b6df31e
+    home: https://github.com/giantswarm/agent-platform-operator
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: agent-platform-operator
+    sources:
+    - https://github.com/giantswarm/agent-platform-operator
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/agent-platform-operator-0.1.0.tgz
+    version: 0.1.0
   agent-sandbox:
   - annotations:
       artifacthub.io/license: Apache-2.0
@@ -250111,4 +250137,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-11-05T16:35:06.015039658Z"
+generated: "2026-11-05T16:35:07.376235165Z"
