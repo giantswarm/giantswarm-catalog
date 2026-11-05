@@ -238084,6 +238084,36 @@ entries:
           url: https://github.com/giantswarm/release-test-app/issues
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/release-test-app-2.3.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/release-test-app/refs/tags/v2.3.0/README.md
+      io.giantswarm.application.team: honeybadger
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/release-test-app/refs/tags/v2.3.0/helm/release-test-app/values.schema.json
+    apiVersion: v2
+    appVersion: 2.3.0
+    created: "2026-11-05T11:49:50.127366614Z"
+    description: A chart that deploys a basic hello world site and lets you test values
+      merging of user values configmap and secrets.
+    digest: c7df92abf55e9245cb6a745a3424cb4688ea256b598b1084684c53ed0522c326
+    home: https://github.com/giantswarm/release-test-app
+    icon: https://s.giantswarm.io/app-icons/1/png/hello-world-app-light.png
+    keywords:
+    - demo
+    - webapp
+    - testing
+    name: release-test-app
+    sources:
+    - https://github.com/giantswarm/helloworld
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/release-test-app-2.3.0.tgz
+    version: 2.3.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/release-test-app/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/release-test-app-2.2.1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/release-test-app/refs/tags/v2.2.1/README.md
       io.giantswarm.application.team: honeybadger
@@ -249906,4 +249936,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-11-05T11:14:12.327041942Z"
+generated: "2026-11-05T11:49:50.125609348Z"
