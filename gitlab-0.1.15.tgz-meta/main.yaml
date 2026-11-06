@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/audience: giantswarm
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/team: bumblebee
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: "- name: Support\n  url: https://github.com/giantswarm/gitlab/issues\n"
+chartApiVersion: v2
+chartFile: gitlab-0.1.15.tgz
+dateCreated: '2026-11-06T22:08:26.885523Z'
+digest: 8c3bcdb7b0cd620f489a5fd9e4f0e1d5fd3e9165bdb600cc8b336b03dde18cd8
+home: https://github.com/giantswarm/gitlab
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
