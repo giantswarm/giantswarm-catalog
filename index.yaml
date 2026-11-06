@@ -108340,6 +108340,32 @@ entries:
           url: https://github.com/giantswarm/gpu-node-pool/issues
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/gpu-node-pool-0.8.21.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/gpu-node-pool/refs/tags/v0.8.21/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/gpu-node-pool/refs/tags/v0.8.21/helm/gpu-node-pool/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2026-11-06T22:10:30.597867809Z"
+    description: A GPU node pool as its own Cluster API release for an existing Giant
+      Swarm cluster — MachinePool, KubeadmConfig and KarpenterMachinePool with their
+      own worker bootstrap.
+    digest: eed11b9a6dacdd7f0c2c31452be4cfd77a1bbbe31a1493b52e7b9279f4b4d076
+    home: https://github.com/giantswarm/gpu-node-pool
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: gpu-node-pool
+    sources:
+    - https://github.com/giantswarm/gpu-node-pool
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/gpu-node-pool-0.8.21.tgz
+    version: 0.8.21
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/gpu-node-pool/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/gpu-node-pool-0.8.20.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/gpu-node-pool/refs/tags/v0.8.20/README.md
       io.giantswarm.application.team: bumblebee
@@ -254409,4 +254435,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-11-06T22:10:08.486792485Z"
+generated: "2026-11-06T22:10:30.59594032Z"
