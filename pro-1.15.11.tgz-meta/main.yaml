@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/team: planeteers
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/pro/issues\n"
+chartApiVersion: v2
+chartFile: pro-1.15.11.tgz
+dateCreated: '2026-11-06T22:06:54.553406Z'
+digest: 8dae0e1fccc643f91eaea3f8bc95e5a2882b508e2700eea17fca172d9e929815
+home: https://github.com/giantswarm/pro
+icon: https://s.giantswarm.io/app-icons/muster/1/light.svg
