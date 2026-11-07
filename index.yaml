@@ -241159,6 +241159,38 @@ entries:
       artifacthub.io/links: |
         - name: Support
           url: https://github.com/giantswarm/pro/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/pro-1.15.13.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/pro/refs/tags/v1.15.13/README.md
+      io.giantswarm.application.team: planeteers
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/pro/refs/tags/v1.15.13/helm/pro/values.schema.json
+    apiVersion: v2
+    appVersion: 1.15.13
+    created: "2026-11-07T22:10:49.835262678Z"
+    description: Giant Swarm Portfolio Roadmap Organizer (PRO) - MCP server for roadmap
+      management
+    digest: 86602427677646217d133ce7a0b54eb10b04dd401e8f8305358b8227aed6b84a
+    home: https://github.com/giantswarm/pro
+    icon: https://s.giantswarm.io/app-icons/muster/1/light.svg
+    keywords:
+    - roadmap
+    - project-management
+    - mcp
+    - github-projects
+    maintainers:
+    - name: Giant Swarm
+      url: https://www.giantswarm.io
+    name: pro
+    sources:
+    - https://github.com/giantswarm/pro
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/pro-1.15.13.tgz
+    version: 1.15.13
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/pro/issues
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/pro-1.15.12.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/pro/refs/tags/v1.15.12/README.md
       io.giantswarm.application.team: planeteers
@@ -257119,4 +257151,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-11-07T22:10:45.332953596Z"
+generated: "2026-11-07T22:10:49.833510188Z"
