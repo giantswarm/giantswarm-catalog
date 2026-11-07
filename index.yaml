@@ -46475,6 +46475,35 @@ entries:
           url: https://github.com/agentgateway/agentgateway
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agentgateway-crds-2.8.22.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agentgateway/refs/tags/v2.8.22/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/agentgateway/refs/tags/v2.8.22/helm/agentgateway-crds/values.schema.json
+    apiVersion: v2
+    appVersion: v1.6.0
+    created: "2026-11-07T22:04:56.816768728Z"
+    description: Giant Swarm packaging of the upstream agentgateway.dev CRDs (AgentgatewayBackend,
+      AgentgatewayModel, AgentgatewayParameters, AgentgatewayPolicy) as a Helm-managed
+      chart.
+    digest: 3bc1c27010abce37aaa671a92f2cf7aa7621fdd0f108b3bff64e7c5f010c42bc
+    home: https://github.com/giantswarm/agentgateway
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: agentgateway-crds
+    sources:
+    - https://github.com/giantswarm/agentgateway
+    - https://github.com/agentgateway/agentgateway
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/agentgateway-crds-2.8.22.tgz
+    version: 2.8.22
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/agentgateway/issues
+        - name: Upstream project
+          url: https://github.com/agentgateway/agentgateway
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agentgateway-crds-2.8.21.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agentgateway/refs/tags/v2.8.21/README.md
       io.giantswarm.application.team: bumblebee
@@ -256562,4 +256591,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-11-07T22:04:42.684999877Z"
+generated: "2026-11-07T22:04:56.805242316Z"
