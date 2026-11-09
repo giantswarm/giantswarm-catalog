@@ -223167,6 +223167,40 @@ entries:
         - name: Support
           url: https://github.com/giantswarm/muster/issues
       io.giantswarm.application.audience: all
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/muster-crds-5.61.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/muster/refs/tags/v5.61.0/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/muster/refs/tags/v5.61.0/helm/muster-crds/values.schema.json
+    apiVersion: v2
+    appVersion: 5.61.0
+    created: "2026-11-09T23:25:14.85176845Z"
+    description: CRD-only chart for muster - ships the MCPServer, Workflow and WorkflowExecution
+      CustomResourceDefinitions
+    digest: 31fad04ee235b55845fa8f97b3c9b1be25031eedc1f790b4f979f1c5c8e09e64
+    home: https://github.com/giantswarm/muster
+    icon: https://s.giantswarm.io/app-icons/muster/1/light.svg
+    keywords:
+    - mcp
+    - ai-agents
+    - model-context-protocol
+    - aggregator
+    - crds
+    maintainers:
+    - email: team-bumblebee@giantswarm.io
+      name: Giant Swarm
+    name: muster-crds
+    sources:
+    - https://github.com/giantswarm/muster
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/muster-crds-5.61.0.tgz
+    version: 5.61.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/muster/issues
+      io.giantswarm.application.audience: all
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/muster-crds-5.60.1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/muster/refs/tags/v5.60.1/README.md
       io.giantswarm.application.team: bumblebee
@@ -260667,4 +260701,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-11-09T23:21:27.217756745Z"
+generated: "2026-11-09T23:25:14.85019761Z"
