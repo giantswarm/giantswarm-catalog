@@ -68846,34 +68846,6 @@ entries:
     - https://giantswarm.github.io/giantswarm-catalog/cert-manager-app-3.5.2.tgz
     version: 3.5.2
   - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/cert-manager-app-3.5.1.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/cert-manager-app-3.5.1.tgz-meta/README.md
-      application.giantswarm.io/team: bigmac
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/cert-manager-app-3.5.1.tgz-meta/values.schema.json
-    apiVersion: v2
-    appVersion: v1.12.4
-    created: "2023-11-02T17:37:52.815372008Z"
-    dependencies:
-    - alias: giantSwarmClusterIssuer
-      name: cert-manager-giantswarm-clusterissuer
-      repository: ""
-      version: 2.0.0
-    - condition: ciliumNetworkPolicy.enabled
-      name: cert-manager-giantswarm-netpol
-      repository: ""
-      version: 0.1.0
-    description: Simplifies the process of obtaining, renewing and using certificates.
-    digest: 5863e8649503583954ac97470a9fc37f7381ee238041969429c8601fca5447fc
-    home: https://github.com/giantswarm/cert-manager-app
-    icon: https://s.giantswarm.io/app-icons/cert-manager/1/light.svg
-    kubeVersion: '>=1.22.0-0'
-    name: cert-manager-app
-    sources:
-    - https://github.com/cert-manager/cert-manager
-    urls:
-    - https://giantswarm.github.io/giantswarm-catalog/cert-manager-app-3.5.1.tgz
-    version: 3.5.1
-  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/cert-manager-app-2.25.3.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/cert-manager-app-2.25.3.tgz-meta/README.md
       application.giantswarm.io/team: team-bigmac
@@ -85895,39 +85867,6 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/falco-0.7.1.tgz
     version: 0.7.1
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/falco-0.7.0.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/falco-0.7.0.tgz-meta/README.md
-      application.giantswarm.io/team: shield
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/falco-0.7.0.tgz-meta/values.schema.json
-      config.giantswarm.io/version: 1.x.x
-      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/falco/2/logo_dark.svg
-    apiVersion: v2
-    appVersion: 0.35.1
-    created: "2023-11-08T13:47:19.549207594Z"
-    dependencies:
-    - name: falco
-      repository: ""
-      version: 3.8.1
-    - name: falco-exporter
-      repository: ""
-      version: 0.9.7
-    - name: falcosidekick
-      repository: ""
-      version: 0.7.5
-    description: A Helm chart for falco
-    digest: 0b4e84ff50c29737f6a85c2c419cd6b0ceded90a2695800c927ee7e54ed59ea8
-    home: https://github.com/giantswarm/falco-app
-    icon: https://s.giantswarm.io/app-icons/falco/2/icon_dark.svg
-    maintainers:
-    - name: Giant Swarm applications team
-      url: https://github.com/giantswarm/falco-app
-    name: falco
-    sources:
-    - https://github.com/giantswarm/falco-app
-    urls:
-    - https://giantswarm.github.io/giantswarm-catalog/falco-0.7.0.tgz
-    version: 0.7.0
   fluent-logshipping-app:
   - annotations:
       io.giantswarm.application.audience: all
@@ -113332,31 +113271,6 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/grafana-agent-0.3.1.tgz
     version: 0.3.1
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/grafana-agent-0.3.0.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/grafana-agent-0.3.0.tgz-meta/README.md
-      application.giantswarm.io/team: atlas
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/grafana-agent-0.3.0.tgz-meta/values.schema.json
-    apiVersion: v2
-    appVersion: v0.37.0
-    created: "2023-11-08T15:15:26.588141531Z"
-    dependencies:
-    - name: grafana-agent
-      repository: https://grafana.github.io/helm-charts
-      version: 0.27.0
-    description: Giant Swarm's Grafana Agent Deployment
-    digest: ed344222ed895abbbfe9d24de8ab488a60d4f5247e21caee649509644dd4fda8
-    home: https://github.com/giantswarm/grafana-agent-app
-    icon: https://s.giantswarm.io/app-icons/grafana/1/light.svg
-    maintainers:
-    - email: team-atlas@giantswarm.io
-      name: giantswarm/team-atlas
-    name: grafana-agent
-    sources:
-    - https://github.com/grafana/agent/tree/main/operations/helm/charts/grafana-agent
-    urls:
-    - https://giantswarm.github.io/giantswarm-catalog/grafana-agent-0.3.0.tgz
-    version: 0.3.0
   hello-world:
   - annotations:
       artifacthub.io/license: Apache-2.0
@@ -114116,35 +114030,6 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/hello-world-2.3.0.tgz
     version: 2.3.0
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/hello-world-2.2.0.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/hello-world-2.2.0.tgz-meta/README.md
-      application.giantswarm.io/team: team-honeybadger
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/hello-world-2.2.0.tgz-meta/values.schema.json
-    apiVersion: v2
-    appVersion: 0.2.0
-    created: "2023-11-02T14:33:37.015642481Z"
-    description: A chart that deploys a basic hello world site and lets you test values
-      merging of user values configmap and secrets.
-    digest: 19f7dd38049cfff6e8de9c1bcea64723cd1a976db321b0ae41107450e431d211
-    home: https://github.com/giantswarm/hello-world-app
-    icon: https://s.giantswarm.io/app-icons/1/png/hello-world-app-light.png
-    keywords:
-    - hello-world
-    - demo
-    - webapp
-    maintainers:
-    - email: team-honeybadger@giantswarm.io
-      name: Giant Swarm - Honeybadger
-      url: https://www.giantswarm.io/about#honeybadger
-    name: hello-world
-    sources:
-    - https://github.com/giantswarm/hello-world-app
-    - https://github.com/giantswarm/helloworld
-    type: application
-    urls:
-    - https://giantswarm.github.io/giantswarm-catalog/hello-world-2.2.0.tgz
-    version: 2.2.0
   hr-recovery-controller:
   - annotations:
       artifacthub.io/license: Apache-2.0
@@ -126725,46 +126610,6 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/keda-0.3.0.tgz
     version: 0.3.0
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/keda-0.2.0.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/keda-0.2.0.tgz-meta/README.md
-      application.giantswarm.io/team: atlas
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/keda-0.2.0.tgz-meta/values.schema.json
-      ui.giantswarm.io/logo: https://raw.githubusercontent.com/kedacore/keda/main/images/keda-logo-500x500-white.png
-    apiVersion: v2
-    appVersion: 2.10.1
-    created: "2023-11-08T17:24:17.781088614Z"
-    description: Event-based autoscaler for workloads on Kubernetes
-    digest: 5bfc0541c285c6a3f41bf5092066f3e3cdc5bbb6f32f4104ca37eb04ce2bbd97
-    home: https://github.com/giantswarm/keda-app
-    icon: https://raw.githubusercontent.com/kedacore/keda/main/images/keda-logo-500x500-white.png
-    kubeVersion: '>=v1.24.0-0'
-    name: keda
-    sources:
-    - https://github.com/kedacore/keda
-    urls:
-    - https://giantswarm.github.io/giantswarm-catalog/keda-0.2.0.tgz
-    version: 0.2.0
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/keda-0.1.1.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/keda-0.1.1.tgz-meta/README.md
-      application.giantswarm.io/team: atlas
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/keda-0.1.1.tgz-meta/values.schema.json
-      ui.giantswarm.io/logo: https://raw.githubusercontent.com/kedacore/keda/main/images/keda-logo-500x500-white.png
-    apiVersion: v2
-    appVersion: 2.10.1
-    created: "2023-11-07T11:38:58.074390933Z"
-    description: Event-based autoscaler for workloads on Kubernetes
-    digest: 4709a96115d654d8a1641be542efbfda2504c1c4daa46501f78d5ab82ab6b8c7
-    home: https://github.com/giantswarm/keda-app
-    icon: https://raw.githubusercontent.com/kedacore/keda/main/images/keda-logo-500x500-white.png
-    kubeVersion: '>=v1.24.0-0'
-    name: keda
-    sources:
-    - https://github.com/kedacore/keda
-    urls:
-    - https://giantswarm.github.io/giantswarm-catalog/keda-0.1.1.tgz
-    version: 0.1.1
   kepler-collector:
   - annotations:
       artifacthub.io/license: Apache-2.0
@@ -241030,26 +240875,6 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/oauth2-proxy-2.13.0.tgz
     version: 2.13.0
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-catalog/oauth2-proxy-2.12.0.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-catalog/oauth2-proxy-2.12.0.tgz-meta/README.md
-      application.giantswarm.io/team: team-cabbage
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-catalog/oauth2-proxy-2.12.0.tgz-meta/values.schema.json
-      config.giantswarm.io/version: 1.x.x
-    apiVersion: v2
-    appVersion: 7.5.1
-    created: "2023-11-07T11:45:09.459018367Z"
-    description: A reverse proxy that provides authentication with Google, Azure,
-      OpenID Connect and many more identity providers
-    digest: 6ae1117a3ba6e84068d1d149d3c5278afefa2284c5ebafff9c869ab0382c6ab4
-    home: https://github.com/giantswarm/oauth2-proxy-app
-    icon: https://s.giantswarm.io/app-icons/oauth2-proxy/1/light.svg
-    name: oauth2-proxy
-    sources:
-    - https://github.com/oauth2-proxy/oauth2-proxy
-    urls:
-    - https://giantswarm.github.io/giantswarm-catalog/oauth2-proxy-2.12.0.tgz
-    version: 2.12.0
   openssf-scorecard-exporter:
   - annotations:
       artifacthub.io/license: Apache-2.0
@@ -258797,4 +258622,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-11-09T05:04:50.566286618Z"
+generated: "2026-11-09T06:05:23.36294917Z"
