@@ -250599,6 +250599,31 @@ entries:
           url: https://github.com/giantswarm/toolchain-manager/issues
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/toolchain-manager-0.5.34.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/toolchain-manager/refs/tags/v0.5.34/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/toolchain-manager/refs/tags/v0.5.34/helm/toolchain-manager/values.schema.json
+    apiVersion: v2
+    appVersion: 0.5.34
+    created: "2026-11-09T12:52:01.958266655Z"
+    description: MCP server that manages toolchains for coding agents, their sources,
+      package search and the Dockerfile they are built from.
+    digest: 7f9817ac8b2ec41a7f0a65aadee22819a009db35624bddcd0acda376f5407ccb
+    home: https://github.com/giantswarm/toolchain-manager
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: toolchain-manager
+    sources:
+    - https://github.com/giantswarm/toolchain-manager
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/toolchain-manager-0.5.34.tgz
+    version: 0.5.34
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/toolchain-manager/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/toolchain-manager-0.5.33.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/toolchain-manager/refs/tags/v0.5.33/README.md
       io.giantswarm.application.team: bumblebee
@@ -259474,4 +259499,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-11-09T12:51:32.90146578Z"
+generated: "2026-11-09T12:52:01.956504803Z"
