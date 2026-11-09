@@ -1,0 +1,14 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: shield
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/cert-manager-app/issues\n\
+    - name: Upstream project\n  url: https://github.com/cert-manager/cert-manager\n"
+chartApiVersion: v2
+chartFile: cert-manager-app-4.3.0.tgz
+dateCreated: '2026-11-09T13:49:05.154238Z'
+digest: b6899f1d9e2ea30434e7b80fb7304c7235a60d8bb7039e5564eee48f2b6b990b
+home: https://github.com/giantswarm/cert-manager-app
+icon: https://s.giantswarm.io/app-icons/cert-manager/1/light.svg
