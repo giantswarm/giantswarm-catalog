@@ -177360,6 +177360,33 @@ entries:
           url: https://github.com/giantswarm/mcp-observability-platform/issues
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/mcp-observability-platform-0.5.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mcp-observability-platform/refs/tags/v0.5.0/README.md
+      io.giantswarm.application.team: atlas
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/mcp-observability-platform/refs/tags/v0.5.0/helm/mcp-observability-platform/values.schema.json
+    apiVersion: v2
+    appVersion: 0.5.0
+    created: "2026-11-09T23:27:15.711489882Z"
+    description: Giant Swarm observability-platform MCP server
+    digest: 7cada641c895558ffa51c2391a53f756ab4871c3fd4aeb8126b3c6a5413e9620
+    home: https://github.com/giantswarm/mcp-observability-platform
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    kubeVersion: '>=1.27.0-0'
+    maintainers:
+    - name: Giant Swarm
+      url: https://giantswarm.io
+    name: mcp-observability-platform
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/mcp-observability-platform-0.5.0.tgz
+    version: 0.5.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/mcp-observability-platform/issues
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/mcp-observability-platform-0.4.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mcp-observability-platform/refs/tags/v0.4.0/README.md
       io.giantswarm.application.team: atlas
@@ -260734,4 +260761,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-11-09T23:25:16.462790453Z"
+generated: "2026-11-09T23:27:15.706449692Z"
