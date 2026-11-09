@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/team: planeteers
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/pagerduty-opsgenie-proxy/issues\n"
+chartApiVersion: v2
+chartFile: pagerduty-opsgenie-proxy-2.10.0.tgz
+dateCreated: '2026-11-09T09:13:21.528735Z'
+digest: e83e6b2a009aec5317390959db55020c6b2252d8e733606fa126d2a1b367094d
+home: https://github.com/giantswarm/pagerduty-opsgenie-proxy
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
