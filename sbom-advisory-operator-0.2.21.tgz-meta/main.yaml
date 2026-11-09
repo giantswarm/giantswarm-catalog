@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/audience: giantswarm
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: shield
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: "- name: Support\n  url: https://github.com/giantswarm/sbom-advisory-operator/issues\n"
+chartApiVersion: v2
+chartFile: sbom-advisory-operator-0.2.21.tgz
+dateCreated: '2026-11-09T22:23:31.553478Z'
+digest: 63093374f76ba2016ca240df3e14878d24d6314da56a5c0f37826ca8c1d98b89
+home: https://github.com/giantswarm/sbom-advisory-operator
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
