@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/audience: customers
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: bumblebee
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/marge/issues\n"
+chartApiVersion: v2
+chartFile: marge-0.47.19.tgz
+dateCreated: '2026-11-09T12:52:32.842512Z'
+digest: 3d69055bb6eb7301ed5b1eefc5931e459fb4882f00e21c537b3e952f0dfda464
+home: https://github.com/giantswarm/marge
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
