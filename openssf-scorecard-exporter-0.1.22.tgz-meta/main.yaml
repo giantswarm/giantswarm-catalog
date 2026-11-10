@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/team: shield
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/openssf-scorecard-exporter/issues\n"
+chartApiVersion: v2
+chartFile: openssf-scorecard-exporter-0.1.22.tgz
+dateCreated: '2026-11-10T12:30:45.343678Z'
+digest: 352f6f390ed29570a70f54f266ee66f9c8ff89eb88a7d0d1ec94eb93e1954d95
+home: https://github.com/giantswarm/openssf-scorecard-exporter
+icon: https://s.giantswarm.io/app-icons/openssf/2/light.png
