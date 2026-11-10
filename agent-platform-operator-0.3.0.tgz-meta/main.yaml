@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/team: bumblebee
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: "- name: Support\n  url: https://github.com/giantswarm/agent-platform-operator/issues\n"
+chartApiVersion: v2
+chartFile: agent-platform-operator-0.3.0.tgz
+dateCreated: '2026-11-10T14:05:49.346971Z'
+digest: c35c5bbb0839e23de8e988f3edffedac1a2a435921bda875aec2ca595ad04096
+home: https://github.com/giantswarm/agent-platform-operator
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
