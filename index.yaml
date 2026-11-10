@@ -253405,6 +253405,38 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/security-bundle-0.18.1.tgz
     version: 0.18.1
+  security-profiles-operator:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/security-profiles-operator-app/issues
+        - name: Upstream project
+          url: https://github.com/kubernetes-sigs/security-profiles-operator
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/security-profiles-operator-0.1.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/security-profiles-operator-app/refs/tags/v0.1.0/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/security-profiles-operator-app/refs/tags/v0.1.0/helm/security-profiles-operator/values.schema.json
+    apiVersion: v2
+    appVersion: 1.1.2
+    created: "2026-11-10T21:10:26.065852501Z"
+    dependencies:
+    - name: security-profiles-operator
+      repository: ""
+      version: 1.1.2
+    description: A Giant Swarm App for security-profiles-operator, managing Seccomp,
+      AppArmor, and SELinux profiles for Kubernetes workloads.
+    digest: d93cb2c5fb1487d657ffe3f15a4b1577f50227e02e06804dc1d79f98cf58a5d2
+    home: https://github.com/giantswarm/security-profiles-operator-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: security-profiles-operator
+    sources:
+    - https://github.com/kubernetes-sigs/security-profiles-operator
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/security-profiles-operator-0.1.0.tgz
+    version: 0.1.0
   skill-manager:
   - annotations:
       artifacthub.io/license: Apache-2.0
@@ -263598,4 +263630,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-11-10T21:07:56.941636141Z"
+generated: "2026-11-10T21:10:26.063091831Z"
