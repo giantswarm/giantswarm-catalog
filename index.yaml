@@ -78736,6 +78736,40 @@ entries:
           url: https://github.com/giantswarm/devctl/issues
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/devctl-8.166.12.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/devctl/refs/tags/v8.166.12/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/devctl/refs/tags/v8.166.12/helm/devctl/values.schema.json
+    apiVersion: v2
+    appVersion: 8.166.12
+    created: "2026-11-11T16:38:54.02309964Z"
+    description: devctl serve on a Giant Swarm management cluster — devctl's agent-facing
+      commands as MCP tools behind muster, acting on GitHub as the calling person
+      through the installation's agents App
+    digest: 2d4d4d4c00134a04309b11c40750d62897cefb093fe24c492b10705ef30f74b5
+    home: https://github.com/giantswarm/devctl
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    keywords:
+    - mcp
+    - github
+    - agent-platform
+    maintainers:
+    - email: team-bumblebee@giantswarm.io
+      name: Giant Swarm
+    name: devctl
+    sources:
+    - https://github.com/giantswarm/devctl
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/devctl-8.166.12.tgz
+    version: 8.166.12
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/devctl/issues
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/devctl-8.166.11.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/devctl/refs/tags/v8.166.11/README.md
       io.giantswarm.application.team: bumblebee
@@ -265213,4 +265247,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-11-11T15:50:04.493276973Z"
+generated: "2026-11-11T16:38:54.021755298Z"
