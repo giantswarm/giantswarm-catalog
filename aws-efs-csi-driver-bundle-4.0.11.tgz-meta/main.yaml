@@ -1,0 +1,16 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/restrictions/clusterSingleton: 'true'
+  application.giantswarm.io/restrictions/compatibleProviders: aws
+  application.giantswarm.io/team: phoenix
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/aws-efs-csi-driver/issues\n\
+    - name: Upstream project\n  url: https://raw.githubusercontent.com/giantswarm/aws-efs-csi-driver/v2.1.9/README.md\n"
+chartApiVersion: v2
+chartFile: aws-efs-csi-driver-bundle-4.0.11.tgz
+dateCreated: '2026-11-11T10:24:18.958494Z'
+digest: 8edfa22a9c60e08e88930257589e23bd9ab28e0c47b11767a0b05dd76ae9d105
+home: https://github.com/giantswarm/aws-efs-csi-driver
+icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
