@@ -56316,6 +56316,30 @@ entries:
     version: 0.2.0
   athena:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/athena/issues
+      config.giantswarm.io/version: 1.x.x
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/athena-1.16.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/athena/refs/tags/v1.16.0/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/athena/refs/tags/v1.16.0/helm/athena/values.schema.json
+    apiVersion: v1
+    appVersion: 1.16.0
+    created: "2026-11-13T17:58:16.608350271Z"
+    description: A service providing non-sensitive information about your cluster
+      to clients
+    digest: e8d6a458a61463726302a84b26b977ff898be85cd1df2a33e056b961a01f2bb0
+    home: https://github.com/giantswarm/athena
+    icon: https://s.giantswarm.io/app-icons/athena/1/light.svg
+    name: athena
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/athena-1.16.0.tgz
+    version: 1.16.0
+  - annotations:
       config.giantswarm.io/version: 1.x.x
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
@@ -268487,4 +268511,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-11-13T16:32:58.207706706Z"
+generated: "2026-11-13T17:58:16.607339705Z"
