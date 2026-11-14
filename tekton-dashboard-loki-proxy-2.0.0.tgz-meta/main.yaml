@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/audience: giantswarm
+  application.giantswarm.io/team: tenet
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/tekton-dashboard-loki-proxy/issues\n"
+chartApiVersion: v2
+chartFile: tekton-dashboard-loki-proxy-2.0.0.tgz
+dateCreated: '2026-11-14T14:00:32.090356Z'
+digest: da8335a9315be30a627d1c1c0e43cbd0db47ebad6d2666f10d6d9c0a100a7074
+home: https://github.com/giantswarm/tekton-dashboard-loki-proxy
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
