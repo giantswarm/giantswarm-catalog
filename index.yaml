@@ -44657,6 +44657,31 @@ entries:
           url: https://github.com/giantswarm/agent-platform-operator/issues
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agent-platform-operator-0.4.2.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agent-platform-operator/refs/tags/v0.4.2/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/agent-platform-operator/refs/tags/v0.4.2/helm/agent-platform-operator/values.schema.json
+    apiVersion: v2
+    appVersion: 0.4.2
+    created: "2026-11-16T16:18:57.559825369Z"
+    description: Reconciles each AgentPlatformOrganization (agent-platform.giantswarm.io)
+      into its organization namespace.
+    digest: 70c9fd8bec61d7d59b668dd1e1a50a50c727e9da83358574e711290acff5f784
+    home: https://github.com/giantswarm/agent-platform-operator
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: agent-platform-operator
+    sources:
+    - https://github.com/giantswarm/agent-platform-operator
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/agent-platform-operator-0.4.2.tgz
+    version: 0.4.2
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/agent-platform-operator/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agent-platform-operator-0.4.1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agent-platform-operator/refs/tags/v0.4.1/README.md
       io.giantswarm.application.team: bumblebee
@@ -269345,4 +269370,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-11-16T16:18:12.152377988Z"
+generated: "2026-11-16T16:18:57.558235197Z"
