@@ -7417,6 +7417,34 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/agent-manager-0.1.0.tgz
     version: 0.1.0
+  agent-mem-experiments:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/agent-mem-experiments/issues
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/agent-mem-experiments-0.1.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/agent-mem-experiments/refs/tags/v0.1.0/README.md
+      io.giantswarm.application.team: honeybadger
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/agent-mem-experiments/refs/tags/v0.1.0/helm/agent-mem-experiments/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2026-11-16T13:00:26.140626869Z"
+    description: PoC of shared agent memory servers (agentmemory and Cartographer)
+      for Claude Code, Claude Desktop and Gemini. One component per release.
+    digest: 53d0e820d196a2199ebd94955014d16fd818b1cee1430a213da5a114840f9955
+    home: https://github.com/giantswarm/agent-mem-experiments
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: agent-mem-experiments
+    sources:
+    - https://github.com/giantswarm/agent-mem-experiments
+    - https://github.com/rohitg00/agentmemory
+    - https://github.com/BeppeTemp/cartographer
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/agent-mem-experiments-0.1.0.tgz
+    version: 0.1.0
   agent-platform:
   - annotations:
       artifacthub.io/license: Apache-2.0
@@ -268981,4 +269009,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-11-16T12:53:14.791087591Z"
+generated: "2026-11-16T13:00:26.13877641Z"
