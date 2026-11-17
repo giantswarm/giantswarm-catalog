@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/team: atlas
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/grafana-app/issues\n- name:\
+    \ Upstream project\n  url: https://github.com/grafana-community/helm-charts/tree/main/charts/grafana\n"
+chartApiVersion: v2
+chartFile: grafana-2.43.0.tgz
+dateCreated: '2026-11-17T16:39:15.432221Z'
+digest: 7e94c502640b6b9c0c2f9b4668a16f8a93c57d85b6224cee544d8d4825cdd7ee
+home: https://github.com/giantswarm/grafana-app
+icon: https://s.giantswarm.io/app-icons/grafana/1/light.svg
