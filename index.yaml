@@ -85005,6 +85005,54 @@ entries:
           url: https://github.com/dexidp/dex/
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/dex-app-3.5.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/dex-app/refs/tags/v3.5.1/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/dex-app/refs/tags/v3.5.1/helm/dex-app/values.schema.json
+    apiVersion: v2
+    appVersion: 3.5.1
+    created: "2026-11-18T15:25:08.629378863Z"
+    dependencies:
+    - name: dex
+      repository: ""
+      version: 0.26.0
+    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
+      connectors
+    digest: c6c046614c09faf1aaf0ffbb756eaf7fae2ea07b0b5d280aed05ea47c3070951
+    home: https://github.com/giantswarm/dex-app
+    icon: https://s.giantswarm.io/app-icons/dex/2/icon_light.svg
+    keywords:
+    - authentication
+    - oidc
+    maintainers:
+    - email: Kevin.Fox@pnnl.gov
+      name: kfox1111
+    - email: shane.starcher@gmail.com
+      name: sstarcher
+    - email: pete.brown@powerhrg.com
+      name: rendhalver
+    - email: vi7alya@gmail.com
+      name: vi7
+    - email: aaron@roydhouse.com
+      name: Aaron Roydhouse
+    - email: nbadger@mintel.com
+      name: Nick Badger
+    name: dex-app
+    sources:
+    - https://github.com/dexidp/dex/
+    - https://github.com/mintel/dex-k8s-authenticator
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/dex-app-3.5.1.tgz
+    version: 3.5.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/dex-app/issues
+        - name: Upstream project
+          url: https://github.com/dexidp/dex/
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/dex-app-3.5.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/dex-app/refs/tags/v3.5.0/README.md
       io.giantswarm.application.team: shield
@@ -273354,4 +273402,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-11-18T15:07:29.259540744Z"
+generated: "2026-11-18T15:25:08.625669278Z"
