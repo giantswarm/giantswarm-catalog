@@ -263621,6 +263621,33 @@ entries:
           url: https://github.com/giantswarm/teleport-tbot/issues
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/teleport-tbot-0.5.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/teleport-tbot/refs/tags/v0.5.1/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/teleport-tbot/refs/tags/v0.5.1/helm/teleport-tbot/values.schema.json
+    apiVersion: v1
+    appVersion: 0.5.1
+    created: "2026-11-18T17:50:21.285719801Z"
+    description: Teleport TBOT
+    digest: 7d8a44fed9400bcfb2c50ff2ba19e7a128f1bd98cf9e8e0c8d95096bdb36ec0d
+    home: https://github.com/giantswarm/teleport-tbot
+    icon: https://s.giantswarm.io/app-icons/teleport/1/light.png
+    keywords:
+    - teleport
+    maintainers:
+    - email: team-shield@giantswarm.io
+      name: giantswarm/team-shield
+    name: teleport-tbot
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/teleport-tbot-0.5.1.tgz
+    version: 0.5.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/teleport-tbot/issues
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/teleport-tbot-0.5.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/teleport-tbot/refs/tags/v0.5.0/README.md
       io.giantswarm.application.team: shield
@@ -273586,4 +273613,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-11-18T17:44:23.226457453Z"
+generated: "2026-11-18T17:50:21.284698047Z"
