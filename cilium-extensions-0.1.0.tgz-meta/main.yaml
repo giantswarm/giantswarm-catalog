@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/team: cabbage
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: "- name: Support\n  url: https://github.com/giantswarm/cilium-extensions/issues\n"
+chartApiVersion: v2
+chartFile: cilium-extensions-0.1.0.tgz
+dateCreated: '2026-11-18T13:51:42.818148Z'
+digest: 7db34b2c58d841674fc39ee7df6f226bacb88709d423f34f2f807fd6157d61ce
+home: https://github.com/giantswarm/cilium-extensions
+icon: https://s.giantswarm.io/app-icons/cilium/1/dark.svg
