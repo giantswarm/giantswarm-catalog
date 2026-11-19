@@ -71620,10 +71620,10 @@ entries:
       io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/capz-crossplane-resources/refs/tags/v0.1.0/helm/capz-crossplane-resources/values.schema.json
     apiVersion: v2
     appVersion: 0.0.1
-    created: "2026-11-19T09:38:24.714187635Z"
+    created: "2026-11-19T09:38:39.709030926Z"
     description: Crossplane resources for CAPZ management clusters, such as an observe-only
       view of the management cluster's CAPZ identity.
-    digest: 2ec261b4dd39a878ab25bdef59a0093ea1aba3ea7ac34d0eafa030378219a152
+    digest: 95aa4d90a1685105dfe08e10c236c8430008d4999d19a918bff7e37a50cfe5ad
     home: https://github.com/giantswarm/capz-crossplane-resources
     icon: https://s.giantswarm.io/app-icons/azure/1/light.svg
     keywords:
@@ -274370,4 +274370,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-11-19T09:38:24.713590598Z"
+generated: "2026-11-19T09:38:39.708471974Z"
