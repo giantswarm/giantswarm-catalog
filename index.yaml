@@ -264316,6 +264316,37 @@ entries:
           url: https://github.com/kubernetes-sigs/security-profiles-operator
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/security-profiles-operator-0.1.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/security-profiles-operator-app/refs/tags/v0.1.1/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/security-profiles-operator-app/refs/tags/v0.1.1/helm/security-profiles-operator/values.schema.json
+    apiVersion: v2
+    appVersion: 1.1.2
+    created: "2026-11-19T18:34:23.561577301Z"
+    dependencies:
+    - name: security-profiles-operator
+      repository: ""
+      version: 1.1.2
+    description: A Giant Swarm App for security-profiles-operator, managing Seccomp,
+      AppArmor, and SELinux profiles for Kubernetes workloads.
+    digest: 5d9ab9f6101a038241f183c2df2c803b2994736a7a02f25d52390c72bd54e08b
+    home: https://github.com/giantswarm/security-profiles-operator-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: security-profiles-operator
+    sources:
+    - https://github.com/kubernetes-sigs/security-profiles-operator
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/security-profiles-operator-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/security-profiles-operator-app/issues
+        - name: Upstream project
+          url: https://github.com/kubernetes-sigs/security-profiles-operator
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/security-profiles-operator-0.1.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/security-profiles-operator-app/refs/tags/v0.1.0/README.md
       io.giantswarm.application.team: shield
@@ -275304,4 +275335,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-11-19T16:18:29.056057951Z"
+generated: "2026-11-19T18:34:23.558711843Z"
