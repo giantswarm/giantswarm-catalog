@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/audience: giantswarm
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: phoenix
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: "- name: Support\n  url: https://github.com/giantswarm/capz-crossplane-resources/issues\n"
+chartApiVersion: v2
+chartFile: capz-crossplane-resources-0.1.0.tgz
+dateCreated: '2026-11-19T09:38:23.481496Z'
+digest: 2ec261b4dd39a878ab25bdef59a0093ea1aba3ea7ac34d0eafa030378219a152
+home: https://github.com/giantswarm/capz-crossplane-resources
+icon: https://s.giantswarm.io/app-icons/azure/1/light.svg
