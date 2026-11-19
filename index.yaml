@@ -71614,6 +71614,35 @@ entries:
           url: https://github.com/giantswarm/capz-crossplane-resources/issues
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/capz-crossplane-resources-0.1.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/capz-crossplane-resources/refs/tags/v0.1.1/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/capz-crossplane-resources/refs/tags/v0.1.1/helm/capz-crossplane-resources/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2026-11-19T10:02:37.561768056Z"
+    description: Crossplane resources for CAPZ management clusters, such as an observe-only
+      view of the management cluster's CAPZ identity.
+    digest: 1ff5ff1998d9de05ec66975530a54669989af4f61b8ca247ff61f5b7bd5bd71e
+    home: https://github.com/giantswarm/capz-crossplane-resources
+    icon: https://s.giantswarm.io/app-icons/azure/1/light.svg
+    keywords:
+    - crossplane
+    - azure
+    - capz
+    name: capz-crossplane-resources
+    sources:
+    - https://github.com/giantswarm/capz-crossplane-resources
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/capz-crossplane-resources-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/capz-crossplane-resources/issues
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/capz-crossplane-resources-0.1.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/capz-crossplane-resources/refs/tags/v0.1.0/README.md
       io.giantswarm.application.team: phoenix
@@ -274370,4 +274399,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-11-19T09:38:39.708471974Z"
+generated: "2026-11-19T10:02:37.56099732Z"
