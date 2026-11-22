@@ -74481,6 +74481,42 @@ entries:
           url: https://github.com/giantswarm/cluster-manager/issues
       io.giantswarm.application.audience: customers
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/cluster-manager-0.39.3.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-manager/refs/tags/v0.39.3/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/cluster-manager/refs/tags/v0.39.3/helm/cluster-manager/values.schema.json
+    apiVersion: v2
+    appVersion: 0.39.3
+    created: "2026-11-22T02:38:02.853352921Z"
+    description: The Agent Platform's MCP-only cluster write surface — the installation's
+      clusters and their GPU node pools, listed and written as the person, exposed
+      to agents and the portal through muster
+    digest: d406d10b28e9a0041c17f06bd5342c670e2bb6385212fe44ba577b575ce912fc
+    home: https://github.com/giantswarm/cluster-manager
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    keywords:
+    - mcp
+    - clusters
+    - node-pools
+    - cluster-api
+    - agent-platform
+    maintainers:
+    - email: team-bumblebee@giantswarm.io
+      name: Giant Swarm
+    name: cluster-manager
+    sources:
+    - https://github.com/giantswarm/cluster-manager
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/cluster-manager-0.39.3.tgz
+    version: 0.39.3
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/cluster-manager/issues
+      io.giantswarm.application.audience: customers
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/cluster-manager-0.39.2.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-manager/refs/tags/v0.39.2/README.md
       io.giantswarm.application.team: bumblebee
@@ -277681,4 +277717,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-11-22T01:48:16.236629274Z"
+generated: "2026-11-22T02:38:02.851447281Z"
