@@ -93571,6 +93571,47 @@ entries:
     version: 3.1.0
   flux-app:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/flux-app/issues
+        - name: Upstream project
+          url: https://github.com/fluxcd/flux2
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.logo: https://s.giantswarm.io/app-icons/flux/2/logo_dark.svg
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/flux-app-1.13.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/flux-app/refs/tags/v1.13.0/README.md
+      io.giantswarm.application.restrictions.cluster-singleton: "true"
+      io.giantswarm.application.team: honeybadger
+      io.giantswarm.application.two-step-install: "true"
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/flux-app/refs/tags/v1.13.0/helm/flux-app/values.schema.json
+    apiVersion: v2
+    appVersion: 1.13.0
+    created: "2026-11-24T11:11:42.87110846Z"
+    dependencies:
+    - alias: kubeStateMetrics
+      condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 7.8.1
+    description: 'Flux is a collection of tools for keeping Kubernetes clusters in
+      sync with sources of configuration (like Git repositories), and automating updates
+      to configuration when there is new code to deploy. '
+    digest: 760c68f9bbf4b14248f1712233eff5d2755e5dd4363f0bafc5557e76bfbd951e
+    home: https://github.com/giantswarm/flux-app
+    icon: https://s.giantswarm.io/app-icons/flux/2/icon_light.svg
+    keywords:
+    - gitops
+    - flux
+    name: flux-app
+    sources:
+    - https://github.com/fluxcd/flux2
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/flux-app-1.13.0.tgz
+    version: 1.13.0
+  - annotations:
       io.giantswarm.application.audience: all
       io.giantswarm.application.logo: https://s.giantswarm.io/app-icons/flux/2/logo_dark.svg
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/flux-app-1.12.2.tgz-meta/main.yaml
@@ -279857,4 +279898,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-11-24T10:30:28.886920813Z"
+generated: "2026-11-24T11:11:42.86376689Z"
