@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: bumblebee
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: "- name: Support\n  url: https://github.com/giantswarm/skill-manager/issues\n"
+chartApiVersion: v2
+chartFile: skill-manager-0.4.4.tgz
+dateCreated: '2026-11-24T05:03:45.699651Z'
+digest: 7ecd677f0827df592a84c704b207d415f9abd680eaadab705e5fddfbbbde41d9
+home: https://github.com/giantswarm/skill-manager
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

@@ -267911,6 +267911,35 @@ entries:
           url: https://github.com/giantswarm/skill-manager/issues
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/skill-manager-0.4.4.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/skill-manager/refs/tags/v0.4.4/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/skill-manager/refs/tags/v0.4.4/helm/skill-manager/values.schema.json
+    apiVersion: v2
+    appVersion: 0.4.4
+    created: "2026-11-24T05:03:47.70391831Z"
+    description: Owns the Agent Platform's skill sources, lists their skills and pins
+      skills and plugins to commits, as one MCP server behind muster and a REST API
+    digest: 7ecd677f0827df592a84c704b207d415f9abd680eaadab705e5fddfbbbde41d9
+    home: https://github.com/giantswarm/skill-manager
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    keywords:
+    - mcp
+    - skills
+    - agent-platform
+    name: skill-manager
+    sources:
+    - https://github.com/giantswarm/skill-manager
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/skill-manager-0.4.4.tgz
+    version: 0.4.4
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/skill-manager/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/skill-manager-0.4.3.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/skill-manager/refs/tags/v0.4.3/README.md
       io.giantswarm.application.team: bumblebee
@@ -279252,4 +279281,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-11-24T00:55:38.49730309Z"
+generated: "2026-11-24T05:03:47.702224428Z"
