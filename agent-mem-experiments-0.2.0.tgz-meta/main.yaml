@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/audience: giantswarm
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/team: honeybadger
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: "- name: Support\n  url: https://github.com/giantswarm/agent-mem-experiments/issues\n"
+chartApiVersion: v2
+chartFile: agent-mem-experiments-0.2.0.tgz
+dateCreated: '2026-11-24T14:01:23.098157Z'
+digest: 07c106bec58c727b35cdcb7a693bd0ae55955d299823cfa21bb0eef5f2a3f0ad
+home: https://github.com/giantswarm/agent-mem-experiments
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
