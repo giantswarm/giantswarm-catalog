@@ -157596,6 +157596,38 @@ entries:
           url: https://github.com/giantswarm/kube-prometheus-stack-app/issues
         - name: Upstream project
           url: https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-prometheus-stack
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/kube-prometheus-stack-25.0.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kube-prometheus-stack-app/refs/tags/v25.0.1/README.md
+      io.giantswarm.application.team: atlas
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/kube-prometheus-stack-app/refs/tags/v25.0.1/helm/kube-prometheus-stack/values.schema.json
+    apiVersion: v2
+    appVersion: v0.95.2
+    created: "2026-11-26T14:12:12.145126235Z"
+    dependencies:
+    - name: kube-prometheus-stack
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 93.5.0
+    description: Giant Swarm's Prometheus Operator Deployment
+    digest: 6aa08a7de9a5ffa8671de9efab380937b335f30bb159958129e9afb85bf79f33
+    home: https://github.com/giantswarm/kube-prometheus-stack-app
+    icon: https://s.giantswarm.io/app-icons/prometheus-operator/2/light.svg
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: kube-prometheus-stack
+    sources:
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-prometheus-stack
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/kube-prometheus-stack-25.0.1.tgz
+    version: 25.0.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/kube-prometheus-stack-app/issues
+        - name: Upstream project
+          url: https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-prometheus-stack
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/kube-prometheus-stack-25.0.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kube-prometheus-stack-app/refs/tags/v25.0.0/README.md
       io.giantswarm.application.team: atlas
@@ -281868,4 +281900,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-11-26T14:11:50.104630986Z"
+generated: "2026-11-26T14:12:12.083396326Z"
