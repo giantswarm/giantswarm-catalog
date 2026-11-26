@@ -93913,6 +93913,30 @@ entries:
     version: 0.7.1
   fluent-logshipping-app:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/fluent-logshipping-app/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/fluent-logshipping-app-5.6.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/fluent-logshipping-app/refs/tags/v5.6.1/README.md
+      io.giantswarm.application.team: atlas
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/fluent-logshipping-app/refs/tags/v5.6.1/helm/fluent-logshipping-app/values.schema.json
+    apiVersion: v2
+    appVersion: 5.6.1
+    created: "2026-11-26T14:11:34.159483387Z"
+    description: The Log Shipping App forwards cluster logs to storage backends
+    digest: 2e904a7f231873c79f2a109bc5f20e5bf4dac41ac20f3f33aab3efde71103367
+    home: https://github.com/giantswarm/fluent-logshipping-app
+    icon: https://s.giantswarm.io/app-icons/1/png/fluent-logshipping-app-light.png
+    name: fluent-logshipping-app
+    sources:
+    - https://github.com/giantswarm/fluent-logshipping-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/fluent-logshipping-app-5.6.1.tgz
+    version: 5.6.1
+  - annotations:
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/fluent-logshipping-app-5.6.0.tgz-meta/main.yaml
@@ -281800,4 +281824,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-11-26T14:10:42.950870973Z"
+generated: "2026-11-26T14:11:34.158130075Z"
