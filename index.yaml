@@ -122120,6 +122120,32 @@ entries:
         - name: Support
           url: https://github.com/giantswarm/gpu-operator-app/issues
       io.giantswarm.application.audience: all
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/gpu-operator-1.4.3.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/gpu-operator-app/refs/tags/v1.4.3/README.md
+      io.giantswarm.application.team: tenet
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/gpu-operator-app/refs/tags/v1.4.3/helm/gpu-operator/values.schema.json
+    apiVersion: v2
+    appVersion: 26.7.0
+    created: "2026-11-26T14:10:42.962073513Z"
+    dependencies:
+    - name: gpu-operator
+      repository: https://helm.ngc.nvidia.com/nvidia
+      version: v26.7.3
+    description: A Helm chart to deploy NVIDIA GPU Operator with custom Cilium Network
+      Policies.
+    digest: 1d64ed4b4ce533619d97d294fe7024b33726ddfb710c4794e6a4b9fc2e57c2e5
+    home: https://github.com/giantswarm/gpu-operator-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: gpu-operator
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/gpu-operator-1.4.3.tgz
+    version: 1.4.3
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/gpu-operator-app/issues
+      io.giantswarm.application.audience: all
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/gpu-operator-1.4.2.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/gpu-operator-app/refs/tags/v1.4.2/README.md
       io.giantswarm.application.team: tenet
@@ -281774,4 +281800,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-11-26T13:10:58.11451051Z"
+generated: "2026-11-26T14:10:42.950870973Z"
