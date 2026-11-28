@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/team: atlas
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: "- name: Support\n  url: https://github.com/giantswarm/observability-platform/issues\n"
+chartApiVersion: v2
+chartFile: observability-platform-0.1.0.tgz
+dateCreated: '2026-11-28T17:55:06.994213Z'
+digest: a097e6d04e6010b62ff860e70c8d3304f2606a5791aa8b421a008c0be3093cca
+home: https://github.com/giantswarm/observability-platform
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

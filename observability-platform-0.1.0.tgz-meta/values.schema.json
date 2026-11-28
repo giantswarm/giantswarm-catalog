@@ -1,0 +1,142 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "title": "observability-platform values",
+  "type": "object",
+  "properties": {
+    "global": {
+      "type": "object",
+      "properties": {
+        "domain": { "type": "string" },
+        "storageClass": { "type": "string" },
+        "tenant": { "type": "string", "minLength": 1 },
+        "objectStorage": {
+          "type": "object",
+          "required": ["existingSecret", "azure", "buckets"],
+          "properties": {
+            "backend": {
+              "type": "string",
+              "enum": ["azure", "s3"],
+              "description": "Object storage backend for Mimir, Loki and Tempo. Required when Mimir, Loki or Tempo is enabled. No default. The objectStorage.validate helper fails the render while it is unset."
+            },
+            "existingSecret": {
+              "type": "string",
+              "const": "observability-platform-object-storage",
+              "description": "Fixed name. The Mimir, Loki and Tempo values reference this Secret from static values. Create the credentials Secret with this name. It holds `AZURE_STORAGE_KEY` for backend `azure`, or `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` for backend `s3`."
+            },
+            "azure": {
+              "type": "object",
+              "$comment": "accountName is required only when Mimir, Loki or Tempo is enabled, unless connectionString or localObjectStorage.enabled is set. Tempo also rejects connectionString outside localObjectStorage. Both depend on sibling values, so those checks live in the objectStorage.validate helper instead.",
+              "properties": {
+                "accountName": { "type": "string" },
+                "connectionString": {
+                  "type": "string",
+                  "description": "Full Azure Blob connection string, overriding the endpoint derived from accountName. It embeds the account key and travels in a ConfigMap rather than the credentials Secret, so it is for emulators and development endpoints, not a real storage account. Set localObjectStorage.enabled instead to have it computed for a local Azurite."
+                }
+              }
+            },
+            "s3": {
+              "type": "object",
+              "properties": {
+                "endpoint": {
+                  "type": "string",
+                  "pattern": "^([^/:]+(:[0-9]+)?)?$",
+                  "description": "Store endpoint, host[:port], no scheme. Required with backend s3. The objectStorage.validate helper fails the render while it is empty."
+                },
+                "region": { "type": "string" },
+                "insecure": { "type": "boolean" }
+              }
+            },
+            "buckets": {
+              "type": "object",
+              "required": ["mimirBlocks", "mimirAlertmanager", "mimirRuler", "loki", "tempo", "grafanaPostgresql"],
+              "properties": {
+                "mimirBlocks": { "type": "string", "minLength": 1 },
+                "mimirAlertmanager": { "type": "string", "minLength": 1 },
+                "mimirRuler": { "type": "string", "minLength": 1 },
+                "loki": { "type": "string", "minLength": 1 },
+                "tempo": { "type": "string", "minLength": 1 },
+                "grafanaPostgresql": { "type": "string", "minLength": 1, "description": "Bucket for Grafana's PostgreSQL backups, read by the grafana subchart when its backups are on." }
+              }
+            }
+          }
+        }
+      }
+    },
+    "grafana": {
+      "type": "object",
+      "description": "The Grafana subchart. Its database is the CloudNativePG cluster grafana-postgresql by default - see docs/GRAFANA_DATABASE.md.",
+      "properties": {
+        "enabled": { "type": "boolean" },
+        "postgresqlCluster": {
+          "type": "object",
+          "description": "Grafana's PostgreSQL cluster. Needs the CNPG operator release and the Secret grafana-secret-key. false keeps Grafana on SQLite, together with grafana.grafana.\"grafana.ini\".database and grafana.grafana.envValueFrom set to null.",
+          "properties": {
+            "enabled": { "type": "boolean" },
+            "instances": { "type": "integer", "minimum": 1 },
+            "podMonitor": {
+              "type": "object",
+              "description": "PodMonitor for the PostgreSQL instances. Needs the Prometheus Operator CRDs.",
+              "properties": { "enabled": { "type": "boolean" } }
+            },
+            "backup": {
+              "type": "object",
+              "description": "Backups to the platform's s3 object storage through the barman-cloud plugin. Need cert-manager and the plugin release - see docs/GRAFANA_DATABASE.md.",
+              "properties": { "enabled": { "type": "boolean" } }
+            }
+          }
+        },
+        "grafana": {
+          "type": "object",
+          "properties": {
+            "grafana.ini": {
+              "type": "object",
+              "properties": {
+                "database": { "type": ["object", "null"], "description": "Grafana's database settings. null keeps Grafana on SQLite." }
+              }
+            },
+            "envValueFrom": { "type": ["object", "null"], "description": "Environment variables from Secrets, among them the database password and the secret key. null, for the whole map, drops both to keep Grafana on SQLite." }
+          }
+        }
+      }
+    },
+    "defaultOrganization": {
+      "type": "object",
+      "description": "The GrafanaOrganization that takes over Grafana's org 1 (\"Main Org.\") with datasources reading the tenant set in global.tenant.",
+      "properties": {
+        "enabled": { "type": "boolean" },
+        "admins": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } }
+      }
+    },
+    "defaultAlertmanagerConfig": {
+      "type": "object",
+      "description": "The Alertmanager config Secret for the tenant set in global.tenant, rendered from files/alertmanager.",
+      "properties": {
+        "enabled": { "type": "boolean" }
+      }
+    },
+    "localObjectStorage": {
+      "type": "object",
+      "description": "Local object store instead of a real one: Azurite, the Azure Storage emulator, with backend azure, or Garage with backend s3. Development only - see docs/LOCAL_DEV.md.",
+      "required": ["enabled", "azurite", "garage"],
+      "properties": {
+        "enabled": { "type": "boolean" },
+        "azurite": {
+          "type": "object",
+          "required": ["image", "initImage"],
+          "properties": {
+            "image": { "type": "string", "minLength": 1 },
+            "initImage": { "type": "string", "minLength": 1 }
+          }
+        },
+        "garage": {
+          "type": "object",
+          "required": ["image", "initImage"],
+          "properties": {
+            "image": { "type": "string", "minLength": 1 },
+            "initImage": { "type": "string", "minLength": 1 }
+          }
+        }
+      }
+    }
+  }
+}

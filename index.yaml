@@ -262711,6 +262711,57 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/oauth2-proxy-2.13.0.tgz
     version: 2.13.0
+  observability-platform:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/observability-platform/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-catalog/observability-platform-0.1.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/observability-platform/refs/tags/v0.1.0/README.md
+      io.giantswarm.application.team: atlas
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/observability-platform/refs/tags/v0.1.0/helm/observability-platform/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2026-11-28T17:55:13.59439907Z"
+    dependencies:
+    - condition: grafana.enabled
+      name: grafana
+      repository: https://giantswarm.github.io/giantswarm-catalog/
+      version: 2.44.0
+    - condition: loki.enabled
+      name: loki
+      repository: https://giantswarm.github.io/giantswarm-catalog/
+      version: 0.50.1
+    - condition: mimir.enabled
+      name: mimir
+      repository: https://giantswarm.github.io/control-plane-catalog/
+      version: 0.31.0
+    - condition: observabilityPlatformApi.enabled
+      name: observability-platform-api
+      repository: https://giantswarm.github.io/control-plane-catalog/
+      version: 0.6.0
+    - condition: tempo.enabled
+      name: tempo
+      repository: https://giantswarm.github.io/control-plane-catalog/
+      version: 0.18.0
+    description: Giant Swarm Observability Platform - a self-hosted observability
+      stack
+    digest: a097e6d04e6010b62ff860e70c8d3304f2606a5791aa8b421a008c0be3093cca
+    home: https://github.com/giantswarm/observability-platform
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: observability-platform
+    sources:
+    - https://github.com/giantswarm/observability-platform
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-catalog/observability-platform-0.1.0.tgz
+    version: 0.1.0
   openssf-scorecard-exporter:
   - annotations:
       artifacthub.io/license: Apache-2.0
@@ -283223,4 +283274,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-catalog/zot-0.1.1.tgz
     version: 0.1.1
-generated: "2026-11-28T16:44:10.215366679Z"
+generated: "2026-11-28T17:55:13.468895087Z"
